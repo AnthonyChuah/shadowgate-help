@@ -1,3 +1,14 @@
+Spell: bless
+Class: cleric L1
+Sphere: alteration
+Domain: good
+Saving throw: n/a
+Syntax: cast <classname> bless on <target>
+
+This spell will bless the target, giving them a slightly better chance to
+hit in combat as well as allowing them to do a small amount more damage.
+
+
 Spell: blight
 Class: cleric L1
 Sphere: alteration
@@ -8,6 +19,16 @@ Syntax: cast <classname> blight on <target>
 This spell will empower the target with dark energy, giving them a slightly
 better chance to hit in combat as well as allowing them to do a small
 amount more damage.
+
+
+Spell: create water
+Class: cleric L1, paladin L1, druid L1
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> create water
+
+This spell creates a pool of drinkable water. You can drink from the pool,
+to quench your thirst.
 
 
 Spell: death watch
@@ -21,17 +42,6 @@ The priest is able to perceive the life force of his companions and will
 gain a warning when one is in need of healing.
 
 
-Spell: bless
-Class: cleric L1
-Sphere: alteration
-Domain: good
-Saving throw: n/a
-Syntax: cast <classname> bless on <target>
-
-This spell will bless the target, giving them a slightly better chance to
-hit in combat as well as allowing them to do a small amount more damage.
-
-
 Spell: detect law
 Class: cleric L1
 Sphere: divination
@@ -40,6 +50,76 @@ Syntax: cast <classname> detect law on <target> || <room>
 
 Detect chaos will detect the presence of law in players or monsters.
 
+
+Spell: detect magic
+Class: cleric L1, druid L1, warlock L1, mage/sorc L1, bard L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> detect magic
+
+Will allow the caster to view an aura of magic around objects or creatures
+they observe. The more intense the aura the more magic is indicated.
+Particularly powerful magic may skew the view of other magics. For example
+an especially magical creature might skew the view of the magic sword its
+wielding.
+
+
+Spell: detect chaos
+Class: cleric L1, paladin L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> detect chaos on <target> || <room>
+
+Detect chaos will detect the presence of chaos in players or monsters.
+
+
+Spell: detect poison
+Class: cleric L1, paladin L1, druid L1, ranger L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> detect poison on <target>
+
+Will detect if any poisons are present on an object or a creature and if
+so, which poisons.
+
+
+Spell: light
+Class: cleric L1, paladin L1, mage/sorc L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> light on <target>
+
+This will create a small ball of light, which will light your way. You can
+cast it on an object or player which it will follow, instead of the caster.
+
+
+Spell: entangle
+Class: cleric L1, druid L1, ranger L1
+Sphere: conjuration_summoning
+Domain: plant
+Saving throw: n/a
+Syntax: cast <classname> entangle
+
+This spell causes the foliage and insects to come alive in the area around
+the caster.  They will attempt to impede the movement of all creatures in
+the area.  Those creatures that pass a strength check will have their
+movement effected less than those who do not.  This spell can only be used
+outside.
+
+
+Spell: whispering wind
+Class: cleric L1, bard L1
+Sphere: divination
+Domain: air
+Saving throw: n/a
+Syntax: cast <classname> whispering wind on <target> with the message
+<message>
+
+This spell will allow the caster to attempt to send a brief message on the
+winds from them to their target.  The caster has no way of knowing if the
+target has heard their message.
+
+Components, bard: soliloquy x1 (or nil w. eschew materials)
 
 Spell: minor creation
 Class: cleric L1

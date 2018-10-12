@@ -10,30 +10,6 @@ round while the spell is in effect, but does not damage the caster.  This
 spell does not work in conjunction with the fire storm spell.
 
 
-Spell: monsoon
-Class: cleric L8, monk L17
-Sphere: elemental water
-Saving throw: reflex
-Syntax: cast <classname> monsoon
-
-When the monsoon spell is cast, the surrounding area is engulfed in a
-raging storm of water.  Any target in the area of effect takes damage every
-round while the spell is in effect, but does not damage the caster.  This
-spell does not work in conjunction with the fire storm spell.
-
-
-Spell: fire storm
-Class: cleric L8, monk L17
-Sphere: elemental fire
-Saving throw: reflex
-Syntax: cast <classname> fire storm
-
-When the fire storm spell is cast, the whole area is shot through with
-sheets of roaring flame.  Any target in the area of effect takes damage
-every round while the spell is in effect, but does not damage the caster. 
-This spell does not work in conjunction with the monsoon priest spell.
-
-
 Spell: fire storm
 Class: cleric L8, monk L17
 Sphere: elemental fire

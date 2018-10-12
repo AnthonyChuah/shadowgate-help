@@ -1,70 +1,12 @@
-Spell: remove blindness
-Class: cleric L3, paladin L3, druid L3
+Spell: cleanse disease
+Class: cleric L4, paladin L4, druid L3, ranger L3, bard L4
 Sphere: healing
 Saving throw: n/a
-Syntax: cast <classname> remove blindness on <target>
+Syntax: cast <classname> cleanse disease on <target>
 
-When you cast this spell you can bring more light into the eyes of the
-target. You can't cure diseases, but will surely help the target to see
-more after they have been hit by magical darkness or some foul creature.
-
-
-Spell: remove blindness
-Class: cleric L3, paladin L3, druid L3
-Sphere: healing
-Saving throw: n/a
-Syntax: cast <classname> remove blindness on <target>
-
-When you cast this spell you can bring more light into the eyes of the
-target. You can't cure diseases, but will surely help the target to see
-more after they have been hit by magical darkness or some foul creature.
-
-
-Spell: spike growth
-Class: druid L3
-Sphere: combat
-Saving throw: n/a
-Syntax: cast <classname> spike growth
-
-This spell causes roots or other vegetation in the area to become hard and
-razor sharp.  Anyone moving in the area, such as the movement in combat or
-passing through the room, will suffer piercing damage to his or her feet. 
-The spell may only be used in areas where some vegetation may be found.
-
-
-Spell: call lightning
-Class: cleric L3, druid L3
-Sphere: weather
-Saving throw: n/a
-Syntax: cast <classname> call lightning on <target>
-
-This is a destructive spell that could hurt an opponent very badly!  The
-higher level the caster is the more devastating this spell will become. 
-The spell can now be used anywhere, regardless of weather or if the caster
-is indoors.
-
-
-Spell: call lightning
-Class: cleric L3, druid L3
-Sphere: weather
-Saving throw: n/a
-Syntax: cast <classname> call lightning on <target>
-
-This is a destructive spell that could hurt an opponent very badly!  The
-higher level the caster is the more devastating this spell will become. 
-The spell can now be used anywhere, regardless of weather or if the caster
-is indoors.
-
-
-Spell: quench
-Class: druid L3
-Sphere: invocation_evocation
-Saving throw: reflex
-Syntax: cast <classname> quench on <target>
-
-This spell creates a large sphere of water that smashes into targets in the
-area.  The force of the impact accounts for half of the destruction in the
-target area, water damage accounts for the other half.  
+This spell will attempt to cleanse any diseases present on the <target>.
+Success is based on the level of the caster versus the difficult of the
+particular disease.
 
 
 Spell: remove blindness
@@ -89,5 +31,90 @@ open up and begin pouring freezing rain on the area.  Within a few moments,
 howling winds will turn the sleet into tiny stinging missiles.  Movement
 through the area is difficult and sometimes visibility is obstructed to the
 point of virtual blindness.
+
+
+Spell: snare
+Class: druid L3, ranger L2
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> snare
+
+In casting this spell, the ranger sets a snare in the location, which will
+harm the first bypasser to trigger it. Anyone already present when the
+spell is cast will be aware of the snare, and may come and go without
+disturbing it. Additionally, thieves have a chance to actively search for
+the snare and can remove it, but they must do so in the room before the
+trapped location or they will trigger it.
+
+The caster's attunement to the wilds will alert them when their snare is
+tripped.  They may only rig one snare at a time, but do not need to remain
+with it for it to function.  Snares can only be set in natural
+surroundings.
+
+
+Spell: water breathing
+Class: psywarrior L1, cleric L3, druid L3, mage/sorc L3, psion L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> water breathing on <target>
+
+This spell allows the target to breathe water for a limited period of time.
+
+Components, mage/sorc: piece of reed x1 (or nil w. eschew materials)
+
+Spell: meld into nature
+Class: cleric L4, druid L3, ranger L4
+Sphere: illusion
+Domain: plant
+Saving throw: n/a
+Syntax: cast <classname> meld into nature
+
+This spell will allow you to hide yourself in the land around you
+magically. It will not function within urban areas.
+
+
+Spell: daylight
+Class: cleric L3, paladin L3, druid L3, bard L3
+Sphere: sun
+Saving throw: n/a
+Syntax: cast <classname> daylight
+
+Will add semi-permanent light to a room up to daylight levels. The duration
+is until the next reboot.
+
+
+Spell: quench
+Class: druid L3
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> quench on <target>
+
+This spell creates a large sphere of water that smashes into targets in the
+area.  The force of the impact accounts for half of the destruction in the
+target area, water damage accounts for the other half.  
+
+
+Spell: spike growth
+Class: druid L3
+Sphere: combat
+Saving throw: n/a
+Syntax: cast <classname> spike growth
+
+This spell causes roots or other vegetation in the area to become hard and
+razor sharp.  Anyone moving in the area, such as the movement in combat or
+passing through the room, will suffer piercing damage to his or her feet. 
+The spell may only be used in areas where some vegetation may be found.
+
+
+Spell: call lightning
+Class: cleric L3, druid L3
+Sphere: weather
+Saving throw: n/a
+Syntax: cast <classname> call lightning on <target>
+
+This is a destructive spell that could hurt an opponent very badly!  The
+higher level the caster is the more devastating this spell will become. 
+The spell can now be used anywhere, regardless of weather or if the caster
+is indoors.
 
 

@@ -1,3 +1,21 @@
+Spell: animus blast
+Class: mage L9
+Sphere: necromancy
+Saving throw: reflex
+Syntax: cast <classname> animus blast
+
+This power enables a master of necromancy to unleash a blast of pure
+negative energy.  Such is the power of the blast that it can also sap the
+life energy of those nearby, as well as its main target.  In addition, the
+blast of negative energy can re-awaken corpses within the vicinity, raising
+them as the servants of the caster.  This spell has no effect upon existing
+undead creatures.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: bit of bone x1, drop of blood x1 (or nil w. eschew
+materials)
+
 Spell: meteor swarm
 Class: mage/sorc L9
 Sphere: invocation_evocation
@@ -59,6 +77,20 @@ Components, mage/sorc: smoky quartz x1 (or nil w. eschew materials)
 Feat requirements: shadow_adept (gift of the shadows), mage/sorc (gift of
 the shadows), sorcerer (gift of the shadows)
 
+Spell: sunburst
+Class: cleric L8, druid L8, mage/sorc L9
+Sphere: invocation_evocation
+Domain: sun
+Saving throw: reflex
+Syntax: cast <classname> sunburst
+
+This spell will send the light of the sun radiating out in a circle from
+the caster.  Any enemies caught in the area will suffer damage from the
+pure light of the sun.  Undead creatures suffer more damage than normal
+ones, and those creatures who fail their save are blinded by the light.
+
+Components, mage: sunstone x1 (or nil w. eschew materials)
+
 Spell: gate
 Class: mage L9
 Sphere: conjuration_summoning
@@ -78,65 +110,24 @@ Non-specialized mages cannot cast this spell.
 
 Components, mage: crushed black pearl x1
 
-Spell: sunburst
-Class: cleric L8, druid L8, mage/sorc L9
-Sphere: invocation_evocation
-Domain: sun
-Saving throw: reflex
-Syntax: cast <classname> sunburst
+Spell: timestop
+Class: mage L9, bard L6
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> timestop
 
-This spell will send the light of the sun radiating out in a circle from
-the caster.  Any enemies caught in the area will suffer damage from the
-pure light of the sun.  Undead creatures suffer more damage than normal
-ones, and those creatures who fail their save are blinded by the light.
-
-Components, mage: sunstone x1 (or nil w. eschew materials)
-
-Spell: sunburst
-Class: cleric L8, druid L8, mage/sorc L9
-Sphere: invocation_evocation
-Domain: sun
-Saving throw: reflex
-Syntax: cast <classname> sunburst
-
-This spell will send the light of the sun radiating out in a circle from
-the caster.  Any enemies caught in the area will suffer damage from the
-pure light of the sun.  Undead creatures suffer more damage than normal
-ones, and those creatures who fail their save are blinded by the light.
-
-Components, mage: sunstone x1 (or nil w. eschew materials)
-
-Spell: sunburst
-Class: cleric L8, druid L8, mage/sorc L9
-Sphere: invocation_evocation
-Domain: sun
-Saving throw: reflex
-Syntax: cast <classname> sunburst
-
-This spell will send the light of the sun radiating out in a circle from
-the caster.  Any enemies caught in the area will suffer damage from the
-pure light of the sun.  Undead creatures suffer more damage than normal
-ones, and those creatures who fail their save are blinded by the light.
-
-Components, mage: sunstone x1 (or nil w. eschew materials)
-
-Spell: animus blast
-Class: mage L9
-Sphere: necromancy
-Saving throw: reflex
-Syntax: cast <classname> animus blast
-
-This power enables a master of necromancy to unleash a blast of pure
-negative energy.  Such is the power of the blast that it can also sap the
-life energy of those nearby, as well as its main target.  In addition, the
-blast of negative energy can re-awaken corpses within the vicinity, raising
-them as the servants of the caster.  This spell has no effect upon existing
-undead creatures.
+This spell allows the transmuter to alter their immediate surroundings into
+a state of such forced suspension that it would seem that time had stopped
+for all but the caster.  This allows them to act normally while their
+opponents can only watch, and will drop them out of direct combat. Foes
+will force their way out of the spell after a brief interval, while the
+very strongest of opponents may manage to resist the effect entirely.
 
 Non-specialized mages cannot cast this spell.
 
-Components, mage: bit of bone x1, drop of blood x1 (or nil w. eschew
-materials)
+Components, mage: quicksilver x3
+
+Feat requirements: bard (timeweaver)
 
 Spell: dimensional lock
 Class: mage L9
@@ -156,4 +147,18 @@ Non-specialized mages cannot cast this spell. This spell can only be cast
 while at peace.
 
 Components, mage: sack of salt x1 (or nil w. eschew materials)
+
+Spell: iron body
+Class: mage/sorc L9, psion L8
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> iron body
+
+By using this power, the caster lends some of his psychic energy or arcane
+spellcraft to protect himself. It causes the caster to gain a strong
+resistance to physical attacks, as well as immunity to most standard
+poisons. It does not work together with stoneskin.
+
+Components, mage/sorc: diamond dust x1
+Components, psion: rutilated quartz x1
 

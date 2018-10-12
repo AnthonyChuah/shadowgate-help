@@ -1,16 +1,31 @@
-Spell: greater stomp
-Class: psywarrior L5
-Sphere: combat
-Saving throw: reflex
-Syntax: cast <classname> greater stomp
+Spell: oak body
+Class: psywarrior L5, psion L7
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> oak body
 
-The psionic character releases a torrent of psychic energy as she stomps
-upon the earth, causing tremors to ripple throughout the area. She uses her
-energy to feed the power, tripping and damaging her foes for several
-rounds, provided she stays in the area. All those attacking the character
-are subject to the effects of the stomp, though they do receive saving
-throws.
+By using this power, the psionic character lends some of his psychic energy
+to protect himself. It causes the manifester to gain some resistance to
+physical attacks, as well as immunity to most standard poisons. The oaken
+nature of the power leaves the manifester vulnerable to fire attacks. The
+oaken body brings a minor bonus to strength at the cost of dexterity. This
+power does not work together with Stoneskin or Iron Body.
 
+Components, psywarrior: sapphire x2
+Components, psion: sapphire x2
+
+Spell: power resistance
+Class: psywarrior L5, psion L5
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> power resistance on <target>
+
+Using this power will allow a psion to temporarily raise the power
+resistance of the target.  After a time, the power will reverse, restoring
+the creature to its original resistance.
+
+Components, psywarrior: jade x1 (or nil w. eschew materials)
+Components, psion: jade x1 (or nil w. eschew materials)
 
 Spell: empower weapon
 Class: psywarrior L5
@@ -36,4 +51,46 @@ location.
 
 
 Components, psywarrior: rhodochrosite x1, rose quartz x1
+
+Spell: catapsi
+Class: psywarrior L5, psion L5
+Sphere: charm
+Saving throw: will
+Syntax: cast <classname> catapsi on <target>
+
+This power can be one of the deadliest in the psion's arsenal, though it
+causes very little damage.  By manifesting this power, the psion causes a
+white noise to resonate in the mind of his target, leaving the target
+unable to think, cast spells, or manifest powers.  This power is rightly
+feared by psions and mages all over the realms.
+
+Components, psion: blue diamond x3
+
+Spell: biting cold
+Class: psywarrior L5, psion L5
+Sphere: invocation_evocation
+Saving throw: fort
+Syntax: cast <classname> biting cold on <target>
+
+Upon manifesting this power, the psywarrior manipulates the elemental
+planes, summoning cold to himself. Concentrating the icy power in his core,
+he lashes out, freezing his target. The victim experiences cold damage and
+may have their movement impaired for a time.
+
+Components, psywarrior: turquoise x2 (or nil w. eschew materials)
+Components, psion: turquoise x2 (or nil w. eschew materials)
+
+Spell: greater stomp
+Class: psywarrior L5
+Sphere: combat
+Saving throw: reflex
+Syntax: cast <classname> greater stomp
+
+The psionic character releases a torrent of psychic energy as she stomps
+upon the earth, causing tremors to ripple throughout the area. She uses her
+energy to feed the power, tripping and damaging her foes for several
+rounds, provided she stays in the area. All those attacking the character
+are subject to the effects of the stomp, though they do receive saving
+throws.
+
 

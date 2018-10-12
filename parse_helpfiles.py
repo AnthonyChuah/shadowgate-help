@@ -1,3 +1,4 @@
+import copy
 import heapq
 import os
 
@@ -21,12 +22,13 @@ class Spell(object):
 
     def __lt__(self, other):
         if self._clas == other._clas:
+            if self._level == other._level:
+                return self._desc < other._desc
             return self._level < other._level
-        else:
-            return self._clas < other._clas
+        return self._clas < other._clas
 
     def __gt__(self, other):
-        return self > other
+        return other < self
 
     def __str__(self):
         return "Class: {}\nLevel: {}\nDescription:\n{}".format(self._clas, self._level, self._desc)
@@ -74,17 +76,18 @@ class Parser(object):
                 # This is a Level corresponding to a classname in previous token
                 level = self._parse_level_token(tok)
                 this_cl_lev[1] = int(level)
-                self._this_help_cl_lev.append(this_cl_lev)
+                self._this_help_cl_lev.append(copy.deepcopy(this_cl_lev))
 
     def _record_spell(self):
         # this_help_cl_lev is a list(list(classname, level)), i.e. list of pairs
         # this_help_string is a string of the spell description
         # Insert key, value into self._help_dictionary, where key = "mage", value = Spell()
         # print("Called _record_spell")
+        print("Recording spell for this cl_lev: {}".format(self._this_help_cl_lev))
         for ll in self._this_help_cl_lev:
             clasname, level = ll[0], ll[1]
             spell = Spell(clasname, level, self._this_help_string)
-            # print("Recording {} spell: {}".format(clasname, str(spell)))
+            print("Recording {} spell: {}".format(clasname, str(spell)))
             heapq.heappush(self._help_dictionary[clasname], spell)
 
     def load_helpfiles(self):

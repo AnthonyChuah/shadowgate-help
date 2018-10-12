@@ -1,16 +1,3 @@
-Spell: pass portal
-Class: cleric L6
-Sphere: alteration
-Domain: travel
-Saving throw: n/a
-Syntax: cast <classname> pass portal on <direction>
-
-A priest with the travel domain may use this spell to bypass many doors and
-barriers found blocking her path.  Some rooms may be enchanted to prevent
-such magic, but most are not.  If the priest is visible when casting this
-spell, her movements are accompanied by a bright light.
-
-
 Spell: dispel good
 Class: cleric L6
 Sphere: combat
@@ -35,18 +22,6 @@ it will disrupt the harmonics of their soul and wrack their body with pain,
 doing a significant amount of damage.
 
 
-Spell: dispel law
-Class: cleric L6
-Sphere: combat
-Saving throw: fort
-Syntax: cast <classname> dispel law on <target>
-
-Dispel Law can only be cast by users of chaotic alignment and it only
-effects targets of lawful alignment.  When cast at a target of the correct
-alignment, it will disrupt the harmonics of their soul and wrack their body
-with pain, doing a significant amount of damage.
-
-
 Spell: aegis of fate
 Class: cleric L6
 Sphere: enchantment_charm
@@ -60,6 +35,115 @@ some protection from both physical and magical effects to the target.  How
 much protection is dependent on the caster's level and, well, the fates
 themselves.
 
+
+Spell: dispel chaos
+Class: cleric L6, paladin L4
+Sphere: combat
+Saving throw: fort
+Syntax: cast <classname> dispel chaos on <target>
+
+Dispel Chaos can only be cast by users of lawful alignment and it only
+effects targets of chaotic alignment.  When cast at a target of the correct
+alignment, it will disrupt the harmonics of their soul and wrack their body
+with pain, doing a significant amount of damage.
+
+
+Spell: dispel law
+Class: cleric L6
+Sphere: combat
+Saving throw: fort
+Syntax: cast <classname> dispel law on <target>
+
+Dispel Law can only be cast by users of chaotic alignment and it only
+effects targets of lawful alignment.  When cast at a target of the correct
+alignment, it will disrupt the harmonics of their soul and wrack their body
+with pain, doing a significant amount of damage.
+
+
+Spell: pass portal
+Class: cleric L6
+Sphere: alteration
+Domain: travel
+Saving throw: n/a
+Syntax: cast <classname> pass portal on <direction>
+
+A priest with the travel domain may use this spell to bypass many doors and
+barriers found blocking her path.  Some rooms may be enchanted to prevent
+such magic, but most are not.  If the priest is visible when casting this
+spell, her movements are accompanied by a bright light.
+
+
+Spell: screen
+Class: cleric L6, mage/sorc L8
+Sphere: illusion
+Domain: illusion
+Saving throw: n/a
+Syntax: cast <classname> screen
+
+Upon casting this spell, the user creates a screen of illusion centered
+upon himself that makes scrying attempts difficult.  This spell has a
+chance to both detect and block scrying attempts, with the chance for
+success determined by the level of the priest against the level of the
+scryer.  The spell is centered upon the caster and will move with him,
+allowing him to sweep areas for the duration of the spell.
+
+When a scrying attempt is detected, the scryer must immediately roll a
+saving throw.  If this is failed, the appearance and general location of
+the scryer immediately become known to the one who cast this spell.  The
+general location is the room and area where the scryer is located at the
+time.
+
+This spell can only be cast while at peace.
+
+
+Spell: animate object
+Class: cleric L6, bard L6
+Sphere: alteration
+Saving throw: will
+Syntax: cast <classname> animate object on <object> || <room>
+
+This spell allows you to animate objects and command then.  <command
+objects to command> will command the object to act as instructed.  Forcing
+an object to do something will affect your alignment when appropriate.  If
+you cast the spell on 'room', you will animate the objects located on the
+floor of the room (non living).  If you cast it on a non-living target,
+that object will become animated.  If you cast it on a living being, items
+from that being's inventory will be animated.
+
+Enchanted objects cannot be animated.  Objects will take damage in combat
+and may be destroyed.  The objects will remain animated until the spell
+ends or you <dismiss objects>.
+
+There is a level effect that limits how large or how many objects you can
+animate.
+
+Components, bard: song x1
+
+Spell: heal
+Class: cleric L6, druid L7
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> heal on <target>
+
+This spell will allow the caster to cure the target of a massive amount
+damage from wounds and disease. It does have limits - it cannot restore
+lost limbs, eyes, and other organs.
+
+
+Spell: heroes feast
+Class: cleric L6, bard L6
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> heroes feast
+
+This spell will allow the caster to create a huge table, filled with
+delectable treats and succulent dishes.  The feast created by this prayer
+will alleviate hunger and thirst, and tastes far better than the what is
+provided with the create food prayer.  The feast will not last forever, so
+take heed.  Also, the gods frown on those who try to steal leftovers and
+save them for later.
+
+Components, bard: ode x1 (or nil w. eschew materials)
 
 Spell: word of power
 Class: cleric L6

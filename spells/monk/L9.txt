@@ -1,15 +1,3 @@
-Spell: shadow sight
-Class: monk L9
-Sphere: divination
-Saving throw: n/a
-Syntax: cast <classname> shadow sight
-
-This spell allows the caster to see into the shadows to know what may be
-hidden there, including creatures and objects that are normally or
-magically hidden. It functions much like the mage spell, detect
-invisibility.
-
-
 Spell: gaseous form
 Class: monk L9
 Sphere: alteration
@@ -22,31 +10,17 @@ physical attacks as well as providing some protection from non physical
 attacks.
 
 
-Spell: wall of stone
-Class: druid L6, mage/sorc L5, monk L9
-Sphere: earth
+Spell: shadow sight
+Class: monk L9
+Sphere: divination
 Saving throw: n/a
-Syntax: cast <classname> wall of stone on <exit>
+Syntax: cast <classname> shadow sight
 
-This command will cause a wall of rubble to appear on an exit, preventing
-travel in that direction until all of the rubble has been cleared away. 
-The more powerful the caster, the larger the rubble wall that must be
-removed.
+This spell allows the caster to see into the shadows to know what may be
+hidden there, including creatures and objects that are normally or
+magically hidden. It functions much like the mage spell, detect
+invisibility.
 
-Components, mage/sorc: granite dust x1 (or nil w. eschew materials)
-
-Spell: wall of stone
-Class: druid L6, mage/sorc L5, monk L9
-Sphere: earth
-Saving throw: n/a
-Syntax: cast <classname> wall of stone on <exit>
-
-This command will cause a wall of rubble to appear on an exit, preventing
-travel in that direction until all of the rubble has been cleared away. 
-The more powerful the caster, the larger the rubble wall that must be
-removed.
-
-Components, mage/sorc: granite dust x1 (or nil w. eschew materials)
 
 Spell: wall of stone
 Class: druid L6, mage/sorc L5, monk L9

@@ -1,26 +1,3 @@
-Spell: animate object
-Class: cleric L6, bard L6
-Sphere: alteration
-Saving throw: will
-Syntax: cast <classname> animate object on <object> || <room>
-
-This spell allows you to animate objects and command then.  <command
-objects to command> will command the object to act as instructed.  Forcing
-an object to do something will affect your alignment when appropriate.  If
-you cast the spell on 'room', you will animate the objects located on the
-floor of the room (non living).  If you cast it on a non-living target,
-that object will become animated.  If you cast it on a living being, items
-from that being's inventory will be animated.
-
-Enchanted objects cannot be animated.  Objects will take damage in combat
-and may be destroyed.  The objects will remain animated until the spell
-ends or you <dismiss objects>.
-
-There is a level effect that limits how large or how many objects you can
-animate.
-
-Components, bard: song x1
-
 Spell: greater shout
 Class: mage/sorc L8, bard L6
 Sphere: enchantment_charm
@@ -34,35 +11,6 @@ enchantments of this spell.  The amplified voice can knock some targets off
 balance for a moment, forcing them to spend some time for the ringing in
 their ears to pass.
 
-
-Spell: greater shout
-Class: mage/sorc L8, bard L6
-Sphere: enchantment_charm
-Saving throw: fort
-Syntax: cast <classname> greater shout on <target>
-
-Like shout, greater shout allows for the mage to magically enchant and
-enhance his voice, to deliver a devastating sonic attack against one
-target, but with more power added to his voice through the use of the
-enchantments of this spell.  The amplified voice can knock some targets off
-balance for a moment, forcing them to spend some time for the ringing in
-their ears to pass.
-
-
-Spell: heroes feast
-Class: cleric L6, bard L6
-Sphere: conjuration_summoning
-Saving throw: n/a
-Syntax: cast <classname> heroes feast
-
-This spell will allow the caster to create a huge table, filled with
-delectable treats and succulent dishes.  The feast created by this prayer
-will alleviate hunger and thirst, and tastes far better than the what is
-provided with the create food prayer.  The feast will not last forever, so
-take heed.  Also, the gods frown on those who try to steal leftovers and
-save them for later.
-
-Components, bard: ode x1 (or nil w. eschew materials)
 
 Spell: heroes feast
 Class: cleric L6, bard L6
@@ -89,62 +37,6 @@ This spell causes healing energy to flare outwards from the caster,
 touching all friendly targets and renewing their vitality.
 
 
-Spell: listening shadow
-Class: cleric L8, bard L6
-Sphere: divination
-Domain: darkness
-Saving throw: n/a
-Syntax: cast <classname> listening shadow on <target>
-
-This will move your shadow to listen to the room you're in or to follow the
-player indicated. You receive everything heard by the shadow.
-
-Components, bard: epithet x1, rhetoric x2
-
-Spell: listening shadow
-Class: cleric L8, bard L6
-Sphere: divination
-Domain: darkness
-Saving throw: n/a
-Syntax: cast <classname> listening shadow on <target>
-
-This will move your shadow to listen to the room you're in or to follow the
-player indicated. You receive everything heard by the shadow.
-
-Components, bard: epithet x1, rhetoric x2
-
-Spell: project image
-Class: mage L7, bard L6
-Sphere: illusion
-Saving throw: n/a
-Syntax: cast <classname> project image on <target>
-
-This spell will conjure an illusionary image of the caster, which will seek
-out the specified target and convey the caster's thoughts by way of its own
-speech.  Likewise, it will convey the words of the target back to the
-caster.  To speak to the target, the caster should use the <tell> and
-<reply> commands as per telepathy effects.  Any attack upon the image will
-cause it to dissipate.  You can be rid of the image with <dismiss image>.
-
-Non-specialized mages cannot cast this spell.
-
-
-Spell: project image
-Class: mage L7, bard L6
-Sphere: illusion
-Saving throw: n/a
-Syntax: cast <classname> project image on <target>
-
-This spell will conjure an illusionary image of the caster, which will seek
-out the specified target and convey the caster's thoughts by way of its own
-speech.  Likewise, it will convey the words of the target back to the
-caster.  To speak to the target, the caster should use the <tell> and
-<reply> commands as per telepathy effects.  Any attack upon the image will
-cause it to dissipate.  You can be rid of the image with <dismiss image>.
-
-Non-specialized mages cannot cast this spell.
-
-
 Spell: animate object
 Class: cleric L6, bard L6
 Sphere: alteration
@@ -168,24 +60,33 @@ animate.
 
 Components, bard: song x1
 
-Spell: timestop
-Class: mage L9, bard L6
-Sphere: alteration
+Spell: listening shadow
+Class: cleric L8, bard L6
+Sphere: divination
+Domain: darkness
 Saving throw: n/a
-Syntax: cast <classname> timestop
+Syntax: cast <classname> listening shadow on <target>
 
-This spell allows the transmuter to alter their immediate surroundings into
-a state of such forced suspension that it would seem that time had stopped
-for all but the caster.  This allows them to act normally while their
-opponents can only watch, and will drop them out of direct combat. Foes
-will force their way out of the spell after a brief interval, while the
-very strongest of opponents may manage to resist the effect entirely.
+This will move your shadow to listen to the room you're in or to follow the
+player indicated. You receive everything heard by the shadow.
+
+Components, bard: epithet x1, rhetoric x2
+
+Spell: project image
+Class: mage L7, bard L6
+Sphere: illusion
+Saving throw: n/a
+Syntax: cast <classname> project image on <target>
+
+This spell will conjure an illusionary image of the caster, which will seek
+out the specified target and convey the caster's thoughts by way of its own
+speech.  Likewise, it will convey the words of the target back to the
+caster.  To speak to the target, the caster should use the <tell> and
+<reply> commands as per telepathy effects.  Any attack upon the image will
+cause it to dissipate.  You can be rid of the image with <dismiss image>.
 
 Non-specialized mages cannot cast this spell.
 
-Components, mage: quicksilver x3
-
-Feat requirements: bard (timeweaver)
 
 Spell: timestop
 Class: mage L9, bard L6

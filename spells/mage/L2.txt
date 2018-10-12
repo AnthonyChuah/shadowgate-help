@@ -1,3 +1,15 @@
+Spell: fog cloud
+Class: druid L2, mage/sorc L2
+Sphere: conjuration
+Saving throw: n/a
+Syntax: cast <classname> fog cloud
+
+When fog cloud is cast, a bank of dense fog moves into the area, making it
+impossible for anyone, including the caster, to see more than a few inches
+from his or her face.  The cloud will linger in the area for a few minutes
+and then it will disipate on its own.
+
+
 Spell: augmentation
 Class: mage/sorc L2
 Sphere: alteration
@@ -11,55 +23,34 @@ target.
 Components, mage/sorc: pinch of special dust x1 (or nil w. eschew
 materials)
 
-Spell: hideous laughter
-Class: mage/sorc L2
-Sphere: enchantment_charm
-Saving throw: will
-Syntax: cast <classname> hideous laughter on <target>
+Spell: darkvision
+Class: ranger L3, mage/sorc L2, monk L3
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> darkvision
 
-Hideous Laughter, when cast, will force the target to laugh at anything
-that comes to mind.  The victim will fall to the ground cracking up and
-then, eventually, will barely stand up again.  The victim will still see
-humor in many things and will still be slightly weakened due to the
-laughing, until the spell finally wears off.
+This spell will enhance the vision of the caster, allowing them better
+sight in areas of extreme light or darkness.
 
-Components, mage/sorc: feather x1, minute tarts x5 (or nil w. eschew
+Non-specialized mages cannot cast this spell.
+
+
+Spell: invisibility
+Class: mage/sorc L2, bard L2
+Sphere: illusion
+Saving throw: n/a
+Syntax: cast <classname> invisibility (on <target>)
+
+This spell generally will let the caster turn himself or another creature
+or player invisible until one of the three conditions are met.  The
+invisible target has chosen to <appear> to all by typing that, the target
+started a fight or was attacked, and the final way the spell would wear off
+is from time.  The spell will last generally a long time if left to wear
+off however.  Maintaining this spell can become wearying to the caster over
+time.
+
+Components, mage/sorc: gum arabic x1, eyelash x1 (or nil w. eschew
 materials)
-
-Spell: fog cloud
-Class: druid L2, mage/sorc L2
-Sphere: conjuration
-Saving throw: n/a
-Syntax: cast <classname> fog cloud
-
-When fog cloud is cast, a bank of dense fog moves into the area, making it
-impossible for anyone, including the caster, to see more than a few inches
-from his or her face.  The cloud will linger in the area for a few minutes
-and then it will disipate on its own.
-
-
-Spell: resist energy
-Class: paladin L2, druid L2, ranger L1, mage/sorc L2
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> resist energy on <element>
-
-This spell bestows the caster with a small amount of damage resistance
-against a selected element, increasing with the caster's level. Elements
-that can be chosen are acid, cold, electricity, fire, or sonic.
-
-
-Spell: spider climb
-Class: druid L2, mage/sorc L2
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> spider climb
-
-A caster willing to swallow both a drop of bitumen and a live spider, can
-use this to draw upon the nature of the arachnid itself, becoming able to
-climb even the most sheer of surfaces.
-
-Components, mage/sorc: spider x1, bitumen x1 (or nil w. eschew materials)
 
 Spell: levitate
 Class: mage/sorc L2
@@ -76,30 +67,107 @@ messages.  If you had these set previously, you may need to reset them
 after using the levitate spell.
 
 
-Spell: umbral sight
+Spell: acid arrow
 Class: mage/sorc L2
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> acid arrow on <target>
+
+When throwing a dart at a victim and casting the acid arrow spell, the dart
+will turn into an acidic arrow with the aim and speed as if fired by a
+fighter of the caster's spell level.  Damage will be inflicted immediately
+upon hitting the target, then the acid will seep through the victim's
+veins, doing more damage per combat round until the acid wears off or the
+target is dead. A versatile arcanist can manipulate the base element of
+this spell.
+
+Components, mage/sorc: dart x1 (or nil w. eschew materials)
+
+Spell: resist energy
+Class: paladin L2, druid L2, ranger L1, mage/sorc L2
 Sphere: alteration
 Saving throw: n/a
-Syntax: cast <classname> umbral sight
+Syntax: cast <classname> resist energy on <element>
 
-This spell will imbue the caster's vision with the stuff of darkness,
-allowing them to see easily even in deep shadow. It will similarly protect
-their vision from extremes of light.
+This spell bestows the caster with a small amount of damage resistance
+against a selected element, increasing with the caster's level. Elements
+that can be chosen are acid, cold, electricity, fire, or sonic.
 
 
-Feat requirements: shadow_adept (gift of the shadows), mage/sorc (gift of
-the shadows), sorcerer (gift of the shadows)
-
-Spell: fog cloud
-Class: druid L2, mage/sorc L2
-Sphere: conjuration
+Spell: clairvoyance
+Class: mage L2, bard L3, psion L1
+Sphere: divination
+Discipline: seer
 Saving throw: n/a
-Syntax: cast <classname> fog cloud
+Syntax: cast <classname> clairvoyance on <target>
 
-When fog cloud is cast, a bank of dense fog moves into the area, making it
-impossible for anyone, including the caster, to see more than a few inches
-from his or her face.  The cloud will linger in the area for a few minutes
-and then it will disipate on its own.
+A skilled seer can attempt to gain a brief image of a target. All they will
+see is a second's glimpse of their surroundings, and who else may be
+nearby. Anti-scrying effects will block this spell.
+
+Non-specialized mages cannot cast this spell, while anyone other than a
+powerful psionic casters will need to rest between castings. This spell can
+only be cast while at peace.
+
+Components, mage: powdered silver x2 (or nil w. eschew materials)
+Components, bard: stanza x3
+
+Spell: hideous laughter
+Class: mage/sorc L2
+Sphere: enchantment_charm
+Saving throw: will
+Syntax: cast <classname> hideous laughter on <target>
+
+Hideous Laughter, when cast, will force the target to laugh at anything
+that comes to mind.  The victim will fall to the ground cracking up and
+then, eventually, will barely stand up again.  The victim will still see
+humor in many things and will still be slightly weakened due to the
+laughing, until the spell finally wears off.
+
+Components, mage/sorc: feather x1, minute tarts x5 (or nil w. eschew
+materials)
+
+Spell: web
+Class: mage/sorc L2
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> web on <target>
+
+When a victim is unfortunate enough to be victim of a web spell, he/she
+might as well get a new hobby.  If the web is successful, the victim will
+be trapped within a massive web for quite some time.  The time it takes for
+the victim to escape varies with strength.
+
+Components, mage/sorc: spider web x1 (or nil w. eschew materials)
+
+Spell: darkness
+Class: cleric L2, mage/sorc L2, monk L3, bard L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> darkness on <target>
+
+This will create a globe of darkness, which will overcome normal light
+sources. You can cast it on an object or player which it will follow,
+instead of the caster.
+
+
+Spell: misdirection
+Class: mage L2, bard L2
+Sphere: illusion
+Saving throw: n/a
+Syntax: cast <classname> misdirection on <alignment>
+
+This spell allows a skilled illusionist to weave an aura of misdirection
+around them, preventing the use of alignment discerning spells and
+abilities upon them. They can appear to be any alignment of their choosing.
+There are, naturally, ways to bypass this spell's protection, but it offers
+a degree of deception unavailable to most wizards.
+
+The choices for alignment are lawful good, neutral good, chaotic good,
+lawful neutral, true neutral, chaotic neutral, lawful evil, neutral evil,
+or chaotic evil.
+
+Non-specialized mages cannot cast this spell.
 
 
 Spell: rope trick
@@ -118,28 +186,6 @@ a rope before them which will not be consumed by the casting.
 Components, mage/sorc: parchment x1, corn extract x1 (or nil w. eschew
 materials)
 
-Spell: resist energy
-Class: paladin L2, druid L2, ranger L1, mage/sorc L2
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> resist energy on <element>
-
-This spell bestows the caster with a small amount of damage resistance
-against a selected element, increasing with the caster's level. Elements
-that can be chosen are acid, cold, electricity, fire, or sonic.
-
-
-Spell: resist energy
-Class: paladin L2, druid L2, ranger L1, mage/sorc L2
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> resist energy on <element>
-
-This spell bestows the caster with a small amount of damage resistance
-against a selected element, increasing with the caster's level. Elements
-that can be chosen are acid, cold, electricity, fire, or sonic.
-
-
 Spell: spider climb
 Class: druid L2, mage/sorc L2
 Sphere: alteration
@@ -152,21 +198,42 @@ climb even the most sheer of surfaces.
 
 Components, mage/sorc: spider x1, bitumen x1 (or nil w. eschew materials)
 
-Spell: acid arrow
-Class: mage/sorc L2
-Sphere: conjuration_summoning
+Spell: fly
+Class: mage/sorc L2, monk L3
+Sphere: alteration
 Saving throw: n/a
-Syntax: cast <classname> acid arrow on <target>
+Syntax: cast <classname> fly on <target>
 
-When throwing a dart at a victim and casting the acid arrow spell, the dart
-will turn into an acidic arrow with the aim and speed as if fired by a
-fighter of the caster's spell level.  Damage will be inflicted immediately
-upon hitting the target, then the acid will seep through the victim's
-veins, doing more damage per combat round until the acid wears off or the
-target is dead. A versatile arcanist can manipulate the base element of
-this spell.
+See new spell: levitate.
 
-Components, mage/sorc: dart x1 (or nil w. eschew materials)
+
+Spell: blindness
+Class: mage L2, bard L2
+Sphere: necromancy
+Saving throw: will
+Syntax: cast <classname> blindness on <target>
+
+By means of this spell, the caster attempts to steal the target's vision
+for a short while. It is not dispellable by normal magics, but will fade
+after only a short while.
+
+Non-specialized mages cannot cast this spell.
+
+Components, bard: whisper x2
+
+Spell: umbral sight
+Class: mage/sorc L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> umbral sight
+
+This spell will imbue the caster's vision with the stuff of darkness,
+allowing them to see easily even in deep shadow. It will similarly protect
+their vision from extremes of light.
+
+
+Feat requirements: shadow_adept (gift of the shadows), mage/sorc (gift of
+the shadows), sorcerer (gift of the shadows)
 
 Spell: scorcher
 Class: mage/sorc L2
@@ -180,29 +247,5 @@ an effort to aim at only attackers, but this is not always possible. While
 the spell will reliably hit the primary target, a quick opponent may avoid
 being caught by the worst of the flame's edges. A versatile arcanist can
 manipulate the base element of this spell.
-
-
-Spell: web
-Class: mage/sorc L2
-Sphere: invocation_evocation
-Saving throw: reflex
-Syntax: cast <classname> web on <target>
-
-When a victim is unfortunate enough to be victim of a web spell, he/she
-might as well get a new hobby.  If the web is successful, the victim will
-be trapped within a massive web for quite some time.  The time it takes for
-the victim to escape varies with strength.
-
-Components, mage/sorc: spider web x1 (or nil w. eschew materials)
-
-Spell: resist energy
-Class: paladin L2, druid L2, ranger L1, mage/sorc L2
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> resist energy on <element>
-
-This spell bestows the caster with a small amount of damage resistance
-against a selected element, increasing with the caster's level. Elements
-that can be chosen are acid, cold, electricity, fire, or sonic.
 
 

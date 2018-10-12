@@ -1,3 +1,16 @@
+Spell: regeneration
+Class: cleric L7, druid L9, bard L5
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> regeneration on <target>
+
+This spell will cause the target to continuously regenerate a small amount
+of health over a long period of time.  It cannot be used on the same target
+more than once, and does not work in conjunction with the feat of the same
+name.
+
+Components, bard: sonnet x1 (or nil w. eschew materials)
+
 Spell: elemental swarm
 Class: druid L9
 Sphere: elemental

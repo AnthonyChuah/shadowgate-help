@@ -12,19 +12,19 @@ spell to continue.  All those attacking the caster are subject to the
 effects of the earthquake, though they do receive saving throws.
 
 
-Spell: earthquake
-Class: cleric L8, druid L8
-Sphere: combat
-Domain: cavern
+Spell: sunburst
+Class: cleric L8, druid L8, mage/sorc L9
+Sphere: invocation_evocation
+Domain: sun
 Saving throw: reflex
-Syntax: cast <classname> earthquake
+Syntax: cast <classname> sunburst
 
-By unleashing this spell, the caster calls forth a mighty earthquake to
-trip and damage his foes.  The spell will last several rounds depending
-upon the level of the priest, and the priest must remain present for the
-spell to continue.  All those attacking the caster are subject to the
-effects of the earthquake, though they do receive saving throws.
+This spell will send the light of the sun radiating out in a circle from
+the caster.  Any enemies caught in the area will suffer damage from the
+pure light of the sun.  Undead creatures suffer more damage than normal
+ones, and those creatures who fail their save are blinded by the light.
 
+Components, mage: sunstone x1 (or nil w. eschew materials)
 
 Spell: word of recall
 Class: druid L8

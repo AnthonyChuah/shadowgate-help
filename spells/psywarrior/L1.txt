@@ -1,14 +1,13 @@
-Spell: chameleon skin
-Class: psywarrior L1
+Spell: biofeedback
+Class: psywarrior L1, psion L2
+Sphere: alteration
 Saving throw: n/a
-Syntax: cast <classname> chameleon skin
+Syntax: cast <classname> biofeedback
 
-When the psychic character manifests this power, he harnesses the power of
-the chameleon, granting him the ability to blend into his surroundings.
-This power functions as a bonus to your ability to hide and sneak, rather
-than true invisibility.
+Using this power, the psionic character bolsters his mental defenses,
+gaining a small amount of resistance to magic.  The spell does not stack
+with the resistance feat or spell.
 
-Components, psywarrior: green moss agate x1 (or nil w. eschew materials)
 
 Spell: call armor
 Class: psywarrior L1
@@ -24,16 +23,58 @@ automatically take the form of medium armor. In addition to any other IDs
 the armor may have, the ID <energy armor> will always work.
 
 
-Spell: primal fear
+Spell: chameleon skin
 Class: psywarrior L1
-Sphere: enchantment_charm
-Saving throw: will
-Syntax: cast <classname> primal fear on <target>
+Saving throw: n/a
+Syntax: cast <classname> chameleon skin
 
-This power allows the psionic character to project an aura of fear toward a
-target, potentially sending him fleeing or causing him to cower in terror.
+When the psychic character manifests this power, he harnesses the power of
+the chameleon, granting him the ability to blend into his surroundings.
+This power functions as a bonus to your ability to hide and sneak, rather
+than true invisibility.
 
-Components, psywarrior: gray agate x1 (or nil w. eschew materials)
+Components, psywarrior: green moss agate x1 (or nil w. eschew materials)
+
+Spell: skate
+Class: psywarrior L1, psion L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> skate
+
+This power gives the psionic character the ability to skate smoothly over
+the ground, exerting little energy. The caster will find traveling over
+long distances to be very easy when under the influence of this spell, and
+will use very little stamina to travel.
+
+Please note: This spell will remove your previously set enter and exit
+messages.  If you had these set previously, you may need to reset them
+after using the skate power.
+
+
+Spell: inertial armor
+Class: psywarrior L1, psion L1
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> inertial armor
+
+When a psion manifests inertial armor, his psionic energy streams through a
+gem, where it coalesces and forms a shield about the psion.  This shield of
+protection offers an AC bonus that grows with the psion as his mental
+powers grow stronger.
+
+Components, psion: aventurine x1 (or nil w. eschew materials)
+
+Spell: detect aura
+Class: psywarrior L1, psion L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> detect aura
+
+This power allows a psion to see the mystical auras surrounding some
+objects in the world, whether they be divine, arcane, or psionic in nature.
+The psion attunes himself to the world through this power, seeing the auras
+as a glow that strengthens or lessens based upon the power of the item.
+
 
 Spell: prevenom
 Class: psywarrior L1
@@ -60,5 +101,65 @@ Syntax: cast <classname> stomp
 Upon manifesting this power, the psionic character releases a stream of
 psychic energy to empower a stomp, creating a ripple in the earth. The
 resulting quake may stun or damage all those in the area, save the caster.
+
+
+Spell: vigor
+Class: psywarrior L1, psion L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> vigor
+
+This power allows the psion to call upon psychic energies to strengthen his
+body, granting him added health.  As with other psionic powers, this one
+will grow in strength as the psion does.
+
+Components, psywarrior: carnelian x1, bloodstone x1 (or nil w. eschew
+materials)
+Components, psion: carnelian x1, bloodstone x1 (or nil w. eschew materials)
+
+Spell: mylight
+Class: psywarrior L1, psion L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> mylight on <target>
+
+When the psionic character manifests this power, the target receives a
+sight bonus to help him see. Races with aversion to light will be able to
+see in brighter surroundings, while those who need light to see will be
+able to peer through the darkness.
+
+
+Spell: primal fear
+Class: psywarrior L1
+Sphere: enchantment_charm
+Saving throw: will
+Syntax: cast <classname> primal fear on <target>
+
+This power allows the psionic character to project an aura of fear toward a
+target, potentially sending him fleeing or causing him to cower in terror.
+
+Components, psywarrior: gray agate x1 (or nil w. eschew materials)
+
+Spell: water breathing
+Class: psywarrior L1, cleric L3, druid L3, mage/sorc L3, psion L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> water breathing on <target>
+
+This spell allows the target to breathe water for a limited period of time.
+
+Components, mage/sorc: piece of reed x1 (or nil w. eschew materials)
+
+Spell: weapon of energy
+Class: psywarrior L1, psion L1
+Sphere: combat
+Saving throw: n/a
+Syntax: cast <classname> weapon of energy on <sword|staff|battleaxe>
+
+This power allows the psion to create a weapon made purely of energy and
+his psychic power.  The weapon may take one of three forms - sword, staff,
+or axe - chosen by the psion at the time of manifesting.  The weapon must
+be wielded as a normal weapon. If no choice is made, the weapon will
+automatically take the form of a sword.
 
 

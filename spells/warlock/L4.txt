@@ -1,15 +1,14 @@
-Spell: eldritch burst
+Spell: cunning insight
 Class: warlock L4
-Saving throw: reflex
-Syntax: cast <classname> eldritch burst
+Saving throw: n/a
+Syntax: cast <classname> cunning insight
 
-This is the pinnacle of the core spell-like ability of the warlock - the
-ability to invoke pure planar energy and hurl it at a foe. Unlike its
-primary form, the invocation emits in a burst from the caster, striking any
-foe within reach. As this is not a ray, no touch attack is required, but
-foes can attempt a reflex save to avoid part of the damage. As with the
-eldritch blast, it can be imbued with various essences.
-See also: <help blasttype>.
+By means of this potent invocation, the warlock imbues his body with power,
+thereby expanding his awareness and ability to resist and react to outside
+forces. This results in an improved command of physical combat and weapon
+handling, as well as a better aptitude at avoiding attacks. This invocation
+does not work alongside similarly powerful melee spells, such as rage,
+dance of a thousand cuts, or transformation.
 
 
 Spell: infernal rain
@@ -28,17 +27,18 @@ by a caster at a time!
 Only a hellfire warlock may harness this invocation.
 
 
-Spell: cunning insight
+Spell: eldritch burst
 Class: warlock L4
-Saving throw: n/a
-Syntax: cast <classname> cunning insight
+Saving throw: reflex
+Syntax: cast <classname> eldritch burst
 
-By means of this potent invocation, the warlock imbues his body with power,
-thereby expanding his awareness and ability to resist and react to outside
-forces. This results in an improved command of physical combat and weapon
-handling, as well as a better aptitude at avoiding attacks. This invocation
-does not work alongside similarly powerful melee spells, such as rage,
-dance of a thousand cuts, or transformation.
+This is the pinnacle of the core spell-like ability of the warlock - the
+ability to invoke pure planar energy and hurl it at a foe. Unlike its
+primary form, the invocation emits in a burst from the caster, striking any
+foe within reach. As this is not a ray, no touch attack is required, but
+foes can attempt a reflex save to avoid part of the damage. As with the
+eldritch blast, it can be imbued with various essences.
+See also: <help blasttype>.
 
 
 Spell: casters lament
@@ -54,19 +54,22 @@ that of another player, it can be used to shatter the magic upon a cursed
 item.
 
 
-Spell: devour magic
-Class: warlock L4
+Spell: cloak of shadows
+Class: warlock L4, monk L11
 Saving throw: n/a
-Syntax: cast <classname> devour magic [on <target>]
+Syntax: cast <classname> cloak of shadows on <vision|divination>
 
-This invocation bears greater potency than its lesser cousin, voracious
-dispelling. In a similar fashion, it will attempt to destroy any spell
-enchantments, magical summonings, and anything conjured.  The chances of
-each dispelling depends on both the dispeller's casting level and the power
-level of the spellcaster that created whatever is being dispelled, whether
-it be an enchantment, summoning, or conjuration. Unlike similar abilities,
-however, any spells that are successfully opposed are instead consumed by
-the invocation and used to heal the warlock's injuries.
+This invocation allows the warlock to draw a curtain of shadow energy
+around him, concealing him from normal and magical detection attempts. It
+can be used in two ways, though only one at a time. If cast on vision, it
+will generate a more powerful magical concealment than standard
+invisibility - it does not require the same direct concentration to
+maintain, and so it does not fail if combat is initiated. If cast on
+divination, it will potentially deflect magical divination attempts to
+locate or watch the caster from a distance. If invisible, the caster can
+simply forgo his concentration to <step> from the shadows, or with either
+type of casting, it can simply be dispelled. Both effects can only be
+centred upon the caster.
 
 
 Spell: utterdark blast
@@ -87,6 +90,21 @@ Syntax: <blasttype binding>
 An eldritch blast with this essence applied will ensnare the target/s with
 magical energy, temporarily stunning them.
 See also: <help blasttype>.
+
+
+Spell: devour magic
+Class: warlock L4
+Saving throw: n/a
+Syntax: cast <classname> devour magic [on <target>]
+
+This invocation bears greater potency than its lesser cousin, voracious
+dispelling. In a similar fashion, it will attempt to destroy any spell
+enchantments, magical summonings, and anything conjured.  The chances of
+each dispelling depends on both the dispeller's casting level and the power
+level of the spellcaster that created whatever is being dispelled, whether
+it be an enchantment, summoning, or conjuration. Unlike similar abilities,
+however, any spells that are successfully opposed are instead consumed by
+the invocation and used to heal the warlock's injuries.
 
 
 Spell: walk the planes

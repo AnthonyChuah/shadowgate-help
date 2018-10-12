@@ -1,3 +1,18 @@
+Spell: haste
+Class: mage L3, bard L3
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> haste
+
+This spell considerably speeds up the caster, and those allies in his or
+her immediate vicinity. It grants all affected targets an extra attack if
+they are striking in melee, as well as a small bonus to AC, reflex saves
+and athletics. This spell does not work in conjunction with similar magical
+effects, such as rage, berserker and fell flight.
+
+Non-specialized mages cannot cast this spell.
+
+
 Spell: blink
 Class: mage/sorc L3
 Sphere: alteration
@@ -9,6 +24,94 @@ and ethereal planes. This will give a chance for melee attacks to simply
 pass right through their form, while it is incorporeal. NOTE: Will only
 work while wearing mage armor.
 
+
+Spell: dispel magic
+Class: cleric L3, paladin L3, druid L4, mage/sorc L3, bard L3
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> dispel magic (on <target>)
+
+Dispel Magic, when cast, will destroy any spell enchantments, any magical
+summonings, and anything conjured.  The chances of each dispelling depends
+on both the dispeller's casting level and the casting level of the wizard
+or priest that created whatever is being dispelled, whether it be an
+enchantment, summoning, or conjuration.
+
+
+Spell: lightning bolt
+Class: mage/sorc L3
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> lightning bolt on <target>
+
+This spell, when cast, will allow you to hurl a lightning bolt at your
+target.  The blazing electricity will inflict 1d6 points of damage per
+level of the caster, subject to a maximum, reduced if they make their save.
+A versatile arcanist can manipulate the base element of this spell.
+
+Components, mage/sorc: firefly x1 (or nil w. eschew materials)
+
+Spell: garble
+Class: mage/sorc L3, bard L2
+Sphere: alteration
+Saving throw: will
+Syntax: cast <classname> garble on <target>
+
+This will remove from the target the ability to understand, both read and
+write any language. This should not change the ability to teach the
+language.
+
+Components, mage/sorc: clay model ziggurat x1 (or nil w. eschew materials)
+
+Spell: heroism
+Class: mage L3, bard L4
+Sphere: enchantment_charm
+Saving throw: n/a
+Syntax: cast <classname> heroism (on <target>)
+
+This spell allows the caster to draw upon their personal presence and
+charm, granting them or an ally a bonus to morale on attacks, saves and
+core skills. It does not stack with other morale-boosting spells, such as
+good hope.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: vermilion x2 (or nil w. eschew materials)
+Components, bard: ballad x1 (or nil w. eschew materials)
+
+Spell: hold person
+Class: cleric L2, mage/sorc L3, monk L5, bard L2
+Sphere: enchantment_charm
+Saving throw: will
+Syntax: cast <classname> hold person on <target>
+
+This spell will hold its target for rounds that reflect the level of the
+caster.
+
+Components, mage/sorc: piece of iron x1 (or nil w. eschew materials)
+
+Spell: vampiric touch
+Class: mage/sorc L3
+Sphere: necromancy
+Saving throw: n/a
+Syntax: cast <classname> vampiric touch on <target>
+
+This spell, when cast, will allow the mage to drain a certain amount of hit
+points from an opponent and add them to his own, if he makes a successful
+touch attack against the victim.  The spell will only heal the caster up to
+his maximum hit points.  Using negative energy, this spell is ineffective
+against the undead.
+
+
+Spell: water breathing
+Class: psywarrior L1, cleric L3, druid L3, mage/sorc L3, psion L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> water breathing on <target>
+
+This spell allows the target to breathe water for a limited period of time.
+
+Components, mage/sorc: piece of reed x1 (or nil w. eschew materials)
 
 Spell: lightning orb
 Class: mage/sorc L3
@@ -25,18 +128,20 @@ the blast.
 
 Components, mage/sorc: beeswax x1, magnets x1 (or nil w. eschew materials)
 
-Spell: lightning bolt
-Class: mage/sorc L3
+Spell: fireball
+Class: mage/sorc L3, monk L7
 Sphere: invocation_evocation
 Saving throw: reflex
-Syntax: cast <classname> lightning bolt on <target>
+Syntax: cast <classname> fireball on <target>
 
-This spell, when cast, will allow you to hurl a lightning bolt at your
-target.  The blazing electricity will inflict 1d6 points of damage per
-level of the caster, subject to a maximum, reduced if they make their save.
-A versatile arcanist can manipulate the base element of this spell.
+By casting this spell, a mage can aim and release a massive ball of fire at
+a target and those around him.  The fireball spell will wreak havoc on the
+caster's target and those who oppose him.  Damage done to those hit by the
+spell is 1d6 per level of the caster, subject to a maximum, halved if they
+manage to evade the brunt of the spell. A versatile arcanist can manipulate
+the base element of this spell.
 
-Components, mage/sorc: firefly x1 (or nil w. eschew materials)
+Components, mage/sorc: sulfur x1, bat guano x1 (or nil w. eschew materials)
 
 Spell: frost orb
 Class: mage/sorc L3
@@ -53,6 +158,18 @@ allies in the blast.
 
 Components, mage/sorc: beeswax x1, crystal x1 (or nil w. eschew materials)
 
+Spell: tongues
+Class: mage/sorc L3, psion L2, bard L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> tongues on <target>
+
+This will give the target the ability to understand, both read and write
+any language. This should not change the ability to teach the language.
+
+Components, mage/sorc: clay model ziggurat x1 (or nil w. eschew materials)
+Components, bard: dialogue x1 (or nil w. eschew materials)
+
 Spell: acid orb
 Class: mage/sorc L3
 Sphere: invocation_evocation
@@ -67,17 +184,4 @@ as it is possible to accidently catch the mages allies in the blast.
 
 Components, mage/sorc: citric acid x2, beeswax x1 (or nil w. eschew
 materials)
-
-Spell: vampiric touch
-Class: mage/sorc L3
-Sphere: necromancy
-Saving throw: n/a
-Syntax: cast <classname> vampiric touch on <target>
-
-This spell, when cast, will allow the mage to drain a certain amount of hit
-points from an opponent and add them to his own, if he makes a successful
-touch attack against the victim.  The spell will only heal the caster up to
-his maximum hit points.  Using negative energy, this spell is ineffective
-against the undead.
-
 

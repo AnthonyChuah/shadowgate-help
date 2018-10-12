@@ -1,25 +1,77 @@
-Spell: cloudburst
+Spell: bulls strength
+Class: cleric L2, paladin L2, druid L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> bulls strength on <target>
+
+This spell allows the caster to infuse their target with the strength of a
+bull, enhancing their raw brawn.  This spell doesn't stack with similarly
+powerful spells of enhancement.
+
+
+Spell: eagles splendor
+Class: cleric L2, paladin L2, bard L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> eagles splendor on <target>
+
+This spell allows the caster to infuse their target with the presence of an
+eagle, enhancing their force of personality.  This spell doesn't stack with
+similarly powerful spells of enhancement.
+
+Components, bard: conceit x1 (or nil w. eschew materials)
+
+Spell: righteous might
 Class: cleric L2
-Sphere: elemental water
-Domain: water
-Saving throw: reflex
-Syntax: cast <classname> cloudburst on <target>
+Sphere: alteration
+Domain: strength
+Saving throw: n/a
+Syntax: cast <classname> righteous might
 
-The spell allows the priest to gather the water in the atmosphere to form a
-cloud, from which he can release a torrential surge of rain over the
-target.  As the caster grows in power, he is able to draw more moisture
-into the cloud, creating a larger surge of water.  The target may find it
-difficult to retain their footing among the surge.
+By calling upon his deity's aid, the caster imbues himself with divine
+might.  The caster will find it both easier to hit and to harm those he
+fights.  The spell does not stack with other bless-type spells.
 
 
-Spell: know alignment
-Class: cleric L2
-Sphere: divination
-Saving throw: will
-Syntax: cast <classname> know alignment on <target>
+Spell: faerie fire
+Class: cleric L2, druid L1
+Sphere: combat
+Domain: moon
+Saving throw: n/a
+Syntax: cast <classname> faerie fire on <target>
 
-Allows the caster to learn the target's alignment. This can be foiled by
-certain illusion magics.
+This spell will outline the target in harmless violet flames.  It makes the
+target easier to hit with melee combat, and also makes it impossible for
+the target to hide by magical or other means until the spell expires or is
+dispelled.
+
+
+Spell: bears endurance
+Class: cleric L2, druid L2, ranger L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> bears endurance on <target>
+
+This spell allows the caster to infuse their target with the endurance of a
+bear, granting them improved vitality and stamina.  This spell doesn't
+stack with similarly powerful spells of enhancement.
+
+
+Spell: divine shield
+Class: cleric L2, paladin L2
+Sphere: conjuration_summoning
+Domain: protection
+Saving throw: n/a
+Syntax: cast <classname> divine shield
+
+Calling out for protection against the forces that the caster must battle,
+this prayer creates a divine shield that will offer protection to the
+priest, helping him to defend himself.
+
+*NOTE*
+Each shield will have a few keywords to it, but all will have the name of
+the shield and 'shield' for purpose of wielding, unwielding, and showing it
+off.
 
 
 Spell: body blades
@@ -34,18 +86,51 @@ protecting them from harm and doing damage to anyone who attacks the
 caster.
 
 
-Spell: meld into stone
+Spell: know alignment
 Class: cleric L2
-Sphere: alteration
-Domain: cavern
-Saving throw: n/a
-Syntax: cast <classname> meld into stone
+Sphere: divination
+Saving throw: will
+Syntax: cast <classname> know alignment on <target>
 
-This spell allows the caster to meld with nearby stone, rendering him
-invisible to most viewers.  The spell likewise confers the ability to move
-while invisible, so long as the caster does not pass out of the appropriate
-terrain.  To end the spell, the caster can type <appear>, engage in combat,
-or leave the rocky terrain.  In addition, the spell may wear off over time.
+Allows the caster to learn the target's alignment. This can be foiled by
+certain illusion magics.
+
+
+Spell: cloudburst
+Class: cleric L2
+Sphere: elemental water
+Domain: water
+Saving throw: reflex
+Syntax: cast <classname> cloudburst on <target>
+
+The spell allows the priest to gather the water in the atmosphere to form a
+cloud, from which he can release a torrential surge of rain over the
+target.  As the caster grows in power, he is able to draw more moisture
+into the cloud, creating a larger surge of water.  The target may find it
+difficult to retain their footing among the surge.
+
+
+Spell: darkness
+Class: cleric L2, mage/sorc L2, monk L3, bard L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> darkness on <target>
+
+This will create a globe of darkness, which will overcome normal light
+sources. You can cast it on an object or player which it will follow,
+instead of the caster.
+
+
+Spell: orders oath
+Class: cleric L2, paladin L2
+Sphere: combat
+Domain: vigilance
+Saving throw: will
+Syntax: cast <classname> orders oath on <target>
+
+This spell magically enhances the power of the caster's voice.  The spell
+takes the form of a single spoken word, 'halt'.  The target need not
+understand the language of the spell for the magic to work.
 
 
 Spell: oppression
@@ -62,17 +147,50 @@ effected will have their ability to hit and do damage in combat reduced
 until either the aura expires or they leave the presence of the caster.
 
 
-Spell: righteous might
-Class: cleric L2
+Spell: sound burst
+Class: cleric L2, bard L2
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> sound burst on <target>
+
+This spell enhances a simple click of the fingers, reaching the target with
+an ear-shattering pitch that can cause serious damage.  It may also harm
+those standing nearest the target in question, though a quick opponent may
+manage to avoid the worst of this damage.
+
+
+Spell: ghost step
+Class: cleric L2, ranger L1, monk L3
 Sphere: alteration
-Domain: strength
+Domain: animal
 Saving throw: n/a
-Syntax: cast <classname> righteous might
+Syntax: cast <classname> ghost step
 
-By calling upon his deity's aid, the caster imbues himself with divine
-might.  The caster will find it both easier to hit and to harm those he
-fights.  The spell does not stack with other bless-type spells.
+This spell allows you to become one with nature, as a ghost of the forest,
+leaving no traces of where you have walked.
 
+
+Spell: true seeing
+Class: cleric L2, druid L7
+Sphere: divination
+Domain: magic
+Saving throw: n/a
+Syntax: cast <classname> true seeing
+
+This spell will allow the caster to see through all magical and non magical
+attempts at invisibility.
+
+
+Spell: hold person
+Class: cleric L2, mage/sorc L3, monk L5, bard L2
+Sphere: enchantment_charm
+Saving throw: will
+Syntax: cast <classname> hold person on <target>
+
+This spell will hold its target for rounds that reflect the level of the
+caster.
+
+Components, mage/sorc: piece of iron x1 (or nil w. eschew materials)
 
 Spell: limb attack
 Class: cleric L2
@@ -83,6 +201,62 @@ Syntax: cast <classname> limb attack on <target>
 This spell will attack some random limb of the target.  You will try to
 tear that limb off, so your strength is very important here as is your
 casting level for extra damage.
+
+
+Spell: divine weapon
+Class: cleric L2, paladin L1, druid L2
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> divine weapon
+
+It is not uncommon for a priest or knight to be drawn into combat to
+protect her faith or deity.  For that reason the gods have blessed their
+servants with a prayer that grants them a divine weapon.  Each faith has a
+different weapon, some say magical copies of the favored weapons on their
+patron gods.  With this spell, a divine spellcaster will create a magical
+weapon in their hand.
+
+*NOTE*
+Each weapon will have a few keywords to it, but all will have the name of
+the weapon and 'weapon' for purpose of wielding, unwielding, and showing it
+off.
+
+
+Spell: meld into stone
+Class: cleric L2
+Sphere: alteration
+Domain: cavern
+Saving throw: n/a
+Syntax: cast <classname> meld into stone
+
+This spell allows the caster to meld with nearby stone, rendering him
+invisible to most viewers.  The spell likewise confers the ability to move
+while invisible, so long as the caster does not pass out of the appropriate
+terrain.  To end the spell, the caster can type <appear>, engage in combat,
+or leave the rocky terrain.  In addition, the spell may wear off over time.
+
+
+Spell: owls wisdom
+Class: cleric L2, paladin L2, druid L2, ranger L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> owls wisdom on <target>
+
+This spell allows the caster to infuse their target with the wisdom of an
+owl, granting them improved insight.  This spell doesn't stack with
+similarly powerful spells of enhancement.
+
+
+Spell: shatter
+Class: cleric L2, monk L7
+Sphere: combat
+Domain: destruction
+Saving throw: fort
+Syntax: cast <classname> shatter on <target>
+
+This spell sends a piercing vibration of sonic damage straight towards the
+target of the spell.  If the target is not able to escape the blast, they
+will take a significant deal of damage.
 
 
 Spell: lightning touch

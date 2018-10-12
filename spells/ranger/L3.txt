@@ -1,13 +1,24 @@
-Spell: snakebite
-Class: cleric L4, ranger L3
-Sphere: combat
-Domain: animal
-Saving throw: fort
-Syntax: cast <classname> snakebite on <target>
+Spell: darkvision
+Class: ranger L3, mage/sorc L2, monk L3
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> darkvision
 
-This spell allows the ranger to draw forth the remaining living energy in
-an otherwise dead stick, converting it into life.  It will become a serpent
-that strikes the target, with a chance to poison with its bite.
+This spell will enhance the vision of the caster, allowing them better
+sight in areas of extreme light or darkness.
+
+Non-specialized mages cannot cast this spell.
+
+
+Spell: cleanse disease
+Class: cleric L4, paladin L4, druid L3, ranger L3, bard L4
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> cleanse disease on <target>
+
+This spell will attempt to cleanse any diseases present on the <target>.
+Success is based on the level of the caster versus the difficult of the
+particular disease.
 
 
 Spell: snakebite

@@ -10,48 +10,6 @@ in a bonus to one of her stats. Only one stat can be raised at a time, and
 this power does not stack with similar spells and abilities.
 
 
-Spell: animal affinity
-Class: psywarrior L2, psion L1
-Sphere: alteration
-Discipline: egoist
-Saving throw: n/a
-Syntax: cast <classname> animal affinity on <stat>
-
-This power allows a psionic character to focus her mental acuity, resulting
-in a bonus to one of her stats. Only one stat can be raised at a time, and
-this power does not stack with similar spells and abilities.
-
-
-Spell: detect aura
-Class: psywarrior L1, psion L1
-Sphere: divination
-Saving throw: n/a
-Syntax: cast <classname> detect aura
-
-This power allows a psion to see the mystical auras surrounding some
-objects in the world, whether they be divine, arcane, or psionic in nature.
-The psion attunes himself to the world through this power, seeing the auras
-as a glow that strengthens or lessens based upon the power of the item.
-
-
-Spell: clairvoyance
-Class: mage L2, bard L3, psion L1
-Sphere: divination
-Discipline: seer
-Saving throw: n/a
-Syntax: cast <classname> clairvoyance on <target>
-
-A skilled seer can attempt to gain a brief image of a target. All they will
-see is a second's glimpse of their surroundings, and who else may be
-nearby. Anti-scrying effects will block this spell.
-
-Non-specialized mages cannot cast this spell, while anyone other than a
-powerful psionic casters will need to rest between castings. This spell can
-only be cast while at peace.
-
-Components, mage: powdered silver x2 (or nil w. eschew materials)
-Components, bard: stanza x3
-
 Spell: control object
 Class: psion L1
 Sphere: alteration
@@ -79,29 +37,6 @@ There is a level effect that limits how large or how many objects you can
 animate.
 
 
-Spell: detect aura
-Class: psywarrior L1, psion L1
-Sphere: divination
-Saving throw: n/a
-Syntax: cast <classname> detect aura
-
-This power allows a psion to see the mystical auras surrounding some
-objects in the world, whether they be divine, arcane, or psionic in nature.
-The psion attunes himself to the world through this power, seeing the auras
-as a glow that strengthens or lessens based upon the power of the item.
-
-
-Spell: mind thrust
-Class: psion L1
-Sphere: invocation_evocation
-Saving throw: n/a
-Syntax: cast <classname> mind thrust on <target>
-
-Mind thrust will cause the psion to manifest random psychic energy,
-directing it at a target.  The target feels confused and in pain, much like
-an excrutiating migraine.  The damage caused grows with the psion's power.
-
-
 Spell: clairvoyance
 Class: mage L2, bard L3, psion L1
 Sphere: divination
@@ -120,6 +55,31 @@ only be cast while at peace.
 Components, mage: powdered silver x2 (or nil w. eschew materials)
 Components, bard: stanza x3
 
+Spell: inertial armor
+Class: psywarrior L1, psion L1
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> inertial armor
+
+When a psion manifests inertial armor, his psionic energy streams through a
+gem, where it coalesces and forms a shield about the psion.  This shield of
+protection offers an AC bonus that grows with the psion as his mental
+powers grow stronger.
+
+Components, psion: aventurine x1 (or nil w. eschew materials)
+
+Spell: detect aura
+Class: psywarrior L1, psion L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> detect aura
+
+This power allows a psion to see the mystical auras surrounding some
+objects in the world, whether they be divine, arcane, or psionic in nature.
+The psion attunes himself to the world through this power, seeing the auras
+as a glow that strengthens or lessens based upon the power of the item.
+
+
 Spell: skate
 Class: psywarrior L1, psion L1
 Sphere: alteration
@@ -135,19 +95,6 @@ Please note: This spell will remove your previously set enter and exit
 messages.  If you had these set previously, you may need to reset them
 after using the skate power.
 
-
-Spell: inertial armor
-Class: psywarrior L1, psion L1
-Sphere: conjuration_summoning
-Saving throw: n/a
-Syntax: cast <classname> inertial armor
-
-When a psion manifests inertial armor, his psionic energy streams through a
-gem, where it coalesces and forms a shield about the psion.  This shield of
-protection offers an AC bonus that grows with the psion as his mental
-powers grow stronger.
-
-Components, psion: aventurine x1 (or nil w. eschew materials)
 
 Spell: minor prescience
 Class: psion L1
@@ -185,36 +132,17 @@ see in brighter surroundings, while those who need light to see will be
 able to peer through the darkness.
 
 
-Spell: clairvoyance
-Class: mage L2, bard L3, psion L1
-Sphere: divination
-Discipline: seer
-Saving throw: n/a
-Syntax: cast <classname> clairvoyance on <target>
+Spell: sleep
+Class: mage/sorc L1, psion L1, bard L1
+Sphere: enchantment_charm
+Saving throw: will
+Syntax: cast <classname> sleep on <target>
 
-A skilled seer can attempt to gain a brief image of a target. All they will
-see is a second's glimpse of their surroundings, and who else may be
-nearby. Anti-scrying effects will block this spell.
+Upon casting the sleep spell, 2d4 HD of monsters will fall asleep.  Attacks
+on the sleepers will awaken them; normal noise won't, however.  Monsters
+with 4 HD + 3hp will not be affected.
 
-Non-specialized mages cannot cast this spell, while anyone other than a
-powerful psionic casters will need to rest between castings. This spell can
-only be cast while at peace.
-
-Components, mage: powdered silver x2 (or nil w. eschew materials)
-Components, bard: stanza x3
-
-Spell: inertial armor
-Class: psywarrior L1, psion L1
-Sphere: conjuration_summoning
-Saving throw: n/a
-Syntax: cast <classname> inertial armor
-
-When a psion manifests inertial armor, his psionic energy streams through a
-gem, where it coalesces and forms a shield about the psion.  This shield of
-protection offers an AC bonus that grows with the psion as his mental
-powers grow stronger.
-
-Components, psion: aventurine x1 (or nil w. eschew materials)
+Components, bard: lullaby x1 (or nil w. eschew materials)
 
 Spell: vigor
 Class: psywarrior L1, psion L1
@@ -230,16 +158,6 @@ Components, psywarrior: carnelian x1, bloodstone x1 (or nil w. eschew
 materials)
 Components, psion: carnelian x1, bloodstone x1 (or nil w. eschew materials)
 
-Spell: water breathing
-Class: psywarrior L1, cleric L3, druid L3, mage/sorc L3, psion L1
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> water breathing on <target>
-
-This spell allows the target to breathe water for a limited period of time.
-
-Components, mage/sorc: piece of reed x1 (or nil w. eschew materials)
-
 Spell: weapon of energy
 Class: psywarrior L1, psion L1
 Sphere: combat
@@ -252,6 +170,27 @@ or axe - chosen by the psion at the time of manifesting.  The weapon must
 be wielded as a normal weapon. If no choice is made, the weapon will
 automatically take the form of a sword.
 
+
+Spell: mind thrust
+Class: psion L1
+Sphere: invocation_evocation
+Saving throw: n/a
+Syntax: cast <classname> mind thrust on <target>
+
+Mind thrust will cause the psion to manifest random psychic energy,
+directing it at a target.  The target feels confused and in pain, much like
+an excrutiating migraine.  The damage caused grows with the psion's power.
+
+
+Spell: water breathing
+Class: psywarrior L1, cleric L3, druid L3, mage/sorc L3, psion L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> water breathing on <target>
+
+This spell allows the target to breathe water for a limited period of time.
+
+Components, mage/sorc: piece of reed x1 (or nil w. eschew materials)
 
 Spell: mindlink
 Class: psion L1
@@ -263,99 +202,4 @@ This power will allow the psion to establish a mental link with the target,
 permitting telepathic conversations for a short time. To ensure
 comprehension, the two parties should share a common language.
 
-
-Spell: mylight
-Class: psywarrior L1, psion L1
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> mylight on <target>
-
-When the psionic character manifests this power, the target receives a
-sight bonus to help him see. Races with aversion to light will be able to
-see in brighter surroundings, while those who need light to see will be
-able to peer through the darkness.
-
-
-Spell: skate
-Class: psywarrior L1, psion L1
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> skate
-
-This power gives the psionic character the ability to skate smoothly over
-the ground, exerting little energy. The caster will find traveling over
-long distances to be very easy when under the influence of this spell, and
-will use very little stamina to travel.
-
-Please note: This spell will remove your previously set enter and exit
-messages.  If you had these set previously, you may need to reset them
-after using the skate power.
-
-
-Spell: vigor
-Class: psywarrior L1, psion L1
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> vigor
-
-This power allows the psion to call upon psychic energies to strengthen his
-body, granting him added health.  As with other psionic powers, this one
-will grow in strength as the psion does.
-
-Components, psywarrior: carnelian x1, bloodstone x1 (or nil w. eschew
-materials)
-Components, psion: carnelian x1, bloodstone x1 (or nil w. eschew materials)
-
-Spell: water breathing
-Class: psywarrior L1, cleric L3, druid L3, mage/sorc L3, psion L1
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> water breathing on <target>
-
-This spell allows the target to breathe water for a limited period of time.
-
-Components, mage/sorc: piece of reed x1 (or nil w. eschew materials)
-
-Spell: water breathing
-Class: psywarrior L1, cleric L3, druid L3, mage/sorc L3, psion L1
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> water breathing on <target>
-
-This spell allows the target to breathe water for a limited period of time.
-
-Components, mage/sorc: piece of reed x1 (or nil w. eschew materials)
-
-Spell: weapon of energy
-Class: psywarrior L1, psion L1
-Sphere: combat
-Saving throw: n/a
-Syntax: cast <classname> weapon of energy on <sword|staff|battleaxe>
-
-This power allows the psion to create a weapon made purely of energy and
-his psychic power.  The weapon may take one of three forms - sword, staff,
-or axe - chosen by the psion at the time of manifesting.  The weapon must
-be wielded as a normal weapon. If no choice is made, the weapon will
-automatically take the form of a sword.
-
-
-Spell: water breathing
-Class: psywarrior L1, cleric L3, druid L3, mage/sorc L3, psion L1
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> water breathing on <target>
-
-This spell allows the target to breathe water for a limited period of time.
-
-Components, mage/sorc: piece of reed x1 (or nil w. eschew materials)
-
-Spell: water breathing
-Class: psywarrior L1, cleric L3, druid L3, mage/sorc L3, psion L1
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> water breathing on <target>
-
-This spell allows the target to breathe water for a limited period of time.
-
-Components, mage/sorc: piece of reed x1 (or nil w. eschew materials)
 

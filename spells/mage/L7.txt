@@ -1,22 +1,3 @@
-Spell: shadow double
-Class: mage/sorc L7
-Sphere: illusion
-Saving throw: n/a
-Syntax: cast <classname> shadow double
-
-This spell will conjure a ghostly double of the caster, drawn from his or
-her own shadow. The shadow will automatically follow and protect you.
-Should you lose it, though, simply go into the room with it and <command
-shadow to follow>. This is a greater summons, and cannot be used
-simultaneously with other greater summons.
-
-Non-specialized mages cannot cast this spell.
-
-Components, mage/sorc: onyx dust x1
-
-Feat requirements: shadow_adept (gift of the shadows), mage/sorc (gift of
-the shadows), sorcerer (gift of the shadows)
-
 Spell: magic mirror
 Class: mage/sorc L7
 Sphere: divination
@@ -63,6 +44,22 @@ Non-specialized mages cannot cast this spell.
 
 Components, mage: mini platinum sword x1
 
+Spell: project image
+Class: mage L7, bard L6
+Sphere: illusion
+Saving throw: n/a
+Syntax: cast <classname> project image on <target>
+
+This spell will conjure an illusionary image of the caster, which will seek
+out the specified target and convey the caster's thoughts by way of its own
+speech.  Likewise, it will convey the words of the target back to the
+caster.  To speak to the target, the caster should use the <tell> and
+<reply> commands as per telepathy effects.  Any attack upon the image will
+cause it to dissipate.  You can be rid of the image with <dismiss image>.
+
+Non-specialized mages cannot cast this spell.
+
+
 Spell: prismatic spray
 Class: mage/sorc L7
 Sphere: invocation_evocation
@@ -74,6 +71,20 @@ shimmering rays of light to flash from his/her hand.  Each ray has a
 different purpose and power.  The creature struck will be touched by one or
 more rays and will be subject to a number of different attacks from the
 spell.
+
+
+Spell: resonating word
+Class: mage L7, bard L5
+Sphere: alteration
+Saving throw: fort
+Syntax: cast <classname> resonating word on <target>
+
+The caster uses a word of power to cause potentially lethal vibrations in
+the chosen target. Its effects are only subtle to begin with, but quickly
+become destructive. Those with a greater degree of fortitude may be able to
+withstand the worst of its effects.
+
+Non-specialized mages cannot cast this spell.
 
 
 Spell: finger of death
@@ -88,6 +99,25 @@ target.
 
 This spell can only be cast while at peace.
 
+
+Spell: shadow double
+Class: mage/sorc L7
+Sphere: illusion
+Saving throw: n/a
+Syntax: cast <classname> shadow double
+
+This spell will conjure a ghostly double of the caster, drawn from his or
+her own shadow. The shadow will automatically follow and protect you.
+Should you lose it, though, simply go into the room with it and <command
+shadow to follow>. This is a greater summons, and cannot be used
+simultaneously with other greater summons.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage/sorc: onyx dust x1
+
+Feat requirements: shadow_adept (gift of the shadows), mage/sorc (gift of
+the shadows), sorcerer (gift of the shadows)
 
 Spell: spell turning
 Class: mage L7

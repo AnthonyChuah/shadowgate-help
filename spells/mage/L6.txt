@@ -1,3 +1,33 @@
+Spell: contingency
+Class: mage/sorc L6
+Sphere: invocation_evocation
+Saving throw: n/a
+Syntax: cast <classname> contingency on <spell name> (| <arguments to the
+spell>)
+
+This spell allows you to put a spell in reserve, called upon at any time
+with the command <now>.  The target of the reserved spell is always the
+caster, but arguments can be specified for spells that require them.  You
+must carry a likeness of yourself, usually a small statue, when casting
+this spell./n/nexample of usage:  cast contingency on teleport |
+<remembered location>
+
+Components, mage/sorc: eyelash of ogre-mage x1, quicksilver x1
+
+Spell: disintegrate
+Class: cleric L8, mage/sorc L6
+Sphere: invocation_evocation
+Domain: destruction
+Saving throw: fort
+Syntax: cast <classname> disintegrate on <target>
+
+This spell sends a powerful line of destructive energy at the target.  If
+the target resists, then they are able to avoid most of the damage, but if
+the spell hits successfully, then the target suffers great damage and the
+objects in his or her inventory may also be damaged.
+
+Components, mage/sorc: ruby dust x1, powdered amber x2
+
 Spell: dragon scales
 Class: mage/sorc L6
 Sphere: conjuration_summoning
@@ -13,48 +43,6 @@ dragon scale will also cover the caster. This will only work on those
 wearing mage-like armor.
 
 Components, mage/sorc: dragon scale x1
-
-Spell: chain lightning
-Class: mage/sorc L6
-Sphere: invocation_evocation
-Saving throw: reflex
-Syntax: cast <classname> chain lightning on <target>
-
-Chain lightning causes a great bolt of electrical energy to attack your
-target.  After the bolt has attacked your target, the lightning bolt has
-enough energy to continue jumping around the room, damaging other people
-and anything else that happens to be in the room. A versatile arcanist can
-manipulate the base element of this spell.
-
-Components, mage/sorc: glass rod x1, fur x1, silver pin x1
-
-Spell: disintegrate
-Class: cleric L8, mage/sorc L6
-Sphere: invocation_evocation
-Domain: destruction
-Saving throw: fort
-Syntax: cast <classname> disintegrate on <target>
-
-This spell sends a powerful line of destructive energy at the target.  If
-the target resists, then they are able to avoid most of the damage, but if
-the spell hits successfully, then the target suffers great damage and the
-objects in his or her inventory may also be damaged.
-
-Components, mage/sorc: ruby dust x1, powdered amber x2
-
-Spell: disintegrate
-Class: cleric L8, mage/sorc L6
-Sphere: invocation_evocation
-Domain: destruction
-Saving throw: fort
-Syntax: cast <classname> disintegrate on <target>
-
-This spell sends a powerful line of destructive energy at the target.  If
-the target resists, then they are able to avoid most of the damage, but if
-the spell hits successfully, then the target suffers great damage and the
-objects in his or her inventory may also be damaged.
-
-Components, mage/sorc: ruby dust x1, powdered amber x2
 
 Spell: mind fog
 Class: mage L6
@@ -90,21 +78,19 @@ Non-specialized mages cannot cast this spell.
 Components, mage: sand x1, pinch of special dust x1 (or nil w. eschew
 materials)
 
-Spell: contingency
+Spell: chain lightning
 Class: mage/sorc L6
 Sphere: invocation_evocation
-Saving throw: n/a
-Syntax: cast <classname> contingency on <spell name> (| <arguments to the
-spell>)
+Saving throw: reflex
+Syntax: cast <classname> chain lightning on <target>
 
-This spell allows you to put a spell in reserve, called upon at any time
-with the command <now>.  The target of the reserved spell is always the
-caster, but arguments can be specified for spells that require them.  You
-must carry a likeness of yourself, usually a small statue, when casting
-this spell./n/nexample of usage:  cast contingency on teleport |
-<remembered location>
+Chain lightning causes a great bolt of electrical energy to attack your
+target.  After the bolt has attacked your target, the lightning bolt has
+enough energy to continue jumping around the room, damaging other people
+and anything else that happens to be in the room. A versatile arcanist can
+manipulate the base element of this spell.
 
-Components, mage/sorc: eyelash of ogre-mage x1, quicksilver x1
+Components, mage/sorc: glass rod x1, fur x1, silver pin x1
 
 Spell: transformation
 Class: mage/sorc L6

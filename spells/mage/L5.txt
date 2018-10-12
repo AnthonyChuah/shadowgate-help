@@ -1,19 +1,46 @@
-Spell: acid breath
-Class: mage/sorc L5
-Sphere: alteration
+Spell: cone of cold
+Class: mage/sorc L5, monk L15
+Sphere: invocation_evocation
 Saving throw: reflex
-Syntax: cast <classname> acid breath on <target>
+Syntax: cast <classname> cone of cold on <target>
 
-This incantation allows for the mage to collect a pool of acid in his/her
-mouth.  The magics of this spell prevent the caster from being harmed by
-the acid while it is being collected.  The mage then is able to release the
-acid as a breath weapon attack, the droplets of acid spinning around in a
-cone.  More acid is able to be collected as the mage grows in power, making
-the spell very deadly for a powerful caster.  Though it will become harder
-for the mage to control the acid they stream forth, sometimes even
-accidentally hitting friends or allies.
+By casting this spell, you form a massive white cone of icy cold towards
+your target.  Not only does this spell increase damagewise as the caster
+increases in level, but also, the chance of hitting an unintended target in
+addition to the intentional one increases too.  The mage will try to aim
+the spell at only hostile targets, but this is not always possible.
 
-Components, mage/sorc: snakes tongue x1 (or nil w. eschew materials)
+Components, mage/sorc: crystal x1 (or nil w. eschew materials)
+
+Spell: ball lightning
+Class: mage/sorc L5
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> ball lightning on <target>
+
+This spell allows for a mage to conjure forth at least three balls of
+lightning, which they can then hurl at a target. As the mage's power grows,
+she will find it easier to summon a greater number of lightning balls,
+increasing the damage potential of the spell. A versatile arcanist can
+manipulate the base element of this spell.
+
+Components, mage/sorc: will o wisp essence x1, disc of bronze x2
+
+Spell: break curse
+Class: cleric L8, paladin L3, mage/sorc L5, bard L4
+Sphere: abjuration
+Domain: magic
+Saving throw: n/a
+Syntax: cast <classname> break curse on <object> [at <player>]
+
+This powerful spell will break a curse that has been placed upon a magical
+item, unravelling the corrupted weave around it.  Only the most skilled of
+abjurers can attempt to disentangle enchantments in such a manner.
+
+Sorcerers and non-specialized mages cannot cast this spell.
+
+Components, mage: powdered diamond x2
+Components, bard: hymn x3
 
 Spell: domination
 Class: mage/sorc L5
@@ -34,6 +61,34 @@ of OOC harrassment.  OOC lines can be used to communicate if necessary
 during the spell, as the victim will not be able to speak of their own
 accord ICly.
 
+
+Spell: acid breath
+Class: mage/sorc L5
+Sphere: alteration
+Saving throw: reflex
+Syntax: cast <classname> acid breath on <target>
+
+This incantation allows for the mage to collect a pool of acid in his/her
+mouth.  The magics of this spell prevent the caster from being harmed by
+the acid while it is being collected.  The mage then is able to release the
+acid as a breath weapon attack, the droplets of acid spinning around in a
+cone.  More acid is able to be collected as the mage grows in power, making
+the spell very deadly for a powerful caster.  Though it will become harder
+for the mage to control the acid they stream forth, sometimes even
+accidentally hitting friends or allies.
+
+Components, mage/sorc: snakes tongue x1 (or nil w. eschew materials)
+
+Spell: lower resistance
+Class: mage/sorc L5
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> lower resistance on <target>
+
+This will temporarily pull from the target some quantity of magic
+resistance.
+
+Components, mage/sorc: iron rod x1 (or nil w. eschew materials)
 
 Spell: teleport
 Class: mage/sorc L5
@@ -66,28 +121,16 @@ distances.
 Non-specialized mages cannot cast this spell.
 
 
-Spell: ball lightning
-Class: mage/sorc L5
-Sphere: conjuration_summoning
+Spell: wall of stone
+Class: druid L6, mage/sorc L5, monk L9
+Sphere: earth
 Saving throw: n/a
-Syntax: cast <classname> ball lightning on <target>
+Syntax: cast <classname> wall of stone on <exit>
 
-This spell allows for a mage to conjure forth at least three balls of
-lightning, which they can then hurl at a target. As the mage's power grows,
-she will find it easier to summon a greater number of lightning balls,
-increasing the damage potential of the spell. A versatile arcanist can
-manipulate the base element of this spell.
+This command will cause a wall of rubble to appear on an exit, preventing
+travel in that direction until all of the rubble has been cleared away. 
+The more powerful the caster, the larger the rubble wall that must be
+removed.
 
-Components, mage/sorc: will o wisp essence x1, disc of bronze x2
-
-Spell: lower resistance
-Class: mage/sorc L5
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> lower resistance on <target>
-
-This will temporarily pull from the target some quantity of magic
-resistance.
-
-Components, mage/sorc: iron rod x1 (or nil w. eschew materials)
+Components, mage/sorc: granite dust x1 (or nil w. eschew materials)
 

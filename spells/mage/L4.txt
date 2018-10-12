@@ -1,46 +1,86 @@
-Spell: ice storm
-Class: mage/sorc L4
-Sphere: invocation_evocation
-Saving throw: reflex
-Syntax: cast <classname> ice storm
-
-When the ice storm spell is cast, the mage summons storm clouds above that
-rain hail and ice down upon anything in the area.  The spell will not
-damage the caster and lasts for a number of rounds equal to the caster's
-level. A versatile arcanist can manipulate the base element of this spell.
-
-Components, mage/sorc: water x3, pinch of special dust x1 (or nil w. eschew
-materials)
-
-Spell: bestow curse
-Class: mage L4
-Sphere: necromancy
+Spell: fear
+Class: cleric L5, mage/sorc L4, psion L6, bard L3
+Sphere: enchantment_charm
+Domain: tyranny
 Saving throw: will
-Syntax: cast <classname> bestow curse on <target>
+Syntax: cast <classname> fear
 
-By means of this spell, the caster places a curse upon the target that will
-weaken them considerably, lowering their defenses and their combat
-abilities. It is not dispellable by normal magics, but will fade over time.
+Fear sends a wave of horrid thoughts and images out toward the foes around
+the caster, possibly terrifying them.  It can make the creature briefly
+flee in fright, or it may make him drop his weapons and cower before the
+caster.
 
-Non-specialized mages cannot cast this spell.
+Components, mage/sorc: white feather x1 (or nil w. eschew materials)
+Components, bard: dirge x2 (or nil w. eschew materials)
 
-Components, mage: charcoal x2 (or nil w. eschew materials)
+Spell: gust of wind
+Class: mage/sorc L4, monk L13
+Sphere: alteration
+Saving throw: reflex
+Syntax: cast <classname> gust of wind on <target>
 
-Spell: animate dead
-Class: cleric L3, mage/sorc L4
-Sphere: necromancy
+Waving a pair of specially prepared feathers in the air, the caster is able
+to generate a brief but intense gust of wind.  Using his left hand, the
+caster directs the damaging winds into their target.  The power of the gust
+of wind is dependant on the level of the caster.
+
+Components, mage/sorc: wing feather x2 (or nil w. eschew materials)
+
+Spell: detect scrying
+Class: mage/sorc L4, bard L4
+Sphere: divination
 Saving throw: n/a
-Syntax: cast <classname> animate dead (on <target>)
+Syntax: cast <classname> detect scrying
 
-This spell is pure evil, and only evil casters use it often. You can summon
-a total number of hit dice worth of zombies and skeletons up to your
-casting level.  They will follow you and defend you from your enemies. 
-Unlike most common monster summoning spells, these monsters will not go
-away unless the caster quits.  They are undead, so they can be turned, and
-so forth, but they cannot be dispelled.
+By means of this spell, the wizard immediately becomes aware of any attempt
+to observe him by means of clairvoyance, clairaudience, or magic mirror. 
+This also reveals the use of crystal balls or other magical scrying
+devices, provided the attempt is within the area of effect of the spell. 
+Since the spell is centered on the spellcaster, it moves with him, enabling
+him to 'sweep' areas for the duration of the spell.
 
-Components, mage/sorc: bit of bone x1, drop of blood x1 (or nil w. eschew
-materials)
+When a scrying attempt is detected, the scryer must immediately roll a
+saving throw.  If this is failed, the appearance and general location of
+the scryer immediately become known to the wizard who cast this spell. The
+general location is the room and area where the scryer is located at the
+time.
+
+This spell does not protect from scrying, however.  Despite the fact that
+you have detected the scrying, you cannot end the scrying without casting a
+spell or using an object that protects from scrying.
+
+Components, mage/sorc: tiny hearing trumpet x1, piece of mirror x1
+Components, bard: rhyme x1 (or nil w. eschew materials)
+
+Spell: shout
+Class: mage/sorc L4, bard L4
+Sphere: enchantment_charm
+Saving throw: fort
+Syntax: cast <classname> shout on <target>
+
+This spell allows for the mage to magically enchant and enhance her voice,
+to deliver a strong sonic attack against one target.  The amplified voice
+can knock some targets off balance for a moment, forcing them to spend some
+time for the ringing in their ears to pass.
+
+
+Spell: wall of fire
+Class: mage/sorc L4, monk L13
+Sphere: invocation_evocation
+Saving throw: n/a
+Syntax: cast <classname> wall of fire [on <exit>]
+
+The spell, wall of fire, is an impressive spell for the magi indeed.  The
+wizard can cast the wall around himself, protectively, or in front of an
+exit, so all who pass through that exit will be scorched by the flames.  To
+cast the wall around him/herself, the mage simply types <cast classname
+wall of fire>.  Otherwise, the mage might type <cast classname wall of fire
+on north> to damage those passing through the exit.  Be warned however, the
+mage who casts this spell must keep concentration on the wall to maintain
+its existence.  The mage may type <remove wall> to quench the flames. A
+versatile arcanist can manipulate the base element of this spell.
+
+Components, mage/sorc: phosphorus x1 (or nil w. eschew materials)
 
 Spell: black tentacles
 Class: mage L4
@@ -56,49 +96,6 @@ Non-specialized mages cannot cast this spell.
 
 Components, mage: carbon x1 (or nil w. eschew materials)
 
-Spell: water breathing
-Class: mage/sorc L4
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> vacuum breathing on <target>
-
-This spell allows the target to survive in a vacuum for a limited period of
-time.
-
-Components, mage/sorc: bell jar x1 (or nil w. eschew materials)
-
-Spell: fire shield
-Class: cleric L3, mage/sorc L4
-Sphere: invocation_evocation
-Domain: fire
-Saving throw: fort
-Syntax: cast <classname> fire shield
-
-This spell will surround the caster's body in a roaring shield of flames. 
-It grants the caster a slight bonus to their armor class, and any opponent
-striking the caster must make a saving throw or take damage from the
-blistering heat.
-
-Non-specialized mages cannot cast this spell.
-
-Components, mage: phosphorus x1 (or nil w. eschew materials)
-
-Spell: fire shield
-Class: cleric L3, mage/sorc L4
-Sphere: invocation_evocation
-Domain: fire
-Saving throw: fort
-Syntax: cast <classname> fire shield
-
-This spell will surround the caster's body in a roaring shield of flames. 
-It grants the caster a slight bonus to their armor class, and any opponent
-striking the caster must make a saving throw or take damage from the
-blistering heat.
-
-Non-specialized mages cannot cast this spell.
-
-Components, mage: phosphorus x1 (or nil w. eschew materials)
-
 Spell: animate dead
 Class: cleric L3, mage/sorc L4
 Sphere: necromancy
@@ -113,5 +110,72 @@ away unless the caster quits.  They are undead, so they can be turned, and
 so forth, but they cannot be dispelled.
 
 Components, mage/sorc: bit of bone x1, drop of blood x1 (or nil w. eschew
+materials)
+
+Spell: fire shield
+Class: cleric L3, mage/sorc L4
+Sphere: invocation_evocation
+Domain: fire
+Saving throw: fort
+Syntax: cast <classname> fire shield
+
+This spell will surround the caster's body in a roaring shield of flames. 
+It grants the caster a slight bonus to their armor class, and any opponent
+striking the caster must make a saving throw or take damage from the
+blistering heat.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: phosphorus x1 (or nil w. eschew materials)
+
+Spell: stoneskin
+Class: druid L5, mage/sorc L4, monk L11
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> stoneskin on <target>
+
+This spell causes the target to take less damage from to a certain number
+of attacks, based on the level of the caster. It does not work together
+with iron body.
+
+Components, mage/sorc: granite dust x1 (or nil w. eschew materials)
+
+Spell: bestow curse
+Class: mage L4
+Sphere: necromancy
+Saving throw: will
+Syntax: cast <classname> bestow curse on <target>
+
+By means of this spell, the caster places a curse upon the target that will
+weaken them considerably, lowering their defenses and their combat
+abilities. It is not dispellable by normal magics, but will fade over time.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: charcoal x2 (or nil w. eschew materials)
+
+Spell: water breathing
+Class: mage/sorc L4
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> vacuum breathing on <target>
+
+This spell allows the target to survive in a vacuum for a limited period of
+time.
+
+Components, mage/sorc: bell jar x1 (or nil w. eschew materials)
+
+Spell: ice storm
+Class: mage/sorc L4
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> ice storm
+
+When the ice storm spell is cast, the mage summons storm clouds above that
+rain hail and ice down upon anything in the area.  The spell will not
+damage the caster and lasts for a number of rounds equal to the caster's
+level. A versatile arcanist can manipulate the base element of this spell.
+
+Components, mage/sorc: water x3, pinch of special dust x1 (or nil w. eschew
 materials)
 

@@ -1,48 +1,14 @@
-Spell: blasphemy
+Spell: confusion
 Class: cleric L7
 Sphere: enchantment_charm
-Domain: evil
-Saving throw: reflex
-Syntax: cast <classname> blasphemy
+Domain: trickery
+Saving throw: will
+Syntax: cast <classname> confusion on <target>
 
-This spell channels unholy magic directly to the caster and releases it at
-a target in the form of a silent explosion.  Those of good hearts have the
-additional chance to be blinded and/or stunned, while those of neutral bent
-may be stunned briefly.
-
-
-Spell: aura of healing
-Class: cleric L7
-Sphere: healing
-Saving throw: n/a
-Syntax: cast <classname> aura of healing
-
-This spell heals wounds on party members.  The amount and length of the
-spell are dependent on the strength of the caster.  The party members must
-remain with the caster to receive the effect.
-
-
-Spell: sols searing orb
-Class: cleric L7
-Sphere: sun
-Saving throw: n/a
-Syntax: cast <classname> sols searing orb
-
-This spell turns a gem of value into a searing orb of light and magical
-fire. When the gem is turned into the orb, the caster must <throw orb at
-target> or throw orb <direction> before it explodes.
-
-
-Spell: blade barrier
-Class: cleric L7
-Sphere: combat
-Saving throw: n/a
-Syntax: cast <classname> blade barrier
-
-This spell surrounds the caster in a protective whirlwind of spinning,
-razor sharp blades.  The blades will follow the caster wherever they go and
-inflict damage on any enemies that get too close.  The amount of blades in
-the air depends on the level of the caster.
+This spell will attempt to confuse the target and make them do random
+things.  They might babble incoherently, attack the closest thing to them,
+or simply wander away.  When used on a player, it simply causes them to
+stand and stare blankly.
 
 
 Spell: flameburst
@@ -59,6 +25,114 @@ consume the target's lungs and heart, and render them unable to move.  If
 the spell is not dispelled before it has time to complete, the target's
 chest will explode dealing great damage to him and anything near him.
 
+
+Spell: blasphemy
+Class: cleric L7
+Sphere: enchantment_charm
+Domain: evil
+Saving throw: reflex
+Syntax: cast <classname> blasphemy
+
+This spell channels unholy magic directly to the caster and releases it at
+a target in the form of a silent explosion.  Those of good hearts have the
+additional chance to be blinded and/or stunned, while those of neutral bent
+may be stunned briefly.
+
+
+Spell: hypothermia
+Class: cleric L7
+Sphere: combat
+Domain: cold
+Saving throw: reflex
+Syntax: cast <classname> hypothermia on <target>
+
+This spell creates a freezing ray of bitter cold.  The ray will seek to
+drain the heat from the target as the cold moves through his body.  Because
+it is a ray, there is a chance the target can dodge some of the bitter
+cold.  However, if hit with the full force of the spell, the target will
+also begin to grow chilled, eventually becoming frozen and blinded for a
+time.
+
+
+Spell: charm monster
+Class: cleric L7, bard L3
+Sphere: enchantment_charm
+Domain: charm
+Saving throw: will
+Syntax: cast <classname> charm monster on <target>
+
+Casting this divine prayer will allow a priest to attempt to charm a mob. 
+If the mob falls prey to the charm, they will stand in defense of the
+caster, and follow them around.  Caution should be exercised, for if you
+take any offensive actions against the charmed monster, the charm will end.
+A caster may have only one charmed creature under their sway at one time.
+
+OOC
+Please exercise caution and good role-playing skills when using this
+prayer.  Just because you have a monster charmed, does not mean people will
+react well to it in crowded places.
+
+
+Spell: berserker
+Class: cleric L7
+Sphere: combat
+Domain: war
+Saving throw: n/a
+Syntax: cast <classname> berserker
+
+This spell will fill the caster with the rage of war, causing him to
+berserk madly.  The strength of the caster's deity and a blessed speed
+result in blind fighting and reckless fearlessness. This spell does not
+work in conjunction with similar magical effects, such as rally, rage,
+haste, transformation, dance of a thousand cuts, or fell flight.
+
+Note: Being berserk means that you are maddened with rage.  This is *not* a
+state in which you can calmly participate in a normal conversation,
+undertake delicate tasks, solve problems, or pretty much do anything other
+than shout obscenities and kill things.
+
+Please bear in mind that when you use the spell you are also expected to
+roleplay it.
+
+
+Spell: cometfall
+Class: cleric L7
+Sphere: combat
+Domain: creation
+Saving throw: reflex
+Syntax: cast <classname> cometfall
+
+By chanting this spell, the priest calls into being a horde of comets,
+blanketing a small area.  Those within the area risk being knocked to the
+ground and seared by the molten rock.
+
+
+Spell: forgotten melody
+Class: cleric L7, bard L5
+Sphere: enchantment_charm
+Domain: knowledge
+Saving throw: will
+Syntax: cast <classname> forgotten melody on <target> in <language>
+
+This spell has the caster singing the beginning of a catchy tune.  The tune
+gets locked in the head of the target listeners.  This prevents them from
+doing anything involving concentration due to their infatuation with the
+song.  The caster does not have to continue singing, as the spell's effects
+are that the targets become lost in trying to figure out the tune.
+
+
+Spell: regeneration
+Class: cleric L7, druid L9, bard L5
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> regeneration on <target>
+
+This spell will cause the target to continuously regenerate a small amount
+of health over a long period of time.  It cannot be used on the same target
+more than once, and does not work in conjunction with the feat of the same
+name.
+
+Components, bard: sonnet x1 (or nil w. eschew materials)
 
 Spell: rage
 Class: cleric L7
@@ -84,42 +158,37 @@ Please bear in mind that when you use the spell you are also expected to
 roleplay it.
 
 
-Spell: cometfall
+Spell: aura of healing
 Class: cleric L7
-Sphere: combat
-Domain: creation
-Saving throw: reflex
-Syntax: cast <classname> cometfall
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> aura of healing
 
-By chanting this spell, the priest calls into being a horde of comets,
-blanketing a small area.  Those within the area risk being knocked to the
-ground and seared by the molten rock.
+This spell heals wounds on party members.  The amount and length of the
+spell are dependent on the strength of the caster.  The party members must
+remain with the caster to receive the effect.
 
 
-Spell: confusion
+Spell: sols searing orb
 Class: cleric L7
-Sphere: enchantment_charm
-Domain: trickery
-Saving throw: will
-Syntax: cast <classname> confusion on <target>
+Sphere: sun
+Saving throw: n/a
+Syntax: cast <classname> sols searing orb
 
-This spell will attempt to confuse the target and make them do random
-things.  They might babble incoherently, attack the closest thing to them,
-or simply wander away.  When used on a player, it simply causes them to
-stand and stare blankly.
+This spell turns a gem of value into a searing orb of light and magical
+fire. When the gem is turned into the orb, the caster must <throw orb at
+target> or throw orb <direction> before it explodes.
 
 
-Spell: holy word
-Class: cleric L7
-Sphere: enchantment_charm
-Domain: good
-Saving throw: reflex
-Syntax: cast <classname> holy word
+Spell: telepathy
+Class: cleric L7, psion L4
+Sphere: divination
+Discipline: telepath
+Saving throw: n/a
+Syntax: cast <classname> telepathy to <target>
 
-This spell channels holy magic directly to the caster and releases it at a
-target in the form of a silent explosion.  Those of evil hearts have the
-additional chance to be blinded and/or stunned, while those of neutral bent
-may be stunned briefly.
+This will allow the caster to establish a mental link with the target,
+allowing conversations through telepathy for a short time.
 
 
 Spell: thorn spray
@@ -133,41 +202,16 @@ This spell will cause a number of sharp thorns to fly from the caster's
 hand toward the target.
 
 
-Spell: hypothermia
+Spell: blade barrier
 Class: cleric L7
 Sphere: combat
-Domain: cold
-Saving throw: reflex
-Syntax: cast <classname> hypothermia on <target>
-
-This spell creates a freezing ray of bitter cold.  The ray will seek to
-drain the heat from the target as the cold moves through his body.  Because
-it is a ray, there is a chance the target can dodge some of the bitter
-cold.  However, if hit with the full force of the spell, the target will
-also begin to grow chilled, eventually becoming frozen and blinded for a
-time.
-
-
-Spell: berserker
-Class: cleric L7
-Sphere: combat
-Domain: war
 Saving throw: n/a
-Syntax: cast <classname> berserker
+Syntax: cast <classname> blade barrier
 
-This spell will fill the caster with the rage of war, causing him to
-berserk madly.  The strength of the caster's deity and a blessed speed
-result in blind fighting and reckless fearlessness. This spell does not
-work in conjunction with similar magical effects, such as rally, rage,
-haste, transformation, dance of a thousand cuts, or fell flight.
-
-Note: Being berserk means that you are maddened with rage.  This is *not* a
-state in which you can calmly participate in a normal conversation,
-undertake delicate tasks, solve problems, or pretty much do anything other
-than shout obscenities and kill things.
-
-Please bear in mind that when you use the spell you are also expected to
-roleplay it.
+This spell surrounds the caster in a protective whirlwind of spinning,
+razor sharp blades.  The blades will follow the caster wherever they go and
+inflict damage on any enemies that get too close.  The amount of blades in
+the air depends on the level of the caster.
 
 
 Spell: wave of pain
@@ -179,5 +223,18 @@ Syntax: cast <classname> wave of pain
 
 Through this spell, the caster sends out a great wave of pain that can
 harm, kill, and/or paralyze all in its path.
+
+
+Spell: holy word
+Class: cleric L7
+Sphere: enchantment_charm
+Domain: good
+Saving throw: reflex
+Syntax: cast <classname> holy word
+
+This spell channels holy magic directly to the caster and releases it at a
+target in the form of a silent explosion.  Those of evil hearts have the
+additional chance to be blinded and/or stunned, while those of neutral bent
+may be stunned briefly.
 
 

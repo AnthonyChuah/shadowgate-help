@@ -1,32 +1,14 @@
-Spell: astral construct
+Spell: ultrablast
 Class: psion L7
-Sphere: conjuration_summoning
-Discipline: shaper
-Saving throw: n/a
-Syntax: cast <classname> astral construct
+Sphere: invocation_evocation
+Saving throw: will
+Syntax: cast <classname> ultrablast on <target>
 
-By manifesting this command, a shaper may pull small portions of ectoplasm
-from the Astral Plane and weave from them a construct to do his bidding. 
-The shaper must be careful, else he may lose control of his new creation.
+A psion begins manifesting this spell by creating a psychic 'grumbling'
+that toys with the minds of those nearby.  The psion allows his brain to
+emit an earsplitting shriek that resounds in the minds of the one targetted
+and those around him.
 
-To command the construct, simply: command construct to <action>
-
-
-Spell: oak body
-Class: psywarrior L5, psion L7
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> oak body
-
-By using this power, the psionic character lends some of his psychic energy
-to protect himself. It causes the manifester to gain some resistance to
-physical attacks, as well as immunity to most standard poisons. The oaken
-nature of the power leaves the manifester vulnerable to fire attacks. The
-oaken body brings a minor bonus to strength at the cost of dexterity. This
-power does not work together with Stoneskin or Iron Body.
-
-Components, psywarrior: sapphire x2
-Components, psion: sapphire x2
 
 Spell: oak body
 Class: psywarrior L5, psion L7
@@ -58,16 +40,18 @@ applies to both attack and damage rolls.
 
 Components, psion: blue tigers eye x1
 
-Spell: evade burst
-Class: psywarrior L3, psion L7
-Sphere: alteration
+Spell: astral construct
+Class: psion L7
+Sphere: conjuration_summoning
+Discipline: shaper
 Saving throw: n/a
-Syntax: cast <classname> evade burst
+Syntax: cast <classname> astral construct
 
-Using this power, the psionic character gains the ability to avoid damage
-from certain spells and powers as if he had the evasion feat. For more
-specific information, please see <help evasion>. This power does not stack
-with the evasion feat.
+By manifesting this command, a shaper may pull small portions of ectoplasm
+from the Astral Plane and weave from them a construct to do his bidding. 
+The shaper must be careful, else he may lose control of his new creation.
+
+To command the construct, simply: command construct to <action>
 
 
 Spell: phase door
@@ -124,42 +108,6 @@ Syntax: cast <classname> speak with dead to <target>
 This will allow the caster to attempt to establish a mental connection with
 a deceased individual.
 
-
-Spell: speak with dead
-Class: cleric L9, psion L7
-Sphere: divination
-Discipline: telepath
-Saving throw: n/a
-Syntax: cast <classname> speak with dead to <target>
-
-This will allow the caster to attempt to establish a mental connection with
-a deceased individual.
-
-
-Spell: ultrablast
-Class: psion L7
-Sphere: invocation_evocation
-Saving throw: will
-Syntax: cast <classname> ultrablast on <target>
-
-A psion begins manifesting this spell by creating a psychic 'grumbling'
-that toys with the minds of those nearby.  The psion allows his brain to
-emit an earsplitting shriek that resounds in the minds of the one targetted
-and those around him.
-
-
-Spell: mind blank
-Class: psywarrior L6, psion L7
-Sphere: abjuration
-Saving throw: n/a
-Syntax: cast <classname> mind blank
-
-This power shields the psionic character's mind. The mental fortress
-provides the same benefits as the Escape Detection power as well as
-offering additional protection against mind-affecting spells and powers.
-
-Components, psywarrior: beryl x1, tektite x1
-Components, psion: beryl x1, tektite x1
 
 Spell: mind blank
 Class: psywarrior L6, psion L7

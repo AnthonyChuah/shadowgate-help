@@ -10,15 +10,16 @@ is not considered armor.
 
 Components, mage/sorc: blessed leather x1 (or nil w. eschew materials)
 
-Spell: color spray
-Class: mage/sorc L1
-Sphere: illusion
+Spell: burning hands
+Class: mage/sorc L1, monk L3
+Sphere: alteration
 Saving throw: reflex
-Syntax: cast <classname> color spray
+Syntax: cast <classname> burning hands on <target>
 
-Color spray, when cast, will cause a blinding light of mixed colors to
-flash from the caster.  All creatures not in the caster's party can be
-blinded temporarily by this, or even knocked unconscious.
+This spell begins by the caster fanning out his hands while chanting the
+spell.  Flames will flare out and do a small amount of damage to the target
+and those near him. A versatile arcanist can manipulate the base element of
+this spell.
 
 
 Spell: chill touch
@@ -35,6 +36,29 @@ time runs out. A versatile arcanist can manipulate the base element of this
 spell.
 
 
+Spell: sleep
+Class: mage/sorc L1, psion L1, bard L1
+Sphere: enchantment_charm
+Saving throw: will
+Syntax: cast <classname> sleep on <target>
+
+Upon casting the sleep spell, 2d4 HD of monsters will fall asleep.  Attacks
+on the sleepers will awaken them; normal noise won't, however.  Monsters
+with 4 HD + 3hp will not be affected.
+
+Components, bard: lullaby x1 (or nil w. eschew materials)
+
+Spell: color spray
+Class: mage/sorc L1
+Sphere: illusion
+Saving throw: reflex
+Syntax: cast <classname> color spray
+
+Color spray, when cast, will cause a blinding light of mixed colors to
+flash from the caster.  All creatures not in the caster's party can be
+blinded temporarily by this, or even knocked unconscious.
+
+
 Spell: identify
 Class: mage/sorc L1
 Sphere: divination
@@ -48,6 +72,34 @@ same room with you will also know the enchantment of that item.
 
 Components, mage/sorc: owlfeather x1, pearl x1
 
+Spell: daze
+Class: mage L1, bard L1
+Sphere: enchantment_charm
+Saving throw: n/a
+Syntax: cast <classname> daze on <target>
+
+This spell attempts to dazzle a creature into immobility. It will only
+effect creatures of 10 hitdice or lower, and will have a greater effect on
+weaker opponents.
+
+Non-specialized mages cannot cast this spell.
+
+NOTE: For the feat, please see <help daze *feats>
+
+
+Spell: detect magic
+Class: cleric L1, druid L1, warlock L1, mage/sorc L1, bard L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> detect magic
+
+Will allow the caster to view an aura of magic around objects or creatures
+they observe. The more intense the aura the more magic is indicated.
+Particularly powerful magic may skew the view of other magics. For example
+an especially magical creature might skew the view of the magic sword its
+wielding.
+
+
 Spell: light
 Class: cleric L1, paladin L1, mage/sorc L1
 Sphere: alteration
@@ -56,6 +108,53 @@ Syntax: cast <classname> light on <target>
 
 This will create a small ball of light, which will light your way. You can
 cast it on an object or player which it will follow, instead of the caster.
+
+
+Spell: shield
+Class: mage L1
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> shield
+
+This spell calls a protective shield into existance before the caster. It
+negates magic missiles, and provides a small bonus to armor class for its
+duration. Use of a physical shield will interfere with the spell and cause
+it to fade.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: clear crystal x1 (or nil w. eschew materials)
+
+Spell: summon companion
+Class: mage/sorc L1, bard L1
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> summon companion
+
+This spell allows a wizard to call for a creature as a permanent companion.
+Upon casting, the wizard must select what sort of creature s/he wishes to
+call forth, which is dependant upon the power of the caster.   This spell
+can only be cast once per day, though the creature can be called back and
+correspondingly dismissed at any time.  Creature commands are as follows:
+
+<call companion> will call it, at any time, if you have completed a
+summoning ritual.
+<dismiss companion> will send it away again, to await your next calling.
+<release companion> will permanently send the creature away.
+<help companion> will give you more available creature commands, when it is
+present.
+
+Components, mage/sorc: incense stick x1, charcoal x1, ivory portal x1
+
+Spell: magic missile
+Class: mage/sorc L1
+Sphere: invocation_evocation
+Saving throw: n/a
+Syntax: cast <classname> magic missile on <target>
+
+Magic missile will shoot darts of magical energy from your hand and they
+will fly towards your target with the unfailing ability to hit it.  The
+damage it causes increases by level.
 
 
 Spell: shocking grasp
@@ -76,49 +175,17 @@ potential.
 Non-specialized mages cannot cast this spell.
 
 
-Spell: light
-Class: cleric L1, paladin L1, mage/sorc L1
-Sphere: alteration
+Spell: summon swarm
+Class: druid L2, mage/sorc L1, bard L1
+Sphere: conjuration_summoning
 Saving throw: n/a
-Syntax: cast <classname> light on <target>
+Syntax: cast <classname> summon swarm
 
-This will create a small ball of light, which will light your way. You can
-cast it on an object or player which it will follow, instead of the caster.
-
-
-Spell: magic missile
-Class: mage/sorc L1
-Sphere: invocation_evocation
-Saving throw: n/a
-Syntax: cast <classname> magic missile on <target>
-
-Magic missile will shoot darts of magical energy from your hand and they
-will fly towards your target with the unfailing ability to hit it.  The
-damage it causes increases by level.
-
-
-Spell: shield
-Class: mage L1
-Sphere: abjuration
-Saving throw: n/a
-Syntax: cast <classname> shield
-
-This spell calls a protective shield into existance before the caster. It
-negates magic missiles, and provides a small bonus to armor class for its
-duration. Use of a physical shield will interfere with the spell and cause
-it to fade.
+This spell will call a swarm of insects to the caster's defense. They can
+be difficult to control, and if many foes are attacking the caster they
+will simply leap for the closest target, biting and pinching without
+hesitation.
 
 Non-specialized mages cannot cast this spell.
-
-Components, mage: clear crystal x1 (or nil w. eschew materials)
-
-Spell: light
-Class: cleric L1, paladin L1, mage/sorc L1
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> light on <target>
-
-This will create a small ball of light, which will light your way. You can
-cast it on an object or player which it will follow, instead of the caster.
 
 

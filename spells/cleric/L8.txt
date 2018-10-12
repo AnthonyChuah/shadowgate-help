@@ -11,6 +11,73 @@ watch the room the priest is currently in.  When targeted upon a person
 known to the priest, the eye will instead focus on that person.
 
 
+Spell: create portal
+Class: cleric L8
+Sphere: alteration
+Domain: travel
+Saving throw: n/a
+Syntax: cast <classname> create portal to <location>
+
+This power allows the priest to call on the power of his diety to open a
+portal from his current location to any place that he has remembered
+before.  The portal can not open unless both rooms may be teleported to and
+from.  The portal remains in effect longer for stronger casters.
+
+See also: remember, unremember, recall
+
+
+Spell: listening shadow
+Class: cleric L8, bard L6
+Sphere: divination
+Domain: darkness
+Saving throw: n/a
+Syntax: cast <classname> listening shadow on <target>
+
+This will move your shadow to listen to the room you're in or to follow the
+player indicated. You receive everything heard by the shadow.
+
+Components, bard: epithet x1, rhetoric x2
+
+Spell: disintegrate
+Class: cleric L8, mage/sorc L6
+Sphere: invocation_evocation
+Domain: destruction
+Saving throw: fort
+Syntax: cast <classname> disintegrate on <target>
+
+This spell sends a powerful line of destructive energy at the target.  If
+the target resists, then they are able to avoid most of the damage, but if
+the spell hits successfully, then the target suffers great damage and the
+objects in his or her inventory may also be damaged.
+
+Components, mage/sorc: ruby dust x1, powdered amber x2
+
+Spell: monsoon
+Class: cleric L8, monk L17
+Sphere: elemental water
+Saving throw: reflex
+Syntax: cast <classname> monsoon
+
+When the monsoon spell is cast, the surrounding area is engulfed in a
+raging storm of water.  Any target in the area of effect takes damage every
+round while the spell is in effect, but does not damage the caster.  This
+spell does not work in conjunction with the fire storm spell.
+
+
+Spell: earthquake
+Class: cleric L8, druid L8
+Sphere: combat
+Domain: cavern
+Saving throw: reflex
+Syntax: cast <classname> earthquake
+
+By unleashing this spell, the caster calls forth a mighty earthquake to
+trip and damage his foes.  The spell will last several rounds depending
+upon the level of the priest, and the priest must remain present for the
+spell to continue.  All those attacking the caster are subject to the
+effects of the earthquake, though they do receive saving throws.
+
+
 Spell: fortune fate
 Class: cleric L8
 Sphere: healing
@@ -31,34 +98,6 @@ attacker, by healing the target.  Those who follow the Lord of the Dead
 view this spell as protecting one from dying before their time.
 
 
-Spell: create portal
-Class: cleric L8
-Sphere: alteration
-Domain: travel
-Saving throw: n/a
-Syntax: cast <classname> create portal to <location>
-
-This power allows the priest to call on the power of his diety to open a
-portal from his current location to any place that he has remembered
-before.  The portal can not open unless both rooms may be teleported to and
-from.  The portal remains in effect longer for stronger casters.
-
-See also: remember, unremember, recall
-
-
-Spell: forbiddance
-Class: cleric L8
-Sphere: abjuration
-Domain: tyranny
-Saving throw: n/a
-Syntax: cast <classname> forbiddance
-
-This spell creates an oppressive aura of protection throughout the area,
-forbidding anyone from teleporting into or out of it.  The magic will last
-for a short time, until the caster leaves the area, or until it is
-dispelled.
-
-
 Spell: stormrage
 Class: cleric L8
 Sphere: weather
@@ -73,16 +112,30 @@ blasts of lightning.  Because the spell requires air to create its storm,
 it cannot be cast underwater.
 
 
-Spell: ghostform
-Class: cleric L8
-Sphere: conjuration_summoning
-Domain: repose
-Saving throw: n/a
-Syntax: cast <classname> ghostform
+Spell: sunburst
+Class: cleric L8, druid L8, mage/sorc L9
+Sphere: invocation_evocation
+Domain: sun
+Saving throw: reflex
+Syntax: cast <classname> sunburst
 
-Drawing forth the power of his deity, the caster is imbued with a spectral
-presence, causing him to be harder to see and therefore more difficult to
-hit.  This spell will last for a time depending upon the caster's level.
+This spell will send the light of the sun radiating out in a circle from
+the caster.  Any enemies caught in the area will suffer damage from the
+pure light of the sun.  Undead creatures suffer more damage than normal
+ones, and those creatures who fail their save are blinded by the light.
+
+Components, mage: sunstone x1 (or nil w. eschew materials)
+
+Spell: fire storm
+Class: cleric L8, monk L17
+Sphere: elemental fire
+Saving throw: reflex
+Syntax: cast <classname> fire storm
+
+When the fire storm spell is cast, the whole area is shot through with
+sheets of roaring flame.  Any target in the area of effect takes damage
+every round while the spell is in effect, but does not damage the caster. 
+This spell does not work in conjunction with the monsoon priest spell.
 
 
 Spell: stone body
@@ -98,29 +151,6 @@ damage will be resisted.  The spell also renders the caster immune to
 poison.
 
 
-Spell: silver sight
-Class: cleric L8
-Sphere: divination
-Domain: moon
-Saving throw: n/a
-Syntax: cast <classname> silver sight on <target>
-
-This spell will invoke the power of the moon to grant the caster
-far-reaching sight, allowing her to watch what goes on in the target room.
-
-
-Spell: gods favor
-Class: cleric L8
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> gods favor
-
-Gods favor allows those that are in high favor of their diety to call upon
-the protection of their god/goddess in times of trouble.  Once this spell
-has been cast, it can be triggered with the command <now> to drag the
-caster in safety back to their home temple.
-
-
 Spell: crushing hand
 Class: cleric L8
 Sphere: combat
@@ -133,6 +163,58 @@ well as lend its strength to the battles the caster may face.  While the
 hand is under the caster's control, he may <command hand to [action]> or
 <dismiss> the crushing hand if it is no longer needed.
 
+
+Spell: silver sight
+Class: cleric L8
+Sphere: divination
+Domain: moon
+Saving throw: n/a
+Syntax: cast <classname> silver sight on <target>
+
+This spell will invoke the power of the moon to grant the caster
+far-reaching sight, allowing her to watch what goes on in the target room.
+
+
+Spell: forbiddance
+Class: cleric L8
+Sphere: abjuration
+Domain: tyranny
+Saving throw: n/a
+Syntax: cast <classname> forbiddance
+
+This spell creates an oppressive aura of protection throughout the area,
+forbidding anyone from teleporting into or out of it.  The magic will last
+for a short time, until the caster leaves the area, or until it is
+dispelled.
+
+
+Spell: ghostform
+Class: cleric L8
+Sphere: conjuration_summoning
+Domain: repose
+Saving throw: n/a
+Syntax: cast <classname> ghostform
+
+Drawing forth the power of his deity, the caster is imbued with a spectral
+presence, causing him to be harder to see and therefore more difficult to
+hit.  This spell will last for a time depending upon the caster's level.
+
+
+Spell: break curse
+Class: cleric L8, paladin L3, mage/sorc L5, bard L4
+Sphere: abjuration
+Domain: magic
+Saving throw: n/a
+Syntax: cast <classname> break curse on <object> [at <player>]
+
+This powerful spell will break a curse that has been placed upon a magical
+item, unravelling the corrupted weave around it.  Only the most skilled of
+abjurers can attempt to disentangle enchantments in such a manner.
+
+Sorcerers and non-specialized mages cannot cast this spell.
+
+Components, mage: powdered diamond x2
+Components, bard: hymn x3
 
 Spell: tidal surge
 Class: cleric L8
@@ -147,6 +229,18 @@ the form of a massive wave that is directed at the target.  The wave may
 knock the target down as well as force him to drop his weapons.  The force
 of the water may also keep him from moving until he regains his senses. 
 Because of the size of the wave, nearby targets may be hit as well.
+
+
+Spell: gods favor
+Class: cleric L8
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> gods favor
+
+Gods favor allows those that are in high favor of their diety to call upon
+the protection of their god/goddess in times of trouble.  Once this spell
+has been cast, it can be triggered with the command <now> to drag the
+caster in safety back to their home temple.
 
 
 Spell: windstorm

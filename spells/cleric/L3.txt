@@ -1,14 +1,185 @@
-Spell: good hope
-Class: cleric L3
-Sphere: enchantment_charm
-Domain: charm
+Spell: create food
+Class: cleric L3, paladin L2
+Sphere: conjuration_summoning
 Saving throw: n/a
-Syntax: cast <classname> good hope on <target>
+Syntax: cast <classname> create food
 
-Invoking the blessings of good hope, this spell will grant the target a
-heightened sense in battle and a blessing on resisting some attacks (saving
-throws). It does not stack with similar morale-boosting spells, such as
-heroism.
+This spell creates a pile of edible food. You can eat some if you wish. The
+higher level the caster, the more food will be created.
+
+
+Spell: fire shield
+Class: cleric L3, mage/sorc L4
+Sphere: invocation_evocation
+Domain: fire
+Saving throw: fort
+Syntax: cast <classname> fire shield
+
+This spell will surround the caster's body in a roaring shield of flames. 
+It grants the caster a slight bonus to their armor class, and any opponent
+striking the caster must make a saving throw or take damage from the
+blistering heat.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: phosphorus x1 (or nil w. eschew materials)
+
+Spell: call lightning
+Class: cleric L3, druid L3
+Sphere: weather
+Saving throw: n/a
+Syntax: cast <classname> call lightning on <target>
+
+This is a destructive spell that could hurt an opponent very badly!  The
+higher level the caster is the more devastating this spell will become. 
+The spell can now be used anywhere, regardless of weather or if the caster
+is indoors.
+
+
+Spell: remove paralysis
+Class: cleric L3, paladin L2
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> remove paralysis on <target>
+
+This spell will remove any paralysis from its target. Negates hold spells,
+and paralysis spells.
+
+
+Spell: faithful mount
+Class: cleric L3
+Sphere: conjuration_summoning
+Domain: travel
+Saving throw: n/a
+Syntax: cast <classname> faithful mount
+
+By means of this spell, the caster calls upon their god to send forth a
+horse to serve as their faithful mount and to help defend them.
+
+This spell will not work if you are already mounted.
+
+
+Spell: seeking sword
+Class: cleric L3, paladin L4
+Sphere: combat
+Domain: war
+Saving throw: n/a
+Syntax: cast <classname> seeking sword
+
+This spell will create a floating and controllable sword for you that you
+can use to attack your enemies.  The sword will automatically follow and
+protect you.  Should you lose it, though, simply go into the room with it
+and <command sword to follow>.
+
+
+Spell: displacement
+Class: cleric L3, bard L3
+Sphere: conjuration_summoning
+Domain: illusion
+Saving throw: n/a
+Syntax: cast <classname> displacement
+
+Using the power of illusion, the caster calls forth a distortion of her
+form, making her harder to target with melee attacks.
+
+
+Spell: water breathing
+Class: psywarrior L1, cleric L3, druid L3, mage/sorc L3, psion L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> water breathing on <target>
+
+This spell allows the target to breathe water for a limited period of time.
+
+Components, mage/sorc: piece of reed x1 (or nil w. eschew materials)
+
+Spell: insight
+Class: cleric L3
+Sphere: divination
+Domain: mentalism
+Saving throw: n/a
+Syntax: cast <classname> insight on <target>
+
+This spell grants the target a second's insight into the future, allowing
+her to both avoid attacks better, and to hit her targets better.  The spell
+is more effective when used by a priest that is solely dedicated to her
+faith.
+
+
+Spell: dispel magic
+Class: cleric L3, paladin L3, druid L4, mage/sorc L3, bard L3
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> dispel magic (on <target>)
+
+Dispel Magic, when cast, will destroy any spell enchantments, any magical
+summonings, and anything conjured.  The chances of each dispelling depends
+on both the dispeller's casting level and the casting level of the wizard
+or priest that created whatever is being dispelled, whether it be an
+enchantment, summoning, or conjuration.
+
+
+Spell: animate dead
+Class: cleric L3, mage/sorc L4
+Sphere: necromancy
+Saving throw: n/a
+Syntax: cast <classname> animate dead (on <target>)
+
+This spell is pure evil, and only evil casters use it often. You can summon
+a total number of hit dice worth of zombies and skeletons up to your
+casting level.  They will follow you and defend you from your enemies. 
+Unlike most common monster summoning spells, these monsters will not go
+away unless the caster quits.  They are undead, so they can be turned, and
+so forth, but they cannot be dispelled.
+
+Components, mage/sorc: bit of bone x1, drop of blood x1 (or nil w. eschew
+materials)
+
+Spell: auspicious bolt
+Class: cleric L3
+Sphere: combat
+Domain: fate
+Saving throw: n/a
+Syntax: cast <classname> auspicious bolt on <target>
+
+This spell will call on the fates to improve the fortune of the recipient
+in battle.  To what degree the fortunes are altered in favor of the target
+depends on the level of the caster, and of course fate itself.
+
+
+Spell: phantom steed
+Class: cleric L3, bard L3
+Sphere: conjuration_summoning
+Domain: repose
+Saving throw: n/a
+Syntax: cast <classname> phantom steed
+
+By means of this spell, the caster calls upon his god to send forth a
+ghostly horse to serve as his faithful mount and to help defend them.
+
+This spell will not work if you are already mounted.
+
+
+Spell: rejuvenation
+Class: cleric L3
+Sphere: healing
+Domain: renewal
+Saving throw: n/a
+Syntax: cast <classname> rejuvenation
+
+This spell will grant the caster the power of renewal, giving him a small
+amount of healing each round for a long period of time.
+
+
+Spell: remove blindness
+Class: cleric L3, paladin L3, druid L3
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> remove blindness on <target>
+
+When you cast this spell you can bring more light into the eyes of the
+target. You can't cure diseases, but will surely help the target to see
+more after they have been hit by magical darkness or some foul creature.
 
 
 Spell: spectral steed
@@ -24,17 +195,17 @@ ghostly horse to serve as his faithful mount and to help defend them.
 This spell will not work if you are already mounted.
 
 
-Spell: insight
+Spell: good hope
 Class: cleric L3
-Sphere: divination
-Domain: mentalism
+Sphere: enchantment_charm
+Domain: charm
 Saving throw: n/a
-Syntax: cast <classname> insight on <target>
+Syntax: cast <classname> good hope on <target>
 
-This spell grants the target a second's insight into the future, allowing
-her to both avoid attacks better, and to hit her targets better.  The spell
-is more effective when used by a priest that is solely dedicated to her
-faith.
+Invoking the blessings of good hope, this spell will grant the target a
+heightened sense in battle and a blessing on resisting some attacks (saving
+throws). It does not stack with similar morale-boosting spells, such as
+heroism.
 
 
 Spell: ice shield
@@ -50,16 +221,25 @@ attacking the caster must make a saving throw or suffer damage from the
 bitter cold.
 
 
-Spell: auspicious bolt
-Class: cleric L3
-Sphere: combat
-Domain: fate
+Spell: daylight
+Class: cleric L3, paladin L3, druid L3, bard L3
+Sphere: sun
 Saving throw: n/a
-Syntax: cast <classname> auspicious bolt on <target>
+Syntax: cast <classname> daylight
 
-This spell will call on the fates to improve the fortune of the recipient
-in battle.  To what degree the fortunes are altered in favor of the target
-depends on the level of the caster, and of course fate itself.
+Will add semi-permanent light to a room up to daylight levels. The duration
+is until the next reboot.
+
+
+Spell: cause blindness
+Class: cleric L3, paladin L3
+Sphere: necromancy
+Saving throw: reflex
+Syntax: cast <classname> cause blindness on <target>
+
+By touching your opponent's eyes, you take the light from them.  You should
+remember that although it is a powerful spell, it is curable.  Should you
+fail to touch the target's eyes, the spell will disperse harmlessly.
 
 
 Spell: nimbus of light
@@ -72,29 +252,5 @@ Syntax: cast <classname> nimbus of light
 This spell will surround the caster in a protective nimbus of light.  The
 light will make the caster more difficult to hit, and at the same time
 improve the caster's vision.
-
-
-Spell: rejuvenation
-Class: cleric L3
-Sphere: healing
-Domain: renewal
-Saving throw: n/a
-Syntax: cast <classname> rejuvenation
-
-This spell will grant the caster the power of renewal, giving him a small
-amount of healing each round for a long period of time.
-
-
-Spell: faithful mount
-Class: cleric L3
-Sphere: conjuration_summoning
-Domain: travel
-Saving throw: n/a
-Syntax: cast <classname> faithful mount
-
-By means of this spell, the caster calls upon their god to send forth a
-horse to serve as their faithful mount and to help defend them.
-
-This spell will not work if you are already mounted.
 
 

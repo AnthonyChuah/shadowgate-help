@@ -1,3 +1,13 @@
+Spell: beshadowed blast
+Class: warlock L3
+Saving throw: fort
+Syntax: <blasttype beshadowed>
+
+An eldritch blast with this essence applied will cloud the target/s'
+vision, temporarily blinding them.
+See also: <help blasttype>.
+
+
 Spell: eldritch glaive
 Class: warlock L3
 Saving throw: n/a
@@ -50,16 +60,6 @@ itself into the minds of nearby foes, should they not have the willpower to
 resist. It will apply itself as a fog upon their thoughts, slowing their
 combat reactions considerably. Creatures with only a single attack will not
 be able to be slowed further.
-
-
-Spell: beshadowed blast
-Class: warlock L3
-Saving throw: fort
-Syntax: <blasttype beshadowed>
-
-An eldritch blast with this essence applied will cloud the target/s'
-vision, temporarily blinding them.
-See also: <help blasttype>.
 
 
 Spell: vitriolic blast

@@ -1,13 +1,3 @@
-Spell: air walk
-Class: druid L4
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> air walk on <target>
-
-This spell will allow the target to walk on the air as if it were perfectly
-level ground.  This makes traveling over long distances almost effortless.
-
-
 Spell: raise dead
 Class: cleric L5, druid L4
 Sphere: healing
@@ -22,6 +12,19 @@ death (lower exp. loss) due to the intervention of the priest.
 
 See also: help pkilling, help rules
 
+
+
+Spell: dispel magic
+Class: cleric L3, paladin L3, druid L4, mage/sorc L3, bard L3
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> dispel magic (on <target>)
+
+Dispel Magic, when cast, will destroy any spell enchantments, any magical
+summonings, and anything conjured.  The chances of each dispelling depends
+on both the dispeller's casting level and the casting level of the wizard
+or priest that created whatever is being dispelled, whether it be an
+enchantment, summoning, or conjuration.
 
 
 Spell: rusting grasp
@@ -37,45 +40,26 @@ target suffers some damage and any metal objects in his inventory may also
 be damaged.
 
 
-Spell: raise dead
+Spell: flame strike
 Class: cleric L5, druid L4
-Sphere: healing
+Sphere: combat
+Saving throw: reflex
+Syntax: cast <classname> flame strike on <target>
+
+This spell will call down a pillar of flame to engulf your foes.  It can be
+used in two ways - when used before combat begins, it will engulf a single
+foe; when cast during combat, it is particularly devastating, as it will
+severely burn up to five enemies.  Beware, the caster should advise his
+allies to not stand too close to the target of the spell!
+
+
+Spell: air walk
+Class: druid L4
+Sphere: alteration
 Saving throw: n/a
-Syntax: cast <classname> raise dead on <target> (dead player's name)
+Syntax: cast <classname> air walk on <target>
 
-This spell will revive a dead player when cast upon their corpse.  The
-deceased will be returned to the site of death and revived.  Note it is
-similar to being revived in a church as the person will be barely alive and
-need significant healing.  The target will suffer somewhat less from the
-death (lower exp. loss) due to the intervention of the priest.
-
-See also: help pkilling, help rules
-
-
-
-Spell: flame strike
-Class: cleric L5, druid L4
-Sphere: combat
-Saving throw: reflex
-Syntax: cast <classname> flame strike on <target>
-
-This spell will call down a pillar of flame to engulf your foes.  It can be
-used in two ways - when used before combat begins, it will engulf a single
-foe; when cast during combat, it is particularly devastating, as it will
-severely burn up to five enemies.  Beware, the caster should advise his
-allies to not stand too close to the target of the spell!
-
-
-Spell: flame strike
-Class: cleric L5, druid L4
-Sphere: combat
-Saving throw: reflex
-Syntax: cast <classname> flame strike on <target>
-
-This spell will call down a pillar of flame to engulf your foes.  It can be
-used in two ways - when used before combat begins, it will engulf a single
-foe; when cast during combat, it is particularly devastating, as it will
-severely burn up to five enemies.  Beware, the caster should advise his
-allies to not stand too close to the target of the spell!
+This spell will allow the target to walk on the air as if it were perfectly
+level ground.  This makes traveling over long distances almost effortless.
 
 

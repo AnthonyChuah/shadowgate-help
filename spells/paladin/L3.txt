@@ -1,14 +1,3 @@
-Spell: divine favor
-Class: paladin L3
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> divine favor
-
-Calling upon the strength of their patron, a holy knight can gain a bonus
-to attack and damage rolls.  This spell does not stack with fighter feats
-for bonus attack and damage rolls.
-
-
 Spell: cause blindness
 Class: cleric L3, paladin L3
 Sphere: necromancy
@@ -18,6 +7,40 @@ Syntax: cast <classname> cause blindness on <target>
 By touching your opponent's eyes, you take the light from them.  You should
 remember that although it is a powerful spell, it is curable.  Should you
 fail to touch the target's eyes, the spell will disperse harmlessly.
+
+
+Spell: dispel magic
+Class: cleric L3, paladin L3, druid L4, mage/sorc L3, bard L3
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> dispel magic (on <target>)
+
+Dispel Magic, when cast, will destroy any spell enchantments, any magical
+summonings, and anything conjured.  The chances of each dispelling depends
+on both the dispeller's casting level and the casting level of the wizard
+or priest that created whatever is being dispelled, whether it be an
+enchantment, summoning, or conjuration.
+
+
+Spell: daylight
+Class: cleric L3, paladin L3, druid L3, bard L3
+Sphere: sun
+Saving throw: n/a
+Syntax: cast <classname> daylight
+
+Will add semi-permanent light to a room up to daylight levels. The duration
+is until the next reboot.
+
+
+Spell: divine favor
+Class: paladin L3
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> divine favor
+
+Calling upon the strength of their patron, a holy knight can gain a bonus
+to attack and damage rolls.  This spell does not stack with fighter feats
+for bonus attack and damage rolls.
 
 
 Spell: heal mount
@@ -30,17 +53,6 @@ This spell will allow the caster to cure the target of all (hp) damage from
 wounds and disease, but only works on riding mounts.
 
 
-Spell: cause blindness
-Class: cleric L3, paladin L3
-Sphere: necromancy
-Saving throw: reflex
-Syntax: cast <classname> cause blindness on <target>
-
-By touching your opponent's eyes, you take the light from them.  You should
-remember that although it is a powerful spell, it is curable.  Should you
-fail to touch the target's eyes, the spell will disperse harmlessly.
-
-
 Spell: prevent stealing
 Class: cleric L4, paladin L3
 Sphere: abjuration
@@ -51,13 +63,30 @@ This spell prevents stealing in the room where the caster has cast the
 spell for an amount of time dependent on the level of the caster.
 
 
-Spell: prevent stealing
-Class: cleric L4, paladin L3
-Sphere: abjuration
+Spell: remove blindness
+Class: cleric L3, paladin L3, druid L3
+Sphere: healing
 Saving throw: n/a
-Syntax: cast <classname> prevent stealing
+Syntax: cast <classname> remove blindness on <target>
 
-This spell prevents stealing in the room where the caster has cast the
-spell for an amount of time dependent on the level of the caster.
+When you cast this spell you can bring more light into the eyes of the
+target. You can't cure diseases, but will surely help the target to see
+more after they have been hit by magical darkness or some foul creature.
 
+
+Spell: break curse
+Class: cleric L8, paladin L3, mage/sorc L5, bard L4
+Sphere: abjuration
+Domain: magic
+Saving throw: n/a
+Syntax: cast <classname> break curse on <object> [at <player>]
+
+This powerful spell will break a curse that has been placed upon a magical
+item, unravelling the corrupted weave around it.  Only the most skilled of
+abjurers can attempt to disentangle enchantments in such a manner.
+
+Sorcerers and non-specialized mages cannot cast this spell.
+
+Components, mage: powdered diamond x2
+Components, bard: hymn x3
 

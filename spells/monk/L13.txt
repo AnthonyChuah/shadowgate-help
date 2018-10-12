@@ -11,37 +11,6 @@ of wind is dependant on the level of the caster.
 
 Components, mage/sorc: wing feather x2 (or nil w. eschew materials)
 
-Spell: gust of wind
-Class: mage/sorc L4, monk L13
-Sphere: alteration
-Saving throw: reflex
-Syntax: cast <classname> gust of wind on <target>
-
-Waving a pair of specially prepared feathers in the air, the caster is able
-to generate a brief but intense gust of wind.  Using his left hand, the
-caster directs the damaging winds into their target.  The power of the gust
-of wind is dependant on the level of the caster.
-
-Components, mage/sorc: wing feather x2 (or nil w. eschew materials)
-
-Spell: wall of fire
-Class: mage/sorc L4, monk L13
-Sphere: invocation_evocation
-Saving throw: n/a
-Syntax: cast <classname> wall of fire [on <exit>]
-
-The spell, wall of fire, is an impressive spell for the magi indeed.  The
-wizard can cast the wall around himself, protectively, or in front of an
-exit, so all who pass through that exit will be scorched by the flames.  To
-cast the wall around him/herself, the mage simply types <cast classname
-wall of fire>.  Otherwise, the mage might type <cast classname wall of fire
-on north> to damage those passing through the exit.  Be warned however, the
-mage who casts this spell must keep concentration on the wall to maintain
-its existence.  The mage may type <remove wall> to quench the flames. A
-versatile arcanist can manipulate the base element of this spell.
-
-Components, mage/sorc: phosphorus x1 (or nil w. eschew materials)
-
 Spell: wall of fire
 Class: mage/sorc L4, monk L13
 Sphere: invocation_evocation

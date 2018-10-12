@@ -1,15 +1,3 @@
-Spell: brimstone blast
-Class: warlock L2
-Saving throw: reflex
-Syntax: <blasttype brimstone>
-
-An eldritch blast with this essence applied will cause the target/s to
-catch fire, burning for further damage over several rounds. Subsequent
-eldritch blasts will not stack this effect, but will refresh its duration.
-This essence will also change the base type of the blast to fire.
-See also: <help blasttype>.
-
-
 Spell: fell flight
 Class: warlock L2
 Saving throw: n/a
@@ -26,14 +14,16 @@ flight-based spells, nor similar spell buffs such as haste, rage or
 berserker.
 
 
-Spell: curse of despair
+Spell: brimstone blast
 Class: warlock L2
-Saving throw: will
-Syntax: cast <classname> curse of despair on <target>
+Saving throw: reflex
+Syntax: <blasttype brimstone>
 
-By means of this invocation, the caster places a curse upon the target that
-will weaken them considerably, lowering their defenses and their combat
-abilities. It is not dispellable by normal magics, but will fade over time.
+An eldritch blast with this essence applied will cause the target/s to
+catch fire, burning for further damage over several rounds. Subsequent
+eldritch blasts will not stack this effect, but will refresh its duration.
+This essence will also change the base type of the blast to fire.
+See also: <help blasttype>.
 
 
 Spell: hungry darkness
@@ -58,36 +48,41 @@ type. Elements that can be chosen are acid, cold, electricity, fire, or
 sonic.
 
 
-Spell: enthrall
-Class: warlock L2
-Saving throw: will
-Syntax: cast <classname> enthrall on <target>
-
-By means of this invocation, the warlock will attempt to assert a degree of
-mental control over the target. If successful, the target will follow the
-caster around and try to protect them from harm. If the warlock harms the
-enthralled creature, their control will be lost. Only one creature may be
-controlled in this way at a time, and it will not work on other players,
-although it may confuse them briefly.
-
-OOC
-Please exercise caution and good role-playing skills when using this
-invocation.  Just because you have a monster charmed, does not mean people
-will react well to it in crowded places.
-
-
-Spell: walk unseen
+Spell: eldritch chain
 Class: warlock L2
 Saving throw: n/a
-Syntax: cast <classname> walk unseen
+Syntax: cast <classname> eldritch chain on <target>
 
-This invocation places illusory spellcraft around the warlock, deceiving
-the eyes of those around so as to effectively disappear from view. While
-minor, a small degree of concentration is required to maintain the effect,
-so it can become wearying over time. Becoming engaged in combat is
-sufficiently distracting to lose control of the concealment; also, falling
-unconscious will cause the invocation to fail. Of course, the warlock can
-simply forgo the concentration to <appear> at any time.
+This is an extension of the core spell-like ability of the warlock - the
+ability to invoke pure planar energy and hurl it at a foe. Unlike its
+primary form, the invocation will leap to secondary targets if they are
+present, more so as the warlock gains in strength. As with the eldritch
+blast, it can be imbued with various essences.
+See also: <help blasttype>.
+
+
+Spell: curse of despair
+Class: warlock L2
+Saving throw: will
+Syntax: cast <classname> curse of despair on <target>
+
+By means of this invocation, the caster places a curse upon the target that
+will weaken them considerably, lowering their defenses and their combat
+abilities. It is not dispellable by normal magics, but will fade over time.
+
+
+Spell: warlocks call
+Class: warlock L2
+Saving throw: n/a
+Syntax: cast <classname> warlocks call to <target>
+
+This invocation allows a brief message to be sent to the target (less than
+200 characters). . Doing so opens the warlock up to a response from the
+target - either a message of a similarly short nature, or a harmful retort
+of mental energy. If either message is too long, or either party takes more
+than a minute to respond, the invocation will dissipate harmlessly. If the
+target is ignoring the warlock or incapacitated in some way, the invocation
+will fail.
 
 
 Spell: flee the scene
@@ -130,6 +125,24 @@ unique entity, separate from your usual self.
 
 Feat requirements: warlock (blooded)
 
+Spell: enthrall
+Class: warlock L2
+Saving throw: will
+Syntax: cast <classname> enthrall on <target>
+
+By means of this invocation, the warlock will attempt to assert a degree of
+mental control over the target. If successful, the target will follow the
+caster around and try to protect them from harm. If the warlock harms the
+enthralled creature, their control will be lost. Only one creature may be
+controlled in this way at a time, and it will not work on other players,
+although it may confuse them briefly.
+
+OOC
+Please exercise caution and good role-playing skills when using this
+invocation.  Just because you have a monster charmed, does not mean people
+will react well to it in crowded places.
+
+
 Spell: the dead walk
 Class: warlock L2
 Saving throw: n/a
@@ -144,31 +157,18 @@ the caster quits.  They are undead, so they can be turned, and so forth,
 but they cannot be dispelled.
 
 
-Spell: eldritch chain
+Spell: walk unseen
 Class: warlock L2
 Saving throw: n/a
-Syntax: cast <classname> eldritch chain on <target>
+Syntax: cast <classname> walk unseen
 
-This is an extension of the core spell-like ability of the warlock - the
-ability to invoke pure planar energy and hurl it at a foe. Unlike its
-primary form, the invocation will leap to secondary targets if they are
-present, more so as the warlock gains in strength. As with the eldritch
-blast, it can be imbued with various essences.
-See also: <help blasttype>.
-
-
-Spell: warlocks call
-Class: warlock L2
-Saving throw: n/a
-Syntax: cast <classname> warlocks call to <target>
-
-This invocation allows a brief message to be sent to the target (less than
-200 characters). . Doing so opens the warlock up to a response from the
-target - either a message of a similarly short nature, or a harmful retort
-of mental energy. If either message is too long, or either party takes more
-than a minute to respond, the invocation will dissipate harmlessly. If the
-target is ignoring the warlock or incapacitated in some way, the invocation
-will fail.
+This invocation places illusory spellcraft around the warlock, deceiving
+the eyes of those around so as to effectively disappear from view. While
+minor, a small degree of concentration is required to maintain the effect,
+so it can become wearying over time. Becoming engaged in combat is
+sufficiently distracting to lose control of the concealment; also, falling
+unconscious will cause the invocation to fail. Of course, the warlock can
+simply forgo the concentration to <appear> at any time.
 
 
 Spell: witchwood step

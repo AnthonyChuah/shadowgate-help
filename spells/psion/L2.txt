@@ -17,120 +17,30 @@ that item.
 Components, psywarrior: adamite x1, wemic tears x1
 Components, psion: adamite x1, wemic tears x1
 
-Spell: psionic identify
-Class: psywarrior L2, psion L2
-Sphere: divination
+Spell: alter self
+Class: psywarrior L2, innate L1, psion L2, bard L2
+Sphere: transmutation
 Saving throw: n/a
-Syntax: cast <classname> psionic identify on <object>
+Syntax: cast <classname> alter self
 
-This power allows a psion to attune his mind, focusing on the moment of an
-item's creation.  The psion then reveals what he has found, marking the
-enchantment of the item as well as the name, should the item have a
-specific one.  The psion does not know how an item is created using these
-means; he simply knows what the lasting effect is.  The item must be in the
-psion's hands or on the floor for the spell to work.
+This spell allows the caster to make minor changes to their body. These are
+usually sufficient changes that they become unrecognizable even to those
+they are familiar with. It does not allow for such drastic changes as body
+size or overall shape; the caster would still be quite recognizable as a
+creature of their race.
 
-NOTE: Anyone in the same room with you will also know the enchantment of
-that item.
+OOC: This spell does not alter details on your scoresheet (eyes, hair) but
+the caster may describe their new form and features differently to these if
+they so choose. They must still maintain their overall body shape (ie.
+race, general height and weight).
 
-Components, psywarrior: adamite x1, wemic tears x1
-Components, psion: adamite x1, wemic tears x1
+You can only have one altered form with this spell - repeat uses do not
+grant additional different shapeshifts, but instead return you to the same
+secondary form. Adjective, description, speech, messages etc will be
+remembered across castings, so they will only need to be set once in your
+alternative form. Players will be able to recognise your 'other self' as a
+unique entity, separate from your usual self.
 
-Spell: genesis
-Class: psion L2
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> genesis
-
-Manifesting the unusual power genesis allows the psion to create a small
-demiplane for a time.  This plane exists only for the caster and those
-invited in, or those who can find the original entry point.  Because of the
-lesser nature of the power, the demiplane will not last forever, though it
-can be held for longer as the psion gains in strength.
-
-Components, psion: malachite x1 (or nil w. eschew materials)
-
-Spell: id insinuation
-Class: psion L2
-Sphere: invocation_evocation
-Saving throw: will
-Syntax: cast <classname> id insinuation on <target>
-
-Id Insinuation allows the psion to befuddle the target's mind, making him
-react in unpredictable ways.  The target's confused state may make him
-babble incoherently, run away, or attack a nearby target - even one of his
-own allies.  Quite powerful in nature, this power can be very helpful in
-battle.  NOTE:  This power does not work on players.  It will work only on
-mobs or NPCs.
-
-
-Spell: sustenance
-Class: psywarrior L2, psion L2
-Sphere: conjuration_summoning
-Saving throw: n/a
-Syntax: cast <classname> sustenance
-
-By focusing his energies on the blue-green gem apatite, a psion can relieve
-himself of both hunger and thirst.  This power can be especially useful to
-adventurers who oftentimes find themselves well away from the nearest
-restaurant.
-
-Components, psywarrior: apatite x1 (or nil w. eschew materials)
-Components, psion: apatite x1 (or nil w. eschew materials)
-
-Spell: thicken skin
-Class: psywarrior L2, psion L2
-Sphere: conjuration_summoning
-Discipline: egoist
-Saving throw: n/a
-Syntax: cast <classname> thicken skin
-
-An egoist who chooses can focus his power to thicken his skin, granting him
-extra protection in combat.  This power works much like inertial armor, but
-unlike other armor abilities, it can be used with inertial armor to grant
-an additional bonus.
-
-
-Spell: hypercognition
-Class: psion L2
-Sphere: conjuration_summoning
-Discipline: seer
-Saving throw: n/a
-Syntax: cast <classname> hypercognition
-
-Drawing upon the might of the inner eye, a seer can focus himself and gain
-an insight into battles that lie ahead.  This insight translates itself
-into better protection for the seer.  The protection granted the seer from
-this power can be used in conjunction with inertial armor.
-
-
-Spell: sending
-Class: psion L2
-Sphere: divination
-Discipline: telepath
-Saving throw: n/a
-Syntax: cast <classname> sending to <target>
-
-This power allows a brief message to be sent to the target.  The target
-cannot respond, and the telepath's message must be shorter than 200
-characters.  If the message is too long, the power fails.  Likewise, if the
-target is ignoring the psion or incapacitated in some way, the power will
-fail.
-
-
-Spell: sustenance
-Class: psywarrior L2, psion L2
-Sphere: conjuration_summoning
-Saving throw: n/a
-Syntax: cast <classname> sustenance
-
-By focusing his energies on the blue-green gem apatite, a psion can relieve
-himself of both hunger and thirst.  This power can be especially useful to
-adventurers who oftentimes find themselves well away from the nearest
-restaurant.
-
-Components, psywarrior: apatite x1 (or nil w. eschew materials)
-Components, psion: apatite x1 (or nil w. eschew materials)
 
 Spell: cloud mind
 Class: psion L2
@@ -147,6 +57,98 @@ It may also wear off over time, though it generally lasts quite awhile.
 Components, psion: clear quartz x1, amethyst x1 (or nil w. eschew
 materials)
 
+Spell: tongues
+Class: mage/sorc L3, psion L2, bard L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> tongues on <target>
+
+This will give the target the ability to understand, both read and write
+any language. This should not change the ability to teach the language.
+
+Components, mage/sorc: clay model ziggurat x1 (or nil w. eschew materials)
+Components, bard: dialogue x1 (or nil w. eschew materials)
+
+Spell: biofeedback
+Class: psywarrior L1, psion L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> biofeedback
+
+Using this power, the psionic character bolsters his mental defenses,
+gaining a small amount of resistance to magic.  The spell does not stack
+with the resistance feat or spell.
+
+
+Spell: genesis
+Class: psion L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> genesis
+
+Manifesting the unusual power genesis allows the psion to create a small
+demiplane for a time.  This plane exists only for the caster and those
+invited in, or those who can find the original entry point.  Because of the
+lesser nature of the power, the demiplane will not last forever, though it
+can be held for longer as the psion gains in strength.
+
+Components, psion: malachite x1 (or nil w. eschew materials)
+
+Spell: hypercognition
+Class: psion L2
+Sphere: conjuration_summoning
+Discipline: seer
+Saving throw: n/a
+Syntax: cast <classname> hypercognition
+
+Drawing upon the might of the inner eye, a seer can focus himself and gain
+an insight into battles that lie ahead.  This insight translates itself
+into better protection for the seer.  The protection granted the seer from
+this power can be used in conjunction with inertial armor.
+
+
+Spell: sustenance
+Class: psywarrior L2, psion L2
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> sustenance
+
+By focusing his energies on the blue-green gem apatite, a psion can relieve
+himself of both hunger and thirst.  This power can be especially useful to
+adventurers who oftentimes find themselves well away from the nearest
+restaurant.
+
+Components, psywarrior: apatite x1 (or nil w. eschew materials)
+Components, psion: apatite x1 (or nil w. eschew materials)
+
+Spell: id insinuation
+Class: psion L2
+Sphere: invocation_evocation
+Saving throw: will
+Syntax: cast <classname> id insinuation on <target>
+
+Id Insinuation allows the psion to befuddle the target's mind, making him
+react in unpredictable ways.  The target's confused state may make him
+babble incoherently, run away, or attack a nearby target - even one of his
+own allies.  Quite powerful in nature, this power can be very helpful in
+battle.  NOTE:  This power does not work on players.  It will work only on
+mobs or NPCs.
+
+
+Spell: sending
+Class: psion L2
+Sphere: divination
+Discipline: telepath
+Saving throw: n/a
+Syntax: cast <classname> sending to <target>
+
+This power allows a brief message to be sent to the target.  The target
+cannot respond, and the telepath's message must be shorter than 200
+characters.  If the message is too long, the power fails.  Likewise, if the
+target is ignoring the psion or incapacitated in some way, the power will
+fail.
+
+
 Spell: thicken skin
 Class: psywarrior L2, psion L2
 Sphere: conjuration_summoning
@@ -158,27 +160,5 @@ An egoist who chooses can focus his power to thicken his skin, granting him
 extra protection in combat.  This power works much like inertial armor, but
 unlike other armor abilities, it can be used with inertial armor to grant
 an additional bonus.
-
-
-Spell: biofeedback
-Class: psywarrior L1, psion L2
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> biofeedback
-
-Using this power, the psionic character bolsters his mental defenses,
-gaining a small amount of resistance to magic.  The spell does not stack
-with the resistance feat or spell.
-
-
-Spell: biofeedback
-Class: psywarrior L1, psion L2
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> biofeedback
-
-Using this power, the psionic character bolsters his mental defenses,
-gaining a small amount of resistance to magic.  The spell does not stack
-with the resistance feat or spell.
 
 

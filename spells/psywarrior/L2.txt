@@ -1,3 +1,17 @@
+Spell: sustenance
+Class: psywarrior L2, psion L2
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> sustenance
+
+By focusing his energies on the blue-green gem apatite, a psion can relieve
+himself of both hunger and thirst.  This power can be especially useful to
+adventurers who oftentimes find themselves well away from the nearest
+restaurant.
+
+Components, psywarrior: apatite x1 (or nil w. eschew materials)
+Components, psion: apatite x1 (or nil w. eschew materials)
+
 Spell: incite bravery
 Class: psywarrior L2
 Sphere: alteration
@@ -9,6 +23,62 @@ impulses into his allies, bolstering their confidence and improving their
 martial prowess. This power does not stack with the bard's rally ability.
 
 
+Spell: animal affinity
+Class: psywarrior L2, psion L1
+Sphere: alteration
+Discipline: egoist
+Saving throw: n/a
+Syntax: cast <classname> animal affinity on <stat>
+
+This power allows a psionic character to focus her mental acuity, resulting
+in a bonus to one of her stats. Only one stat can be raised at a time, and
+this power does not stack with similar spells and abilities.
+
+
+Spell: psionic identify
+Class: psywarrior L2, psion L2
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> psionic identify on <object>
+
+This power allows a psion to attune his mind, focusing on the moment of an
+item's creation.  The psion then reveals what he has found, marking the
+enchantment of the item as well as the name, should the item have a
+specific one.  The psion does not know how an item is created using these
+means; he simply knows what the lasting effect is.  The item must be in the
+psion's hands or on the floor for the spell to work.
+
+NOTE: Anyone in the same room with you will also know the enchantment of
+that item.
+
+Components, psywarrior: adamite x1, wemic tears x1
+Components, psion: adamite x1, wemic tears x1
+
+Spell: body adjustment
+Class: psywarrior L2, psion L3
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> body adjustment
+
+When using this power, the psionic character takes control of his own
+healing process and makes minor adjustments throughout his body, restoring
+hit points. This power has the same limitations as a cleric's heal spell
+and cannot regrow lost limbs or heal substantial damage.
+
+
+Spell: thicken skin
+Class: psywarrior L2, psion L2
+Sphere: conjuration_summoning
+Discipline: egoist
+Saving throw: n/a
+Syntax: cast <classname> thicken skin
+
+An egoist who chooses can focus his power to thicken his skin, granting him
+extra protection in combat.  This power works much like inertial armor, but
+unlike other armor abilities, it can be used with inertial armor to grant
+an additional bonus.
+
+
 Spell: lions charge
 Class: psywarrior L2
 Saving throw: n/a
@@ -17,6 +87,31 @@ Syntax: cast <classname> lions charge on <target>
 When manifesting this power, the psionic character charges toward her foe
 and attempts to knock him down. The damage done will depend on any weapon
 the psionic character has wielded.
+
+
+Spell: alter self
+Class: psywarrior L2, innate L1, psion L2, bard L2
+Sphere: transmutation
+Saving throw: n/a
+Syntax: cast <classname> alter self
+
+This spell allows the caster to make minor changes to their body. These are
+usually sufficient changes that they become unrecognizable even to those
+they are familiar with. It does not allow for such drastic changes as body
+size or overall shape; the caster would still be quite recognizable as a
+creature of their race.
+
+OOC: This spell does not alter details on your scoresheet (eyes, hair) but
+the caster may describe their new form and features differently to these if
+they so choose. They must still maintain their overall body shape (ie.
+race, general height and weight).
+
+You can only have one altered form with this spell - repeat uses do not
+grant additional different shapeshifts, but instead return you to the same
+secondary form. Adjective, description, speech, messages etc will be
+remembered across castings, so they will only need to be set once in your
+alternative form. Players will be able to recognise your 'other self' as a
+unique entity, separate from your usual self.
 
 
 Spell: energy emanation

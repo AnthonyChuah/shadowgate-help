@@ -10,19 +10,15 @@ alignment, it will disrupt the harmonics of their soul and wrack their body
 with pain, doing a significant amount of damage.
 
 
-Spell: mark of justice
-Class: cleric L5, paladin L4
-Sphere: divination
-Domain: vigilance
-Saving throw: fort
-Syntax: cast <classname> mark of justice on <target>
+Spell: cleanse disease
+Class: cleric L4, paladin L4, druid L3, ranger L3, bard L4
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> cleanse disease on <target>
 
-This spell allows the caster to attempt to plant a mark of justice on the
-target.  This mark is mostly inconspicuous, being more an outpouring of the
-caster's energy than a physical mark.  It will allow the caster to <observe
-mark> once while the spell is in effect, giving the caster a means to scry
-the target.  It is often used in investigations of suspicious persons, and
-as such, it has been developed to be somewhat quietly cast.
+This spell will attempt to cleanse any diseases present on the <target>.
+Success is based on the level of the caster versus the difficult of the
+particular disease.
 
 
 Spell: mark of justice
@@ -40,16 +36,15 @@ the target.  It is often used in investigations of suspicious persons, and
 as such, it has been developed to be somewhat quietly cast.
 
 
-Spell: sanctify
-Class: cleric L4, paladin L4
+Spell: deathward
+Class: paladin L4, druid L5
 Sphere: abjuration
 Saving throw: n/a
-Syntax: cast <classname> sanctify
+Syntax: cast <classname> deathward
 
-Calling on the power of his or her god, the caster creates a protected
-place for him or herself to retreat to in times of need.  The sanctified
-ground is accessed through an iron gate that is created when the spell is
-cast.
+Those most blessed of the gods can call upon their favor to ward away the
+very hand of death itself.  This spell protects against death spells, as
+well as many spell-like effects.
 
 
 Spell: sanctify
@@ -75,30 +70,5 @@ This spell will create a floating and controllable sword for you that you
 can use to attack your enemies.  The sword will automatically follow and
 protect you.  Should you lose it, though, simply go into the room with it
 and <command sword to follow>.
-
-
-Spell: seeking sword
-Class: cleric L3, paladin L4
-Sphere: combat
-Domain: war
-Saving throw: n/a
-Syntax: cast <classname> seeking sword
-
-This spell will create a floating and controllable sword for you that you
-can use to attack your enemies.  The sword will automatically follow and
-protect you.  Should you lose it, though, simply go into the room with it
-and <command sword to follow>.
-
-
-Spell: dispel chaos
-Class: cleric L6, paladin L4
-Sphere: combat
-Saving throw: fort
-Syntax: cast <classname> dispel chaos on <target>
-
-Dispel Chaos can only be cast by users of lawful alignment and it only
-effects targets of chaotic alignment.  When cast at a target of the correct
-alignment, it will disrupt the harmonics of their soul and wrack their body
-with pain, doing a significant amount of damage.
 
 

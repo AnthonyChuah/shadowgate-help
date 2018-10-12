@@ -1,3 +1,28 @@
+Spell: touchsight
+Class: psywarrior L3, psion L3
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> touchsight
+
+Manifesting this power will allow the psionic character to focus his eyes
+on things oft unseen.  This power will grant the psion better vision in the
+dark, as well as allow him to see invisible creatures.
+
+Components, psywarrior: flowstone x1, unakite x1
+Components, psion: flowstone x1, unakite x1
+
+Spell: dimension slide
+Class: psywarrior L3
+Saving throw: n/a
+Syntax: cast <classname> dimension slide on <direction>
+
+Manifesting this power allows the psionic character to teleport a short
+distance away. The power can be used in combat and will ignore mundane
+impediments, such as caltrops or closed doors, but will be barred by
+magically sealed doors.
+
+Components, psywarrior: sunstone x1 (or nil w. eschew materials)
+
 Spell: escape detection
 Class: psywarrior L3
 Sphere: abjuration
@@ -36,15 +61,33 @@ This power allows the psionic character to rend the target's armor, making
 it less effective. This power works on the same timer as the Sunder feat.
 
 
-Spell: dimension slide
-Class: psywarrior L3
+Spell: evade burst
+Class: psywarrior L3, psion L7
+Sphere: alteration
 Saving throw: n/a
-Syntax: cast <classname> dimension slide on <direction>
+Syntax: cast <classname> evade burst
 
-Manifesting this power allows the psionic character to teleport a short
-distance away. The power can be used in combat and will ignore mundane
-impediments, such as caltrops or closed doors, but will be barred by
-magically sealed doors.
+Using this power, the psionic character gains the ability to avoid damage
+from certain spells and powers as if he had the evasion feat. For more
+specific information, please see <help evasion>. This power does not stack
+with the evasion feat.
 
-Components, psywarrior: sunstone x1 (or nil w. eschew materials)
+
+Spell: aura alteration
+Class: psywarrior L3, psion L3
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> aura alteration on <alignment>
+
+By making use of this power, a psion can hide his inner thoughts from
+others, effectively masking his alignment.  There are, naturally, ways to
+bypass this power's protection, but it will offer the psion some peace of
+mind should he need it.
+
+The choices for alignment are lawful good, neutral good, chaotic good,
+lawful neutral, true neutral, chaotic neutral, lawful evil, neutral evil,
+or chaotic evil.  Please make sure you do not capitalize any part of your
+choice.
+
+Components, psion: snowflake obsidian x1 (or nil w. eschew materials)
 

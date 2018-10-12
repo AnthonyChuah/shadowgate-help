@@ -8,24 +8,66 @@ This spell creates a pool of drinkable water. You can drink from the pool,
 to quench your thirst.
 
 
-Spell: create water
-Class: cleric L1, paladin L1, druid L1
+Spell: entangle
+Class: cleric L1, druid L1, ranger L1
 Sphere: conjuration_summoning
+Domain: plant
 Saving throw: n/a
-Syntax: cast <classname> create water
+Syntax: cast <classname> entangle
 
-This spell creates a pool of drinkable water. You can drink from the pool,
-to quench your thirst.
+This spell causes the foliage and insects to come alive in the area around
+the caster.  They will attempt to impede the movement of all creatures in
+the area.  Those creatures that pass a strength check will have their
+movement effected less than those who do not.  This spell can only be used
+outside.
 
 
-Spell: create water
-Class: cleric L1, paladin L1, druid L1
-Sphere: conjuration_summoning
+Spell: detect magic
+Class: cleric L1, druid L1, warlock L1, mage/sorc L1, bard L1
+Sphere: divination
 Saving throw: n/a
-Syntax: cast <classname> create water
+Syntax: cast <classname> detect magic
 
-This spell creates a pool of drinkable water. You can drink from the pool,
-to quench your thirst.
+Will allow the caster to view an aura of magic around objects or creatures
+they observe. The more intense the aura the more magic is indicated.
+Particularly powerful magic may skew the view of other magics. For example
+an especially magical creature might skew the view of the magic sword its
+wielding.
+
+
+Spell: mending
+Class: druid L1, bard L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> mending on <object>
+	cast <classname> mending on <object> at <player>
+
+This spell will attempt to repair the item in question.  If a player target
+is not specified, it will default to items carried in the caster's
+inventory.  Unlike normal repairs, the reliability of the spell is based
+upon the caster's power.  The spell cannot be cast in combat.
+
+Components, bard: couplet x2
+
+Spell: flare
+Class: druid L1, bard L1
+Sphere: enchantment_charm
+Saving throw: fort
+Syntax: cast <classname> flare on <target>
+
+This minor spell creates an abrupt flash of light, which if cast
+immediately in front of a creature, can dazzle them and cause difficulties
+with their vision.
+
+
+Spell: detect poison
+Class: cleric L1, paladin L1, druid L1, ranger L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> detect poison on <target>
+
+Will detect if any poisons are present on an object or a creature and if
+so, which poisons.
 
 
 Spell: produce flame
@@ -39,6 +81,16 @@ there.  The flame will not harm the druid or his equipment, but when the
 druid hurls the flame at an enemy, it explodes, fanning out to damage those
 around him.  Although the druid will try to control the spell so as not to
 damage allies, this may not always be possible.
+
+
+Spell: resistance
+Class: druid L1, bard L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> resistance
+
+By this spell, the caster imbues themselves with a small amount of
+resistance to magic.  The spell does not stack with the resistance feat.
 
 
 Spell: faerie fire
@@ -72,18 +124,5 @@ Saving throw: n/a
 Syntax: cast <classname> sylvan vigor
 
 This spell bestows a small blessing upon the caster, increasing her health.
-
-
-Spell: faerie fire
-Class: cleric L2, druid L1
-Sphere: combat
-Domain: moon
-Saving throw: n/a
-Syntax: cast <classname> faerie fire on <target>
-
-This spell will outline the target in harmless violet flames.  It makes the
-target easier to hit with melee combat, and also makes it impossible for
-the target to hide by magical or other means until the spell expires or is
-dispelled.
 
 

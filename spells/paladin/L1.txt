@@ -17,6 +17,55 @@ Syntax: cast <classname> detect chaos on <target> || <room>
 Detect chaos will detect the presence of chaos in players or monsters.
 
 
+Spell: create water
+Class: cleric L1, paladin L1, druid L1
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> create water
+
+This spell creates a pool of drinkable water. You can drink from the pool,
+to quench your thirst.
+
+
+Spell: light
+Class: cleric L1, paladin L1, mage/sorc L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> light on <target>
+
+This will create a small ball of light, which will light your way. You can
+cast it on an object or player which it will follow, instead of the caster.
+
+
+Spell: detect poison
+Class: cleric L1, paladin L1, druid L1, ranger L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> detect poison on <target>
+
+Will detect if any poisons are present on an object or a creature and if
+so, which poisons.
+
+
+Spell: divine weapon
+Class: cleric L2, paladin L1, druid L2
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> divine weapon
+
+It is not uncommon for a priest or knight to be drawn into combat to
+protect her faith or deity.  For that reason the gods have blessed their
+servants with a prayer that grants them a divine weapon.  Each faith has a
+different weapon, some say magical copies of the favored weapons on their
+patron gods.  With this spell, a divine spellcaster will create a magical
+weapon in their hand.
+
+*NOTE*
+Each weapon will have a few keywords to it, but all will have the name of
+the weapon and 'weapon' for purpose of wielding, unwielding, and showing it
+off.
+
+
 Spell: virtue
 Class: paladin L1
 Sphere: alteration
@@ -25,14 +74,5 @@ Syntax: cast <classname> virtue
 
 This spell bestows a small blessing upon the caster, increasing their
 resilience.
-
-
-Spell: detect chaos
-Class: cleric L1, paladin L1
-Sphere: divination
-Saving throw: n/a
-Syntax: cast <classname> detect chaos on <target> || <room>
-
-Detect chaos will detect the presence of chaos in players or monsters.
 
 

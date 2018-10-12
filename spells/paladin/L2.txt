@@ -1,3 +1,14 @@
+Spell: bulls strength
+Class: cleric L2, paladin L2, druid L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> bulls strength on <target>
+
+This spell allows the caster to infuse their target with the strength of a
+bull, enhancing their raw brawn.  This spell doesn't stack with similarly
+powerful spells of enhancement.
+
+
 Spell: create food
 Class: cleric L3, paladin L2
 Sphere: conjuration_summoning
@@ -8,27 +19,17 @@ This spell creates a pile of edible food. You can eat some if you wish. The
 higher level the caster, the more food will be created.
 
 
-Spell: create food
-Class: cleric L3, paladin L2
-Sphere: conjuration_summoning
+Spell: eagles splendor
+Class: cleric L2, paladin L2, bard L2
+Sphere: alteration
 Saving throw: n/a
-Syntax: cast <classname> create food
+Syntax: cast <classname> eagles splendor on <target>
 
-This spell creates a pile of edible food. You can eat some if you wish. The
-higher level the caster, the more food will be created.
+This spell allows the caster to infuse their target with the presence of an
+eagle, enhancing their force of personality.  This spell doesn't stack with
+similarly powerful spells of enhancement.
 
-
-Spell: orders oath
-Class: cleric L2, paladin L2
-Sphere: combat
-Domain: vigilance
-Saving throw: will
-Syntax: cast <classname> orders oath on <target>
-
-This spell magically enhances the power of the caster's voice.  The spell
-takes the form of a single spoken word, 'halt'.  The target need not
-understand the language of the spell for the magic to work.
-
+Components, bard: conceit x1 (or nil w. eschew materials)
 
 Spell: bonded steed
 Class: paladin L2
@@ -59,21 +60,14 @@ the shield and 'shield' for purpose of wielding, unwielding, and showing it
 off.
 
 
-Spell: divine shield
-Class: cleric L2, paladin L2
-Sphere: conjuration_summoning
-Domain: protection
+Spell: remove paralysis
+Class: cleric L3, paladin L2
+Sphere: abjuration
 Saving throw: n/a
-Syntax: cast <classname> divine shield
+Syntax: cast <classname> remove paralysis on <target>
 
-Calling out for protection against the forces that the caster must battle,
-this prayer creates a divine shield that will offer protection to the
-priest, helping him to defend himself.
-
-*NOTE*
-Each shield will have a few keywords to it, but all will have the name of
-the shield and 'shield' for purpose of wielding, unwielding, and showing it
-off.
+This spell will remove any paralysis from its target. Negates hold spells,
+and paralysis spells.
 
 
 Spell: orders oath
@@ -88,23 +82,25 @@ takes the form of a single spoken word, 'halt'.  The target need not
 understand the language of the spell for the magic to work.
 
 
-Spell: remove paralysis
-Class: cleric L3, paladin L2
-Sphere: abjuration
+Spell: owls wisdom
+Class: cleric L2, paladin L2, druid L2, ranger L2
+Sphere: alteration
 Saving throw: n/a
-Syntax: cast <classname> remove paralysis on <target>
+Syntax: cast <classname> owls wisdom on <target>
 
-This spell will remove any paralysis from its target. Negates hold spells,
-and paralysis spells.
+This spell allows the caster to infuse their target with the wisdom of an
+owl, granting them improved insight.  This spell doesn't stack with
+similarly powerful spells of enhancement.
 
 
-Spell: remove paralysis
-Class: cleric L3, paladin L2
-Sphere: abjuration
+Spell: resist energy
+Class: paladin L2, druid L2, ranger L1, mage/sorc L2
+Sphere: alteration
 Saving throw: n/a
-Syntax: cast <classname> remove paralysis on <target>
+Syntax: cast <classname> resist energy on <element>
 
-This spell will remove any paralysis from its target. Negates hold spells,
-and paralysis spells.
+This spell bestows the caster with a small amount of damage resistance
+against a selected element, increasing with the caster's level. Elements
+that can be chosen are acid, cold, electricity, fire, or sonic.
 
 

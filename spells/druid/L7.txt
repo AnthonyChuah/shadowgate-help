@@ -1,25 +1,3 @@
-Spell: heal
-Class: cleric L6, druid L7
-Sphere: healing
-Saving throw: n/a
-Syntax: cast <classname> heal on <target>
-
-This spell will allow the caster to cure the target of a massive amount
-damage from wounds and disease. It does have limits - it cannot restore
-lost limbs, eyes, and other organs.
-
-
-Spell: heal
-Class: cleric L6, druid L7
-Sphere: healing
-Saving throw: n/a
-Syntax: cast <classname> heal on <target>
-
-This spell will allow the caster to cure the target of a massive amount
-damage from wounds and disease. It does have limits - it cannot restore
-lost limbs, eyes, and other organs.
-
-
 Spell: animate plants
 Class: druid L7
 Sphere: alteration
@@ -67,14 +45,14 @@ This spell will allow the caster to see through all magical and non magical
 attempts at invisibility.
 
 
-Spell: true seeing
-Class: cleric L2, druid L7
-Sphere: divination
-Domain: magic
+Spell: heal
+Class: cleric L6, druid L7
+Sphere: healing
 Saving throw: n/a
-Syntax: cast <classname> true seeing
+Syntax: cast <classname> heal on <target>
 
-This spell will allow the caster to see through all magical and non magical
-attempts at invisibility.
+This spell will allow the caster to cure the target of a massive amount
+damage from wounds and disease. It does have limits - it cannot restore
+lost limbs, eyes, and other organs.
 
 

@@ -1,3 +1,17 @@
+Spell: resonating word
+Class: mage L7, bard L5
+Sphere: alteration
+Saving throw: fort
+Syntax: cast <classname> resonating word on <target>
+
+The caster uses a word of power to cause potentially lethal vibrations in
+the chosen target. Its effects are only subtle to begin with, but quickly
+become destructive. Those with a greater degree of fortitude may be able to
+withstand the worst of its effects.
+
+Non-specialized mages cannot cast this spell.
+
+
 Spell: regeneration
 Class: cleric L7, druid L9, bard L5
 Sphere: healing
@@ -10,20 +24,6 @@ more than once, and does not work in conjunction with the feat of the same
 name.
 
 Components, bard: sonnet x1 (or nil w. eschew materials)
-
-Spell: forgotten melody
-Class: cleric L7, bard L5
-Sphere: enchantment_charm
-Domain: knowledge
-Saving throw: will
-Syntax: cast <classname> forgotten melody on <target> in <language>
-
-This spell has the caster singing the beginning of a catchy tune.  The tune
-gets locked in the head of the target listeners.  This prevents them from
-doing anything involving concentration due to their infatuation with the
-song.  The caster does not have to continue singing, as the spell's effects
-are that the targets become lost in trying to figure out the tune.
-
 
 Spell: forgotten melody
 Class: cleric L7, bard L5
@@ -53,58 +53,4 @@ their innermost fears, to disrupt their scrying attempt and encourage them
 not to try again.
 
 Components, bard: chord x1 (or nil w. eschew materials)
-
-Spell: resonating word
-Class: mage L7, bard L5
-Sphere: alteration
-Saving throw: fort
-Syntax: cast <classname> resonating word on <target>
-
-The caster uses a word of power to cause potentially lethal vibrations in
-the chosen target. Its effects are only subtle to begin with, but quickly
-become destructive. Those with a greater degree of fortitude may be able to
-withstand the worst of its effects.
-
-Non-specialized mages cannot cast this spell.
-
-
-Spell: resonating word
-Class: mage L7, bard L5
-Sphere: alteration
-Saving throw: fort
-Syntax: cast <classname> resonating word on <target>
-
-The caster uses a word of power to cause potentially lethal vibrations in
-the chosen target. Its effects are only subtle to begin with, but quickly
-become destructive. Those with a greater degree of fortitude may be able to
-withstand the worst of its effects.
-
-Non-specialized mages cannot cast this spell.
-
-
-Spell: regeneration
-Class: cleric L7, druid L9, bard L5
-Sphere: healing
-Saving throw: n/a
-Syntax: cast <classname> regeneration on <target>
-
-This spell will cause the target to continuously regenerate a small amount
-of health over a long period of time.  It cannot be used on the same target
-more than once, and does not work in conjunction with the feat of the same
-name.
-
-Components, bard: sonnet x1 (or nil w. eschew materials)
-
-Spell: regeneration
-Class: cleric L7, druid L9, bard L5
-Sphere: healing
-Saving throw: n/a
-Syntax: cast <classname> regeneration on <target>
-
-This spell will cause the target to continuously regenerate a small amount
-of health over a long period of time.  It cannot be used on the same target
-more than once, and does not work in conjunction with the feat of the same
-name.
-
-Components, bard: sonnet x1 (or nil w. eschew materials)
 

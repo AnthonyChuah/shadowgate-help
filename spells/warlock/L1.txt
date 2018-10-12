@@ -1,26 +1,14 @@
-Spell: entropic warding
-Class: warlock L1
+Spell: detect magic
+Class: cleric L1, druid L1, warlock L1, mage/sorc L1, bard L1
+Sphere: divination
 Saving throw: n/a
-Syntax: cast <classname> entropic warding
+Syntax: cast <classname> detect magic
 
-The caster invokes chaotic energies into a field around their person, which
-makes it harder to discern their exact location. This may cause physical
-blows to miss them entirely. The shield has the added effect of preventing
-any trail being left in their wake, either by footfall or by scent.
-
-
-Spell: eldritch blast
-Class: warlock L1
-Saving throw: n/a
-Syntax: cast <classname> eldritch blast on <target>
-
-This is the core spell-like ability of the warlock - the ability to invoke
-pure planar energy and hurl it at a foe. As it is cast as a ray, it
-requires a successful ranged touch attack to hit, and is subject to the
-usual restrictions of spells and spell-like abilities (eg/ magic
-resistance). While initially unremarkable, an accomplished warlock can
-learn to reshape such a blast, or to imbue it with various essences.
-See also: <help blasttype>.
+Will allow the caster to view an aura of magic around objects or creatures
+they observe. The more intense the aura the more magic is indicated.
+Particularly powerful magic may skew the view of other magics. For example
+an especially magical creature might skew the view of the magic sword its
+wielding.
 
 
 Spell: eldritch claws
@@ -39,6 +27,31 @@ invocation is essentially a single shaping of the warlock's eldritch
 ability, so only one essence may be harnessed at a time even between two
 claws.
 See also: <help blasttype>.
+
+
+Spell: eldritch blast
+Class: warlock L1
+Saving throw: n/a
+Syntax: cast <classname> eldritch blast on <target>
+
+This is the core spell-like ability of the warlock - the ability to invoke
+pure planar energy and hurl it at a foe. As it is cast as a ray, it
+requires a successful ranged touch attack to hit, and is subject to the
+usual restrictions of spells and spell-like abilities (eg/ magic
+resistance). While initially unremarkable, an accomplished warlock can
+learn to reshape such a blast, or to imbue it with various essences.
+See also: <help blasttype>.
+
+
+Spell: entropic warding
+Class: warlock L1
+Saving throw: n/a
+Syntax: cast <classname> entropic warding
+
+The caster invokes chaotic energies into a field around their person, which
+makes it harder to discern their exact location. This may cause physical
+blows to miss them entirely. The shield has the added effect of preventing
+any trail being left in their wake, either by footfall or by scent.
 
 
 Spell: glacial blast
@@ -63,6 +76,16 @@ stamina. It grants a bonus to both the athletics and endurance skills for
 its duration.
 
 
+Spell: see the unseen
+Class: warlock L1
+Saving throw: n/a
+Syntax: cast <classname> see the unseen
+
+This invocation allows a warlock to magically augment their vision,
+allowing vastly improved sight in areas of extreme light or darkness, as
+well as the ability to perceive hidden items and beings.
+
+
 Spell: frightful blast
 Class: warlock L1
 Saving throw: will
@@ -73,16 +96,6 @@ become shaken for 1min. This will inflict a penalty to their attack rolls,
 saving throws, and skill checks. Subsequent eldritch blasts will not stack
 this effect, but will refresh its duration.
 See also: <help blasttype>.
-
-
-Spell: see the unseen
-Class: warlock L1
-Saving throw: n/a
-Syntax: cast <classname> see the unseen
-
-This invocation allows a warlock to magically augment their vision,
-allowing vastly improved sight in areas of extreme light or darkness, as
-well as the ability to perceive hidden items and beings.
 
 
 Spell: spiderwalk

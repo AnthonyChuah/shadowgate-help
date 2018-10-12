@@ -1,3 +1,14 @@
+Spell: hold person
+Class: cleric L2, mage/sorc L3, monk L5, bard L2
+Sphere: enchantment_charm
+Saving throw: will
+Syntax: cast <classname> hold person on <target>
+
+This spell will hold its target for rounds that reflect the level of the
+caster.
+
+Components, mage/sorc: piece of iron x1 (or nil w. eschew materials)
+
 Spell: thunder wave
 Class: monk L5
 Sphere: way of the elements

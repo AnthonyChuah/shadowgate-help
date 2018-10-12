@@ -1,11 +1,38 @@
-Spell: hold monster
+Spell: magic vestments
 Class: cleric L4
-Sphere: enchantment_charm
-Saving throw: fort
-Syntax: cast <classname> hold monster on <target>
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> magic vestments
 
-This will magically hold most types of monsters.  It will hold for longer,
-as your levels increase.  They will be able to hear, but not look or fight.
+Calling for a blessing from their deity, the cleric can recieve magical
+vestments that will protect them for a time.  The spell will not work if
+the priest is wearing any form of armor on their torso, including leather,
+chain, and armour types.  The magical vestments will grow in strength as
+the priest's power grows, as will the duration.  The vestments are meant
+only for the cleric, and can not be given to another.  To do so usually
+brings about the wrath of their god upon the priest.
+
+
+Spell: prevent stealing
+Class: cleric L4, paladin L3
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> prevent stealing
+
+This spell prevents stealing in the room where the caster has cast the
+spell for an amount of time dependent on the level of the caster.
+
+
+Spell: sanctify
+Class: cleric L4, paladin L4
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> sanctify
+
+Calling on the power of his or her god, the caster creates a protected
+place for him or herself to retreat to in times of need.  The sanctified
+ground is accessed through an iron gate that is created when the spell is
+cast.
 
 
 Spell: glyph of warding
@@ -37,18 +64,47 @@ A priest may concentrate on only one glyph at a time, but he does not have
 to remain in the room for the glyph to remain.
 
 
-Spell: magic vestments
+Spell: hold monster
 Class: cleric L4
-Sphere: conjuration_summoning
-Saving throw: n/a
-Syntax: cast <classname> magic vestments
+Sphere: enchantment_charm
+Saving throw: fort
+Syntax: cast <classname> hold monster on <target>
 
-Calling for a blessing from their deity, the cleric can recieve magical
-vestments that will protect them for a time.  The spell will not work if
-the priest is wearing any form of armor on their torso, including leather,
-chain, and armour types.  The magical vestments will grow in strength as
-the priest's power grows, as will the duration.  The vestments are meant
-only for the cleric, and can not be given to another.  To do so usually
-brings about the wrath of their god upon the priest.
+This will magically hold most types of monsters.  It will hold for longer,
+as your levels increase.  They will be able to hear, but not look or fight.
+
+
+Spell: cleanse disease
+Class: cleric L4, paladin L4, druid L3, ranger L3, bard L4
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> cleanse disease on <target>
+
+This spell will attempt to cleanse any diseases present on the <target>.
+Success is based on the level of the caster versus the difficult of the
+particular disease.
+
+
+Spell: meld into nature
+Class: cleric L4, druid L3, ranger L4
+Sphere: illusion
+Domain: plant
+Saving throw: n/a
+Syntax: cast <classname> meld into nature
+
+This spell will allow you to hide yourself in the land around you
+magically. It will not function within urban areas.
+
+
+Spell: snakebite
+Class: cleric L4, ranger L3
+Sphere: combat
+Domain: animal
+Saving throw: fort
+Syntax: cast <classname> snakebite on <target>
+
+This spell allows the ranger to draw forth the remaining living energy in
+an otherwise dead stick, converting it into life.  It will become a serpent
+that strikes the target, with a chance to poison with its bite.
 
 

@@ -1,38 +1,92 @@
-Spell: cats grace
-Class: druid L2, ranger L2, bard L2
+Spell: darkness
+Class: cleric L2, mage/sorc L2, monk L3, bard L2
 Sphere: alteration
 Saving throw: n/a
-Syntax: cast <classname> cats grace on <target>
+Syntax: cast <classname> darkness on <target>
 
-This spell allows the caster to infuse their target with the grace of a
-feline, granting them improved agility and coordination.  This spell
-doesn't stack with similarly powerful spells of enhancement.
+This will create a globe of darkness, which will overcome normal light
+sources. You can cast it on an object or player which it will follow,
+instead of the caster.
 
-Components, bard: conceit x1 (or nil w. eschew materials)
 
-Spell: garble
-Class: mage/sorc L3, bard L2
-Sphere: alteration
+Spell: blindness
+Class: mage L2, bard L2
+Sphere: necromancy
 Saving throw: will
-Syntax: cast <classname> garble on <target>
+Syntax: cast <classname> blindness on <target>
 
-This will remove from the target the ability to understand, both read and
-write any language. This should not change the ability to teach the
-language.
+By means of this spell, the caster attempts to steal the target's vision
+for a short while. It is not dispellable by normal magics, but will fade
+after only a short while.
 
-Components, mage/sorc: clay model ziggurat x1 (or nil w. eschew materials)
+Non-specialized mages cannot cast this spell.
 
-Spell: cats grace
-Class: druid L2, ranger L2, bard L2
+Components, bard: whisper x2
+
+Spell: hold person
+Class: cleric L2, mage/sorc L3, monk L5, bard L2
+Sphere: enchantment_charm
+Saving throw: will
+Syntax: cast <classname> hold person on <target>
+
+This spell will hold its target for rounds that reflect the level of the
+caster.
+
+Components, mage/sorc: piece of iron x1 (or nil w. eschew materials)
+
+Spell: invisibility
+Class: mage/sorc L2, bard L2
+Sphere: illusion
+Saving throw: n/a
+Syntax: cast <classname> invisibility (on <target>)
+
+This spell generally will let the caster turn himself or another creature
+or player invisible until one of the three conditions are met.  The
+invisible target has chosen to <appear> to all by typing that, the target
+started a fight or was attacked, and the final way the spell would wear off
+is from time.  The spell will last generally a long time if left to wear
+off however.  Maintaining this spell can become wearying to the caster over
+time.
+
+Components, mage/sorc: gum arabic x1, eyelash x1 (or nil w. eschew
+materials)
+
+Spell: eagles splendor
+Class: cleric L2, paladin L2, bard L2
 Sphere: alteration
 Saving throw: n/a
-Syntax: cast <classname> cats grace on <target>
+Syntax: cast <classname> eagles splendor on <target>
 
-This spell allows the caster to infuse their target with the grace of a
-feline, granting them improved agility and coordination.  This spell
-doesn't stack with similarly powerful spells of enhancement.
+This spell allows the caster to infuse their target with the presence of an
+eagle, enhancing their force of personality.  This spell doesn't stack with
+similarly powerful spells of enhancement.
 
 Components, bard: conceit x1 (or nil w. eschew materials)
+
+Spell: alter self
+Class: psywarrior L2, innate L1, psion L2, bard L2
+Sphere: transmutation
+Saving throw: n/a
+Syntax: cast <classname> alter self
+
+This spell allows the caster to make minor changes to their body. These are
+usually sufficient changes that they become unrecognizable even to those
+they are familiar with. It does not allow for such drastic changes as body
+size or overall shape; the caster would still be quite recognizable as a
+creature of their race.
+
+OOC: This spell does not alter details on your scoresheet (eyes, hair) but
+the caster may describe their new form and features differently to these if
+they so choose. They must still maintain their overall body shape (ie.
+race, general height and weight).
+
+You can only have one altered form with this spell - repeat uses do not
+grant additional different shapeshifts, but instead return you to the same
+secondary form. Adjective, description, speech, messages etc will be
+remembered across castings, so they will only need to be set once in your
+alternative form. Players will be able to recognise your 'other self' as a
+unique entity, separate from your usual self.
+
 
 Spell: foxs cunning
 Class: bard L2
@@ -46,29 +100,6 @@ similarly powerful spells of enhancement.
 
 Components, bard: conceit x1 (or nil w. eschew materials)
 
-Spell: garble
-Class: mage/sorc L3, bard L2
-Sphere: alteration
-Saving throw: will
-Syntax: cast <classname> garble on <target>
-
-This will remove from the target the ability to understand, both read and
-write any language. This should not change the ability to teach the
-language.
-
-Components, mage/sorc: clay model ziggurat x1 (or nil w. eschew materials)
-
-Spell: hold person
-Class: cleric L2, mage/sorc L3, monk L5, bard L2
-Sphere: enchantment_charm
-Saving throw: will
-Syntax: cast <classname> hold person on <target>
-
-This spell will hold its target for rounds that reflect the level of the
-caster.
-
-Components, mage/sorc: piece of iron x1 (or nil w. eschew materials)
-
 Spell: cats grace
 Class: druid L2, ranger L2, bard L2
 Sphere: alteration
@@ -81,255 +112,6 @@ doesn't stack with similarly powerful spells of enhancement.
 
 Components, bard: conceit x1 (or nil w. eschew materials)
 
-Spell: darkness
-Class: cleric L2, mage/sorc L2, monk L3, bard L2
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> darkness on <target>
-
-This will create a globe of darkness, which will overcome normal light
-sources. You can cast it on an object or player which it will follow,
-instead of the caster.
-
-
-Spell: alter self
-Class: psywarrior L2, innate L1, psion L2, bard L2
-Sphere: transmutation
-Saving throw: n/a
-Syntax: cast <classname> alter self
-
-This spell allows the caster to make minor changes to their body. These are
-usually sufficient changes that they become unrecognizable even to those
-they are familiar with. It does not allow for such drastic changes as body
-size or overall shape; the caster would still be quite recognizable as a
-creature of their race.
-
-OOC: This spell does not alter details on your scoresheet (eyes, hair) but
-the caster may describe their new form and features differently to these if
-they so choose. They must still maintain their overall body shape (ie.
-race, general height and weight).
-
-You can only have one altered form with this spell - repeat uses do not
-grant additional different shapeshifts, but instead return you to the same
-secondary form. Adjective, description, speech, messages etc will be
-remembered across castings, so they will only need to be set once in your
-alternative form. Players will be able to recognise your 'other self' as a
-unique entity, separate from your usual self.
-
-
-Spell: eagles splendor
-Class: cleric L2, paladin L2, bard L2
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> eagles splendor on <target>
-
-This spell allows the caster to infuse their target with the presence of an
-eagle, enhancing their force of personality.  This spell doesn't stack with
-similarly powerful spells of enhancement.
-
-Components, bard: conceit x1 (or nil w. eschew materials)
-
-Spell: hold person
-Class: cleric L2, mage/sorc L3, monk L5, bard L2
-Sphere: enchantment_charm
-Saving throw: will
-Syntax: cast <classname> hold person on <target>
-
-This spell will hold its target for rounds that reflect the level of the
-caster.
-
-Components, mage/sorc: piece of iron x1 (or nil w. eschew materials)
-
-Spell: hold person
-Class: cleric L2, mage/sorc L3, monk L5, bard L2
-Sphere: enchantment_charm
-Saving throw: will
-Syntax: cast <classname> hold person on <target>
-
-This spell will hold its target for rounds that reflect the level of the
-caster.
-
-Components, mage/sorc: piece of iron x1 (or nil w. eschew materials)
-
-Spell: darkness
-Class: cleric L2, mage/sorc L2, monk L3, bard L2
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> darkness on <target>
-
-This will create a globe of darkness, which will overcome normal light
-sources. You can cast it on an object or player which it will follow,
-instead of the caster.
-
-
-Spell: invisibility
-Class: mage/sorc L2, bard L2
-Sphere: illusion
-Saving throw: n/a
-Syntax: cast <classname> invisibility (on <target>)
-
-This spell generally will let the caster turn himself or another creature
-or player invisible until one of the three conditions are met.  The
-invisible target has chosen to <appear> to all by typing that, the target
-started a fight or was attacked, and the final way the spell would wear off
-is from time.  The spell will last generally a long time if left to wear
-off however.  Maintaining this spell can become wearying to the caster over
-time.
-
-Components, mage/sorc: gum arabic x1, eyelash x1 (or nil w. eschew
-materials)
-
-Spell: darkness
-Class: cleric L2, mage/sorc L2, monk L3, bard L2
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> darkness on <target>
-
-This will create a globe of darkness, which will overcome normal light
-sources. You can cast it on an object or player which it will follow,
-instead of the caster.
-
-
-Spell: alter self
-Class: psywarrior L2, innate L1, psion L2, bard L2
-Sphere: transmutation
-Saving throw: n/a
-Syntax: cast <classname> alter self
-
-This spell allows the caster to make minor changes to their body. These are
-usually sufficient changes that they become unrecognizable even to those
-they are familiar with. It does not allow for such drastic changes as body
-size or overall shape; the caster would still be quite recognizable as a
-creature of their race.
-
-OOC: This spell does not alter details on your scoresheet (eyes, hair) but
-the caster may describe their new form and features differently to these if
-they so choose. They must still maintain their overall body shape (ie.
-race, general height and weight).
-
-You can only have one altered form with this spell - repeat uses do not
-grant additional different shapeshifts, but instead return you to the same
-secondary form. Adjective, description, speech, messages etc will be
-remembered across castings, so they will only need to be set once in your
-alternative form. Players will be able to recognise your 'other self' as a
-unique entity, separate from your usual self.
-
-
-Spell: alter self
-Class: psywarrior L2, innate L1, psion L2, bard L2
-Sphere: transmutation
-Saving throw: n/a
-Syntax: cast <classname> alter self
-
-This spell allows the caster to make minor changes to their body. These are
-usually sufficient changes that they become unrecognizable even to those
-they are familiar with. It does not allow for such drastic changes as body
-size or overall shape; the caster would still be quite recognizable as a
-creature of their race.
-
-OOC: This spell does not alter details on your scoresheet (eyes, hair) but
-the caster may describe their new form and features differently to these if
-they so choose. They must still maintain their overall body shape (ie.
-race, general height and weight).
-
-You can only have one altered form with this spell - repeat uses do not
-grant additional different shapeshifts, but instead return you to the same
-secondary form. Adjective, description, speech, messages etc will be
-remembered across castings, so they will only need to be set once in your
-alternative form. Players will be able to recognise your 'other self' as a
-unique entity, separate from your usual self.
-
-
-Spell: blindness
-Class: mage L2, bard L2
-Sphere: necromancy
-Saving throw: will
-Syntax: cast <classname> blindness on <target>
-
-By means of this spell, the caster attempts to steal the target's vision
-for a short while. It is not dispellable by normal magics, but will fade
-after only a short while.
-
-Non-specialized mages cannot cast this spell.
-
-Components, bard: whisper x2
-
-Spell: eagles splendor
-Class: cleric L2, paladin L2, bard L2
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> eagles splendor on <target>
-
-This spell allows the caster to infuse their target with the presence of an
-eagle, enhancing their force of personality.  This spell doesn't stack with
-similarly powerful spells of enhancement.
-
-Components, bard: conceit x1 (or nil w. eschew materials)
-
-Spell: eagles splendor
-Class: cleric L2, paladin L2, bard L2
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> eagles splendor on <target>
-
-This spell allows the caster to infuse their target with the presence of an
-eagle, enhancing their force of personality.  This spell doesn't stack with
-similarly powerful spells of enhancement.
-
-Components, bard: conceit x1 (or nil w. eschew materials)
-
-Spell: tongues
-Class: mage/sorc L3, psion L2, bard L2
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> tongues on <target>
-
-This will give the target the ability to understand, both read and write
-any language. This should not change the ability to teach the language.
-
-Components, mage/sorc: clay model ziggurat x1 (or nil w. eschew materials)
-Components, bard: dialogue x1 (or nil w. eschew materials)
-
-Spell: tongues
-Class: mage/sorc L3, psion L2, bard L2
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> tongues on <target>
-
-This will give the target the ability to understand, both read and write
-any language. This should not change the ability to teach the language.
-
-Components, mage/sorc: clay model ziggurat x1 (or nil w. eschew materials)
-Components, bard: dialogue x1 (or nil w. eschew materials)
-
-Spell: hold person
-Class: cleric L2, mage/sorc L3, monk L5, bard L2
-Sphere: enchantment_charm
-Saving throw: will
-Syntax: cast <classname> hold person on <target>
-
-This spell will hold its target for rounds that reflect the level of the
-caster.
-
-Components, mage/sorc: piece of iron x1 (or nil w. eschew materials)
-
-Spell: invisibility
-Class: mage/sorc L2, bard L2
-Sphere: illusion
-Saving throw: n/a
-Syntax: cast <classname> invisibility (on <target>)
-
-This spell generally will let the caster turn himself or another creature
-or player invisible until one of the three conditions are met.  The
-invisible target has chosen to <appear> to all by typing that, the target
-started a fight or was attacked, and the final way the spell would wear off
-is from time.  The spell will last generally a long time if left to wear
-off however.  Maintaining this spell can become wearying to the caster over
-time.
-
-Components, mage/sorc: gum arabic x1, eyelash x1 (or nil w. eschew
-materials)
-
 Spell: misdirection
 Class: mage L2, bard L2
 Sphere: illusion
@@ -347,48 +129,6 @@ lawful neutral, true neutral, chaotic neutral, lawful evil, neutral evil,
 or chaotic evil.
 
 Non-specialized mages cannot cast this spell.
-
-
-Spell: misdirection
-Class: mage L2, bard L2
-Sphere: illusion
-Saving throw: n/a
-Syntax: cast <classname> misdirection on <alignment>
-
-This spell allows a skilled illusionist to weave an aura of misdirection
-around them, preventing the use of alignment discerning spells and
-abilities upon them. They can appear to be any alignment of their choosing.
-There are, naturally, ways to bypass this spell's protection, but it offers
-a degree of deception unavailable to most wizards.
-
-The choices for alignment are lawful good, neutral good, chaotic good,
-lawful neutral, true neutral, chaotic neutral, lawful evil, neutral evil,
-or chaotic evil.
-
-Non-specialized mages cannot cast this spell.
-
-
-Spell: darkness
-Class: cleric L2, mage/sorc L2, monk L3, bard L2
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> darkness on <target>
-
-This will create a globe of darkness, which will overcome normal light
-sources. You can cast it on an object or player which it will follow,
-instead of the caster.
-
-
-Spell: sound burst
-Class: cleric L2, bard L2
-Sphere: invocation_evocation
-Saving throw: reflex
-Syntax: cast <classname> sound burst on <target>
-
-This spell enhances a simple click of the fingers, reaching the target with
-an ear-shattering pitch that can cause serious damage.  It may also harm
-those standing nearest the target in question, though a quick opponent may
-manage to avoid the worst of this damage.
 
 
 Spell: sound burst
@@ -415,17 +155,15 @@ any language. This should not change the ability to teach the language.
 Components, mage/sorc: clay model ziggurat x1 (or nil w. eschew materials)
 Components, bard: dialogue x1 (or nil w. eschew materials)
 
-Spell: blindness
-Class: mage L2, bard L2
-Sphere: necromancy
+Spell: garble
+Class: mage/sorc L3, bard L2
+Sphere: alteration
 Saving throw: will
-Syntax: cast <classname> blindness on <target>
+Syntax: cast <classname> garble on <target>
 
-By means of this spell, the caster attempts to steal the target's vision
-for a short while. It is not dispellable by normal magics, but will fade
-after only a short while.
+This will remove from the target the ability to understand, both read and
+write any language. This should not change the ability to teach the
+language.
 
-Non-specialized mages cannot cast this spell.
-
-Components, bard: whisper x2
+Components, mage/sorc: clay model ziggurat x1 (or nil w. eschew materials)
 

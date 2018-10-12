@@ -1,25 +1,18 @@
-Spell: screen
-Class: cleric L6, mage/sorc L8
-Sphere: illusion
-Domain: illusion
-Saving throw: n/a
-Syntax: cast <classname> screen
+Spell: incendiary cloud
+Class: mage/sorc L8
+Sphere: invocation_evocation
+Saving throw: varied
+Syntax: cast <classname> incendiary cloud
 
-Upon casting this spell, the user creates a screen of illusion centered
-upon himself that makes scrying attempts difficult.  This spell has a
-chance to both detect and block scrying attempts, with the chance for
-success determined by the level of the priest against the level of the
-scryer.  The spell is centered upon the caster and will move with him,
-allowing him to sweep areas for the duration of the spell.
+Upon casting this spell, the mage conjures a heaving mass of smoke and
+flames that blankets the area, scorching those who dare attack the caster. 
+Like most fires, this one requires a brief time to build to a raging
+inferno before it fizzles out again, leaving devastation in its wake.  If
+the caster leaves the area, the cloud will dissipate. A versatile arcanist
+can manipulate the base element of this spell.
 
-When a scrying attempt is detected, the scryer must immediately roll a
-saving throw.  If this is failed, the appearance and general location of
-the scryer immediately become known to the one who cast this spell.  The
-general location is the room and area where the scryer is located at the
-time.
-
-This spell can only be cast while at peace.
-
+Components, mage/sorc: flint x1, dung scrapings x1 (or nil w. eschew
+materials)
 
 Spell: powerword stun
 Class: mage/sorc L8
@@ -55,19 +48,17 @@ time.
 This spell can only be cast while at peace.
 
 
-Spell: incendiary cloud
-Class: mage/sorc L8
-Sphere: invocation_evocation
-Saving throw: varied
-Syntax: cast <classname> incendiary cloud
+Spell: greater shout
+Class: mage/sorc L8, bard L6
+Sphere: enchantment_charm
+Saving throw: fort
+Syntax: cast <classname> greater shout on <target>
 
-Upon casting this spell, the mage conjures a heaving mass of smoke and
-flames that blankets the area, scorching those who dare attack the caster. 
-Like most fires, this one requires a brief time to build to a raging
-inferno before it fizzles out again, leaving devastation in its wake.  If
-the caster leaves the area, the cloud will dissipate. A versatile arcanist
-can manipulate the base element of this spell.
+Like shout, greater shout allows for the mage to magically enchant and
+enhance his voice, to deliver a devastating sonic attack against one
+target, but with more power added to his voice through the use of the
+enchantments of this spell.  The amplified voice can knock some targets off
+balance for a moment, forcing them to spend some time for the ringing in
+their ears to pass.
 
-Components, mage/sorc: flint x1, dung scrapings x1 (or nil w. eschew
-materials)
 

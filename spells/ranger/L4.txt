@@ -9,42 +9,6 @@ This spell will allow you to hide yourself in the land around you
 magically. It will not function within urban areas.
 
 
-Spell: meld into nature
-Class: cleric L4, druid L3, ranger L4
-Sphere: illusion
-Domain: plant
-Saving throw: n/a
-Syntax: cast <classname> meld into nature
-
-This spell will allow you to hide yourself in the land around you
-magically. It will not function within urban areas.
-
-
-Spell: meld into nature
-Class: cleric L4, druid L3, ranger L4
-Sphere: illusion
-Domain: plant
-Saving throw: n/a
-Syntax: cast <classname> meld into nature
-
-This spell will allow you to hide yourself in the land around you
-magically. It will not function within urban areas.
-
-
-Spell: treestride
-Class: druid L5, ranger L4
-Sphere: alteration
-Saving throw: n/a
-Syntax: cast <classname> treestride
-
-By means of this spell, a ranger attunes themselves so closely with a tree
-that they are able to step into it, using its connection with nature to
-travel to the World Tree - the heart of the wilderness.
-
-Any distractions will cause the spell to fail, as it requires deep
-concentration from the caster.  This spell can only be cast while at peace.
-
-
 Spell: treestride
 Class: druid L5, ranger L4
 Sphere: alteration
