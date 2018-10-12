@@ -1,0 +1,77 @@
+Spell: eldritch glaive
+Class: warlock L3
+Saving throw: n/a
+Syntax: cast <classname> eldritch glaive
+
+A variant on the core spell-like ability of the warlock, this invocation
+allows the caster to shape their eldritch blast into a single glaive, which
+can be used as a melee weapon. Both hands must be empty in order for this
+invocation to work; similarly, if a different shaped blast is invoked, the
+glaive will disappear. Releasing grip upon the weapon will end the
+invocation. As with the eldritch blast, the glaive can be imbued with
+various essences.
+See also: <help blasttype>.
+Please note, this blast shape is not coded yet and cannot be used.
+
+
+Spell: hellfire shield
+Class: warlock L3
+Saving throw: n/a
+Syntax: cast <classname> hellfire shield
+
+This spell surrounds the warlock with a searing barrier of hellfire, which
+will move with the caster and harm any foes that get too close.  The
+strength of the flames depends on the level of the caster.
+
+Only a hellfire warlock may harness this invocation.
+
+
+Spell: mind veil
+Class: warlock L3
+Saving throw: n/a
+Syntax: cast <classname> mind veil
+
+This invocation conjures a shroud of magical energy about the caster, which
+will oppose all devices and spells that detect, influence or read emotions
+or thoughts. Mind-effecting spells will not work against the warlock, and
+basic divination attempts such as alignment will reveal nothing of note.
+Greater divinations, such as scrying, will be opposed with by caster's own
+magical strength. This invocation does not work in conjunction with other
+alignment-altering effects, nor with other scry protection magics.
+
+
+Spell: mire the mind
+Class: warlock L3
+Saving throw: will
+Syntax: cast <classname> mire the mind
+
+The caster creates a chilling aura around themselves, which insinuates
+itself into the minds of nearby foes, should they not have the willpower to
+resist. It will apply itself as a fog upon their thoughts, slowing their
+combat reactions considerably. Creatures with only a single attack will not
+be able to be slowed further.
+
+
+Spell: beshadowed blast
+Class: warlock L3
+Saving throw: fort
+Syntax: <blasttype beshadowed>
+
+An eldritch blast with this essence applied will cloud the target/s'
+vision, temporarily blinding them.
+See also: <help blasttype>.
+
+
+Spell: vitriolic blast
+Class: warlock L3
+Saving throw: n/a
+Syntax: <blasttype vitriolic>
+
+An eldritch blast with this essence applied will bypass all magic
+resistance and AC of the target, unerringly finding its mark. It will cause
+acidic residue to burn the target/s for further damage over several rounds.
+Subsequent eldritch blasts will not stack this effect, but will refresh its
+duration. This essence will also change the base type of the blast to acid.
+See also: <help blasttype>.
+
+

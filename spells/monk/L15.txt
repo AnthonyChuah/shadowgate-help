@@ -1,0 +1,28 @@
+Spell: cone of cold
+Class: mage/sorc L5, monk L15
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> cone of cold on <target>
+
+By casting this spell, you form a massive white cone of icy cold towards
+your target.  Not only does this spell increase damagewise as the caster
+increases in level, but also, the chance of hitting an unintended target in
+addition to the intentional one increases too.  The mage will try to aim
+the spell at only hostile targets, but this is not always possible.
+
+Components, mage/sorc: crystal x1 (or nil w. eschew materials)
+
+Spell: cone of cold
+Class: mage/sorc L5, monk L15
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> cone of cold on <target>
+
+By casting this spell, you form a massive white cone of icy cold towards
+your target.  Not only does this spell increase damagewise as the caster
+increases in level, but also, the chance of hitting an unintended target in
+addition to the intentional one increases too.  The mage will try to aim
+the spell at only hostile targets, but this is not always possible.
+
+Components, mage/sorc: crystal x1 (or nil w. eschew materials)
+

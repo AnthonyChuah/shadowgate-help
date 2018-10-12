@@ -1,0 +1,187 @@
+Spell: brimstone blast
+Class: warlock L2
+Saving throw: reflex
+Syntax: <blasttype brimstone>
+
+An eldritch blast with this essence applied will cause the target/s to
+catch fire, burning for further damage over several rounds. Subsequent
+eldritch blasts will not stack this effect, but will refresh its duration.
+This essence will also change the base type of the blast to fire.
+See also: <help blasttype>.
+
+
+Spell: fell flight
+Class: warlock L2
+Saving throw: n/a
+Syntax: cast <classname> fell flight
+
+This spell causes the warlock to sprout a set of wings, their nature
+dependent upon the origins of their pact. As the wings are only shaped from
+energy, they are not powerful enough to bear the caster aloft in true
+flights of any length. However, they allow the warlock to drift in short
+bursts to conserve energy when travelling, and may also be used to propel
+the warlock with unexpected speed in combat, to land an extra attack
+against a foe. This invocation does not work together with other
+flight-based spells, nor similar spell buffs such as haste, rage or
+berserker.
+
+
+Spell: curse of despair
+Class: warlock L2
+Saving throw: will
+Syntax: cast <classname> curse of despair on <target>
+
+By means of this invocation, the caster places a curse upon the target that
+will weaken them considerably, lowering their defenses and their combat
+abilities. It is not dispellable by normal magics, but will fade over time.
+
+
+Spell: hungry darkness
+Class: warlock L2
+Saving throw: reflex
+Syntax: cast <classname> hungry darkness
+
+This invocation calls a supernatural darkness down within the area,
+blurring the line between the prime material plane and the planes beyond.
+What lies beyond will ignore the warlock, but will reach out, biting and
+clawing at anything close enough...
+
+
+Spell: ignore the pyre
+Class: warlock L2
+Saving throw: n/a
+Syntax: cast <classname> ignore the pyre on <element>
+
+This invocation bestows the warlock with an innate affinity for the element
+of choice, which results in less damage taken from any attacks of that
+type. Elements that can be chosen are acid, cold, electricity, fire, or
+sonic.
+
+
+Spell: enthrall
+Class: warlock L2
+Saving throw: will
+Syntax: cast <classname> enthrall on <target>
+
+By means of this invocation, the warlock will attempt to assert a degree of
+mental control over the target. If successful, the target will follow the
+caster around and try to protect them from harm. If the warlock harms the
+enthralled creature, their control will be lost. Only one creature may be
+controlled in this way at a time, and it will not work on other players,
+although it may confuse them briefly.
+
+OOC
+Please exercise caution and good role-playing skills when using this
+invocation.  Just because you have a monster charmed, does not mean people
+will react well to it in crowded places.
+
+
+Spell: walk unseen
+Class: warlock L2
+Saving throw: n/a
+Syntax: cast <classname> walk unseen
+
+This invocation places illusory spellcraft around the warlock, deceiving
+the eyes of those around so as to effectively disappear from view. While
+minor, a small degree of concentration is required to maintain the effect,
+so it can become wearying over time. Becoming engaged in combat is
+sufficiently distracting to lose control of the concealment; also, falling
+unconscious will cause the invocation to fail. Of course, the warlock can
+simply forgo the concentration to <appear> at any time.
+
+
+Spell: flee the scene
+Class: warlock L2
+Saving throw: n/a
+Syntax: cast <classname> flee the scene on <direction>
+
+This spell allows the caster to craft an illusion about themselves, before
+slipping out of it a short distance away. The illusion remains behind for a
+round, hopefully fooling those who might try to come after. The invocation
+can be used in combat and will ignore mundane impediments, such as caltrops
+or closed doors, but will be barred by magically sealed doors. Given the
+very careful and draining spellcraft this invocation requires, it will take
+a few moments before the warlock can cast it again after the first.
+
+
+Spell: glamer
+Class: warlock L2
+Saving throw: n/a
+Syntax: cast <classname> glamer
+
+This invocation creates an illusion to alter the warlock's features. It is
+a drastic enough change that they become unrecognizable even to those they
+are familiar with. It does not allow for such drastic changes as body size
+or overall shape; the caster would still be quite recognizable as a
+creature of their race.
+
+OOC: This spell does not alter details on your scoresheet (eyes, hair) but
+the caster may describe their new form and features differently to these if
+they so choose. They must still maintain their overall body shape (ie.
+race, general height and weight).
+
+You can only have one altered form with this spell - repeat uses do not
+grant additional different shapeshifts, but instead return you to the same
+secondary form. Adjective, description, speech, messages etc will be
+remembered across castings, so they will only need to be set once in your
+alternative form. Players will be able to recognise your 'other self' as a
+unique entity, separate from your usual self.
+
+
+Feat requirements: warlock (blooded)
+
+Spell: the dead walk
+Class: warlock L2
+Saving throw: n/a
+Syntax: cast <classname> the dead walk (on <target>)
+
+This invocation draws upon the power of the Plane of Shadows, infusing the
+recently dead with negative energy to reanimate their bodies as undead. You
+can raise a total number of hit dice worth of zombies and skeletons up to
+your casting level.  They will follow you and defend you from your enemies.
+Unlike most common summoning spells, these monsters will not go away unless
+the caster quits.  They are undead, so they can be turned, and so forth,
+but they cannot be dispelled.
+
+
+Spell: eldritch chain
+Class: warlock L2
+Saving throw: n/a
+Syntax: cast <classname> eldritch chain on <target>
+
+This is an extension of the core spell-like ability of the warlock - the
+ability to invoke pure planar energy and hurl it at a foe. Unlike its
+primary form, the invocation will leap to secondary targets if they are
+present, more so as the warlock gains in strength. As with the eldritch
+blast, it can be imbued with various essences.
+See also: <help blasttype>.
+
+
+Spell: warlocks call
+Class: warlock L2
+Saving throw: n/a
+Syntax: cast <classname> warlocks call to <target>
+
+This invocation allows a brief message to be sent to the target (less than
+200 characters). . Doing so opens the warlock up to a response from the
+target - either a message of a similarly short nature, or a harmful retort
+of mental energy. If either message is too long, or either party takes more
+than a minute to respond, the invocation will dissipate harmlessly. If the
+target is ignoring the warlock or incapacitated in some way, the invocation
+will fail.
+
+
+Spell: witchwood step
+Class: warlock L2
+Saving throw: n/a
+Syntax: cast <classname> witchwood step
+
+This invocation attunes the warlock to an element of flowing energy,
+commonly that of air, water, or the chaotic fluctuations of the feywild.
+Such energies will lie dormant in the caster's veins, triggering at the
+next time the caster is stunned or tripped to grant them freedom from the
+effect. The power of this invocation is such that the caster will need to
+wait a brief period once activated before it can be cast again. It can only
+be cast while at peace.
+
+

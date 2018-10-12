@@ -1,0 +1,109 @@
+Spell: entropic warding
+Class: warlock L1
+Saving throw: n/a
+Syntax: cast <classname> entropic warding
+
+The caster invokes chaotic energies into a field around their person, which
+makes it harder to discern their exact location. This may cause physical
+blows to miss them entirely. The shield has the added effect of preventing
+any trail being left in their wake, either by footfall or by scent.
+
+
+Spell: eldritch blast
+Class: warlock L1
+Saving throw: n/a
+Syntax: cast <classname> eldritch blast on <target>
+
+This is the core spell-like ability of the warlock - the ability to invoke
+pure planar energy and hurl it at a foe. As it is cast as a ray, it
+requires a successful ranged touch attack to hit, and is subject to the
+usual restrictions of spells and spell-like abilities (eg/ magic
+resistance). While initially unremarkable, an accomplished warlock can
+learn to reshape such a blast, or to imbue it with various essences.
+See also: <help blasttype>.
+
+
+Spell: eldritch claws
+Class: warlock L1
+Saving throw: n/a
+Syntax: cast <classname> eldritch claws [on one hand]
+
+A variant on the core spell-like ability of the warlock, this invocation
+allows the caster to shape their eldritch blast into as many claws as they
+have free hands, all of which can be used as melee weapons. If the warlock
+has no free hands, the invocation will fail entirely; similarly, if a
+different shaped eldritch ability is invoked, the claw/s will disappear.
+Releasing grip upon a claw will cause it to disappear. As with eldritch
+blast, the claw/s can be imbued with various essences; however as the
+invocation is essentially a single shaping of the warlock's eldritch
+ability, so only one essence may be harnessed at a time even between two
+claws.
+See also: <help blasttype>.
+
+
+Spell: glacial blast
+Class: warlock L1
+Saving throw: fort
+Syntax: <blasttype glacial>
+
+An eldritch blast with this essence applied will cause the target/s to
+become chilled for 10min, which will inflict a penalty to their dexterity.
+Subsequent eldritch blasts will not stack this effect, but will refresh its
+duration. This essence will also change the base type of the blast to cold.
+See also: <help blasttype>.
+
+
+Spell: leaps and bounds
+Class: warlock L1
+Saving throw: n/a
+Syntax: cast <classname> leaps and bounds
+
+This invocation grants the caster a startling degree of agility and
+stamina. It grants a bonus to both the athletics and endurance skills for
+its duration.
+
+
+Spell: frightful blast
+Class: warlock L1
+Saving throw: will
+Syntax: <blasttype frightful>
+
+An eldritch blast with this essence applied will cause the target/s to
+become shaken for 1min. This will inflict a penalty to their attack rolls,
+saving throws, and skill checks. Subsequent eldritch blasts will not stack
+this effect, but will refresh its duration.
+See also: <help blasttype>.
+
+
+Spell: see the unseen
+Class: warlock L1
+Saving throw: n/a
+Syntax: cast <classname> see the unseen
+
+This invocation allows a warlock to magically augment their vision,
+allowing vastly improved sight in areas of extreme light or darkness, as
+well as the ability to perceive hidden items and beings.
+
+
+Spell: spiderwalk
+Class: warlock L1
+Saving throw: n/a
+Syntax: cast <classname> spiderwalk
+
+A warlock uses this basic invocation to capture the nature of a spider,
+including their ability to climb sheer surfaces, and their immunity to
+webs.
+
+
+Spell: voice of madness
+Class: warlock L1
+Saving throw: will
+Syntax: cast <classname> voice of madness on <target>
+
+This invocation will call upon beings beyond, unfathomable and terrifying,
+to whisper in the ears of the target. A weak-willed target will become
+overwhelmed by the maddening voices, and may babble incoherently, attack
+the closest thing to them, or simply wander away.  When used on a player,
+it simply causes them to stand and stare blankly.
+
+

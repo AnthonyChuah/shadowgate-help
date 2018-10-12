@@ -1,0 +1,15 @@
+Spell: form of doom
+Class: psywarrior L6
+Saving throw: will
+Syntax: cast <classname> form of doom
+
+The manifester calls on the stuff of nightmares, disguising himself in a
+terrifying visage of sleek, lashing tentacles. Your horrific appearance is
+enough to shake the confidence of those who oppose you, while the form
+bolsters you, granting you some extra strength and protection from both
+physical attacks and fire-based assaults. This power does not stack with
+other damage resistance spells and powers (e.g. iron body, oak body,
+stoneskin, resist energy).
+
+Components, psywarrior: larvikite x3 (or nil w. eschew materials)
+

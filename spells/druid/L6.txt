@@ -1,0 +1,39 @@
+Spell: fire seeds
+Class: druid L6
+Sphere: fire
+Saving throw: reflex
+Syntax: cast <classname> fire seeds on <target>
+
+Upon casting this spell, a druid scoops up seeds from the surrounding
+wilderness and enchants them before hurling them at his foes.  The seeds
+explode upon impact, burning his foes.  The druid will make an attempt to
+damage only foes, but that is not always possible, and targets have a
+chance to avoid the brunt of the spell for half damage.  This spell can be
+cast only in the wilderness.
+
+NOTE: If you receive a message that you cannot cast the spell in a certain
+room because of the terrain and you think you received the message in
+error, please <bug here> and let us know so we can see if the terrain needs
+to be adjusted.
+
+
+Spell: spellstaff
+Class: druid L6
+Sphere: invocation_evocation
+Saving throw: n/a
+Syntax: cast <classname> spellstaff on <spell name> | <arguments to the
+spell>
+
+NOTE: You must carry a staff with you when casting this spell.
+
+This spell allows the druid to hold a spell in reserve to be called upon at
+a later time by typing <now>.  If the spell normally requires a target,
+that target will automatically be the druid.  If you need to add arguments
+to the reserved spell, you must add them at the time of casting spellstaff.
+
+example of usage:  cast spellstaff on word of recall | <remembered location>
+Note: You do need the | symbol if the spell requires arguments, such as a
+location.
+
+
+

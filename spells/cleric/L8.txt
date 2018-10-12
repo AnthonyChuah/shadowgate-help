@@ -1,0 +1,163 @@
+Spell: inner eye
+Class: cleric L8
+Sphere: divination
+Domain: mentalism
+Saving throw: n/a
+Syntax: cast <classname> inner eye on <target>
+
+Upon casting this spell, the priest focuses his inner eye and commands it
+to watch a particular place for him.  Without an argument, the eye will
+watch the room the priest is currently in.  When targeted upon a person
+known to the priest, the eye will instead focus on that person.
+
+
+Spell: fortune fate
+Class: cleric L8
+Sphere: healing
+Domain: fate
+Saving throw: n/a
+Syntax: cast <classname> fortune fate on <target>
+
+This spell will cause the fates to smile on the target.  When cast, it will
+activate a healing spell that will remain in reserve up until the target
+falls below 25% of their maximum health.  When that point is reached, a
+random healing spell, ranging from cure light wounds all the way up to heal
+is cast on the target.
+
+Tymorans believe that it is Lady Luck that smiles on them with this prayer,
+giving them a healing boost when they need it most.  Those who follow the
+Maid of Misfortune see it differently, that misfortune falls upon the
+attacker, by healing the target.  Those who follow the Lord of the Dead
+view this spell as protecting one from dying before their time.
+
+
+Spell: create portal
+Class: cleric L8
+Sphere: alteration
+Domain: travel
+Saving throw: n/a
+Syntax: cast <classname> create portal to <location>
+
+This power allows the priest to call on the power of his diety to open a
+portal from his current location to any place that he has remembered
+before.  The portal can not open unless both rooms may be teleported to and
+from.  The portal remains in effect longer for stronger casters.
+
+See also: remember, unremember, recall
+
+
+Spell: forbiddance
+Class: cleric L8
+Sphere: abjuration
+Domain: tyranny
+Saving throw: n/a
+Syntax: cast <classname> forbiddance
+
+This spell creates an oppressive aura of protection throughout the area,
+forbidding anyone from teleporting into or out of it.  The magic will last
+for a short time, until the caster leaves the area, or until it is
+dispelled.
+
+
+Spell: stormrage
+Class: cleric L8
+Sphere: weather
+Domain: storms
+Saving throw: reflex
+Syntax: cast <classname> stormrage
+
+In using this spell, the caster calls upon the might of the weather,
+creating a powerful storm in an area.  The storm takes several rounds to
+develop and a few more to recede.  With it comes stinging winds, hail, and
+blasts of lightning.  Because the spell requires air to create its storm,
+it cannot be cast underwater.
+
+
+Spell: ghostform
+Class: cleric L8
+Sphere: conjuration_summoning
+Domain: repose
+Saving throw: n/a
+Syntax: cast <classname> ghostform
+
+Drawing forth the power of his deity, the caster is imbued with a spectral
+presence, causing him to be harder to see and therefore more difficult to
+hit.  This spell will last for a time depending upon the caster's level.
+
+
+Spell: stone body
+Class: cleric L8
+Sphere: combat
+Domain: earth
+Saving throw: n/a
+Syntax: cast <classname> stone body
+
+This spell will cover the caster's skin in a layer of granite, reducing the
+damage he takes with each hit.  The higher the level the caster, the more
+damage will be resisted.  The spell also renders the caster immune to
+poison.
+
+
+Spell: silver sight
+Class: cleric L8
+Sphere: divination
+Domain: moon
+Saving throw: n/a
+Syntax: cast <classname> silver sight on <target>
+
+This spell will invoke the power of the moon to grant the caster
+far-reaching sight, allowing her to watch what goes on in the target room.
+
+
+Spell: gods favor
+Class: cleric L8
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> gods favor
+
+Gods favor allows those that are in high favor of their diety to call upon
+the protection of their god/goddess in times of trouble.  Once this spell
+has been cast, it can be triggered with the command <now> to drag the
+caster in safety back to their home temple.
+
+
+Spell: crushing hand
+Class: cleric L8
+Sphere: combat
+Domain: strength
+Saving throw: n/a
+Syntax: cast <classname> crushing hand
+
+This spell will call forth a crushing hand to help defend the caster as
+well as lend its strength to the battles the caster may face.  While the
+hand is under the caster's control, he may <command hand to [action]> or
+<dismiss> the crushing hand if it is no longer needed.
+
+
+Spell: tidal surge
+Class: cleric L8
+Sphere: elemental water
+Domain: water
+Saving throw: reflex
+Syntax: cast <classname> tidal surge on <target>
+
+This spell will draw all of the water in the atmosphere for miles and miles
+around to a place above and behind the caster.  The water is condensed into
+the form of a massive wave that is directed at the target.  The wave may
+knock the target down as well as force him to drop his weapons.  The force
+of the water may also keep him from moving until he regains his senses. 
+Because of the size of the wave, nearby targets may be hit as well.
+
+
+Spell: windstorm
+Class: cleric L8
+Sphere: elemental air
+Domain: air
+Saving throw: reflex
+Syntax: cast <classname> windstorm
+
+This spell calls on the power of the plane of air to unleash a terrible
+gale of wind that sends debris whipping around the caster's enemies.  It
+has a chance to blind them with sand, and even knock them from their feet.
+
+

@@ -1,0 +1,106 @@
+Spell: eldritch burst
+Class: warlock L4
+Saving throw: reflex
+Syntax: cast <classname> eldritch burst
+
+This is the pinnacle of the core spell-like ability of the warlock - the
+ability to invoke pure planar energy and hurl it at a foe. Unlike its
+primary form, the invocation emits in a burst from the caster, striking any
+foe within reach. As this is not a ray, no touch attack is required, but
+foes can attempt a reflex save to avoid part of the damage. As with the
+eldritch blast, it can be imbued with various essences.
+See also: <help blasttype>.
+
+
+Spell: infernal rain
+Class: warlock L4
+Saving throw: reflex
+Syntax: cast <classname> infernal rain
+
+This invocation unleashes a storm of hellfire, raining down the wrath of
+infernal energies upon the warlock's foes.  The invocation will last
+several rounds depending upon the level of the warlock, and the warlock
+must remain present for the storm to continue.  All those attacking the
+warlock are subject to the effects of the infernal rain, though they do
+receive saving throws. Only one area spell or invocation may be maintained
+by a caster at a time!
+
+Only a hellfire warlock may harness this invocation.
+
+
+Spell: cunning insight
+Class: warlock L4
+Saving throw: n/a
+Syntax: cast <classname> cunning insight
+
+By means of this potent invocation, the warlock imbues his body with power,
+thereby expanding his awareness and ability to resist and react to outside
+forces. This results in an improved command of physical combat and weapon
+handling, as well as a better aptitude at avoiding attacks. This invocation
+does not work alongside similarly powerful melee spells, such as rage,
+dance of a thousand cuts, or transformation.
+
+
+Spell: casters lament
+Class: warlock L4
+Saving throw: n/a
+Syntax: cast <classname> casters lament (on <object> [at <player>])
+
+This invocation harnesses the greatest of a warlock's natural aptitude for
+manipulating magical energies and items. For the first, if cast with no
+target, it will imbue the warlock with a considerable resistance to magical
+attacks. If directed at an item, either in the caster's own inventory or in
+that of another player, it can be used to shatter the magic upon a cursed
+item.
+
+
+Spell: devour magic
+Class: warlock L4
+Saving throw: n/a
+Syntax: cast <classname> devour magic [on <target>]
+
+This invocation bears greater potency than its lesser cousin, voracious
+dispelling. In a similar fashion, it will attempt to destroy any spell
+enchantments, magical summonings, and anything conjured.  The chances of
+each dispelling depends on both the dispeller's casting level and the power
+level of the spellcaster that created whatever is being dispelled, whether
+it be an enchantment, summoning, or conjuration. Unlike similar abilities,
+however, any spells that are successfully opposed are instead consumed by
+the invocation and used to heal the warlock's injuries.
+
+
+Spell: utterdark blast
+Class: warlock L4
+Saving throw: n/a
+Syntax: <blasttype utterdark>
+
+An eldritch blast with this essence applied will be empowered for greater
+damage to its target/s.
+See also: <help blasttype>.
+
+
+Spell: binding blast
+Class: warlock L4
+Saving throw: will
+Syntax: <blasttype binding>
+
+An eldritch blast with this essence applied will ensnare the target/s with
+magical energy, temporarily stunning them.
+See also: <help blasttype>.
+
+
+Spell: walk the planes
+Class: warlock L4
+Saving throw: n/a
+Syntax: cast <classname> walk the planes on <location>
+
+This powerful invocation allows the warlock to travel along the edge of the
+plane with which they bear affinity, using it as 'shortcut' of sorts to a
+known destination upon the prime. Such travel will heal some of the
+caster's injuries along the way, given their natural bond with that
+particular plane. Any party-mates who are with the caster at the time are
+considered to be willing subjects of the spell, and will travel alongside
+the caster to his or her destination, if they are not pre-occupied with
+combat.
+
+

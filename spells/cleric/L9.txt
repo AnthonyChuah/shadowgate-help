@@ -1,0 +1,46 @@
+Spell: mass heal
+Class: cleric L9
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> mass heal on <target>
+
+This is a stronger version of the priest spell, heal.  When cast without a
+target or on the caster or any party member, it will heal the caster and
+any party members of the caster who are present in the area.  When cast on
+a hostile, it will hit all hostiles in the immediate area, healing those
+that are living, and hurting those that are undead.  When cast on a neutral
+creature that is neither in the caster's party or hostile to the caster, it
+will hit all creatures in the area, healing those that are living and
+hurting those that are undead.
+
+
+Spell: resurrection
+Class: cleric L9
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> resurrection on <target> (dead player's name)
+
+Praying to their diety for a miracle, a priest can attempt to resurrect a
+slain ally back to life.  The resurrection, if successful, will restore the
+corpse back to life and full of health.  The spell is somewhat draining on
+the priest, for channeling large ammounts of divine power can be
+exhausting.  The target will suffer significantly less (lower exp. loss)
+from the death due to the intervention of the priest.
+
+See also:  help pkilling, help rules
+
+
+Spell: succor
+Class: cleric L9
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> succor to <location>
+
+The succor spell will transport the priest to a location that he or she has
+remembered from the 'remembered location' list. To remember a new location,
+use 'remember here as <location>', to see a list of all remembered
+locations, use 'recall locations'.
+This spell must be cast while at peace.
+See also: remember, unremember, recall
+
+

@@ -1,0 +1,39 @@
+Spell: greater stomp
+Class: psywarrior L5
+Sphere: combat
+Saving throw: reflex
+Syntax: cast <classname> greater stomp
+
+The psionic character releases a torrent of psychic energy as she stomps
+upon the earth, causing tremors to ripple throughout the area. She uses her
+energy to feed the power, tripping and damaging her foes for several
+rounds, provided she stays in the area. All those attacking the character
+are subject to the effects of the stomp, though they do receive saving
+throws.
+
+
+Spell: empower weapon
+Class: psywarrior L5
+Saving throw: n/a
+Syntax: cast <classname> empower weapon on <weapon> as <power name> |
+<arguments to the power>
+
+NOTE: This power may only be cast into a weapon and will not function
+without that weapon in your inventory. Also, the weapon can store only
+helpful powers, not those used for attacks. If you find that a particular
+power cannot be used when you think it should be, please bug report it.
+
+This power allows the psionic character to hold a power in reserve to be
+called upon at a later time by typing <release>.  If the power reserved
+normally requires a target, that target will automatically be the
+manifester.  If you need to add arguments to the reserved power, you must
+add them at the time of manifesting empower weapon.
+
+example of usage:  manifest empower weapon on sword as dimension door | home
+
+NOTE: You do need the | symbol if the power requires arguments such as a
+location.
+
+
+Components, psywarrior: rhodochrosite x1, rose quartz x1
+

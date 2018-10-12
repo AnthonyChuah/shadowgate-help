@@ -1,0 +1,128 @@
+Spell: shadow double
+Class: mage/sorc L7
+Sphere: illusion
+Saving throw: n/a
+Syntax: cast <classname> shadow double
+
+This spell will conjure a ghostly double of the caster, drawn from his or
+her own shadow. The shadow will automatically follow and protect you.
+Should you lose it, though, simply go into the room with it and <command
+shadow to follow>. This is a greater summons, and cannot be used
+simultaneously with other greater summons.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage/sorc: onyx dust x1
+
+Feat requirements: shadow_adept (gift of the shadows), mage/sorc (gift of
+the shadows), sorcerer (gift of the shadows)
+
+Spell: magic mirror
+Class: mage/sorc L7
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> magic mirror on <object> (a scrying mirror)
+
+By means of this spell, the wizard changes a normal mirror into a scrying
+device similar to a crystal ball. The details of the use of such a scrying
+device can be accessed by typing <help mirror> after a successful cast on a
+mirror.  You will be able to scry a player character or a location with the
+scrying device made by this spell.
+
+The mirror used must be of finely wrought and highly polished silver of a
+minimum cost of 1,000 gp.  These mirrors are generally found only in
+wizard's laboratories as they are both large and fragile, making them
+impossible to carry around.
+
+You will not be able to scry a character that you have not recognized
+previously with the 'recognize' command.  Your chance of success in using
+the mirror on a character is less if you recognize someone as something
+other than their true name, but its better than nothing.  You may not scry
+locations at all unless they are in memory via the remember command.
+
+There is also a chance that the target of the spell may notice that they
+are being scryed.  This depends on their class, and is adjusted
+significantly by intelligence.  This operates independantly of any scry
+detection magic or devices.  This spell can only be cast while at peace.
+
+Components, mage/sorc: eye of roc x1, zinc x1, nitric acid x1, copper x1
+
+Spell: mages sword
+Class: mage L7
+Sphere: invocation_evocation
+Saving throw: n/a
+Syntax: cast <classname> mages sword
+
+This spell will create a floating and controllable sword for you that you
+can use to attack your enemies.  The sword will automatically follow and
+protect you.  Should you lose it, though, simply go into the room with it
+and <command sword to follow>. This is a greater summons, and cannot be
+used simultaneously with other greater summons.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: mini platinum sword x1
+
+Spell: prismatic spray
+Class: mage/sorc L7
+Sphere: invocation_evocation
+Saving throw: varied
+Syntax: cast <classname> prismatic spray on <target>
+
+When the prismatic spray spell is cast, the wizard causes several
+shimmering rays of light to flash from his/her hand.  Each ray has a
+different purpose and power.  The creature struck will be touched by one or
+more rays and will be subject to a number of different attacks from the
+spell.
+
+
+Spell: finger of death
+Class: mage/sorc L7
+Sphere: necromancy
+Saving throw: fort
+Syntax: cast <classname> finger of death on <target>
+
+Finger of death pulls the darkness in close around the caster as the caster
+attempts to free the soul of the target from its mortal home, killing the
+target.
+
+This spell can only be cast while at peace.
+
+
+Spell: spell turning
+Class: mage L7
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> spell turning
+
+The most skilled of abjurationists can use such a spell to raise a
+protective ward around themselves. While it holds, it will have a chance to
+reflect any spells which are directly aimed at the caster, regardless of
+whether they are hostile or friendly. The ward will not reflect splash
+damage or AOE, but only direct-targetted spells. This spell does not stack
+with the 'reflection' or 'spell reflection' feats.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: glass rod x1, small silver mirror x1 (or nil w. eschew
+materials)
+
+Spell: deny the reaper
+Class: mage L7
+Sphere: necromancy
+Saving throw: n/a
+Syntax: cast <classname> deny the reaper on <target> (dead player's name)
+
+This spell will send out necromantic energies to snatch a dead person away
+from the afterlife.  The deceased will be returned to the site of death and
+revived.  A successfully revived person will be barely alive and need
+significant healing, due to the strain of being dragged away from death's
+embrace, and will still be weakened by the touch of death despite their
+restoration.
+
+See also: help pkilling, help rules
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: drop of blood x1, diamond dust x1
+

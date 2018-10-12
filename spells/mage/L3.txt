@@ -1,0 +1,83 @@
+Spell: blink
+Class: mage/sorc L3
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> blink
+
+With a snap of the fingers, the mage can start to blink between the prime
+and ethereal planes. This will give a chance for melee attacks to simply
+pass right through their form, while it is incorporeal. NOTE: Will only
+work while wearing mage armor.
+
+
+Spell: lightning orb
+Class: mage/sorc L3
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> lightning orb on <target>
+
+This spell allows a mage to tap into the Para-Elemental Plane of Lightning
+and borrow some of its energy to create an orb of pure lightning.  Once the
+orb is launched into the air, the first thing it strikes will cause it to
+burst open, releasing the shocking attack on the mage's foes.  Though care
+should be taken as it is possible to accidently catch the mages allies in
+the blast.
+
+Components, mage/sorc: beeswax x1, magnets x1 (or nil w. eschew materials)
+
+Spell: lightning bolt
+Class: mage/sorc L3
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> lightning bolt on <target>
+
+This spell, when cast, will allow you to hurl a lightning bolt at your
+target.  The blazing electricity will inflict 1d6 points of damage per
+level of the caster, subject to a maximum, reduced if they make their save.
+A versatile arcanist can manipulate the base element of this spell.
+
+Components, mage/sorc: firefly x1 (or nil w. eschew materials)
+
+Spell: frost orb
+Class: mage/sorc L3
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> frost orb on <target>
+
+This spell allows a mage to tap into the Para-Elemental Plane of Ice and
+borrow some of its energy to create an orb of frost and ice.  Once the
+freezing orb is launched into the air, the first thing it strikes will
+cause it to burst open, releasing the chilling attack on the mage's foes. 
+Though care should be taken as it is possible to accidently catch the mages
+allies in the blast.
+
+Components, mage/sorc: beeswax x1, crystal x1 (or nil w. eschew materials)
+
+Spell: acid orb
+Class: mage/sorc L3
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> acid orb on <target>
+
+This spell allows a mage to tap into the Para-Elemental Plane of Ooze and
+borrow some of its energy to create an orb of pure acid.  Once the orb is
+launched into the air, the first thing it strikes will cause it to burst
+open, releasing the acid on the mage's foes.  Though care should be taken
+as it is possible to accidently catch the mages allies in the blast.
+
+Components, mage/sorc: citric acid x2, beeswax x1 (or nil w. eschew
+materials)
+
+Spell: vampiric touch
+Class: mage/sorc L3
+Sphere: necromancy
+Saving throw: n/a
+Syntax: cast <classname> vampiric touch on <target>
+
+This spell, when cast, will allow the mage to drain a certain amount of hit
+points from an opponent and add them to his own, if he makes a successful
+touch attack against the victim.  The spell will only heal the caster up to
+his maximum hit points.  Using negative energy, this spell is ineffective
+against the undead.
+
+

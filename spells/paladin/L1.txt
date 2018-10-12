@@ -1,0 +1,38 @@
+Spell: bolster
+Class: paladin L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> bolster on <target>
+
+This spell will bolster the target, giving them a slightly better chance to
+hit in combat as well as allowing them to do a small amount more damage.
+
+
+Spell: detect chaos
+Class: cleric L1, paladin L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> detect chaos on <target> || <room>
+
+Detect chaos will detect the presence of chaos in players or monsters.
+
+
+Spell: virtue
+Class: paladin L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> virtue
+
+This spell bestows a small blessing upon the caster, increasing their
+resilience.
+
+
+Spell: detect chaos
+Class: cleric L1, paladin L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> detect chaos on <target> || <room>
+
+Detect chaos will detect the presence of chaos in players or monsters.
+
+

@@ -1,0 +1,100 @@
+Spell: cloudburst
+Class: cleric L2
+Sphere: elemental water
+Domain: water
+Saving throw: reflex
+Syntax: cast <classname> cloudburst on <target>
+
+The spell allows the priest to gather the water in the atmosphere to form a
+cloud, from which he can release a torrential surge of rain over the
+target.  As the caster grows in power, he is able to draw more moisture
+into the cloud, creating a larger surge of water.  The target may find it
+difficult to retain their footing among the surge.
+
+
+Spell: know alignment
+Class: cleric L2
+Sphere: divination
+Saving throw: will
+Syntax: cast <classname> know alignment on <target>
+
+Allows the caster to learn the target's alignment. This can be foiled by
+certain illusion magics.
+
+
+Spell: body blades
+Class: cleric L2
+Sphere: combat
+Domain: suffering
+Saving throw: n/a
+Syntax: cast <classname> body blades
+
+This spell will cause razor sharp blades to sprout from the caster's skin,
+protecting them from harm and doing damage to anyone who attacks the
+caster.
+
+
+Spell: meld into stone
+Class: cleric L2
+Sphere: alteration
+Domain: cavern
+Saving throw: n/a
+Syntax: cast <classname> meld into stone
+
+This spell allows the caster to meld with nearby stone, rendering him
+invisible to most viewers.  The spell likewise confers the ability to move
+while invisible, so long as the caster does not pass out of the appropriate
+terrain.  To end the spell, the caster can type <appear>, engage in combat,
+or leave the rocky terrain.  In addition, the spell may wear off over time.
+
+
+Spell: oppression
+Class: cleric L2
+Sphere: alteration
+Domain: tyranny
+Saving throw: will
+Syntax: cast <classname> oppression
+
+This spell will surround the caster with a dark aura of oppression.  Any
+creature caught in the aura that is not in the caster's party must make a
+saving throw or cower in fear from the caster.  Targets that are so
+effected will have their ability to hit and do damage in combat reduced
+until either the aura expires or they leave the presence of the caster.
+
+
+Spell: righteous might
+Class: cleric L2
+Sphere: alteration
+Domain: strength
+Saving throw: n/a
+Syntax: cast <classname> righteous might
+
+By calling upon his deity's aid, the caster imbues himself with divine
+might.  The caster will find it both easier to hit and to harm those he
+fights.  The spell does not stack with other bless-type spells.
+
+
+Spell: limb attack
+Class: cleric L2
+Sphere: combat
+Saving throw: n/a
+Syntax: cast <classname> limb attack on <target>
+
+This spell will attack some random limb of the target.  You will try to
+tear that limb off, so your strength is very important here as is your
+casting level for extra damage.
+
+
+Spell: lightning touch
+Class: cleric L2
+Sphere: weather
+Domain: storms
+Saving throw: n/a
+Syntax: cast <classname> lightning touch on <target>
+
+Wrapping their hand with crackling bolts of lightning, with this spell the
+caster tries to deliever a shocking attack onto a foe.  If the caster fails
+to touch the target, the lighting dispurses into a flashy, but harmless
+effect.
+
+

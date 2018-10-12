@@ -1,0 +1,73 @@
+Spell: screen
+Class: cleric L6, mage/sorc L8
+Sphere: illusion
+Domain: illusion
+Saving throw: n/a
+Syntax: cast <classname> screen
+
+Upon casting this spell, the user creates a screen of illusion centered
+upon himself that makes scrying attempts difficult.  This spell has a
+chance to both detect and block scrying attempts, with the chance for
+success determined by the level of the priest against the level of the
+scryer.  The spell is centered upon the caster and will move with him,
+allowing him to sweep areas for the duration of the spell.
+
+When a scrying attempt is detected, the scryer must immediately roll a
+saving throw.  If this is failed, the appearance and general location of
+the scryer immediately become known to the one who cast this spell.  The
+general location is the room and area where the scryer is located at the
+time.
+
+This spell can only be cast while at peace.
+
+
+Spell: powerword stun
+Class: mage/sorc L8
+Sphere: enchantment_charm
+Saving throw: will
+Syntax: cast <classname> powerword stun on <target>
+
+When the powerword stun spell is uttered, any creature of the caster's
+choice is stunned, reeling and unable to think coherently or to act for a
+duration dependent on the creature's current hit points.
+
+
+Spell: screen
+Class: cleric L6, mage/sorc L8
+Sphere: illusion
+Domain: illusion
+Saving throw: n/a
+Syntax: cast <classname> screen
+
+Upon casting this spell, the user creates a screen of illusion centered
+upon himself that makes scrying attempts difficult.  This spell has a
+chance to both detect and block scrying attempts, with the chance for
+success determined by the level of the priest against the level of the
+scryer.  The spell is centered upon the caster and will move with him,
+allowing him to sweep areas for the duration of the spell.
+
+When a scrying attempt is detected, the scryer must immediately roll a
+saving throw.  If this is failed, the appearance and general location of
+the scryer immediately become known to the one who cast this spell.  The
+general location is the room and area where the scryer is located at the
+time.
+
+This spell can only be cast while at peace.
+
+
+Spell: incendiary cloud
+Class: mage/sorc L8
+Sphere: invocation_evocation
+Saving throw: varied
+Syntax: cast <classname> incendiary cloud
+
+Upon casting this spell, the mage conjures a heaving mass of smoke and
+flames that blankets the area, scorching those who dare attack the caster. 
+Like most fires, this one requires a brief time to build to a raging
+inferno before it fizzles out again, leaving devastation in its wake.  If
+the caster leaves the area, the cloud will dissipate. A versatile arcanist
+can manipulate the base element of this spell.
+
+Components, mage/sorc: flint x1, dung scrapings x1 (or nil w. eschew
+materials)
+

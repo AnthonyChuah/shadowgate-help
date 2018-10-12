@@ -1,0 +1,129 @@
+Spell: animal messenger
+Class: druid L2, ranger L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> animal messenger on <target> with the message
+<message>
+
+This spell will allow a ranger to attempt to send a brief message by way of
+a small creature, if any are around.  The caster has no way of knowing if
+the target has heard their message, or if the creature has gotten lost
+along the way.
+
+
+Spell: animal messenger
+Class: druid L2, ranger L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> animal messenger on <target> with the message
+<message>
+
+This spell will allow a ranger to attempt to send a brief message by way of
+a small creature, if any are around.  The caster has no way of knowing if
+the target has heard their message, or if the creature has gotten lost
+along the way.
+
+
+Spell: detect poison
+Class: cleric L1, paladin L1, druid L1, ranger L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> detect poison on <target>
+
+Will detect if any poisons are present on an object or a creature and if
+so, which poisons.
+
+
+Spell: calm animal
+Class: ranger L1
+Sphere: enchantment_charm
+Saving throw: fort
+Syntax: cast <classname> calm animal on <target>
+
+This will pacify an animal that is engaged in combat.  Once tried, the
+creature will not be fooled by further attempts.
+
+
+Spell: detect poison
+Class: cleric L1, paladin L1, druid L1, ranger L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> detect poison on <target>
+
+Will detect if any poisons are present on an object or a creature and if
+so, which poisons.
+
+
+Spell: entangle
+Class: cleric L1, druid L1, ranger L1
+Sphere: conjuration_summoning
+Domain: plant
+Saving throw: n/a
+Syntax: cast <classname> entangle
+
+This spell causes the foliage and insects to come alive in the area around
+the caster.  They will attempt to impede the movement of all creatures in
+the area.  Those creatures that pass a strength check will have their
+movement effected less than those who do not.  This spell can only be used
+outside.
+
+
+Spell: entangle
+Class: cleric L1, druid L1, ranger L1
+Sphere: conjuration_summoning
+Domain: plant
+Saving throw: n/a
+Syntax: cast <classname> entangle
+
+This spell causes the foliage and insects to come alive in the area around
+the caster.  They will attempt to impede the movement of all creatures in
+the area.  Those creatures that pass a strength check will have their
+movement effected less than those who do not.  This spell can only be used
+outside.
+
+
+Spell: detect poison
+Class: cleric L1, paladin L1, druid L1, ranger L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> detect poison on <target>
+
+Will detect if any poisons are present on an object or a creature and if
+so, which poisons.
+
+
+Spell: magic fang
+Class: ranger L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> magic fang
+
+This spell lets the caster siphon some of his own will into his creatures,
+giving them minor bonuses in combat.  It does not stack with similar spells
+or abilities, such as the hardenedminions feat.
+
+
+Spell: detect poison
+Class: cleric L1, paladin L1, druid L1, ranger L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> detect poison on <target>
+
+Will detect if any poisons are present on an object or a creature and if
+so, which poisons.
+
+
+Spell: entangle
+Class: cleric L1, druid L1, ranger L1
+Sphere: conjuration_summoning
+Domain: plant
+Saving throw: n/a
+Syntax: cast <classname> entangle
+
+This spell causes the foliage and insects to come alive in the area around
+the caster.  They will attempt to impede the movement of all creatures in
+the area.  Those creatures that pass a strength check will have their
+movement effected less than those who do not.  This spell can only be used
+outside.
+
+

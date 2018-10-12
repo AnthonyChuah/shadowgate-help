@@ -1,0 +1,124 @@
+Spell: armor
+Class: mage/sorc L1
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> armor
+
+When armor is cast on someone, they will receive an AC bonus of up to 4.
+This bonus will only be valid while not wearing armor of any type. Clothing
+is not considered armor.
+
+Components, mage/sorc: blessed leather x1 (or nil w. eschew materials)
+
+Spell: color spray
+Class: mage/sorc L1
+Sphere: illusion
+Saving throw: reflex
+Syntax: cast <classname> color spray
+
+Color spray, when cast, will cause a blinding light of mixed colors to
+flash from the caster.  All creatures not in the caster's party can be
+blinded temporarily by this, or even knocked unconscious.
+
+
+Spell: chill touch
+Class: mage/sorc L1
+Sphere: necromancy
+Saving throw: n/a
+Syntax: cast <classname> chill touch on <target>
+
+By casting this spell, your hand will flare up with a blue aura.  You can
+touch your enemy with that hand and, if the target doesn't make his save
+and avoid your touch, you will inflict a small amount of damage. 
+Furthermore, the target will be slightly weakened until a certain length of
+time runs out. A versatile arcanist can manipulate the base element of this
+spell.
+
+
+Spell: identify
+Class: mage/sorc L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> identify on <object>
+
+This is the spell for you to identify the enchantment of items (usually
+equipment, though it may show attributes of other objects also).  The item
+must be in your inventory or the room where you are.  NOTE: Anyone in the
+same room with you will also know the enchantment of that item.
+
+Components, mage/sorc: owlfeather x1, pearl x1
+
+Spell: light
+Class: cleric L1, paladin L1, mage/sorc L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> light on <target>
+
+This will create a small ball of light, which will light your way. You can
+cast it on an object or player which it will follow, instead of the caster.
+
+
+Spell: shocking grasp
+Class: mage L1
+Sphere: invocation_evocation
+Saving throw: n/a
+Syntax: cast <classname> shocking grasp on <target>
+
+This spell allows the mage to generate a small electrical charge in their
+fingertips. They may then attempt to touch a foe, discharging it into them
+in a powerful shock. A caster will find it far easier to contact a foe who
+is carrying or wearing metal items, which will conduct the charge. While
+this spell can, at first, be considerably more painful than other spells of
+its sphere, a mage can only withhold so much charge in his fingertips, so
+it will not take a great deal of study before the spell reaches its highest
+potential.
+
+Non-specialized mages cannot cast this spell.
+
+
+Spell: light
+Class: cleric L1, paladin L1, mage/sorc L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> light on <target>
+
+This will create a small ball of light, which will light your way. You can
+cast it on an object or player which it will follow, instead of the caster.
+
+
+Spell: magic missile
+Class: mage/sorc L1
+Sphere: invocation_evocation
+Saving throw: n/a
+Syntax: cast <classname> magic missile on <target>
+
+Magic missile will shoot darts of magical energy from your hand and they
+will fly towards your target with the unfailing ability to hit it.  The
+damage it causes increases by level.
+
+
+Spell: shield
+Class: mage L1
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> shield
+
+This spell calls a protective shield into existance before the caster. It
+negates magic missiles, and provides a small bonus to armor class for its
+duration. Use of a physical shield will interfere with the spell and cause
+it to fade.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: clear crystal x1 (or nil w. eschew materials)
+
+Spell: light
+Class: cleric L1, paladin L1, mage/sorc L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> light on <target>
+
+This will create a small ball of light, which will light your way. You can
+cast it on an object or player which it will follow, instead of the caster.
+
+

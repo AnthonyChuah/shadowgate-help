@@ -1,0 +1,159 @@
+Spell: meteor swarm
+Class: mage/sorc L9
+Sphere: invocation_evocation
+Saving throw: n/a
+Syntax: cast <classname> meteor swarm on <target>
+
+When the meteor swarm spell is cast, the target creature is assaulted by a
+swarm of flaming meteors, doing considerable damage.  Any other beings in
+the path may be engulfed in the explosion and also have a chance to receive
+some damage.
+
+
+Spell: prying eyes
+Class: mage L9
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> prying eyes on <target>
+
+The pinnacle of ability for a skilled diviner, this spell allows the caster
+to watch and listen in upon a distant person without the need for
+components or a mirror. Or, they may focus upon their surroundings and then
+depart, keeping watch over it in their absence. Many such magi couple this
+with their clairvoyance skills to gain both close and long-range sight of
+the target, as this spell does not show anything beyond the scope of its
+immediate target. The caster will need to rest after attempting this kind
+of spell, before re-attempting it again.
+
+Non-specialized mages cannot cast this spell. This spell can only be cast
+while at peace.
+
+
+Spell: powerword kill
+Class: mage L9
+Sphere: enchantment_charm
+Saving throw: n/a
+Syntax: cast <classname> powerword kill on <target>
+
+When the powerword kill spell is uttered, any creature of the mage's choice
+will drop dead if it has fewer current hit points then the mage's power.
+The target may still be weakened even if this is not the case, but
+creatures immune to death magic will be completely unaffected.
+
+Non-specialized mages cannot cast this spell.
+
+
+Spell: shadow nova
+Class: mage/sorc L9
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> shadow nova
+
+This spell will send a burst of pure darkness out in a circle from the
+caster.  Any enemies caught in the area will suffer damage from the shadowy
+energy.  Those creatures who fail their save will find that the darkness
+also steals away their vision temporarily.
+
+Components, mage/sorc: smoky quartz x1 (or nil w. eschew materials)
+
+Feat requirements: shadow_adept (gift of the shadows), mage/sorc (gift of
+the shadows), sorcerer (gift of the shadows)
+
+Spell: gate
+Class: mage L9
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> gate on <summoning> 
+	cast <classname> gate on <travel | location>
+
+The spell of gate is only available to the most skilled of conjurers, and
+holds twofold uses to its casting. The first is the use of the conjured
+portal as a means of transit, both for the caster and his allies, to a
+specified location previously memorized. The second is the use of the
+portal to draw forth a powerful planar creature under the control of the
+caster, to act as a servant and/or a protector. This is a greater summons,
+and cannot be used simultaneously with other greater summons.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: crushed black pearl x1
+
+Spell: sunburst
+Class: cleric L8, druid L8, mage/sorc L9
+Sphere: invocation_evocation
+Domain: sun
+Saving throw: reflex
+Syntax: cast <classname> sunburst
+
+This spell will send the light of the sun radiating out in a circle from
+the caster.  Any enemies caught in the area will suffer damage from the
+pure light of the sun.  Undead creatures suffer more damage than normal
+ones, and those creatures who fail their save are blinded by the light.
+
+Components, mage: sunstone x1 (or nil w. eschew materials)
+
+Spell: sunburst
+Class: cleric L8, druid L8, mage/sorc L9
+Sphere: invocation_evocation
+Domain: sun
+Saving throw: reflex
+Syntax: cast <classname> sunburst
+
+This spell will send the light of the sun radiating out in a circle from
+the caster.  Any enemies caught in the area will suffer damage from the
+pure light of the sun.  Undead creatures suffer more damage than normal
+ones, and those creatures who fail their save are blinded by the light.
+
+Components, mage: sunstone x1 (or nil w. eschew materials)
+
+Spell: sunburst
+Class: cleric L8, druid L8, mage/sorc L9
+Sphere: invocation_evocation
+Domain: sun
+Saving throw: reflex
+Syntax: cast <classname> sunburst
+
+This spell will send the light of the sun radiating out in a circle from
+the caster.  Any enemies caught in the area will suffer damage from the
+pure light of the sun.  Undead creatures suffer more damage than normal
+ones, and those creatures who fail their save are blinded by the light.
+
+Components, mage: sunstone x1 (or nil w. eschew materials)
+
+Spell: animus blast
+Class: mage L9
+Sphere: necromancy
+Saving throw: reflex
+Syntax: cast <classname> animus blast
+
+This power enables a master of necromancy to unleash a blast of pure
+negative energy.  Such is the power of the blast that it can also sap the
+life energy of those nearby, as well as its main target.  In addition, the
+blast of negative energy can re-awaken corpses within the vicinity, raising
+them as the servants of the caster.  This spell has no effect upon existing
+undead creatures.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: bit of bone x1, drop of blood x1 (or nil w. eschew
+materials)
+
+Spell: dimensional lock
+Class: mage L9
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> dimensional lock
+
+By means of this spell, the wizard blocks all teleportation attempts both
+into and out of the area, including but not limited to the teleportation
+wizard spells, the cleric's Word of Power spell, psionic attempts to fold
+space, and object-generated effects such as riftgates. It will also foil
+specialized magical attempts to summon the ward's caster out of the
+protected area. The target of this spell is the room that the spell is cast
+within.
+
+Non-specialized mages cannot cast this spell. This spell can only be cast
+while at peace.
+
+Components, mage: sack of salt x1 (or nil w. eschew materials)
+

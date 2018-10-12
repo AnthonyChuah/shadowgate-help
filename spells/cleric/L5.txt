@@ -1,0 +1,283 @@
+Spell: slay living
+Class: cleric L5
+Sphere: necromancy
+Saving throw: fort
+Syntax: cast <classname> slay living on <target>
+
+This spell is necromantic in nature and allows the caster to call forth
+beings from the land of the dead to take the caster's target back with them
+to their homeland. If the beings are successful, this transition will
+result in the target's instant death.  This spell can only be cast while at
+peace.
+
+
+Spell: tremor
+Class: cleric L5
+Sphere: combat
+Domain: destruction
+Saving throw: reflex
+Syntax: cast <classname> tremor
+
+This spell causes a great quake to shake the ground, doing some damage to
+the caster's enemies, and having a chance to knock them down to the ground.
+
+
+Spell: handfire
+Class: cleric L5
+Sphere: elemental fire
+Domain: fire
+Saving throw: reflex
+Syntax: cast <classname> handfire on <target>
+
+Calling on the endless inferno of the plane of elemental fire, the priest
+is able to wrap his hand with crimson flames.  The priest then sends forth
+the flames to strike his target, possibly burning those in the way as well.
+
+
+Spell: bliss
+Class: cleric L5
+Sphere: enchantment_charm
+Domain: charm
+Saving throw: will
+Syntax: cast <classname> bliss on <target>
+
+This spell allows the caster to place a target's mind in a state of bliss. 
+While in the enraptured blissful state the target only seems to focus on
+the intense pleasure and happiness that she feels, unable to attack or
+defend herself.
+
+
+Spell: moonbeam
+Class: cleric L5
+Sphere: combat
+Domain: moon
+Saving throw: reflex
+Syntax: cast <classname> moonbeam on <target>
+
+This spell begins by the caster fanning out her hands while chanting the
+spell.  Bolts of moonlight will fly out and do damage to the target and
+possibly those near him.
+
+
+Spell: earth reaver
+Class: cleric L5
+Sphere: elemental earth
+Domain: earth
+Saving throw: reflex
+Syntax: cast <classname> earth reaver on <target>
+
+This spell will cause the ground around the target to erupt and throw dirt
+and rocks at the target.
+
+
+Spell: frost breath
+Class: cleric L5
+Sphere: weather
+Domain: cold
+Saving throw: reflex
+Syntax: cast <classname> frost breath on <target>
+
+This spell sends a wave of cold shards out in a cone shapped pattern from
+the caster's cupped hands.  It will hit any enemies who are not able to get
+out of the way.  The extreme cold can sometimes damage enemies who remain
+in the area of cold even after the initial hit.
+
+
+Spell: stormwinds
+Class: cleric L5
+Sphere: elemental air
+Domain: storms
+Saving throw: reflex
+Syntax: cast <classname> stormwinds on <target>
+
+This spell causes a great sphere of swirling winds to appear around the
+target. Lightning bolts come forth from the mass of air to strike them.
+
+
+Spell: airbolt
+Class: cleric L5
+Sphere: elemental air
+Domain: air
+Saving throw: reflex
+Syntax: cast <classname> airbolt on <target>
+
+This spell enables a priest to concentrate the air around him into a
+powerful gust of wind. The priest chooses the target of the spell, and
+there is a chance that the target is knocked off balance and will drop what
+he or she is holding.  In addition, the gale force winds may hit others who
+are standing near the target.
+
+
+Spell: spectral touch
+Class: cleric L5
+Sphere: combat
+Domain: repose
+Saving throw: fort
+Syntax: cast <classname> spectral touch on <target>
+
+This spell causes the caster's hand to glow with a blue light, infusing it
+with the energy of the grave.  The energy in the casters hand blasts forth
+to strike the target, draining him of life and energy.  The beam may also
+hit nearby targets.
+
+
+Spell: unholy orb
+Class: cleric L5
+Sphere: combat
+Domain: evil
+Saving throw: reflex
+Syntax: cast <classname> unholy orb
+
+The orb is a spell normally prepared by a priest who expects to encounter
+enemies whose alignment opposes her own.  When cast, the spell streaks from
+the caster's hand to the desired point of effect, where a sphere forms. 
+The sphere drains the essence of life from the targets in the area of
+effect.  The sphere does damage based on the alignment of the caster with
+respect to the target.
+
+NOTE: This spell will damage all attackers regardless of alignment, but the
+damage will very if the attackers are players based on each individual's
+alignment.  The damage done to mobs is consistent no matter the mob's
+alignment.
+
+
+Spell: wieldskill
+Class: cleric L5
+Sphere: enchantment_charm
+Domain: knowledge
+Saving throw: n/a
+Syntax: cast <classname> wieldskill
+
+This gives the caster proficiency with any kind of weapon, provided they
+are able to wield it.
+
+
+Spell: holy orb
+Class: cleric L5
+Sphere: combat
+Domain: good
+Saving throw: reflex
+Syntax: cast <classname> holy orb
+
+The orb is a spell normally prepared by a priest who expects to encounter
+enemies whose alignment opposes her own.  When cast, the spell streaks from
+the caster's hand to the desired point of effect, where a sphere forms. 
+The sphere drains the essence of life from the targets in the area of
+effect.  The sphere does damage based on the alignment of the caster with
+respect to the target.
+
+NOTE: This spell will damage all attackers regardless of alignment, but the
+damage will very if the attackers are players based on each individual's
+alignment.  The damage done to mobs is consistent no matter the mob's
+alignment.
+
+
+Spell: bolt of force
+Class: cleric L5
+Sphere: combat
+Domain: mentalism
+Saving throw: reflex
+Syntax: cast <classname> bolt of force on <target>
+
+This spell produces a bolt of pure force in the form of a wave of mental
+energy that is projected in a cone before the caster.  Any enemy caught
+within the blast risks taking damage from the powerful wave of mental
+energy.
+
+
+Spell: kiss of torment
+Class: cleric L5
+Sphere: necromancy
+Domain: suffering
+Saving throw: fort
+Syntax: cast <classname> kiss of torment on <target>
+
+A simple touch from this spell will deal extreme torment to the victim,
+leaving them in agony and distress.
+
+
+Spell: darkbolt
+Class: cleric L5
+Sphere: combat
+Domain: darkness
+Saving throw: reflex
+Syntax: cast <classname> darkbolt on <target>
+
+This spell will hurl a bolt of pure evil at the target.  If the target is
+able to move in time, then they will only suffer some of the damage.  This
+spell may also hit some of those who are standing near the target.
+
+
+Spell: befuddle
+Class: cleric L5
+Sphere: alteration
+Domain: trickery
+Saving throw: n/a
+Syntax: cast <classname> befuddle
+
+This spell will confuse the minds of onlookers, allowing the priest to
+wander among them without being seen.  To end the spell, the priest may
+type <appear> or become involved in a fight, and at times, the spell will
+simply wear off on its own due to time.  Some creatures and spells may be
+able to penetrate the befuddlement, but most will not.
+
+
+Spell: maw of stone
+Class: cleric L5
+Sphere: elemental earth
+Domain: cavern
+Saving throw: reflex
+Syntax: cast <classname> maw of stone on <target>
+
+This spell conjures stone from the earth to surround the target, causing
+damage to all those attacking the caster initially.  Afterwards, it
+continues to gnaw on the target for a limited time.
+
+
+Spell: mystic bolt
+Class: cleric L5
+Sphere: combat
+Domain: magic
+Saving throw: reflex
+Syntax: cast <classname> mystic bolt on <target>
+
+This spell sends a mystical bolt of energy to ravage the target.  Those
+standing nearby may be hit as well.
+
+
+Spell: resilience
+Class: cleric L5
+Sphere: combat
+Domain: strength
+Saving throw: n/a
+Syntax: cast <classname> resilience
+
+This spell infuses the caster with the resilience of his deity, granting
+him some protection in battle for the duration of the spell.
+
+
+Spell: frozen breath
+Class: cleric L5
+Sphere: combat
+Saving throw: reflex
+Syntax: cast <classname> frozen breath on <target>
+
+This spell will call forth a breath of ice to chill your foes.  It can be
+used in two ways - when used before combat begins, it will engulf a single
+foe; when cast during combat, it is particularly devastating, as it will
+cause harm to up to five enemies. Beware, the caster should advise his
+allies to not stand too close to the target of the spell!
+
+
+Spell: searing light
+Class: cleric L5
+Sphere: sun
+Domain: sun
+Saving throw: reflex
+Syntax: cast <classname> searing light on <target>
+
+By using this spell you will accumulate sunlight in an open palm and then
+release it at the target.  It will do slightly more damage to the undead. 
+In addition, nearby targets may be struck as well.
+
+

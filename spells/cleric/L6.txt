@@ -1,0 +1,93 @@
+Spell: pass portal
+Class: cleric L6
+Sphere: alteration
+Domain: travel
+Saving throw: n/a
+Syntax: cast <classname> pass portal on <direction>
+
+A priest with the travel domain may use this spell to bypass many doors and
+barriers found blocking her path.  Some rooms may be enchanted to prevent
+such magic, but most are not.  If the priest is visible when casting this
+spell, her movements are accompanied by a bright light.
+
+
+Spell: dispel good
+Class: cleric L6
+Sphere: combat
+Saving throw: fort
+Syntax: cast <classname> dispel good on <target>
+
+Dispel Good can only be cast by users of evil alignment and it only effects
+targets of good alignment.  When cast at a target of the correct alignment,
+it will disrupt the harmonics of their soul and wrack their body with pain,
+doing a significant amount of damage.
+
+
+Spell: dispel evil
+Class: cleric L6
+Sphere: combat
+Saving throw: fort
+Syntax: cast <classname> dispel evil on <target>
+
+Dispel Evil can only be cast by users of good alignment and it only effects
+targets of evil alignment.  When cast at a target of the correct alignment,
+it will disrupt the harmonics of their soul and wrack their body with pain,
+doing a significant amount of damage.
+
+
+Spell: dispel law
+Class: cleric L6
+Sphere: combat
+Saving throw: fort
+Syntax: cast <classname> dispel law on <target>
+
+Dispel Law can only be cast by users of chaotic alignment and it only
+effects targets of lawful alignment.  When cast at a target of the correct
+alignment, it will disrupt the harmonics of their soul and wrack their body
+with pain, doing a significant amount of damage.
+
+
+Spell: aegis of fate
+Class: cleric L6
+Sphere: enchantment_charm
+Domain: fate
+Saving throw: n/a
+Syntax: cast <classname> aegis of fate on <target>
+
+This spell alters the fate of the target, creating an ever-fluctuating
+shield about the target.  The shield swirls in a chaotic display, offering
+some protection from both physical and magical effects to the target.  How
+much protection is dependent on the caster's level and, well, the fates
+themselves.
+
+
+Spell: word of power
+Class: cleric L6
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> word of power [to <destination>]
+
+Word of power will teleport you to a church of your choice.  For now, you
+can reach the following churches:
+Shadow
+Tharis
+Azha
+Tabor
+Muul'daan
+Antioch
+Tonovi
+Torm
+Juran
+Kinaro
+Verbobone (Deku)
+Graez (Sangri)
+Asgard (Laerad)
+Seneca (Attaya)
+Eldebaro (East Oasis)
+You can also go to the temple of your deity by using <Temple> or <temple>
+as the location.  Areas or items that block teleportation magic will block
+this spell as well.
+
+This spell must be cast while at peace.
+
+

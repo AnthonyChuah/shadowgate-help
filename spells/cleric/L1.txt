@@ -1,0 +1,66 @@
+Spell: blight
+Class: cleric L1
+Sphere: alteration
+Domain: evil
+Saving throw: n/a
+Syntax: cast <classname> blight on <target>
+
+This spell will empower the target with dark energy, giving them a slightly
+better chance to hit in combat as well as allowing them to do a small
+amount more damage.
+
+
+Spell: death watch
+Class: cleric L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> death watch
+
+With this prayer, the priest creates a magical bond with his party mates. 
+The priest is able to perceive the life force of his companions and will
+gain a warning when one is in need of healing.
+
+
+Spell: bless
+Class: cleric L1
+Sphere: alteration
+Domain: good
+Saving throw: n/a
+Syntax: cast <classname> bless on <target>
+
+This spell will bless the target, giving them a slightly better chance to
+hit in combat as well as allowing them to do a small amount more damage.
+
+
+Spell: detect law
+Class: cleric L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> detect law on <target> || <room>
+
+Detect chaos will detect the presence of law in players or monsters.
+
+
+Spell: minor creation
+Class: cleric L1
+Sphere: conjuration_summoning
+Domain: creation
+Saving throw: n/a
+Syntax: cast <classname> minor creation on <object>
+
+This spell will allow the cleric to gather minute particles from the air
+and form them into particular objects.  It will create a minor object from
+the list below for the cleric to use.  Items created in this manner are
+fleeting, however, and will disappear when the person carrying them logs
+out.
+
+bandage                  climbing tools           dark lantern             
+dark oil                 fishing pole             flint                    
+lantern                  large sack               mace                     
+oil                      paper                    pouch                    
+robe                     rope                     scalemail                
+shield                   small sack               soap                     
+torch                    writing quill            
+
+
+

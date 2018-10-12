@@ -1,0 +1,76 @@
+Spell: planar portal
+Class: psion L9
+Sphere: alteration
+Discipline: nomad
+Saving throw: n/a
+Syntax: cast <classname> planar portal to <location>
+
+This potent power enables a nomad to open up a portal, allowing beings to
+pass from the place he currently stands to one he has locked firmly in his
+memory.  By using this power, the nomad commands a temporary connection
+between the two locations.  The power is taxing, however, so the portal
+will not remain open very long.  An example of the power's usage is
+<remember here as cave>.  Then later on, the nomad would type, <manifest
+planar portal to cave>.  Again, you may also <unremember cave> to forget
+that particular location.
+
+See also: remember, unremember, recall
+
+Components, psion: blue amethyst x1, moonstone x1, obsidian x1
+
+Spell: timeless body
+Class: psion L9
+Sphere: combat
+Saving throw: n/a
+Syntax: cast <classname> timeless body
+
+This power will enable a psion to take on a ghostly state, making him
+difficult to hit in combat.  The power has an equal chance each round to
+make the psion untouchable or not.  The psion's body fades, becoming
+partially on this plane and partially on the Astral Plane.
+
+
+Spell: tornado blast
+Class: psion L9
+Sphere: invocation_evocation
+Discipline: kineticist
+Saving throw: reflex
+Syntax: cast <classname> tornado blast on <target>
+
+This power enables a kineticist to draw upon his knowledge of energy to
+create a whirling vortex in the area.  The vortex is directed at the
+target, who suffers a chance to be knocked down and lose anything he might
+be holding.  Others in the area may also be tossed about by the winds,
+suffering serious harm.
+
+Components, psion: smoky quartz x1, blue calcite x1 (or nil w. eschew
+materials)
+
+Spell: unravel psionics
+Class: psion L9
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> unravel psionics [on <target>] or cast <classname>
+unravel psionics on break curse
+
+Unravel psionics is the most potent disruptive power in the psion's
+arsenal. It can be used to destroy enchantments, summonings, and
+conjurations. Like its arcane counterpart, the chances of each dispelling
+depends on both the dispeller's casting level and the power level of the
+spellcaster that created whatever is being dispelled. If this power targets
+a particular item, it will attempt to remove any curses on the item,
+similar to the break curse spell.
+
+
+Spell: microcosm
+Class: psion L9
+Sphere: conjuration_summoning
+Saving throw: will
+Syntax: cast <classname> microcosm on <target>
+
+When a psion manifests microcosm, he affects the target's mind to make him
+feel as though he is happily in a world of his own, effectively rendering
+the target utterly helpless.  The success of the power depends upon the
+might of the psion against the target's hardiness.
+
+

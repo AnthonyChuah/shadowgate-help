@@ -1,0 +1,111 @@
+Spell: burning hands
+Class: mage/sorc L1, monk L3
+Sphere: alteration
+Saving throw: reflex
+Syntax: cast <classname> burning hands on <target>
+
+This spell begins by the caster fanning out his hands while chanting the
+spell.  Flames will flare out and do a small amount of damage to the target
+and those near him. A versatile arcanist can manipulate the base element of
+this spell.
+
+
+Spell: burning hands
+Class: mage/sorc L1, monk L3
+Sphere: alteration
+Saving throw: reflex
+Syntax: cast <classname> burning hands on <target>
+
+This spell begins by the caster fanning out his hands while chanting the
+spell.  Flames will flare out and do a small amount of damage to the target
+and those near him. A versatile arcanist can manipulate the base element of
+this spell.
+
+
+Spell: darkvision
+Class: ranger L3, mage/sorc L2, monk L3
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> darkvision
+
+This spell will enhance the vision of the caster, allowing them better
+sight in areas of extreme light or darkness.
+
+Non-specialized mages cannot cast this spell.
+
+
+Spell: darkvision
+Class: ranger L3, mage/sorc L2, monk L3
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> darkvision
+
+This spell will enhance the vision of the caster, allowing them better
+sight in areas of extreme light or darkness.
+
+Non-specialized mages cannot cast this spell.
+
+
+Spell: fly
+Class: mage/sorc L2, monk L3
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> fly on <target>
+
+See new spell: levitate.
+
+
+Spell: ghost step
+Class: cleric L2, ranger L1, monk L3
+Sphere: alteration
+Domain: animal
+Saving throw: n/a
+Syntax: cast <classname> ghost step
+
+This spell allows you to become one with nature, as a ghost of the forest,
+leaving no traces of where you have walked.
+
+
+Spell: darkvision
+Class: ranger L3, mage/sorc L2, monk L3
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> darkvision
+
+This spell will enhance the vision of the caster, allowing them better
+sight in areas of extreme light or darkness.
+
+Non-specialized mages cannot cast this spell.
+
+
+Spell: fly
+Class: mage/sorc L2, monk L3
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> fly on <target>
+
+See new spell: levitate.
+
+
+Spell: ghost step
+Class: cleric L2, ranger L1, monk L3
+Sphere: alteration
+Domain: animal
+Saving throw: n/a
+Syntax: cast <classname> ghost step
+
+This spell allows you to become one with nature, as a ghost of the forest,
+leaving no traces of where you have walked.
+
+
+Spell: ghost step
+Class: cleric L2, ranger L1, monk L3
+Sphere: alteration
+Domain: animal
+Saving throw: n/a
+Syntax: cast <classname> ghost step
+
+This spell allows you to become one with nature, as a ghost of the forest,
+leaving no traces of where you have walked.
+
+

@@ -1,0 +1,338 @@
+Spell: dancing lights
+Class: bard L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> dancing lights
+
+This will create a small gathering of swirling lights, which will
+illuminate your way.
+
+Components, bard: trill x1 (or nil w. eschew materials)
+
+Spell: daze
+Class: mage L1, bard L1
+Sphere: enchantment_charm
+Saving throw: n/a
+Syntax: cast <classname> daze on <target>
+
+This spell attempts to dazzle a creature into immobility. It will only
+effect creatures of 10 hitdice or lower, and will have a greater effect on
+weaker opponents.
+
+Non-specialized mages cannot cast this spell.
+
+NOTE: For the feat, please see <help daze *feats>
+
+
+Spell: detect magic
+Class: cleric L1, druid L1, warlock L1, mage/sorc L1, bard L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> detect magic
+
+Will allow the caster to view an aura of magic around objects or creatures
+they observe. The more intense the aura the more magic is indicated.
+Particularly powerful magic may skew the view of other magics. For example
+an especially magical creature might skew the view of the magic sword its
+wielding.
+
+
+Spell: daze
+Class: mage L1, bard L1
+Sphere: enchantment_charm
+Saving throw: n/a
+Syntax: cast <classname> daze on <target>
+
+This spell attempts to dazzle a creature into immobility. It will only
+effect creatures of 10 hitdice or lower, and will have a greater effect on
+weaker opponents.
+
+Non-specialized mages cannot cast this spell.
+
+NOTE: For the feat, please see <help daze *feats>
+
+
+Spell: detect magic
+Class: cleric L1, druid L1, warlock L1, mage/sorc L1, bard L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> detect magic
+
+Will allow the caster to view an aura of magic around objects or creatures
+they observe. The more intense the aura the more magic is indicated.
+Particularly powerful magic may skew the view of other magics. For example
+an especially magical creature might skew the view of the magic sword its
+wielding.
+
+
+Spell: detect magic
+Class: cleric L1, druid L1, warlock L1, mage/sorc L1, bard L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> detect magic
+
+Will allow the caster to view an aura of magic around objects or creatures
+they observe. The more intense the aura the more magic is indicated.
+Particularly powerful magic may skew the view of other magics. For example
+an especially magical creature might skew the view of the magic sword its
+wielding.
+
+
+Spell: legend lore
+Class: bard L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> legend lore on <object>
+
+This spell grants the caster a second's insight into the nature of an item,
+revealing both magical attributes and its history.  The caster will also
+reveals the item's true nature to those standing nearby.  Whether the truth
+of the item can be revealed is dependant upon the caster's strength, and
+the obscurity of the item.
+
+Components, bard: epithet x1
+
+Spell: mending
+Class: druid L1, bard L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> mending on <object>
+	cast <classname> mending on <object> at <player>
+
+This spell will attempt to repair the item in question.  If a player target
+is not specified, it will default to items carried in the caster's
+inventory.  Unlike normal repairs, the reliability of the spell is based
+upon the caster's power.  The spell cannot be cast in combat.
+
+Components, bard: couplet x2
+
+Spell: resistance
+Class: druid L1, bard L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> resistance
+
+By this spell, the caster imbues themselves with a small amount of
+resistance to magic.  The spell does not stack with the resistance feat.
+
+
+Spell: detect magic
+Class: cleric L1, druid L1, warlock L1, mage/sorc L1, bard L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> detect magic
+
+Will allow the caster to view an aura of magic around objects or creatures
+they observe. The more intense the aura the more magic is indicated.
+Particularly powerful magic may skew the view of other magics. For example
+an especially magical creature might skew the view of the magic sword its
+wielding.
+
+
+Spell: flare
+Class: druid L1, bard L1
+Sphere: enchantment_charm
+Saving throw: fort
+Syntax: cast <classname> flare on <target>
+
+This minor spell creates an abrupt flash of light, which if cast
+immediately in front of a creature, can dazzle them and cause difficulties
+with their vision.
+
+
+Spell: mending
+Class: druid L1, bard L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> mending on <object>
+	cast <classname> mending on <object> at <player>
+
+This spell will attempt to repair the item in question.  If a player target
+is not specified, it will default to items carried in the caster's
+inventory.  Unlike normal repairs, the reliability of the spell is based
+upon the caster's power.  The spell cannot be cast in combat.
+
+Components, bard: couplet x2
+
+Spell: resistance
+Class: druid L1, bard L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> resistance
+
+By this spell, the caster imbues themselves with a small amount of
+resistance to magic.  The spell does not stack with the resistance feat.
+
+
+Spell: sleep
+Class: mage/sorc L1, psion L1, bard L1
+Sphere: enchantment_charm
+Saving throw: will
+Syntax: cast <classname> sleep on <target>
+
+Upon casting the sleep spell, 2d4 HD of monsters will fall asleep.  Attacks
+on the sleepers will awaken them; normal noise won't, however.  Monsters
+with 4 HD + 3hp will not be affected.
+
+Components, bard: lullaby x1 (or nil w. eschew materials)
+
+Spell: detect magic
+Class: cleric L1, druid L1, warlock L1, mage/sorc L1, bard L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> detect magic
+
+Will allow the caster to view an aura of magic around objects or creatures
+they observe. The more intense the aura the more magic is indicated.
+Particularly powerful magic may skew the view of other magics. For example
+an especially magical creature might skew the view of the magic sword its
+wielding.
+
+
+Spell: summon companion
+Class: mage/sorc L1, bard L1
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> summon companion
+
+This spell allows a wizard to call for a creature as a permanent companion.
+Upon casting, the wizard must select what sort of creature s/he wishes to
+call forth, which is dependant upon the power of the caster.   This spell
+can only be cast once per day, though the creature can be called back and
+correspondingly dismissed at any time.  Creature commands are as follows:
+
+<call companion> will call it, at any time, if you have completed a
+summoning ritual.
+<dismiss companion> will send it away again, to await your next calling.
+<release companion> will permanently send the creature away.
+<help companion> will give you more available creature commands, when it is
+present.
+
+Components, mage/sorc: incense stick x1, charcoal x1, ivory portal x1
+
+Spell: flare
+Class: druid L1, bard L1
+Sphere: enchantment_charm
+Saving throw: fort
+Syntax: cast <classname> flare on <target>
+
+This minor spell creates an abrupt flash of light, which if cast
+immediately in front of a creature, can dazzle them and cause difficulties
+with their vision.
+
+
+Spell: sleep
+Class: mage/sorc L1, psion L1, bard L1
+Sphere: enchantment_charm
+Saving throw: will
+Syntax: cast <classname> sleep on <target>
+
+Upon casting the sleep spell, 2d4 HD of monsters will fall asleep.  Attacks
+on the sleepers will awaken them; normal noise won't, however.  Monsters
+with 4 HD + 3hp will not be affected.
+
+Components, bard: lullaby x1 (or nil w. eschew materials)
+
+Spell: summon swarm
+Class: druid L2, mage/sorc L1, bard L1
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> summon swarm
+
+This spell will call a swarm of insects to the caster's defense. They can
+be difficult to control, and if many foes are attacking the caster they
+will simply leap for the closest target, biting and pinching without
+hesitation.
+
+Non-specialized mages cannot cast this spell.
+
+
+Spell: summon swarm
+Class: druid L2, mage/sorc L1, bard L1
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> summon swarm
+
+This spell will call a swarm of insects to the caster's defense. They can
+be difficult to control, and if many foes are attacking the caster they
+will simply leap for the closest target, biting and pinching without
+hesitation.
+
+Non-specialized mages cannot cast this spell.
+
+
+Spell: whispering wind
+Class: cleric L1, bard L1
+Sphere: divination
+Domain: air
+Saving throw: n/a
+Syntax: cast <classname> whispering wind on <target> with the message
+<message>
+
+This spell will allow the caster to attempt to send a brief message on the
+winds from them to their target.  The caster has no way of knowing if the
+target has heard their message.
+
+Components, bard: soliloquy x1 (or nil w. eschew materials)
+
+Spell: sleep
+Class: mage/sorc L1, psion L1, bard L1
+Sphere: enchantment_charm
+Saving throw: will
+Syntax: cast <classname> sleep on <target>
+
+Upon casting the sleep spell, 2d4 HD of monsters will fall asleep.  Attacks
+on the sleepers will awaken them; normal noise won't, however.  Monsters
+with 4 HD + 3hp will not be affected.
+
+Components, bard: lullaby x1 (or nil w. eschew materials)
+
+Spell: summon swarm
+Class: druid L2, mage/sorc L1, bard L1
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> summon swarm
+
+This spell will call a swarm of insects to the caster's defense. They can
+be difficult to control, and if many foes are attacking the caster they
+will simply leap for the closest target, biting and pinching without
+hesitation.
+
+Non-specialized mages cannot cast this spell.
+
+
+Spell: summon companion
+Class: mage/sorc L1, bard L1
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> summon companion
+
+This spell allows a wizard to call for a creature as a permanent companion.
+Upon casting, the wizard must select what sort of creature s/he wishes to
+call forth, which is dependant upon the power of the caster.   This spell
+can only be cast once per day, though the creature can be called back and
+correspondingly dismissed at any time.  Creature commands are as follows:
+
+<call companion> will call it, at any time, if you have completed a
+summoning ritual.
+<dismiss companion> will send it away again, to await your next calling.
+<release companion> will permanently send the creature away.
+<help companion> will give you more available creature commands, when it is
+present.
+
+Components, mage/sorc: incense stick x1, charcoal x1, ivory portal x1
+
+Spell: whispering wind
+Class: cleric L1, bard L1
+Sphere: divination
+Domain: air
+Saving throw: n/a
+Syntax: cast <classname> whispering wind on <target> with the message
+<message>
+
+This spell will allow the caster to attempt to send a brief message on the
+winds from them to their target.  The caster has no way of knowing if the
+target has heard their message.
+
+Components, bard: soliloquy x1 (or nil w. eschew materials)
+

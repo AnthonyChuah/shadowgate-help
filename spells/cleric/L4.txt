@@ -1,0 +1,54 @@
+Spell: hold monster
+Class: cleric L4
+Sphere: enchantment_charm
+Saving throw: fort
+Syntax: cast <classname> hold monster on <target>
+
+This will magically hold most types of monsters.  It will hold for longer,
+as your levels increase.  They will be able to hear, but not look or fight.
+
+
+Spell: glyph of warding
+Class: cleric L4
+Sphere: conjuration_summoning
+Domain: creation
+Saving throw: n/a
+Syntax: cast <classname> glyph of warding
+
+By casting this spell, the priest uses his powers of generation to create a
+mystical glyph that will protect a small circle around the area in which he
+stands.  The glyph will alert the caster should any creature enter the area
+protected by the glyph, and it will deliver a bit of a shock to the one who
+does.  Any creature already within the protected area may leave without
+disturbing the glyph.  If a creature was within the glyph when it was
+created, he or she may enter again without triggering the protective
+response.
+
+Typically, priests have been known to use this spell to protect areas with
+treasure or to help ensure privacy.  Because the glyph generates energy
+that protects a circle, it will guard all exits in a room.  However - like
+a circle - when it has been breached once, the energy will dissipate, and
+the spell will end.  Additionally, thieves have a chance to search out and
+disable glyphs, though it does take active concentration on their part.  A
+thief must make the search in the room preceding the room the glyph is
+thought to be in.
+
+A priest may concentrate on only one glyph at a time, but he does not have
+to remain in the room for the glyph to remain.
+
+
+Spell: magic vestments
+Class: cleric L4
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> magic vestments
+
+Calling for a blessing from their deity, the cleric can recieve magical
+vestments that will protect them for a time.  The spell will not work if
+the priest is wearing any form of armor on their torso, including leather,
+chain, and armour types.  The magical vestments will grow in strength as
+the priest's power grows, as will the duration.  The vestments are meant
+only for the cleric, and can not be given to another.  To do so usually
+brings about the wrath of their god upon the priest.
+
+

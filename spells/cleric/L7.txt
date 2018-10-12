@@ -1,0 +1,183 @@
+Spell: blasphemy
+Class: cleric L7
+Sphere: enchantment_charm
+Domain: evil
+Saving throw: reflex
+Syntax: cast <classname> blasphemy
+
+This spell channels unholy magic directly to the caster and releases it at
+a target in the form of a silent explosion.  Those of good hearts have the
+additional chance to be blinded and/or stunned, while those of neutral bent
+may be stunned briefly.
+
+
+Spell: aura of healing
+Class: cleric L7
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> aura of healing
+
+This spell heals wounds on party members.  The amount and length of the
+spell are dependent on the strength of the caster.  The party members must
+remain with the caster to receive the effect.
+
+
+Spell: sols searing orb
+Class: cleric L7
+Sphere: sun
+Saving throw: n/a
+Syntax: cast <classname> sols searing orb
+
+This spell turns a gem of value into a searing orb of light and magical
+fire. When the gem is turned into the orb, the caster must <throw orb at
+target> or throw orb <direction> before it explodes.
+
+
+Spell: blade barrier
+Class: cleric L7
+Sphere: combat
+Saving throw: n/a
+Syntax: cast <classname> blade barrier
+
+This spell surrounds the caster in a protective whirlwind of spinning,
+razor sharp blades.  The blades will follow the caster wherever they go and
+inflict damage on any enemies that get too close.  The amount of blades in
+the air depends on the level of the caster.
+
+
+Spell: flameburst
+Class: cleric L7
+Sphere: elemental fire
+Domain: fire
+Saving throw: fort
+Syntax: cast <classname> flameburst on <target>
+
+This spell will send a small ball of fire towards the target's chest.  If
+the spell is successful, the ball will bury itself inside of the target's
+flesh and begin to grow.  Over the next several moments, the fire will
+consume the target's lungs and heart, and render them unable to move.  If
+the spell is not dispelled before it has time to complete, the target's
+chest will explode dealing great damage to him and anything near him.
+
+
+Spell: rage
+Class: cleric L7
+Sphere: combat
+Domain: animal
+Saving throw: n/a
+Syntax: cast <classname> rage
+
+This spell will enrage the caster, making him stronger and more deadly in
+combat for the duration.  The strength of the caster's deity and a blessed
+speed result in blind fighting and reckless fearlessness. This spell does
+not work in conjunction with similar magical effects, such as rally,
+berserker, haste, transformation, dance of a thousand cuts, or fell flight.
+
+Note: Being enraged means that you are maddened uncontrollably.  This is
+*not* a state in which you can calmly participate in a normal conversation,
+undertake delicate tasks, solve problems, or pretty much do anything other
+than shout obscenities and kill things. This spell does not work in
+conjunction with similar magical effects, such as rally, rage, haste and
+fell flight.
+
+Please bear in mind that when you use the spell you are also expected to
+roleplay it.
+
+
+Spell: cometfall
+Class: cleric L7
+Sphere: combat
+Domain: creation
+Saving throw: reflex
+Syntax: cast <classname> cometfall
+
+By chanting this spell, the priest calls into being a horde of comets,
+blanketing a small area.  Those within the area risk being knocked to the
+ground and seared by the molten rock.
+
+
+Spell: confusion
+Class: cleric L7
+Sphere: enchantment_charm
+Domain: trickery
+Saving throw: will
+Syntax: cast <classname> confusion on <target>
+
+This spell will attempt to confuse the target and make them do random
+things.  They might babble incoherently, attack the closest thing to them,
+or simply wander away.  When used on a player, it simply causes them to
+stand and stare blankly.
+
+
+Spell: holy word
+Class: cleric L7
+Sphere: enchantment_charm
+Domain: good
+Saving throw: reflex
+Syntax: cast <classname> holy word
+
+This spell channels holy magic directly to the caster and releases it at a
+target in the form of a silent explosion.  Those of evil hearts have the
+additional chance to be blinded and/or stunned, while those of neutral bent
+may be stunned briefly.
+
+
+Spell: thorn spray
+Class: cleric L7
+Sphere: plant
+Domain: plant
+Saving throw: n/a
+Syntax: cast <classname> thorn spray on <target>
+
+This spell will cause a number of sharp thorns to fly from the caster's
+hand toward the target.
+
+
+Spell: hypothermia
+Class: cleric L7
+Sphere: combat
+Domain: cold
+Saving throw: reflex
+Syntax: cast <classname> hypothermia on <target>
+
+This spell creates a freezing ray of bitter cold.  The ray will seek to
+drain the heat from the target as the cold moves through his body.  Because
+it is a ray, there is a chance the target can dodge some of the bitter
+cold.  However, if hit with the full force of the spell, the target will
+also begin to grow chilled, eventually becoming frozen and blinded for a
+time.
+
+
+Spell: berserker
+Class: cleric L7
+Sphere: combat
+Domain: war
+Saving throw: n/a
+Syntax: cast <classname> berserker
+
+This spell will fill the caster with the rage of war, causing him to
+berserk madly.  The strength of the caster's deity and a blessed speed
+result in blind fighting and reckless fearlessness. This spell does not
+work in conjunction with similar magical effects, such as rally, rage,
+haste, transformation, dance of a thousand cuts, or fell flight.
+
+Note: Being berserk means that you are maddened with rage.  This is *not* a
+state in which you can calmly participate in a normal conversation,
+undertake delicate tasks, solve problems, or pretty much do anything other
+than shout obscenities and kill things.
+
+Please bear in mind that when you use the spell you are also expected to
+roleplay it.
+
+
+Spell: wave of pain
+Class: cleric L7
+Sphere: necromancy
+Domain: suffering
+Saving throw: will
+Syntax: cast <classname> wave of pain
+
+Through this spell, the caster sends out a great wave of pain that can
+harm, kill, and/or paralyze all in its path.
+
+

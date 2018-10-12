@@ -1,0 +1,42 @@
+Spell: earthquake
+Class: cleric L8, druid L8
+Sphere: combat
+Domain: cavern
+Saving throw: reflex
+Syntax: cast <classname> earthquake
+
+By unleashing this spell, the caster calls forth a mighty earthquake to
+trip and damage his foes.  The spell will last several rounds depending
+upon the level of the priest, and the priest must remain present for the
+spell to continue.  All those attacking the caster are subject to the
+effects of the earthquake, though they do receive saving throws.
+
+
+Spell: earthquake
+Class: cleric L8, druid L8
+Sphere: combat
+Domain: cavern
+Saving throw: reflex
+Syntax: cast <classname> earthquake
+
+By unleashing this spell, the caster calls forth a mighty earthquake to
+trip and damage his foes.  The spell will last several rounds depending
+upon the level of the priest, and the priest must remain present for the
+spell to continue.  All those attacking the caster are subject to the
+effects of the earthquake, though they do receive saving throws.
+
+
+Spell: word of recall
+Class: druid L8
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> word of recall to <location>
+
+The word of recall spell will allow a druid to travel to a location that he
+or she has previously  remembered from the 'remembered location' list.  To
+remember a new location use 'remember here as <location>', to see a list of
+all remembered locations, use 'recall locations'.
+This spell must be cast while at peace.
+See also: remember, unremember, recall
+
+

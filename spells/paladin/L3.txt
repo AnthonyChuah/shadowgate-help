@@ -1,0 +1,63 @@
+Spell: divine favor
+Class: paladin L3
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> divine favor
+
+Calling upon the strength of their patron, a holy knight can gain a bonus
+to attack and damage rolls.  This spell does not stack with fighter feats
+for bonus attack and damage rolls.
+
+
+Spell: cause blindness
+Class: cleric L3, paladin L3
+Sphere: necromancy
+Saving throw: reflex
+Syntax: cast <classname> cause blindness on <target>
+
+By touching your opponent's eyes, you take the light from them.  You should
+remember that although it is a powerful spell, it is curable.  Should you
+fail to touch the target's eyes, the spell will disperse harmlessly.
+
+
+Spell: heal mount
+Class: paladin L3
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> heal mount on <target>
+
+This spell will allow the caster to cure the target of all (hp) damage from
+wounds and disease, but only works on riding mounts.
+
+
+Spell: cause blindness
+Class: cleric L3, paladin L3
+Sphere: necromancy
+Saving throw: reflex
+Syntax: cast <classname> cause blindness on <target>
+
+By touching your opponent's eyes, you take the light from them.  You should
+remember that although it is a powerful spell, it is curable.  Should you
+fail to touch the target's eyes, the spell will disperse harmlessly.
+
+
+Spell: prevent stealing
+Class: cleric L4, paladin L3
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> prevent stealing
+
+This spell prevents stealing in the room where the caster has cast the
+spell for an amount of time dependent on the level of the caster.
+
+
+Spell: prevent stealing
+Class: cleric L4, paladin L3
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> prevent stealing
+
+This spell prevents stealing in the room where the caster has cast the
+spell for an amount of time dependent on the level of the caster.
+
+

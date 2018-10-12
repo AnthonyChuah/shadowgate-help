@@ -1,0 +1,66 @@
+Spell: fireball
+Class: mage/sorc L3, monk L7
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> fireball on <target>
+
+By casting this spell, a mage can aim and release a massive ball of fire at
+a target and those around him.  The fireball spell will wreak havoc on the
+caster's target and those who oppose him.  Damage done to those hit by the
+spell is 1d6 per level of the caster, subject to a maximum, halved if they
+manage to evade the brunt of the spell. A versatile arcanist can manipulate
+the base element of this spell.
+
+Components, mage/sorc: sulfur x1, bat guano x1 (or nil w. eschew materials)
+
+Spell: shadow stride
+Class: innate L1, monk L7
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> shadow stride on <direction>
+
+This spell allows the caster to step into the nearest shadow, using it to
+travel a short distance away. It can be used in combat and will ignore
+mundane impediments, such as caltrops or closed doors, but will be barred
+by magically sealed doors.
+
+
+Spell: fireball
+Class: mage/sorc L3, monk L7
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> fireball on <target>
+
+By casting this spell, a mage can aim and release a massive ball of fire at
+a target and those around him.  The fireball spell will wreak havoc on the
+caster's target and those who oppose him.  Damage done to those hit by the
+spell is 1d6 per level of the caster, subject to a maximum, halved if they
+manage to evade the brunt of the spell. A versatile arcanist can manipulate
+the base element of this spell.
+
+Components, mage/sorc: sulfur x1, bat guano x1 (or nil w. eschew materials)
+
+Spell: shatter
+Class: cleric L2, monk L7
+Sphere: combat
+Domain: destruction
+Saving throw: fort
+Syntax: cast <classname> shatter on <target>
+
+This spell sends a piercing vibration of sonic damage straight towards the
+target of the spell.  If the target is not able to escape the blast, they
+will take a significant deal of damage.
+
+
+Spell: shatter
+Class: cleric L2, monk L7
+Sphere: combat
+Domain: destruction
+Saving throw: fort
+Syntax: cast <classname> shatter on <target>
+
+This spell sends a piercing vibration of sonic damage straight towards the
+target of the spell.  If the target is not able to escape the blast, they
+will take a significant deal of damage.
+
+

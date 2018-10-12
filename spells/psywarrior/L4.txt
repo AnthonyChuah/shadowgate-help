@@ -1,0 +1,19 @@
+Spell: truevenom
+Class: psywarrior L4
+Sphere: combat
+Saving throw: n/a
+Syntax: cast <classname> truevenom on <weapon>
+
+Upon using this power, the psionic character manifests a powerful poison to
+coat his weapon. A target struck by the poisoned weapon will suffer the
+same fate as any individual struck by the physical poisons found in the
+world. This power allows the psionic character to manifest more powerful
+poisons than those conjured by Prevenom. Once the poison has been applied,
+a corrosive layer of ectoplasm remains, inflicting extra damage on the
+psionic character's enemies for a short time.
+
+NOTE: When using this power, you must specify a weapon as the target. The
+first such weapon in your inventory will be chosen, and items in containers
+will be ignored.
+
+

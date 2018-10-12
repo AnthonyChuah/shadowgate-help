@@ -1,0 +1,93 @@
+Spell: remove blindness
+Class: cleric L3, paladin L3, druid L3
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> remove blindness on <target>
+
+When you cast this spell you can bring more light into the eyes of the
+target. You can't cure diseases, but will surely help the target to see
+more after they have been hit by magical darkness or some foul creature.
+
+
+Spell: remove blindness
+Class: cleric L3, paladin L3, druid L3
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> remove blindness on <target>
+
+When you cast this spell you can bring more light into the eyes of the
+target. You can't cure diseases, but will surely help the target to see
+more after they have been hit by magical darkness or some foul creature.
+
+
+Spell: spike growth
+Class: druid L3
+Sphere: combat
+Saving throw: n/a
+Syntax: cast <classname> spike growth
+
+This spell causes roots or other vegetation in the area to become hard and
+razor sharp.  Anyone moving in the area, such as the movement in combat or
+passing through the room, will suffer piercing damage to his or her feet. 
+The spell may only be used in areas where some vegetation may be found.
+
+
+Spell: call lightning
+Class: cleric L3, druid L3
+Sphere: weather
+Saving throw: n/a
+Syntax: cast <classname> call lightning on <target>
+
+This is a destructive spell that could hurt an opponent very badly!  The
+higher level the caster is the more devastating this spell will become. 
+The spell can now be used anywhere, regardless of weather or if the caster
+is indoors.
+
+
+Spell: call lightning
+Class: cleric L3, druid L3
+Sphere: weather
+Saving throw: n/a
+Syntax: cast <classname> call lightning on <target>
+
+This is a destructive spell that could hurt an opponent very badly!  The
+higher level the caster is the more devastating this spell will become. 
+The spell can now be used anywhere, regardless of weather or if the caster
+is indoors.
+
+
+Spell: quench
+Class: druid L3
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> quench on <target>
+
+This spell creates a large sphere of water that smashes into targets in the
+area.  The force of the impact accounts for half of the destruction in the
+target area, water damage accounts for the other half.  
+
+
+Spell: remove blindness
+Class: cleric L3, paladin L3, druid L3
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> remove blindness on <target>
+
+When you cast this spell you can bring more light into the eyes of the
+target. You can't cure diseases, but will surely help the target to see
+more after they have been hit by magical darkness or some foul creature.
+
+
+Spell: sleet storm
+Class: druid L3
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> sleet storm
+
+The spell sleet storm only works outdoors.  When it is cast, the skies will
+open up and begin pouring freezing rain on the area.  Within a few moments,
+howling winds will turn the sleet into tiny stinging missiles.  Movement
+through the area is difficult and sometimes visibility is obstructed to the
+point of virtual blindness.
+
+

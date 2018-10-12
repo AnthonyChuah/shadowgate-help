@@ -1,0 +1,35 @@
+Spell: snakebite
+Class: cleric L4, ranger L3
+Sphere: combat
+Domain: animal
+Saving throw: fort
+Syntax: cast <classname> snakebite on <target>
+
+This spell allows the ranger to draw forth the remaining living energy in
+an otherwise dead stick, converting it into life.  It will become a serpent
+that strikes the target, with a chance to poison with its bite.
+
+
+Spell: snakebite
+Class: cleric L4, ranger L3
+Sphere: combat
+Domain: animal
+Saving throw: fort
+Syntax: cast <classname> snakebite on <target>
+
+This spell allows the ranger to draw forth the remaining living energy in
+an otherwise dead stick, converting it into life.  It will become a serpent
+that strikes the target, with a chance to poison with its bite.
+
+
+Spell: treeshape
+Class: ranger L3
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> treeshape
+
+A ranger in harmony with the wild can cause their own body to take on the
+shape of a tree, growing leaves and a skin of bark that protects them from
+harm.  This spell does not work while wearing armor.
+
+

@@ -1,0 +1,208 @@
+Spell: augmentation
+Class: mage/sorc L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> augmentation on <target> | <stat>
+
+This spell allows the caster to augment a single stat either of their own,
+or another ally. Only one attribute can be improved at a time for each
+target.
+
+Components, mage/sorc: pinch of special dust x1 (or nil w. eschew
+materials)
+
+Spell: hideous laughter
+Class: mage/sorc L2
+Sphere: enchantment_charm
+Saving throw: will
+Syntax: cast <classname> hideous laughter on <target>
+
+Hideous Laughter, when cast, will force the target to laugh at anything
+that comes to mind.  The victim will fall to the ground cracking up and
+then, eventually, will barely stand up again.  The victim will still see
+humor in many things and will still be slightly weakened due to the
+laughing, until the spell finally wears off.
+
+Components, mage/sorc: feather x1, minute tarts x5 (or nil w. eschew
+materials)
+
+Spell: fog cloud
+Class: druid L2, mage/sorc L2
+Sphere: conjuration
+Saving throw: n/a
+Syntax: cast <classname> fog cloud
+
+When fog cloud is cast, a bank of dense fog moves into the area, making it
+impossible for anyone, including the caster, to see more than a few inches
+from his or her face.  The cloud will linger in the area for a few minutes
+and then it will disipate on its own.
+
+
+Spell: resist energy
+Class: paladin L2, druid L2, ranger L1, mage/sorc L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> resist energy on <element>
+
+This spell bestows the caster with a small amount of damage resistance
+against a selected element, increasing with the caster's level. Elements
+that can be chosen are acid, cold, electricity, fire, or sonic.
+
+
+Spell: spider climb
+Class: druid L2, mage/sorc L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> spider climb
+
+A caster willing to swallow both a drop of bitumen and a live spider, can
+use this to draw upon the nature of the arachnid itself, becoming able to
+climb even the most sheer of surfaces.
+
+Components, mage/sorc: spider x1, bitumen x1 (or nil w. eschew materials)
+
+Spell: levitate
+Class: mage/sorc L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> levitate on <target>
+
+This spell will give the target the ability to levitate. The target will
+find traveling over long distances to be very easy when under the influence
+of this spell, and will use very little stamina to travel.
+
+Please note: This spell will remove your previously set enter and exit
+messages.  If you had these set previously, you may need to reset them
+after using the levitate spell.
+
+
+Spell: umbral sight
+Class: mage/sorc L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> umbral sight
+
+This spell will imbue the caster's vision with the stuff of darkness,
+allowing them to see easily even in deep shadow. It will similarly protect
+their vision from extremes of light.
+
+
+Feat requirements: shadow_adept (gift of the shadows), mage/sorc (gift of
+the shadows), sorcerer (gift of the shadows)
+
+Spell: fog cloud
+Class: druid L2, mage/sorc L2
+Sphere: conjuration
+Saving throw: n/a
+Syntax: cast <classname> fog cloud
+
+When fog cloud is cast, a bank of dense fog moves into the area, making it
+impossible for anyone, including the caster, to see more than a few inches
+from his or her face.  The cloud will linger in the area for a few minutes
+and then it will disipate on its own.
+
+
+Spell: rope trick
+Class: mage/sorc L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> rope trick
+
+When rope trick is cast, a rope will leap up and stiffen, leading to a
+magic room in a pocket of another dimension.  Any may climb the rope and
+enter the room.  The rope may be pulled into the room making the room
+inaccessible.  And the room will exist for quite a long time, varying with
+the caster's spell-casting level.  To cast this spell, the caster must drop
+a rope before them which will not be consumed by the casting.
+
+Components, mage/sorc: parchment x1, corn extract x1 (or nil w. eschew
+materials)
+
+Spell: resist energy
+Class: paladin L2, druid L2, ranger L1, mage/sorc L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> resist energy on <element>
+
+This spell bestows the caster with a small amount of damage resistance
+against a selected element, increasing with the caster's level. Elements
+that can be chosen are acid, cold, electricity, fire, or sonic.
+
+
+Spell: resist energy
+Class: paladin L2, druid L2, ranger L1, mage/sorc L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> resist energy on <element>
+
+This spell bestows the caster with a small amount of damage resistance
+against a selected element, increasing with the caster's level. Elements
+that can be chosen are acid, cold, electricity, fire, or sonic.
+
+
+Spell: spider climb
+Class: druid L2, mage/sorc L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> spider climb
+
+A caster willing to swallow both a drop of bitumen and a live spider, can
+use this to draw upon the nature of the arachnid itself, becoming able to
+climb even the most sheer of surfaces.
+
+Components, mage/sorc: spider x1, bitumen x1 (or nil w. eschew materials)
+
+Spell: acid arrow
+Class: mage/sorc L2
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> acid arrow on <target>
+
+When throwing a dart at a victim and casting the acid arrow spell, the dart
+will turn into an acidic arrow with the aim and speed as if fired by a
+fighter of the caster's spell level.  Damage will be inflicted immediately
+upon hitting the target, then the acid will seep through the victim's
+veins, doing more damage per combat round until the acid wears off or the
+target is dead. A versatile arcanist can manipulate the base element of
+this spell.
+
+Components, mage/sorc: dart x1 (or nil w. eschew materials)
+
+Spell: scorcher
+Class: mage/sorc L2
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> scorcher on <target>
+
+When a mage casts this ferocious spell, fire blazes out of the caster's
+hand towards a target, burning through all in the way.  The mage will make
+an effort to aim at only attackers, but this is not always possible. While
+the spell will reliably hit the primary target, a quick opponent may avoid
+being caught by the worst of the flame's edges. A versatile arcanist can
+manipulate the base element of this spell.
+
+
+Spell: web
+Class: mage/sorc L2
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> web on <target>
+
+When a victim is unfortunate enough to be victim of a web spell, he/she
+might as well get a new hobby.  If the web is successful, the victim will
+be trapped within a massive web for quite some time.  The time it takes for
+the victim to escape varies with strength.
+
+Components, mage/sorc: spider web x1 (or nil w. eschew materials)
+
+Spell: resist energy
+Class: paladin L2, druid L2, ranger L1, mage/sorc L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> resist energy on <element>
+
+This spell bestows the caster with a small amount of damage resistance
+against a selected element, increasing with the caster's level. Elements
+that can be chosen are acid, cold, electricity, fire, or sonic.
+
+

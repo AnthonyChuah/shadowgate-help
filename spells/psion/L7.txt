@@ -1,0 +1,176 @@
+Spell: astral construct
+Class: psion L7
+Sphere: conjuration_summoning
+Discipline: shaper
+Saving throw: n/a
+Syntax: cast <classname> astral construct
+
+By manifesting this command, a shaper may pull small portions of ectoplasm
+from the Astral Plane and weave from them a construct to do his bidding. 
+The shaper must be careful, else he may lose control of his new creation.
+
+To command the construct, simply: command construct to <action>
+
+
+Spell: oak body
+Class: psywarrior L5, psion L7
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> oak body
+
+By using this power, the psionic character lends some of his psychic energy
+to protect himself. It causes the manifester to gain some resistance to
+physical attacks, as well as immunity to most standard poisons. The oaken
+nature of the power leaves the manifester vulnerable to fire attacks. The
+oaken body brings a minor bonus to strength at the cost of dexterity. This
+power does not work together with Stoneskin or Iron Body.
+
+Components, psywarrior: sapphire x2
+Components, psion: sapphire x2
+
+Spell: oak body
+Class: psywarrior L5, psion L7
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> oak body
+
+By using this power, the psionic character lends some of his psychic energy
+to protect himself. It causes the manifester to gain some resistance to
+physical attacks, as well as immunity to most standard poisons. The oaken
+nature of the power leaves the manifester vulnerable to fire attacks. The
+oaken body brings a minor bonus to strength at the cost of dexterity. This
+power does not work together with Stoneskin or Iron Body.
+
+Components, psywarrior: sapphire x2
+Components, psion: sapphire x2
+
+Spell: prescience
+Class: psion L7
+Sphere: combat
+Saving throw: n/a
+Syntax: cast <classname> prescience
+
+This power will allow the psion foreknowledge, granting him additional
+prowess in battle.  The power gives the psion a bonus to hit and damage his
+opponents for a time, as well as a chance for an extra attack. This power
+grants +1/per 5 levels. It grants +4 minimum and +8 maximum. This bonus
+applies to both attack and damage rolls.
+
+Components, psion: blue tigers eye x1
+
+Spell: evade burst
+Class: psywarrior L3, psion L7
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> evade burst
+
+Using this power, the psionic character gains the ability to avoid damage
+from certain spells and powers as if he had the evasion feat. For more
+specific information, please see <help evasion>. This power does not stack
+with the evasion feat.
+
+
+Spell: phase door
+Class: psion L7
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> phase door on <direction>
+
+Manifesting this power allows a psion to teleport a short distance away.
+The power can be used in combat and will ignore mundane impediments, such
+as caltrops or closed doors, but will be barred by magically sealed doors.
+During the short time the psion is away from this plane, he regains a small
+amount of health and power points. Because it requires so much
+concentration, the psion must rest a short time before manifesting this
+power again. Should the psion be visible when this spell is manifested, a
+shimmering prismatic light accompanies his movements.
+
+Components, psion: peridot x1 (or nil w. eschew materials)
+
+Spell: evade burst
+Class: psywarrior L3, psion L7
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> evade burst
+
+Using this power, the psionic character gains the ability to avoid damage
+from certain spells and powers as if he had the evasion feat. For more
+specific information, please see <help evasion>. This power does not stack
+with the evasion feat.
+
+
+Spell: reddopsi
+Class: psion L7
+Sphere: abjuration
+Discipline: kineticist
+Saving throw: n/a
+Syntax: cast <classname> reddopsi
+
+Talented kineticists can manipulate the area around them, turning aside
+spells. While they cannot stop area of effect spells are those that produce
+splash damage, they can prevent spells and powers that directly target them
+from landing. This spell does not stack with the 'reflection' or 'spell
+reflection' feats.
+
+Components, psion: moonstone x1, opal x1 (or nil w. eschew materials)
+
+Spell: speak with dead
+Class: cleric L9, psion L7
+Sphere: divination
+Discipline: telepath
+Saving throw: n/a
+Syntax: cast <classname> speak with dead to <target>
+
+This will allow the caster to attempt to establish a mental connection with
+a deceased individual.
+
+
+Spell: speak with dead
+Class: cleric L9, psion L7
+Sphere: divination
+Discipline: telepath
+Saving throw: n/a
+Syntax: cast <classname> speak with dead to <target>
+
+This will allow the caster to attempt to establish a mental connection with
+a deceased individual.
+
+
+Spell: ultrablast
+Class: psion L7
+Sphere: invocation_evocation
+Saving throw: will
+Syntax: cast <classname> ultrablast on <target>
+
+A psion begins manifesting this spell by creating a psychic 'grumbling'
+that toys with the minds of those nearby.  The psion allows his brain to
+emit an earsplitting shriek that resounds in the minds of the one targetted
+and those around him.
+
+
+Spell: mind blank
+Class: psywarrior L6, psion L7
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> mind blank
+
+This power shields the psionic character's mind. The mental fortress
+provides the same benefits as the Escape Detection power as well as
+offering additional protection against mind-affecting spells and powers.
+
+Components, psywarrior: beryl x1, tektite x1
+Components, psion: beryl x1, tektite x1
+
+Spell: mind blank
+Class: psywarrior L6, psion L7
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> mind blank
+
+This power shields the psionic character's mind. The mental fortress
+provides the same benefits as the Escape Detection power as well as
+offering additional protection against mind-affecting spells and powers.
+
+Components, psywarrior: beryl x1, tektite x1
+Components, psion: beryl x1, tektite x1
+

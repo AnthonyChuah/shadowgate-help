@@ -1,0 +1,60 @@
+Spell: remote view trap
+Class: psion L6
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> remote view trap
+
+When manifesting this power, the psion attunes his mind to the detection of
+magical and psionic abilities that attempt to scry him in some form.  The
+power remains strong in the psion's mind, allowing him to move and retain
+concentration on the power.
+
+Should someone attempt to scry a psion while he has this power manifested,
+a battle of wills and strength ensues.  The psion's latent psychic energy
+will lash out at the one scrying him, causing damage.  The struggle then
+continues, and if the psion wins, he immediately knows the description and
+general location of the scryer.
+
+Should the psion's will prove more powerful than the scryer's, this power
+will likewise prevent the viewer from observing the psion.
+
+Components, psion: tektite x1, tourmaline x1
+
+Spell: mind over energy
+Class: psywarrior L6, psion L6
+Saving throw: n/a
+Syntax: cast <classname> mind over energy on <type>
+
+When manifesting this power, the psionic character strengthens her mental
+defenses against certain types of energy. The manifester must choose either
+fiendish (protecting her from fire, electricity, and sonic attacks) or
+celestial (protecting her from cold, acid, and sonic attacks) when
+manifesting the power.
+
+
+Spell: exigency
+Class: psion L6
+Sphere: invocation_evocation
+Saving throw: n/a
+Syntax: cast <classname> exigency on <enclave>
+
+Using this power, the psion can prepare a portion of her mind to execute a
+quick exit at a later time. The power can be manifested only when the psion
+is at peace, and she must specify an enclave when manifesting. Available
+enclaves are: Tabor, Shadow, and Seneca. After manifesting the power, the
+psion can call upon its energy at any time by typing <now>.
+
+Components, psion: rhodochrosite x1, rose quartz x1
+
+Spell: mind over energy
+Class: psywarrior L6, psion L6
+Saving throw: n/a
+Syntax: cast <classname> mind over energy on <type>
+
+When manifesting this power, the psionic character strengthens her mental
+defenses against certain types of energy. The manifester must choose either
+fiendish (protecting her from fire, electricity, and sonic attacks) or
+celestial (protecting her from cold, acid, and sonic attacks) when
+manifesting the power.
+
+

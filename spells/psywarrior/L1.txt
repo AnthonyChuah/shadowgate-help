@@ -1,0 +1,64 @@
+Spell: chameleon skin
+Class: psywarrior L1
+Saving throw: n/a
+Syntax: cast <classname> chameleon skin
+
+When the psychic character manifests this power, he harnesses the power of
+the chameleon, granting him the ability to blend into his surroundings.
+This power functions as a bonus to your ability to hide and sneak, rather
+than true invisibility.
+
+Components, psywarrior: green moss agate x1 (or nil w. eschew materials)
+
+Spell: call armor
+Class: psywarrior L1
+Sphere: combat
+Saving throw: n/a
+Syntax: cast <classname> call armor on <light|medium|heavy>
+
+This power allows the psywarrior to create a suit of armor using only her
+mental prowess. The armor is crafted from energy and may take the form of
+either light, medium, or heavy armor. The type is chosen by the psywarrior
+at the time of manifesting. If no choice is made, the armor will
+automatically take the form of medium armor. In addition to any other IDs
+the armor may have, the ID <energy armor> will always work.
+
+
+Spell: primal fear
+Class: psywarrior L1
+Sphere: enchantment_charm
+Saving throw: will
+Syntax: cast <classname> primal fear on <target>
+
+This power allows the psionic character to project an aura of fear toward a
+target, potentially sending him fleeing or causing him to cower in terror.
+
+Components, psywarrior: gray agate x1 (or nil w. eschew materials)
+
+Spell: prevenom
+Class: psywarrior L1
+Sphere: combat
+Saving throw: n/a
+Syntax: cast <classname> prevenom on <weapon>
+
+Upon using this power, the psionic character manifests a powerful poison to
+coat his weapon. A target struck by the poisoned weapon will suffer the
+same fate as any individual struck by the physical poisons found in the
+world.
+
+NOTE: When using this power, you must specify a weapon as the target. The
+first such weapon in your inventory will be chosen, and items in containers
+will be ignored.
+
+
+Spell: stomp
+Class: psywarrior L1
+Sphere: combat
+Saving throw: reflex
+Syntax: cast <classname> stomp
+
+Upon manifesting this power, the psionic character releases a stream of
+psychic energy to empower a stomp, creating a ripple in the earth. The
+resulting quake may stun or damage all those in the area, save the caster.
+
+

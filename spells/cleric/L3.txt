@@ -1,0 +1,100 @@
+Spell: good hope
+Class: cleric L3
+Sphere: enchantment_charm
+Domain: charm
+Saving throw: n/a
+Syntax: cast <classname> good hope on <target>
+
+Invoking the blessings of good hope, this spell will grant the target a
+heightened sense in battle and a blessing on resisting some attacks (saving
+throws). It does not stack with similar morale-boosting spells, such as
+heroism.
+
+
+Spell: spectral steed
+Class: cleric L3
+Sphere: conjuration_summoning
+Domain: repose
+Saving throw: n/a
+Syntax: cast <classname> spectral steed
+
+By means of this spell, the caster calls upon his god to send forth a
+ghostly horse to serve as his faithful mount and to help defend them.
+
+This spell will not work if you are already mounted.
+
+
+Spell: insight
+Class: cleric L3
+Sphere: divination
+Domain: mentalism
+Saving throw: n/a
+Syntax: cast <classname> insight on <target>
+
+This spell grants the target a second's insight into the future, allowing
+her to both avoid attacks better, and to hit her targets better.  The spell
+is more effective when used by a priest that is solely dedicated to her
+faith.
+
+
+Spell: ice shield
+Class: cleric L3
+Sphere: combat
+Domain: cold
+Saving throw: fort
+Syntax: cast <classname> ice shield
+
+This spell will protect the caster in a field of bitter cold actic air.  It
+gives a slight bonus to the caster's armor, additionally, any enemies
+attacking the caster must make a saving throw or suffer damage from the
+bitter cold.
+
+
+Spell: auspicious bolt
+Class: cleric L3
+Sphere: combat
+Domain: fate
+Saving throw: n/a
+Syntax: cast <classname> auspicious bolt on <target>
+
+This spell will call on the fates to improve the fortune of the recipient
+in battle.  To what degree the fortunes are altered in favor of the target
+depends on the level of the caster, and of course fate itself.
+
+
+Spell: nimbus of light
+Class: cleric L3
+Sphere: divination
+Domain: sun
+Saving throw: n/a
+Syntax: cast <classname> nimbus of light
+
+This spell will surround the caster in a protective nimbus of light.  The
+light will make the caster more difficult to hit, and at the same time
+improve the caster's vision.
+
+
+Spell: rejuvenation
+Class: cleric L3
+Sphere: healing
+Domain: renewal
+Saving throw: n/a
+Syntax: cast <classname> rejuvenation
+
+This spell will grant the caster the power of renewal, giving him a small
+amount of healing each round for a long period of time.
+
+
+Spell: faithful mount
+Class: cleric L3
+Sphere: conjuration_summoning
+Domain: travel
+Saving throw: n/a
+Syntax: cast <classname> faithful mount
+
+By means of this spell, the caster calls upon their god to send forth a
+horse to serve as their faithful mount and to help defend them.
+
+This spell will not work if you are already mounted.
+
+

@@ -1,0 +1,179 @@
+Spell: psionic teleport
+Class: psion L5
+Sphere: alteration
+Discipline: nomad
+Saving throw: n/a
+Syntax: cast <classname> psionic teleport to <location>
+
+This power will move the nomad from his current location to one he has
+previously memorized.  The nomad merely concentrates, setting his sights on
+the place he would like to be, and his mind manipulates time and space to
+place him there.  An example of the power's usage is <remember here as
+cave>.  Then later on, the nomad would type, <cast psion psionic teleport
+to cave>.  Again, you may also <unremember cave> to forget that particular
+location. Note: The teleport power is not guaranteed, and the nomad may end
+up in a place he did not intend.
+
+See also:  remember, unremember, recall
+
+
+
+Spell: power resistance
+Class: psywarrior L5, psion L5
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> power resistance on <target>
+
+Using this power will allow a psion to temporarily raise the power
+resistance of the target.  After a time, the power will reverse, restoring
+the creature to its original resistance.
+
+Components, psywarrior: jade x1 (or nil w. eschew materials)
+Components, psion: jade x1 (or nil w. eschew materials)
+
+Spell: creation
+Class: psion L5
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> creation
+
+This power creates psionic fighters to protect the psion.  These warriors
+do not truly exist but are rather manifestations of the psion's own
+protective impulse.  The warriors will stand before the psion, mindlessly
+protecting him in the event of attacks.
+
+Components, psion: danburite x1
+
+Spell: biting cold
+Class: psywarrior L5, psion L5
+Sphere: invocation_evocation
+Saving throw: fort
+Syntax: cast <classname> biting cold on <target>
+
+Upon manifesting this power, the psywarrior manipulates the elemental
+planes, summoning cold to himself. Concentrating the icy power in his core,
+he lashes out, freezing his target. The victim experiences cold damage and
+may have their movement impaired for a time.
+
+Components, psywarrior: turquoise x2 (or nil w. eschew materials)
+Components, psion: turquoise x2 (or nil w. eschew materials)
+
+Spell: energy current
+Class: psion L5
+Sphere: invocation_evocation
+Discipline: kineticist
+Saving throw: reflex
+Syntax: cast <classname> energy current as <type>
+
+Upon manifesting this power, the kineticist generates a current of energy
+that lashes out at those around him. Feats such as perfect caster and body
+cognition can help ensure the psion strikes only foes. The psion must
+choose one of the following energy types when manifesting the power: fire,
+electricity, cold, acid, sonic, or random. If random is chosen, the energy
+type may change each round. This power functions like an AOE storm, so it
+does not stack with similar spells or powers.
+
+
+Spell: power resistance
+Class: psywarrior L5, psion L5
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> power resistance on <target>
+
+Using this power will allow a psion to temporarily raise the power
+resistance of the target.  After a time, the power will reverse, restoring
+the creature to its original resistance.
+
+Components, psywarrior: jade x1 (or nil w. eschew materials)
+Components, psion: jade x1 (or nil w. eschew materials)
+
+Spell: biting cold
+Class: psywarrior L5, psion L5
+Sphere: invocation_evocation
+Saving throw: fort
+Syntax: cast <classname> biting cold on <target>
+
+Upon manifesting this power, the psywarrior manipulates the elemental
+planes, summoning cold to himself. Concentrating the icy power in his core,
+he lashes out, freezing his target. The victim experiences cold damage and
+may have their movement impaired for a time.
+
+Components, psywarrior: turquoise x2 (or nil w. eschew materials)
+Components, psion: turquoise x2 (or nil w. eschew materials)
+
+Spell: remote viewing
+Class: psion L5
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> remote viewing on <object> (a crystal ball or
+equivalent)
+
+By means of this power, the psion changes a normal crystal ball or mirror
+into a scrying device. The details of the use of such a scrying device can
+be accessed by typing <help crystal ball> after a successful cast on a
+crystal ball.  You will be able to scry a player character or a location
+with the scrying device made by this power.
+
+The crystal ball or mirror used must be of finely polished crystal of a
+minimum cost of 1,000 gp - such ones are generally found only in psion
+enclaves as they are both large and fragile, making them impossible to
+carry around.
+
+You will not be able to scry a character that you have not recognized
+previously with the 'recognize' command.  Your chance of success in using
+the crystal ball on a character is less if you recognize someone as
+something other than their true name, but its better than nothing.  You may
+not scry locations at all unless they are in memory via the remember
+command.
+
+There is also a chance that the target of the power may notice that they
+are being scryed.  This depends on their class, and is adjusted
+significantly by intelligence, and operates independantly of any scry
+detection magic or devices.
+
+Components, psion: banded amethyst x1, blue lace agate x1, sodalite x1, red
+jasper x1
+
+Spell: hail of crystals
+Class: psion L5
+Sphere: invocation_evocation
+Discipline: shaper
+Saving throw: fort
+Syntax: cast <classname> hail of crystals
+
+This power will cause the shaper to fill the air with razor-sharp crystals,
+which churn and damage most things in the area.  Due to the shaper's
+natural control over crytals, this power will not damage the shaper, his
+party members, or any beings following him.  The power becomes longer
+lasting as the shaper grows stronger.
+
+Components, psion: tourmaline x1 (or nil w. eschew materials)
+
+Spell: catapsi
+Class: psywarrior L5, psion L5
+Sphere: charm
+Saving throw: will
+Syntax: cast <classname> catapsi on <target>
+
+This power can be one of the deadliest in the psion's arsenal, though it
+causes very little damage.  By manifesting this power, the psion causes a
+white noise to resonate in the mind of his target, leaving the target
+unable to think, cast spells, or manifest powers.  This power is rightly
+feared by psions and mages all over the realms.
+
+Components, psion: blue diamond x3
+
+Spell: catapsi
+Class: psywarrior L5, psion L5
+Sphere: charm
+Saving throw: will
+Syntax: cast <classname> catapsi on <target>
+
+This power can be one of the deadliest in the psion's arsenal, though it
+causes very little damage.  By manifesting this power, the psion causes a
+white noise to resonate in the mind of his target, leaving the target
+unable to think, cast spells, or manifest powers.  This power is rightly
+feared by psions and mages all over the realms.
+
+Components, psion: blue diamond x3
+

@@ -1,0 +1,89 @@
+Spell: create water
+Class: cleric L1, paladin L1, druid L1
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> create water
+
+This spell creates a pool of drinkable water. You can drink from the pool,
+to quench your thirst.
+
+
+Spell: create water
+Class: cleric L1, paladin L1, druid L1
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> create water
+
+This spell creates a pool of drinkable water. You can drink from the pool,
+to quench your thirst.
+
+
+Spell: create water
+Class: cleric L1, paladin L1, druid L1
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> create water
+
+This spell creates a pool of drinkable water. You can drink from the pool,
+to quench your thirst.
+
+
+Spell: produce flame
+Class: druid L1
+Sphere: alteration
+Saving throw: reflex
+Syntax: cast <classname> produce flame on <target>
+
+The druid opens his hand, palm up, and a flame as bright as a torch appears
+there.  The flame will not harm the druid or his equipment, but when the
+druid hurls the flame at an enemy, it explodes, fanning out to damage those
+around him.  Although the druid will try to control the spell so as not to
+damage allies, this may not always be possible.
+
+
+Spell: faerie fire
+Class: cleric L2, druid L1
+Sphere: combat
+Domain: moon
+Saving throw: n/a
+Syntax: cast <classname> faerie fire on <target>
+
+This spell will outline the target in harmless violet flames.  It makes the
+target easier to hit with melee combat, and also makes it impossible for
+the target to hide by magical or other means until the spell expires or is
+dispelled.
+
+
+Spell: guidance
+Class: druid L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> guidance on <target>
+
+This spell will offer guidance to the target, giving him a slightly better
+chance to hit in combat as well as allowing him to do a small amount more
+damage.
+
+
+Spell: sylvan vigor
+Class: druid L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> sylvan vigor
+
+This spell bestows a small blessing upon the caster, increasing her health.
+
+
+Spell: faerie fire
+Class: cleric L2, druid L1
+Sphere: combat
+Domain: moon
+Saving throw: n/a
+Syntax: cast <classname> faerie fire on <target>
+
+This spell will outline the target in harmless violet flames.  It makes the
+target easier to hit with melee combat, and also makes it impossible for
+the target to hide by magical or other means until the spell expires or is
+dispelled.
+
+

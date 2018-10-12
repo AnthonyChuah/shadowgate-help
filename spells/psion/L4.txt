@@ -1,0 +1,116 @@
+Spell: aura sight
+Class: psion L4
+Sphere: divination
+Discipline: seer
+Saving throw: will
+Syntax: cast <classname> aura sight on <target>
+
+This power will allow the seer to focus on a target to discover the
+target's alignment.  The target's mind might fight the seer, in which case
+the seer will get no reading.  Other manners of magic or psionics might
+alter the reading the seer gets.
+
+
+Spell: inertial barrier
+Class: psywarrior L4, psion L4
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> inertial barrier
+
+Using this power, the psionic character bolsters his physical defenses,
+gaining some resistance to physical attacks.  The spell does not stack with
+the damage resistance and improved damage resistance feats.
+
+Components, psywarrior: rhodonite x1 (or nil w. eschew materials)
+Components, psion: rhodonite x1 (or nil w. eschew materials)
+
+Spell: inertial barrier
+Class: psywarrior L4, psion L4
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> inertial barrier
+
+Using this power, the psionic character bolsters his physical defenses,
+gaining some resistance to physical attacks.  The spell does not stack with
+the damage resistance and improved damage resistance feats.
+
+Components, psywarrior: rhodonite x1 (or nil w. eschew materials)
+Components, psion: rhodonite x1 (or nil w. eschew materials)
+
+Spell: correspond
+Class: psion L4
+Saving throw: n/a
+Syntax: cast <classname> correspond to <target>
+
+This will allow the caster to establish a mental link with the target,
+allowing conversations through telepathy for a short time. Unlike other
+telepathy spells, the participants need not share a language for this one
+to function.
+
+
+Spell: power leech
+Class: psion L4
+Sphere: necromancy
+Saving throw: n/a
+Syntax: cast <classname> power leech on <target>
+
+This power, when manifested, will cause the psion to gather his energy,
+focusing on the target.  The psion will then reach out, attempting to touch
+the target.  Should he succeed, he will empathically deliver damage to the
+target, while healing his own wounds for the same amount.  Note: The psion
+cannot gain extra hit points through this power.  He simply heals what he
+has already lost.
+
+
+Spell: slip the bonds
+Class: psywarrior L4, psion L4
+Saving throw: n/a
+Syntax: cast <classname> slip the bonds
+
+This power will allow the manifester to ready a portion of her mind to
+prepare for attacks that would otherwise stun her. When an ability or spell
+paralyzes or trips her, she can choose to type <freeme> to free herself
+from the effect. If she chooses not to release her reserved power, that
+portion of her mind will remain prepared for such attacks. This power can
+be manifested only while at peace.
+
+Components, psywarrior: green fluorite x2 (or nil w. eschew materials)
+Components, psion: green fluorite x2 (or nil w. eschew materials)
+
+Spell: slip the bonds
+Class: psywarrior L4, psion L4
+Saving throw: n/a
+Syntax: cast <classname> slip the bonds
+
+This power will allow the manifester to ready a portion of her mind to
+prepare for attacks that would otherwise stun her. When an ability or spell
+paralyzes or trips her, she can choose to type <freeme> to free herself
+from the effect. If she chooses not to release her reserved power, that
+portion of her mind will remain prepared for such attacks. This power can
+be manifested only while at peace.
+
+Components, psywarrior: green fluorite x2 (or nil w. eschew materials)
+Components, psion: green fluorite x2 (or nil w. eschew materials)
+
+Spell: telepathy
+Class: cleric L7, psion L4
+Sphere: divination
+Discipline: telepath
+Saving throw: n/a
+Syntax: cast <classname> telepathy to <target>
+
+This will allow the caster to establish a mental link with the target,
+allowing conversations through telepathy for a short time.
+
+
+Spell: telepathy
+Class: cleric L7, psion L4
+Sphere: divination
+Discipline: telepath
+Saving throw: n/a
+Syntax: cast <classname> telepathy to <target>
+
+This will allow the caster to establish a mental link with the target,
+allowing conversations through telepathy for a short time.
+
+

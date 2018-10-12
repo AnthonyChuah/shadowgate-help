@@ -1,0 +1,80 @@
+Spell: heal
+Class: cleric L6, druid L7
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> heal on <target>
+
+This spell will allow the caster to cure the target of a massive amount
+damage from wounds and disease. It does have limits - it cannot restore
+lost limbs, eyes, and other organs.
+
+
+Spell: heal
+Class: cleric L6, druid L7
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> heal on <target>
+
+This spell will allow the caster to cure the target of a massive amount
+damage from wounds and disease. It does have limits - it cannot restore
+lost limbs, eyes, and other organs.
+
+
+Spell: animate plants
+Class: druid L7
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> animate plants
+
+This spell will animate any foilage, roots, or plants in an area for the
+purpose of protecting the caster.  The animated plants will take on the
+essence of plants from all different aspects of the wild.  The plants will
+have the same characteristics as those ordinarily found in the wilds, but
+will be of much smaller scale.
+
+
+Spell: reflection
+Class: druid L7
+Sphere: divination
+Domain: nature
+Saving throw: n/a
+Syntax: cast <classname> reflection
+
+This spell will allow the druid to look through any sufficiently still body
+of water and view people at a distance.
+
+
+Spell: sunbeam
+Class: druid L7
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> sunbeam <target>
+
+This spell will create a beam of pure light aimed at the target.  A target
+who fails to avoid the sunbeam will take damage from the pure sunlight and
+may be momentarily blinded.  Undead hit by the spell will suffer additional
+damage.
+
+
+Spell: true seeing
+Class: cleric L2, druid L7
+Sphere: divination
+Domain: magic
+Saving throw: n/a
+Syntax: cast <classname> true seeing
+
+This spell will allow the caster to see through all magical and non magical
+attempts at invisibility.
+
+
+Spell: true seeing
+Class: cleric L2, druid L7
+Sphere: divination
+Domain: magic
+Saving throw: n/a
+Syntax: cast <classname> true seeing
+
+This spell will allow the caster to see through all magical and non magical
+attempts at invisibility.
+
+

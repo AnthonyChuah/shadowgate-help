@@ -1,0 +1,36 @@
+Spell: incite bravery
+Class: psywarrior L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> incite bravery
+
+Upon manifesting this power, the psionic character projects courageous
+impulses into his allies, bolstering their confidence and improving their
+martial prowess. This power does not stack with the bard's rally ability.
+
+
+Spell: lions charge
+Class: psywarrior L2
+Saving throw: n/a
+Syntax: cast <classname> lions charge on <target>
+
+When manifesting this power, the psionic character charges toward her foe
+and attempts to knock him down. The damage done will depend on any weapon
+the psionic character has wielded.
+
+
+Spell: energy emanation
+Class: psywarrior L2
+Sphere: combat
+Saving throw: n/a
+Syntax: cast <classname> energy emanation [on cold, electricity, fire, or
+sonic]
+
+This power surrounds the psionic character in a glowing halo of energy that
+lashes out at all those nearby. The amount of damage grows with the
+manifester, and she can learn to control it better through feats like
+Perfect Caster. Upon manifesting the power, the psionic character chooses
+the energy type - cold, electricity, fire, or sonic. If no type is
+designated, one will be chosen randomly.
+
+

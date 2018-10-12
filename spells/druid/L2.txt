@@ -1,0 +1,125 @@
+Spell: bulls strength
+Class: cleric L2, paladin L2, druid L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> bulls strength on <target>
+
+This spell allows the caster to infuse their target with the strength of a
+bull, enhancing their raw brawn.  This spell doesn't stack with similarly
+powerful spells of enhancement.
+
+
+Spell: bulls strength
+Class: cleric L2, paladin L2, druid L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> bulls strength on <target>
+
+This spell allows the caster to infuse their target with the strength of a
+bull, enhancing their raw brawn.  This spell doesn't stack with similarly
+powerful spells of enhancement.
+
+
+Spell: chill metal
+Class: druid L2
+Sphere: invocation_evocation
+Saving throw: n/a
+Syntax: cast <classname> chill metal on <target>
+
+Upon casting this spell, the caster sends forth a blasting cold, chilling
+any metal worn by the target.  For each item that fails its saving throw,
+the target takes damage based on the weight of the object.
+
+
+Spell: flaming sphere
+Class: druid L2
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> flaming sphere on <target>
+
+When casting this spell, the druid creates a burning globe on the ground in
+front of her.  The flames do not harm the environment, but the sphere
+explodes when it makes contact with the target of the druid's wrath.  Those
+standing nearby may be harmed as well.  The druid will make an effort to
+aim at only attackers, but this is not always possible.
+
+
+Spell: divine weapon
+Class: cleric L2, paladin L1, druid L2
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> divine weapon
+
+It is not uncommon for a priest or knight to be drawn into combat to
+protect her faith or deity.  For that reason the gods have blessed their
+servants with a prayer that grants them a divine weapon.  Each faith has a
+different weapon, some say magical copies of the favored weapons on their
+patron gods.  With this spell, a divine spellcaster will create a magical
+weapon in their hand.
+
+*NOTE*
+Each weapon will have a few keywords to it, but all will have the name of
+the weapon and 'weapon' for purpose of wielding, unwielding, and showing it
+off.
+
+
+Spell: divine weapon
+Class: cleric L2, paladin L1, druid L2
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> divine weapon
+
+It is not uncommon for a priest or knight to be drawn into combat to
+protect her faith or deity.  For that reason the gods have blessed their
+servants with a prayer that grants them a divine weapon.  Each faith has a
+different weapon, some say magical copies of the favored weapons on their
+patron gods.  With this spell, a divine spellcaster will create a magical
+weapon in their hand.
+
+*NOTE*
+Each weapon will have a few keywords to it, but all will have the name of
+the weapon and 'weapon' for purpose of wielding, unwielding, and showing it
+off.
+
+
+Spell: divine weapon
+Class: cleric L2, paladin L1, druid L2
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> divine weapon
+
+It is not uncommon for a priest or knight to be drawn into combat to
+protect her faith or deity.  For that reason the gods have blessed their
+servants with a prayer that grants them a divine weapon.  Each faith has a
+different weapon, some say magical copies of the favored weapons on their
+patron gods.  With this spell, a divine spellcaster will create a magical
+weapon in their hand.
+
+*NOTE*
+Each weapon will have a few keywords to it, but all will have the name of
+the weapon and 'weapon' for purpose of wielding, unwielding, and showing it
+off.
+
+
+Spell: bulls strength
+Class: cleric L2, paladin L2, druid L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> bulls strength on <target>
+
+This spell allows the caster to infuse their target with the strength of a
+bull, enhancing their raw brawn.  This spell doesn't stack with similarly
+powerful spells of enhancement.
+
+
+Spell: heat metal
+Class: druid L2
+Sphere: invocation_evocation
+Saving throw: n/a
+Syntax: cast <classname> heat metal on <target>
+
+Upon casting this spell, the caster sends forth a smoldering wave, heating
+any metal worn by the target.  For each item that fails its saving throw,
+the target takes damage based on the weight of the object.
+
+

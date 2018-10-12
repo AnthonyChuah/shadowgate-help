@@ -1,0 +1,140 @@
+Spell: recall death
+Class: psion L8
+Sphere: alteration
+Saving throw: will
+Syntax: cast <classname> recall death on <target>
+
+This spell parts the fabric of time, revealing wounds your foe has received
+in the past (or is yet to receive) that are potentially fatal. That target
+takes considerable damage as the past (or future) impinges briefly on the
+present.
+
+
+Spell: fold space
+Class: psion L8
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> fold space to <location>
+
+This power will move the psion from his current location to one he has
+previously memorized.  The psion merely concentrates, setting his sights on
+the place he would like to be, and his mind manipulates time and space to
+place him there.  An example of the power's usage is <remember here as
+cave>.  Then later on, the psion would type, <cast psion fold space to
+cave>.  Again, you may also <unremember cave> to forget that particular
+location.
+This spell must be cast while at peace.
+See also: remember, unremember, recall
+
+
+Spell: reaving dispel
+Class: psywarrior L6, psion L8
+Saving throw: n/a
+Syntax: cast <classname> reaving dispel on <target>
+
+This power will create a mark on the target that will attempt to dispel one
+magical effect per round for the duration, causing damage with each
+succcessful dispel. The duration and power are both based on the psionic
+character's level.
+
+
+Spell: reaving dispel
+Class: psywarrior L6, psion L8
+Saving throw: n/a
+Syntax: cast <classname> reaving dispel on <target>
+
+This power will create a mark on the target that will attempt to dispel one
+magical effect per round for the duration, causing damage with each
+succcessful dispel. The duration and power are both based on the psionic
+character's level.
+
+
+Spell: iron body
+Class: mage/sorc L9, psion L8
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> iron body
+
+By using this power, the caster lends some of his psychic energy or arcane
+spellcraft to protect himself. It causes the caster to gain a strong
+resistance to physical attacks, as well as immunity to most standard
+poisons. It does not work together with stoneskin.
+
+Components, mage/sorc: diamond dust x1
+Components, psion: rutilated quartz x1
+
+Spell: iron body
+Class: mage/sorc L9, psion L8
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> iron body
+
+By using this power, the caster lends some of his psychic energy or arcane
+spellcraft to protect himself. It causes the caster to gain a strong
+resistance to physical attacks, as well as immunity to most standard
+poisons. It does not work together with stoneskin.
+
+Components, mage/sorc: diamond dust x1
+Components, psion: rutilated quartz x1
+
+Spell: true metabolism
+Class: psion L8
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> true metabolism
+
+This power will allow the psion to focus his energy on making minor bodily
+adjustments, in effect healing himself a little over time.  The duration is
+based on the psion's level, and the amount healed will also vary with
+power.
+
+Components, psion: garnet x1 (or nil w. eschew materials)
+
+Spell: mindnet
+Class: cleric L9, psion L8
+Sphere: divination
+Discipline: telepath
+Saving throw: n/a
+Syntax: cast <classname> mindnet to <target>
+
+This power is otherwise known as mass telepathy. It will allow the psion to
+open a telepathy spell with more than one target at the same time.  Each
+target will be able to 'hear' the thoughts of the other targets in the
+mindnet.  The mindnet takes the game mechanic form of a line in the name
+that the caster has themselves recognized as.
+
+The actual name of the line is not considered to be IC information, but
+rather a mechanical method by which to facilitate the spell. The caster
+must cast the spell multiple times to add more targets to the spell, and
+each time they cast the spell on a new target, that target is added to the
+existing mind link.  It is possible for a person to be in two or more
+mindnets at the same time, but it is not possible for one caster to have
+two seperate mindnet spells under their control at the same time. The
+caster may remove a person from the mindnet at any time by using <mindnet
+remove target>.
+
+
+Spell: mindnet
+Class: cleric L9, psion L8
+Sphere: divination
+Discipline: telepath
+Saving throw: n/a
+Syntax: cast <classname> mindnet to <target>
+
+This power is otherwise known as mass telepathy. It will allow the psion to
+open a telepathy spell with more than one target at the same time.  Each
+target will be able to 'hear' the thoughts of the other targets in the
+mindnet.  The mindnet takes the game mechanic form of a line in the name
+that the caster has themselves recognized as.
+
+The actual name of the line is not considered to be IC information, but
+rather a mechanical method by which to facilitate the spell. The caster
+must cast the spell multiple times to add more targets to the spell, and
+each time they cast the spell on a new target, that target is added to the
+existing mind link.  It is possible for a person to be in two or more
+mindnets at the same time, but it is not possible for one caster to have
+two seperate mindnet spells under their control at the same time. The
+caster may remove a person from the mindnet at any time by using <mindnet
+remove target>.
+
+

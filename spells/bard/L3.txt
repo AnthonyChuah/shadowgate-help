@@ -1,0 +1,307 @@
+Spell: dispel magic
+Class: cleric L3, paladin L3, druid L4, mage/sorc L3, bard L3
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> dispel magic (on <target>)
+
+Dispel Magic, when cast, will destroy any spell enchantments, any magical
+summonings, and anything conjured.  The chances of each dispelling depends
+on both the dispeller's casting level and the casting level of the wizard
+or priest that created whatever is being dispelled, whether it be an
+enchantment, summoning, or conjuration.
+
+
+Spell: crushing despair
+Class: bard L3
+Sphere: necromancy
+Saving throw: will
+Syntax: cast <classname> crushing despair on <target>
+
+By means of this spell, the caster invokes a tangible feeling of despair
+over their target, attempting to sap their morale. It will inflict a
+penalty to the target's attacks, damage, core skills, saving throws and
+spellpower. Such an effect is not dispellable by normal magics, but will
+fade over time.
+
+Components, bard: elegy x1 (or nil w. eschew materials)
+
+Spell: displacement
+Class: cleric L3, bard L3
+Sphere: conjuration_summoning
+Domain: illusion
+Saving throw: n/a
+Syntax: cast <classname> displacement
+
+Using the power of illusion, the caster calls forth a distortion of her
+form, making her harder to target with melee attacks.
+
+
+Spell: glitterdust
+Class: bard L3
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> glitterdust
+
+This spell casts glittering dust through the air, revealing all invisible
+and hiding beings in the room where the caster has cast his spell, and
+preventing them from hiding until the dust fades.
+
+Components, bard: octave x1
+
+Spell: dispel magic
+Class: cleric L3, paladin L3, druid L4, mage/sorc L3, bard L3
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> dispel magic (on <target>)
+
+Dispel Magic, when cast, will destroy any spell enchantments, any magical
+summonings, and anything conjured.  The chances of each dispelling depends
+on both the dispeller's casting level and the casting level of the wizard
+or priest that created whatever is being dispelled, whether it be an
+enchantment, summoning, or conjuration.
+
+
+Spell: dispel magic
+Class: cleric L3, paladin L3, druid L4, mage/sorc L3, bard L3
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> dispel magic (on <target>)
+
+Dispel Magic, when cast, will destroy any spell enchantments, any magical
+summonings, and anything conjured.  The chances of each dispelling depends
+on both the dispeller's casting level and the casting level of the wizard
+or priest that created whatever is being dispelled, whether it be an
+enchantment, summoning, or conjuration.
+
+
+Spell: charm monster
+Class: cleric L7, bard L3
+Sphere: enchantment_charm
+Domain: charm
+Saving throw: will
+Syntax: cast <classname> charm monster on <target>
+
+Casting this divine prayer will allow a priest to attempt to charm a mob. 
+If the mob falls prey to the charm, they will stand in defense of the
+caster, and follow them around.  Caution should be exercised, for if you
+take any offensive actions against the charmed monster, the charm will end.
+A caster may have only one charmed creature under their sway at one time.
+
+OOC
+Please exercise caution and good role-playing skills when using this
+prayer.  Just because you have a monster charmed, does not mean people will
+react well to it in crowded places.
+
+
+Spell: daylight
+Class: cleric L3, paladin L3, druid L3, bard L3
+Sphere: sun
+Saving throw: n/a
+Syntax: cast <classname> daylight
+
+Will add semi-permanent light to a room up to daylight levels. The duration
+is until the next reboot.
+
+
+Spell: daylight
+Class: cleric L3, paladin L3, druid L3, bard L3
+Sphere: sun
+Saving throw: n/a
+Syntax: cast <classname> daylight
+
+Will add semi-permanent light to a room up to daylight levels. The duration
+is until the next reboot.
+
+
+Spell: daylight
+Class: cleric L3, paladin L3, druid L3, bard L3
+Sphere: sun
+Saving throw: n/a
+Syntax: cast <classname> daylight
+
+Will add semi-permanent light to a room up to daylight levels. The duration
+is until the next reboot.
+
+
+Spell: displacement
+Class: cleric L3, bard L3
+Sphere: conjuration_summoning
+Domain: illusion
+Saving throw: n/a
+Syntax: cast <classname> displacement
+
+Using the power of illusion, the caster calls forth a distortion of her
+form, making her harder to target with melee attacks.
+
+
+Spell: dispel magic
+Class: cleric L3, paladin L3, druid L4, mage/sorc L3, bard L3
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> dispel magic (on <target>)
+
+Dispel Magic, when cast, will destroy any spell enchantments, any magical
+summonings, and anything conjured.  The chances of each dispelling depends
+on both the dispeller's casting level and the casting level of the wizard
+or priest that created whatever is being dispelled, whether it be an
+enchantment, summoning, or conjuration.
+
+
+Spell: dispel magic
+Class: cleric L3, paladin L3, druid L4, mage/sorc L3, bard L3
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> dispel magic (on <target>)
+
+Dispel Magic, when cast, will destroy any spell enchantments, any magical
+summonings, and anything conjured.  The chances of each dispelling depends
+on both the dispeller's casting level and the casting level of the wizard
+or priest that created whatever is being dispelled, whether it be an
+enchantment, summoning, or conjuration.
+
+
+Spell: haste
+Class: mage L3, bard L3
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> haste
+
+This spell considerably speeds up the caster, and those allies in his or
+her immediate vicinity. It grants all affected targets an extra attack if
+they are striking in melee, as well as a small bonus to AC, reflex saves
+and athletics. This spell does not work in conjunction with similar magical
+effects, such as rage, berserker and fell flight.
+
+Non-specialized mages cannot cast this spell.
+
+
+Spell: haste
+Class: mage L3, bard L3
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> haste
+
+This spell considerably speeds up the caster, and those allies in his or
+her immediate vicinity. It grants all affected targets an extra attack if
+they are striking in melee, as well as a small bonus to AC, reflex saves
+and athletics. This spell does not work in conjunction with similar magical
+effects, such as rage, berserker and fell flight.
+
+Non-specialized mages cannot cast this spell.
+
+
+Spell: charm monster
+Class: cleric L7, bard L3
+Sphere: enchantment_charm
+Domain: charm
+Saving throw: will
+Syntax: cast <classname> charm monster on <target>
+
+Casting this divine prayer will allow a priest to attempt to charm a mob. 
+If the mob falls prey to the charm, they will stand in defense of the
+caster, and follow them around.  Caution should be exercised, for if you
+take any offensive actions against the charmed monster, the charm will end.
+A caster may have only one charmed creature under their sway at one time.
+
+OOC
+Please exercise caution and good role-playing skills when using this
+prayer.  Just because you have a monster charmed, does not mean people will
+react well to it in crowded places.
+
+
+Spell: phantom steed
+Class: cleric L3, bard L3
+Sphere: conjuration_summoning
+Domain: repose
+Saving throw: n/a
+Syntax: cast <classname> phantom steed
+
+By means of this spell, the caster calls upon his god to send forth a
+ghostly horse to serve as his faithful mount and to help defend them.
+
+This spell will not work if you are already mounted.
+
+
+Spell: phantom steed
+Class: cleric L3, bard L3
+Sphere: conjuration_summoning
+Domain: repose
+Saving throw: n/a
+Syntax: cast <classname> phantom steed
+
+By means of this spell, the caster calls upon his god to send forth a
+ghostly horse to serve as his faithful mount and to help defend them.
+
+This spell will not work if you are already mounted.
+
+
+Spell: daylight
+Class: cleric L3, paladin L3, druid L3, bard L3
+Sphere: sun
+Saving throw: n/a
+Syntax: cast <classname> daylight
+
+Will add semi-permanent light to a room up to daylight levels. The duration
+is until the next reboot.
+
+
+Spell: fear
+Class: cleric L5, mage/sorc L4, psion L6, bard L3
+Sphere: enchantment_charm
+Domain: tyranny
+Saving throw: will
+Syntax: cast <classname> fear
+
+Fear sends a wave of horrid thoughts and images out toward the foes around
+the caster, possibly terrifying them.  It can make the creature briefly
+flee in fright, or it may make him drop his weapons and cower before the
+caster.
+
+Components, mage/sorc: white feather x1 (or nil w. eschew materials)
+Components, bard: dirge x2 (or nil w. eschew materials)
+
+Spell: fear
+Class: cleric L5, mage/sorc L4, psion L6, bard L3
+Sphere: enchantment_charm
+Domain: tyranny
+Saving throw: will
+Syntax: cast <classname> fear
+
+Fear sends a wave of horrid thoughts and images out toward the foes around
+the caster, possibly terrifying them.  It can make the creature briefly
+flee in fright, or it may make him drop his weapons and cower before the
+caster.
+
+Components, mage/sorc: white feather x1 (or nil w. eschew materials)
+Components, bard: dirge x2 (or nil w. eschew materials)
+
+Spell: fear
+Class: cleric L5, mage/sorc L4, psion L6, bard L3
+Sphere: enchantment_charm
+Domain: tyranny
+Saving throw: will
+Syntax: cast <classname> fear
+
+Fear sends a wave of horrid thoughts and images out toward the foes around
+the caster, possibly terrifying them.  It can make the creature briefly
+flee in fright, or it may make him drop his weapons and cower before the
+caster.
+
+Components, mage/sorc: white feather x1 (or nil w. eschew materials)
+Components, bard: dirge x2 (or nil w. eschew materials)
+
+Spell: fear
+Class: cleric L5, mage/sorc L4, psion L6, bard L3
+Sphere: enchantment_charm
+Domain: tyranny
+Saving throw: will
+Syntax: cast <classname> fear
+
+Fear sends a wave of horrid thoughts and images out toward the foes around
+the caster, possibly terrifying them.  It can make the creature briefly
+flee in fright, or it may make him drop his weapons and cower before the
+caster.
+
+Components, mage/sorc: white feather x1 (or nil w. eschew materials)
+Components, bard: dirge x2 (or nil w. eschew materials)
+

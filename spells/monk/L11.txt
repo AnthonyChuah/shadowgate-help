@@ -1,0 +1,92 @@
+Spell: cloak of shadows
+Class: warlock L4, monk L11
+Saving throw: n/a
+Syntax: cast <classname> cloak of shadows on <vision|divination>
+
+This invocation allows the warlock to draw a curtain of shadow energy
+around him, concealing him from normal and magical detection attempts. It
+can be used in two ways, though only one at a time. If cast on vision, it
+will generate a more powerful magical concealment than standard
+invisibility - it does not require the same direct concentration to
+maintain, and so it does not fail if combat is initiated. If cast on
+divination, it will potentially deflect magical divination attempts to
+locate or watch the caster from a distance. If invisible, the caster can
+simply forgo his concentration to <step> from the shadows, or with either
+type of casting, it can simply be dispelled. Both effects can only be
+centred upon the caster.
+
+
+Spell: stoneskin
+Class: druid L5, mage/sorc L4, monk L11
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> stoneskin on <target>
+
+This spell causes the target to take less damage from to a certain number
+of attacks, based on the level of the caster. It does not work together
+with iron body.
+
+Components, mage/sorc: granite dust x1 (or nil w. eschew materials)
+
+Spell: gale fist
+Class: monk L11
+Sphere: way of the elements
+Discipline: way of the elements
+Saving throw: will
+Syntax: cast <classname> gale fist on <target>
+
+This spell creates an enormous fist of tangible air above the target. The
+fist will rapidly smash the target after a short delay, sometimes more than
+once, on the first attempt the target rolls a will saving throw, if
+successful the target will take only half damage. If the target fails the
+saving throw, however, they will be momentarily stunned. The higher the
+level of the caster the longer the period of time. Each additionl strike by
+the fist will allow for a save to half damage, but the stun effect will not
+apply beyond the first hit. 
+NOTE: Each hit of the fist does 1d6 damage per caster level. The
+probability of the fist hitting more than one time is partly based on level
+and partly random.
+
+
+Spell: stoneskin
+Class: druid L5, mage/sorc L4, monk L11
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> stoneskin on <target>
+
+This spell causes the target to take less damage from to a certain number
+of attacks, based on the level of the caster. It does not work together
+with iron body.
+
+Components, mage/sorc: granite dust x1 (or nil w. eschew materials)
+
+Spell: stoneskin
+Class: druid L5, mage/sorc L4, monk L11
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> stoneskin on <target>
+
+This spell causes the target to take less damage from to a certain number
+of attacks, based on the level of the caster. It does not work together
+with iron body.
+
+Components, mage/sorc: granite dust x1 (or nil w. eschew materials)
+
+Spell: cloak of shadows
+Class: warlock L4, monk L11
+Saving throw: n/a
+Syntax: cast <classname> cloak of shadows on <vision|divination>
+
+This invocation allows the warlock to draw a curtain of shadow energy
+around him, concealing him from normal and magical detection attempts. It
+can be used in two ways, though only one at a time. If cast on vision, it
+will generate a more powerful magical concealment than standard
+invisibility - it does not require the same direct concentration to
+maintain, and so it does not fail if combat is initiated. If cast on
+divination, it will potentially deflect magical divination attempts to
+locate or watch the caster from a distance. If invisible, the caster can
+simply forgo his concentration to <step> from the shadows, or with either
+type of casting, it can simply be dispelled. Both effects can only be
+centred upon the caster.
+
+

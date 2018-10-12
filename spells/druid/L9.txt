@@ -1,0 +1,16 @@
+Spell: elemental swarm
+Class: druid L9
+Sphere: elemental
+Saving throw: n/a
+Syntax: cast <classname> elemental swarm on <target>
+
+This spell will unleash the fury of the elemental planes on the caster's
+foes.  A portal will open to a random elemental plane and an elder
+elemental will come forth to aid the caster.  The elemental will fight
+until it is slain or until the caster's enemies are killed.  If the
+elemental is slain, another portal will open to a different elemental
+plane.  This will continue until the caster is dead, until his or her foes
+are all dead, or until an elemental has been called forth from each of the
+planes of earth, air, fire, and water.
+
+

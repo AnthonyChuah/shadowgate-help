@@ -1,0 +1,157 @@
+Spell: barkskin
+Class: druid L2, ranger L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> barkskin
+
+A ranger can attempt to take on part of a tree's nature, their skin
+hardening a little.  This spell does not stack with the damage resistance
+feat.
+
+
+Spell: bears endurance
+Class: cleric L2, druid L2, ranger L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> bears endurance on <target>
+
+This spell allows the caster to infuse their target with the endurance of a
+bear, granting them improved vitality and stamina.  This spell doesn't
+stack with similarly powerful spells of enhancement.
+
+
+Spell: barkskin
+Class: druid L2, ranger L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> barkskin
+
+A ranger can attempt to take on part of a tree's nature, their skin
+hardening a little.  This spell does not stack with the damage resistance
+feat.
+
+
+Spell: bears endurance
+Class: cleric L2, druid L2, ranger L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> bears endurance on <target>
+
+This spell allows the caster to infuse their target with the endurance of a
+bear, granting them improved vitality and stamina.  This spell doesn't
+stack with similarly powerful spells of enhancement.
+
+
+Spell: hold animal
+Class: druid L2, ranger L2
+Sphere: enchantment_charm
+Saving throw: fort
+Syntax: cast <classname> hold animal on <target>
+
+This will magically hold most types of animals.  It will hold for longer,
+as your levels increase.  They will be able to hear, but not look or fight.
+
+
+Spell: hold animal
+Class: druid L2, ranger L2
+Sphere: enchantment_charm
+Saving throw: fort
+Syntax: cast <classname> hold animal on <target>
+
+This will magically hold most types of animals.  It will hold for longer,
+as your levels increase.  They will be able to hear, but not look or fight.
+
+
+Spell: bears endurance
+Class: cleric L2, druid L2, ranger L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> bears endurance on <target>
+
+This spell allows the caster to infuse their target with the endurance of a
+bear, granting them improved vitality and stamina.  This spell doesn't
+stack with similarly powerful spells of enhancement.
+
+
+Spell: owls wisdom
+Class: cleric L2, paladin L2, druid L2, ranger L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> owls wisdom on <target>
+
+This spell allows the caster to infuse their target with the wisdom of an
+owl, granting them improved insight.  This spell doesn't stack with
+similarly powerful spells of enhancement.
+
+
+Spell: owls wisdom
+Class: cleric L2, paladin L2, druid L2, ranger L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> owls wisdom on <target>
+
+This spell allows the caster to infuse their target with the wisdom of an
+owl, granting them improved insight.  This spell doesn't stack with
+similarly powerful spells of enhancement.
+
+
+Spell: owls wisdom
+Class: cleric L2, paladin L2, druid L2, ranger L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> owls wisdom on <target>
+
+This spell allows the caster to infuse their target with the wisdom of an
+owl, granting them improved insight.  This spell doesn't stack with
+similarly powerful spells of enhancement.
+
+
+Spell: owls wisdom
+Class: cleric L2, paladin L2, druid L2, ranger L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> owls wisdom on <target>
+
+This spell allows the caster to infuse their target with the wisdom of an
+owl, granting them improved insight.  This spell doesn't stack with
+similarly powerful spells of enhancement.
+
+
+Spell: snare
+Class: druid L3, ranger L2
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> snare
+
+In casting this spell, the ranger sets a snare in the location, which will
+harm the first bypasser to trigger it. Anyone already present when the
+spell is cast will be aware of the snare, and may come and go without
+disturbing it. Additionally, thieves have a chance to actively search for
+the snare and can remove it, but they must do so in the room before the
+trapped location or they will trigger it.
+
+The caster's attunement to the wilds will alert them when their snare is
+tripped.  They may only rig one snare at a time, but do not need to remain
+with it for it to function.  Snares can only be set in natural
+surroundings.
+
+
+Spell: snare
+Class: druid L3, ranger L2
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> snare
+
+In casting this spell, the ranger sets a snare in the location, which will
+harm the first bypasser to trigger it. Anyone already present when the
+spell is cast will be aware of the snare, and may come and go without
+disturbing it. Additionally, thieves have a chance to actively search for
+the snare and can remove it, but they must do so in the room before the
+trapped location or they will trigger it.
+
+The caster's attunement to the wilds will alert them when their snare is
+tripped.  They may only rig one snare at a time, but do not need to remain
+with it for it to function.  Snares can only be set in natural
+surroundings.
+
+

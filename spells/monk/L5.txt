@@ -1,0 +1,15 @@
+Spell: thunder wave
+Class: monk L5
+Sphere: way of the elements
+Discipline: way of the elements
+Saving throw: fort
+Syntax: cast <classname> thunder wave
+
+This spell creates a wave of thunderous force, all creatures around the
+caster must make a fortitude save or be damaged and knocked to the ground.
+Furthemore, all inanimate objects not attached and on the ground may be
+knocked away.
+
+NOTE: The damage of this spell is 1d6 per caster level.
+
+

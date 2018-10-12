@@ -1,0 +1,117 @@
+Spell: ice storm
+Class: mage/sorc L4
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> ice storm
+
+When the ice storm spell is cast, the mage summons storm clouds above that
+rain hail and ice down upon anything in the area.  The spell will not
+damage the caster and lasts for a number of rounds equal to the caster's
+level. A versatile arcanist can manipulate the base element of this spell.
+
+Components, mage/sorc: water x3, pinch of special dust x1 (or nil w. eschew
+materials)
+
+Spell: bestow curse
+Class: mage L4
+Sphere: necromancy
+Saving throw: will
+Syntax: cast <classname> bestow curse on <target>
+
+By means of this spell, the caster places a curse upon the target that will
+weaken them considerably, lowering their defenses and their combat
+abilities. It is not dispellable by normal magics, but will fade over time.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: charcoal x2 (or nil w. eschew materials)
+
+Spell: animate dead
+Class: cleric L3, mage/sorc L4
+Sphere: necromancy
+Saving throw: n/a
+Syntax: cast <classname> animate dead (on <target>)
+
+This spell is pure evil, and only evil casters use it often. You can summon
+a total number of hit dice worth of zombies and skeletons up to your
+casting level.  They will follow you and defend you from your enemies. 
+Unlike most common monster summoning spells, these monsters will not go
+away unless the caster quits.  They are undead, so they can be turned, and
+so forth, but they cannot be dispelled.
+
+Components, mage/sorc: bit of bone x1, drop of blood x1 (or nil w. eschew
+materials)
+
+Spell: black tentacles
+Class: mage L4
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> black tentacles
+
+This spell summons up a mass of writhing black tentacles from the earth at
+your feet. These will ensnare anything nearby to slow their escape, and
+attempt to knock them from their feet.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: carbon x1 (or nil w. eschew materials)
+
+Spell: water breathing
+Class: mage/sorc L4
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> vacuum breathing on <target>
+
+This spell allows the target to survive in a vacuum for a limited period of
+time.
+
+Components, mage/sorc: bell jar x1 (or nil w. eschew materials)
+
+Spell: fire shield
+Class: cleric L3, mage/sorc L4
+Sphere: invocation_evocation
+Domain: fire
+Saving throw: fort
+Syntax: cast <classname> fire shield
+
+This spell will surround the caster's body in a roaring shield of flames. 
+It grants the caster a slight bonus to their armor class, and any opponent
+striking the caster must make a saving throw or take damage from the
+blistering heat.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: phosphorus x1 (or nil w. eschew materials)
+
+Spell: fire shield
+Class: cleric L3, mage/sorc L4
+Sphere: invocation_evocation
+Domain: fire
+Saving throw: fort
+Syntax: cast <classname> fire shield
+
+This spell will surround the caster's body in a roaring shield of flames. 
+It grants the caster a slight bonus to their armor class, and any opponent
+striking the caster must make a saving throw or take damage from the
+blistering heat.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: phosphorus x1 (or nil w. eschew materials)
+
+Spell: animate dead
+Class: cleric L3, mage/sorc L4
+Sphere: necromancy
+Saving throw: n/a
+Syntax: cast <classname> animate dead (on <target>)
+
+This spell is pure evil, and only evil casters use it often. You can summon
+a total number of hit dice worth of zombies and skeletons up to your
+casting level.  They will follow you and defend you from your enemies. 
+Unlike most common monster summoning spells, these monsters will not go
+away unless the caster quits.  They are undead, so they can be turned, and
+so forth, but they cannot be dispelled.
+
+Components, mage/sorc: bit of bone x1, drop of blood x1 (or nil w. eschew
+materials)
+

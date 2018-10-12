@@ -1,0 +1,5552 @@
+Spell: animate object
+Class: cleric L6, bard L6
+Sphere: alteration
+Saving throw: will
+Syntax: cast <classname> animate object on <object> || <room>
+
+This spell allows you to animate objects and command then.  <command
+objects to command> will command the object to act as instructed.  Forcing
+an object to do something will affect your alignment when appropriate.  If
+you cast the spell on 'room', you will animate the objects located on the
+floor of the room (non living).  If you cast it on a non-living target,
+that object will become animated.  If you cast it on a living being, items
+from that being's inventory will be animated.
+
+Enchanted objects cannot be animated.  Objects will take damage in combat
+and may be destroyed.  The objects will remain animated until the spell
+ends or you <dismiss objects>.
+
+There is a level effect that limits how large or how many objects you can
+animate.
+
+Components, bard: song x1
+
+Spell: aura sight
+Class: psion L4
+Sphere: divination
+Discipline: seer
+Saving throw: will
+Syntax: cast <classname> aura sight on <target>
+
+This power will allow the seer to focus on a target to discover the
+target's alignment.  The target's mind might fight the seer, in which case
+the seer will get no reading.  Other manners of magic or psionics might
+alter the reading the seer gets.
+
+
+Spell: animus blast
+Class: mage L9
+Sphere: necromancy
+Saving throw: reflex
+Syntax: cast <classname> animus blast
+
+This power enables a master of necromancy to unleash a blast of pure
+negative energy.  Such is the power of the blast that it can also sap the
+life energy of those nearby, as well as its main target.  In addition, the
+blast of negative energy can re-awaken corpses within the vicinity, raising
+them as the servants of the caster.  This spell has no effect upon existing
+undead creatures.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: bit of bone x1, drop of blood x1 (or nil w. eschew
+materials)
+
+Spell: auspicious bolt
+Class: cleric L3
+Sphere: combat
+Domain: fate
+Saving throw: n/a
+Syntax: cast <classname> auspicious bolt on <target>
+
+This spell will call on the fates to improve the fortune of the recipient
+in battle.  To what degree the fortunes are altered in favor of the target
+depends on the level of the caster, and of course fate itself.
+
+
+Spell: airbolt
+Class: cleric L5
+Sphere: elemental air
+Domain: air
+Saving throw: reflex
+Syntax: cast <classname> airbolt on <target>
+
+This spell enables a priest to concentrate the air around him into a
+powerful gust of wind. The priest chooses the target of the spell, and
+there is a chance that the target is knocked off balance and will drop what
+he or she is holding.  In addition, the gale force winds may hit others who
+are standing near the target.
+
+
+Spell: air walk
+Class: druid L4
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> air walk on <target>
+
+This spell will allow the target to walk on the air as if it were perfectly
+level ground.  This makes traveling over long distances almost effortless.
+
+
+Spell: acid arrow
+Class: mage/sorc L2
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> acid arrow on <target>
+
+When throwing a dart at a victim and casting the acid arrow spell, the dart
+will turn into an acidic arrow with the aim and speed as if fired by a
+fighter of the caster's spell level.  Damage will be inflicted immediately
+upon hitting the target, then the acid will seep through the victim's
+veins, doing more damage per combat round until the acid wears off or the
+target is dead. A versatile arcanist can manipulate the base element of
+this spell.
+
+Components, mage/sorc: dart x1 (or nil w. eschew materials)
+
+Spell: aura alteration
+Class: psywarrior L3, psion L3
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> aura alteration on <alignment>
+
+By making use of this power, a psion can hide his inner thoughts from
+others, effectively masking his alignment.  There are, naturally, ways to
+bypass this power's protection, but it will offer the psion some peace of
+mind should he need it.
+
+The choices for alignment are lawful good, neutral good, chaotic good,
+lawful neutral, true neutral, chaotic neutral, lawful evil, neutral evil,
+or chaotic evil.  Please make sure you do not capitalize any part of your
+choice.
+
+Components, psion: snowflake obsidian x1 (or nil w. eschew materials)
+
+Spell: aegis of fate
+Class: cleric L6
+Sphere: enchantment_charm
+Domain: fate
+Saving throw: n/a
+Syntax: cast <classname> aegis of fate on <target>
+
+This spell alters the fate of the target, creating an ever-fluctuating
+shield about the target.  The shield swirls in a chaotic display, offering
+some protection from both physical and magical effects to the target.  How
+much protection is dependent on the caster's level and, well, the fates
+themselves.
+
+
+Spell: animal affinity
+Class: psywarrior L2, psion L1
+Sphere: alteration
+Discipline: egoist
+Saving throw: n/a
+Syntax: cast <classname> animal affinity on <stat>
+
+This power allows a psionic character to focus her mental acuity, resulting
+in a bonus to one of her stats. Only one stat can be raised at a time, and
+this power does not stack with similar spells and abilities.
+
+
+Spell: animate dead
+Class: cleric L3, mage/sorc L4
+Sphere: necromancy
+Saving throw: n/a
+Syntax: cast <classname> animate dead (on <target>)
+
+This spell is pure evil, and only evil casters use it often. You can summon
+a total number of hit dice worth of zombies and skeletons up to your
+casting level.  They will follow you and defend you from your enemies. 
+Unlike most common monster summoning spells, these monsters will not go
+away unless the caster quits.  They are undead, so they can be turned, and
+so forth, but they cannot be dispelled.
+
+Components, mage/sorc: bit of bone x1, drop of blood x1 (or nil w. eschew
+materials)
+
+Spell: animate plants
+Class: druid L7
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> animate plants
+
+This spell will animate any foilage, roots, or plants in an area for the
+purpose of protecting the caster.  The animated plants will take on the
+essence of plants from all different aspects of the wild.  The plants will
+have the same characteristics as those ordinarily found in the wilds, but
+will be of much smaller scale.
+
+
+Spell: acid orb
+Class: mage/sorc L3
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> acid orb on <target>
+
+This spell allows a mage to tap into the Para-Elemental Plane of Ooze and
+borrow some of its energy to create an orb of pure acid.  Once the orb is
+launched into the air, the first thing it strikes will cause it to burst
+open, releasing the acid on the mage's foes.  Though care should be taken
+as it is possible to accidently catch the mages allies in the blast.
+
+Components, mage/sorc: citric acid x2, beeswax x1 (or nil w. eschew
+materials)
+
+Spell: astral rift
+Class: psion L3
+Sphere: conjuration_summoning
+Discipline: nomad
+Saving throw: n/a
+Syntax: cast <classname> astral rift
+
+Using this power, a nomad uses his abilities to open up a small rift to the
+Astral Plane.  Several creatures will come through the rift, aiding the
+nomad until they are dispelled or 'die' here, their souls being sent back
+to their bodies on another plane.
+
+Components, psion: dallyhanite x1 (or nil w. eschew materials)
+
+Spell: augmentation
+Class: mage/sorc L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> augmentation on <target> | <stat>
+
+This spell allows the caster to augment a single stat either of their own,
+or another ally. Only one attribute can be improved at a time for each
+target.
+
+Components, mage/sorc: pinch of special dust x1 (or nil w. eschew
+materials)
+
+Spell: acid breath
+Class: mage/sorc L5
+Sphere: alteration
+Saving throw: reflex
+Syntax: cast <classname> acid breath on <target>
+
+This incantation allows for the mage to collect a pool of acid in his/her
+mouth.  The magics of this spell prevent the caster from being harmed by
+the acid while it is being collected.  The mage then is able to release the
+acid as a breath weapon attack, the droplets of acid spinning around in a
+cone.  More acid is able to be collected as the mage grows in power, making
+the spell very deadly for a powerful caster.  Though it will become harder
+for the mage to control the acid they stream forth, sometimes even
+accidentally hitting friends or allies.
+
+Components, mage/sorc: snakes tongue x1 (or nil w. eschew materials)
+
+Spell: armor
+Class: mage/sorc L1
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> armor
+
+When armor is cast on someone, they will receive an AC bonus of up to 4.
+This bonus will only be valid while not wearing armor of any type. Clothing
+is not considered armor.
+
+Components, mage/sorc: blessed leather x1 (or nil w. eschew materials)
+
+Spell: alter self
+Class: psywarrior L2, innate L1, psion L2, bard L2
+Sphere: transmutation
+Saving throw: n/a
+Syntax: cast <classname> alter self
+
+This spell allows the caster to make minor changes to their body. These are
+usually sufficient changes that they become unrecognizable even to those
+they are familiar with. It does not allow for such drastic changes as body
+size or overall shape; the caster would still be quite recognizable as a
+creature of their race.
+
+OOC: This spell does not alter details on your scoresheet (eyes, hair) but
+the caster may describe their new form and features differently to these if
+they so choose. They must still maintain their overall body shape (ie.
+race, general height and weight).
+
+You can only have one altered form with this spell - repeat uses do not
+grant additional different shapeshifts, but instead return you to the same
+secondary form. Adjective, description, speech, messages etc will be
+remembered across castings, so they will only need to be set once in your
+alternative form. Players will be able to recognise your 'other self' as a
+unique entity, separate from your usual self.
+
+
+Spell: astral construct
+Class: psion L7
+Sphere: conjuration_summoning
+Discipline: shaper
+Saving throw: n/a
+Syntax: cast <classname> astral construct
+
+By manifesting this command, a shaper may pull small portions of ectoplasm
+from the Astral Plane and weave from them a construct to do his bidding. 
+The shaper must be careful, else he may lose control of his new creation.
+
+To command the construct, simply: command construct to <action>
+
+
+Spell: aura of healing
+Class: cleric L7
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> aura of healing
+
+This spell heals wounds on party members.  The amount and length of the
+spell are dependent on the strength of the caster.  The party members must
+remain with the caster to receive the effect.
+
+
+Spell: animal messenger
+Class: druid L2, ranger L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> animal messenger on <target> with the message
+<message>
+
+This spell will allow a ranger to attempt to send a brief message by way of
+a small creature, if any are around.  The caster has no way of knowing if
+the target has heard their message, or if the creature has gotten lost
+along the way.
+
+
+Spell: bliss
+Class: cleric L5
+Sphere: enchantment_charm
+Domain: charm
+Saving throw: will
+Syntax: cast <classname> bliss on <target>
+
+This spell allows the caster to place a target's mind in a state of bliss. 
+While in the enraptured blissful state the target only seems to focus on
+the intense pleasure and happiness that she feels, unable to attack or
+defend herself.
+
+
+Spell: ball lightning
+Class: mage/sorc L5
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> ball lightning on <target>
+
+This spell allows for a mage to conjure forth at least three balls of
+lightning, which they can then hurl at a target. As the mage's power grows,
+she will find it easier to summon a greater number of lightning balls,
+increasing the damage potential of the spell. A versatile arcanist can
+manipulate the base element of this spell.
+
+Components, mage/sorc: will o wisp essence x1, disc of bronze x2
+
+Spell: barkskin
+Class: druid L2, ranger L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> barkskin
+
+A ranger can attempt to take on part of a tree's nature, their skin
+hardening a little.  This spell does not stack with the damage resistance
+feat.
+
+
+Spell: blade barrier
+Class: cleric L7
+Sphere: combat
+Saving throw: n/a
+Syntax: cast <classname> blade barrier
+
+This spell surrounds the caster in a protective whirlwind of spinning,
+razor sharp blades.  The blades will follow the caster wherever they go and
+inflict damage on any enemies that get too close.  The amount of blades in
+the air depends on the level of the caster.
+
+
+Spell: burning hands
+Class: mage/sorc L1, monk L3
+Sphere: alteration
+Saving throw: reflex
+Syntax: cast <classname> burning hands on <target>
+
+This spell begins by the caster fanning out his hands while chanting the
+spell.  Flames will flare out and do a small amount of damage to the target
+and those near him. A versatile arcanist can manipulate the base element of
+this spell.
+
+
+Spell: blasphemy
+Class: cleric L7
+Sphere: enchantment_charm
+Domain: evil
+Saving throw: reflex
+Syntax: cast <classname> blasphemy
+
+This spell channels unholy magic directly to the caster and releases it at
+a target in the form of a silent explosion.  Those of good hearts have the
+additional chance to be blinded and/or stunned, while those of neutral bent
+may be stunned briefly.
+
+
+Spell: bears endurance
+Class: cleric L2, druid L2, ranger L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> bears endurance on <target>
+
+This spell allows the caster to infuse their target with the endurance of a
+bear, granting them improved vitality and stamina.  This spell doesn't
+stack with similarly powerful spells of enhancement.
+
+
+Spell: blight
+Class: cleric L1
+Sphere: alteration
+Domain: evil
+Saving throw: n/a
+Syntax: cast <classname> blight on <target>
+
+This spell will empower the target with dark energy, giving them a slightly
+better chance to hit in combat as well as allowing them to do a small
+amount more damage.
+
+
+Spell: bestow curse
+Class: mage L4
+Sphere: necromancy
+Saving throw: will
+Syntax: cast <classname> bestow curse on <target>
+
+By means of this spell, the caster places a curse upon the target that will
+weaken them considerably, lowering their defenses and their combat
+abilities. It is not dispellable by normal magics, but will fade over time.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: charcoal x2 (or nil w. eschew materials)
+
+Spell: brimstone blast
+Class: warlock L2
+Saving throw: reflex
+Syntax: <blasttype brimstone>
+
+An eldritch blast with this essence applied will cause the target/s to
+catch fire, burning for further damage over several rounds. Subsequent
+eldritch blasts will not stack this effect, but will refresh its duration.
+This essence will also change the base type of the blast to fire.
+See also: <help blasttype>.
+
+
+Spell: blindness
+Class: mage L2, bard L2
+Sphere: necromancy
+Saving throw: will
+Syntax: cast <classname> blindness on <target>
+
+By means of this spell, the caster attempts to steal the target's vision
+for a short while. It is not dispellable by normal magics, but will fade
+after only a short while.
+
+Non-specialized mages cannot cast this spell.
+
+Components, bard: whisper x2
+
+Spell: berserker
+Class: cleric L7
+Sphere: combat
+Domain: war
+Saving throw: n/a
+Syntax: cast <classname> berserker
+
+This spell will fill the caster with the rage of war, causing him to
+berserk madly.  The strength of the caster's deity and a blessed speed
+result in blind fighting and reckless fearlessness. This spell does not
+work in conjunction with similar magical effects, such as rally, rage,
+haste, transformation, dance of a thousand cuts, or fell flight.
+
+Note: Being berserk means that you are maddened with rage.  This is *not* a
+state in which you can calmly participate in a normal conversation,
+undertake delicate tasks, solve problems, or pretty much do anything other
+than shout obscenities and kill things.
+
+Please bear in mind that when you use the spell you are also expected to
+roleplay it.
+
+
+Spell: biting cold
+Class: psywarrior L5, psion L5
+Sphere: invocation_evocation
+Saving throw: fort
+Syntax: cast <classname> biting cold on <target>
+
+Upon manifesting this power, the psywarrior manipulates the elemental
+planes, summoning cold to himself. Concentrating the icy power in his core,
+he lashes out, freezing his target. The victim experiences cold damage and
+may have their movement impaired for a time.
+
+Components, psywarrior: turquoise x2 (or nil w. eschew materials)
+Components, psion: turquoise x2 (or nil w. eschew materials)
+
+Spell: bolt of force
+Class: cleric L5
+Sphere: combat
+Domain: mentalism
+Saving throw: reflex
+Syntax: cast <classname> bolt of force on <target>
+
+This spell produces a bolt of pure force in the form of a wave of mental
+energy that is projected in a cone before the caster.  Any enemy caught
+within the blast risks taking damage from the powerful wave of mental
+energy.
+
+
+Spell: body adjustment
+Class: psywarrior L2, psion L3
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> body adjustment
+
+When using this power, the psionic character takes control of his own
+healing process and makes minor adjustments throughout his body, restoring
+hit points. This power has the same limitations as a cleric's heal spell
+and cannot regrow lost limbs or heal substantial damage.
+
+
+Spell: befuddle
+Class: cleric L5
+Sphere: alteration
+Domain: trickery
+Saving throw: n/a
+Syntax: cast <classname> befuddle
+
+This spell will confuse the minds of onlookers, allowing the priest to
+wander among them without being seen.  To end the spell, the priest may
+type <appear> or become involved in a fight, and at times, the spell will
+simply wear off on its own due to time.  Some creatures and spells may be
+able to penetrate the befuddlement, but most will not.
+
+
+Spell: bolster
+Class: paladin L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> bolster on <target>
+
+This spell will bolster the target, giving them a slightly better chance to
+hit in combat as well as allowing them to do a small amount more damage.
+
+
+Spell: bulls strength
+Class: cleric L2, paladin L2, druid L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> bulls strength on <target>
+
+This spell allows the caster to infuse their target with the strength of a
+bull, enhancing their raw brawn.  This spell doesn't stack with similarly
+powerful spells of enhancement.
+
+
+Spell: biofeedback
+Class: psywarrior L1, psion L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> biofeedback
+
+Using this power, the psionic character bolsters his mental defenses,
+gaining a small amount of resistance to magic.  The spell does not stack
+with the resistance feat or spell.
+
+
+Spell: break curse
+Class: cleric L8, paladin L3, mage/sorc L5, bard L4
+Sphere: abjuration
+Domain: magic
+Saving throw: n/a
+Syntax: cast <classname> break curse on <object> [at <player>]
+
+This powerful spell will break a curse that has been placed upon a magical
+item, unravelling the corrupted weave around it.  Only the most skilled of
+abjurers can attempt to disentangle enchantments in such a manner.
+
+Sorcerers and non-specialized mages cannot cast this spell.
+
+Components, mage: powdered diamond x2
+Components, bard: hymn x3
+
+Spell: bless
+Class: cleric L1
+Sphere: alteration
+Domain: good
+Saving throw: n/a
+Syntax: cast <classname> bless on <target>
+
+This spell will bless the target, giving them a slightly better chance to
+hit in combat as well as allowing them to do a small amount more damage.
+
+
+Spell: body blades
+Class: cleric L2
+Sphere: combat
+Domain: suffering
+Saving throw: n/a
+Syntax: cast <classname> body blades
+
+This spell will cause razor sharp blades to sprout from the caster's skin,
+protecting them from harm and doing damage to anyone who attacks the
+caster.
+
+
+Spell: bonded steed
+Class: paladin L2
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> bonded steed
+
+By means of this spell, the caster beseeches their god to send a noble
+steed to their aid.
+
+This spell will not work if you are already mounted.
+
+
+Spell: blink
+Class: mage/sorc L3
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> blink
+
+With a snap of the fingers, the mage can start to blink between the prime
+and ethereal planes. This will give a chance for melee attacks to simply
+pass right through their form, while it is incorporeal. NOTE: Will only
+work while wearing mage armor.
+
+
+Spell: black tentacles
+Class: mage L4
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> black tentacles
+
+This spell summons up a mass of writhing black tentacles from the earth at
+your feet. These will ensnare anything nearby to slow their escape, and
+attempt to knock them from their feet.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: carbon x1 (or nil w. eschew materials)
+
+Spell: binding blast
+Class: warlock L4
+Saving throw: will
+Syntax: <blasttype binding>
+
+An eldritch blast with this essence applied will ensnare the target/s with
+magical energy, temporarily stunning them.
+See also: <help blasttype>.
+
+
+Spell: beshadowed blast
+Class: warlock L3
+Saving throw: fort
+Syntax: <blasttype beshadowed>
+
+An eldritch blast with this essence applied will cloud the target/s'
+vision, temporarily blinding them.
+See also: <help blasttype>.
+
+
+Spell: chameleon
+Class: psion L3
+Sphere: illusion
+Discipline: egoist
+Saving throw: n/a
+Syntax: cast <classname> chameleon
+
+Chameleon allows an egoist to cover himself with a thin sheen of ectoplasm
+that he then wills to blend in perfectly with his surroundings.  This
+renders the egoist invisible to all eyes (except those enchanted to see
+invisible beings, of course).  Because of the nature of the power, the
+egoist may attack while in this state, though the power has a chance to
+drain from him every time he moves.
+
+Components, psion: azurite x1 (or nil w. eschew materials)
+
+Spell: curse of despair
+Class: warlock L2
+Saving throw: will
+Syntax: cast <classname> curse of despair on <target>
+
+By means of this invocation, the caster places a curse upon the target that
+will weaken them considerably, lowering their defenses and their combat
+abilities. It is not dispellable by normal magics, but will fade over time.
+
+
+Spell: cleanse disease
+Class: cleric L4, paladin L4, druid L3, ranger L3, bard L4
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> cleanse disease on <target>
+
+This spell will attempt to cleanse any diseases present on the <target>.
+Success is based on the level of the caster versus the difficult of the
+particular disease.
+
+
+Spell: create portal
+Class: cleric L8
+Sphere: alteration
+Domain: travel
+Saving throw: n/a
+Syntax: cast <classname> create portal to <location>
+
+This power allows the priest to call on the power of his diety to open a
+portal from his current location to any place that he has remembered
+before.  The portal can not open unless both rooms may be teleported to and
+from.  The portal remains in effect longer for stronger casters.
+
+See also: remember, unremember, recall
+
+
+Spell: cunning insight
+Class: warlock L4
+Saving throw: n/a
+Syntax: cast <classname> cunning insight
+
+By means of this potent invocation, the warlock imbues his body with power,
+thereby expanding his awareness and ability to resist and react to outside
+forces. This results in an improved command of physical combat and weapon
+handling, as well as a better aptitude at avoiding attacks. This invocation
+does not work alongside similarly powerful melee spells, such as rage,
+dance of a thousand cuts, or transformation.
+
+
+Spell: cats grace
+Class: druid L2, ranger L2, bard L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> cats grace on <target>
+
+This spell allows the caster to infuse their target with the grace of a
+feline, granting them improved agility and coordination.  This spell
+doesn't stack with similarly powerful spells of enhancement.
+
+Components, bard: conceit x1 (or nil w. eschew materials)
+
+Spell: calm animal
+Class: ranger L1
+Sphere: enchantment_charm
+Saving throw: fort
+Syntax: cast <classname> calm animal on <target>
+
+This will pacify an animal that is engaged in combat.  Once tried, the
+creature will not be fooled by further attempts.
+
+
+Spell: casters lament
+Class: warlock L4
+Saving throw: n/a
+Syntax: cast <classname> casters lament (on <object> [at <player>])
+
+This invocation harnesses the greatest of a warlock's natural aptitude for
+manipulating magical energies and items. For the first, if cast with no
+target, it will imbue the warlock with a considerable resistance to magical
+attacks. If directed at an item, either in the caster's own inventory or in
+that of another player, it can be used to shatter the magic upon a cursed
+item.
+
+
+Spell: call crystals
+Class: psion L3
+Sphere: conjuration_summoning
+Discipline: shaper
+Saving throw: n/a
+Syntax: cast <classname> call crystals
+
+This power will summon a certain number of crystals based on the shaper's
+skill.  The crystals are animated matter from the Astral Plane, drawn here
+by the shaper's abilities.  The crystals are non-intelligent beings who
+will defend the shaper until they are dispelled or have used up their
+energy (effectively 'dying').
+
+Components, psion: dallyhanite x1 (or nil w. eschew materials)
+
+Spell: creation
+Class: psion L5
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> creation
+
+This power creates psionic fighters to protect the psion.  These warriors
+do not truly exist but are rather manifestations of the psion's own
+protective impulse.  The warriors will stand before the psion, mindlessly
+protecting him in the event of attacks.
+
+Components, psion: danburite x1
+
+Spell: cloudburst
+Class: cleric L2
+Sphere: elemental water
+Domain: water
+Saving throw: reflex
+Syntax: cast <classname> cloudburst on <target>
+
+The spell allows the priest to gather the water in the atmosphere to form a
+cloud, from which he can release a torrential surge of rain over the
+target.  As the caster grows in power, he is able to draw more moisture
+into the cloud, creating a larger surge of water.  The target may find it
+difficult to retain their footing among the surge.
+
+
+Spell: chill touch
+Class: mage/sorc L1
+Sphere: necromancy
+Saving throw: n/a
+Syntax: cast <classname> chill touch on <target>
+
+By casting this spell, your hand will flare up with a blue aura.  You can
+touch your enemy with that hand and, if the target doesn't make his save
+and avoid your touch, you will inflict a small amount of damage. 
+Furthermore, the target will be slightly weakened until a certain length of
+time runs out. A versatile arcanist can manipulate the base element of this
+spell.
+
+
+Spell: charm monster
+Class: cleric L7, bard L3
+Sphere: enchantment_charm
+Domain: charm
+Saving throw: will
+Syntax: cast <classname> charm monster on <target>
+
+Casting this divine prayer will allow a priest to attempt to charm a mob. 
+If the mob falls prey to the charm, they will stand in defense of the
+caster, and follow them around.  Caution should be exercised, for if you
+take any offensive actions against the charmed monster, the charm will end.
+A caster may have only one charmed creature under their sway at one time.
+
+OOC
+Please exercise caution and good role-playing skills when using this
+prayer.  Just because you have a monster charmed, does not mean people will
+react well to it in crowded places.
+
+
+Spell: contingency
+Class: mage/sorc L6
+Sphere: invocation_evocation
+Saving throw: n/a
+Syntax: cast <classname> contingency on <spell name> (| <arguments to the
+spell>)
+
+This spell allows you to put a spell in reserve, called upon at any time
+with the command <now>.  The target of the reserved spell is always the
+caster, but arguments can be specified for spells that require them.  You
+must carry a likeness of yourself, usually a small statue, when casting
+this spell./n/nexample of usage:  cast contingency on teleport |
+<remembered location>
+
+Components, mage/sorc: eyelash of ogre-mage x1, quicksilver x1
+
+Spell: chameleon skin
+Class: psywarrior L1
+Saving throw: n/a
+Syntax: cast <classname> chameleon skin
+
+When the psychic character manifests this power, he harnesses the power of
+the chameleon, granting him the ability to blend into his surroundings.
+This power functions as a bonus to your ability to hide and sneak, rather
+than true invisibility.
+
+Components, psywarrior: green moss agate x1 (or nil w. eschew materials)
+
+Spell: cone of cold
+Class: mage/sorc L5, monk L15
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> cone of cold on <target>
+
+By casting this spell, you form a massive white cone of icy cold towards
+your target.  Not only does this spell increase damagewise as the caster
+increases in level, but also, the chance of hitting an unintended target in
+addition to the intentional one increases too.  The mage will try to aim
+the spell at only hostile targets, but this is not always possible.
+
+Components, mage/sorc: crystal x1 (or nil w. eschew materials)
+
+Spell: chain lightning
+Class: mage/sorc L6
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> chain lightning on <target>
+
+Chain lightning causes a great bolt of electrical energy to attack your
+target.  After the bolt has attacked your target, the lightning bolt has
+enough energy to continue jumping around the room, damaging other people
+and anything else that happens to be in the room. A versatile arcanist can
+manipulate the base element of this spell.
+
+Components, mage/sorc: glass rod x1, fur x1, silver pin x1
+
+Spell: clairvoyance
+Class: mage L2, bard L3, psion L1
+Sphere: divination
+Discipline: seer
+Saving throw: n/a
+Syntax: cast <classname> clairvoyance on <target>
+
+A skilled seer can attempt to gain a brief image of a target. All they will
+see is a second's glimpse of their surroundings, and who else may be
+nearby. Anti-scrying effects will block this spell.
+
+Non-specialized mages cannot cast this spell, while anyone other than a
+powerful psionic casters will need to rest between castings. This spell can
+only be cast while at peace.
+
+Components, mage: powdered silver x2 (or nil w. eschew materials)
+Components, bard: stanza x3
+
+Spell: crushing despair
+Class: bard L3
+Sphere: necromancy
+Saving throw: will
+Syntax: cast <classname> crushing despair on <target>
+
+By means of this spell, the caster invokes a tangible feeling of despair
+over their target, attempting to sap their morale. It will inflict a
+penalty to the target's attacks, damage, core skills, saving throws and
+spellpower. Such an effect is not dispellable by normal magics, but will
+fade over time.
+
+Components, bard: elegy x1 (or nil w. eschew materials)
+
+Spell: cause blindness
+Class: cleric L3, paladin L3
+Sphere: necromancy
+Saving throw: reflex
+Syntax: cast <classname> cause blindness on <target>
+
+By touching your opponent's eyes, you take the light from them.  You should
+remember that although it is a powerful spell, it is curable.  Should you
+fail to touch the target's eyes, the spell will disperse harmlessly.
+
+
+Spell: create water
+Class: cleric L1, paladin L1, druid L1
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> create water
+
+This spell creates a pool of drinkable water. You can drink from the pool,
+to quench your thirst.
+
+
+Spell: chill metal
+Class: druid L2
+Sphere: invocation_evocation
+Saving throw: n/a
+Syntax: cast <classname> chill metal on <target>
+
+Upon casting this spell, the caster sends forth a blasting cold, chilling
+any metal worn by the target.  For each item that fails its saving throw,
+the target takes damage based on the weight of the object.
+
+
+Spell: catapsi
+Class: psywarrior L5, psion L5
+Sphere: charm
+Saving throw: will
+Syntax: cast <classname> catapsi on <target>
+
+This power can be one of the deadliest in the psion's arsenal, though it
+causes very little damage.  By manifesting this power, the psion causes a
+white noise to resonate in the mind of his target, leaving the target
+unable to think, cast spells, or manifest powers.  This power is rightly
+feared by psions and mages all over the realms.
+
+Components, psion: blue diamond x3
+
+Spell: cloud mind
+Class: psion L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> cloud mind on <target>
+
+This power allows the psion to create a minor alteration in the minds of
+onlookers, so that they no longer see the target.  The effect moves with
+the target, making him for all practical purposes invisible.  The power
+will fail if the target becomes involved in a fight or decides to <appear>.
+It may also wear off over time, though it generally lasts quite awhile.
+
+Components, psion: clear quartz x1, amethyst x1 (or nil w. eschew
+materials)
+
+Spell: control object
+Class: psion L1
+Sphere: alteration
+Discipline: kineticist
+Saving throw: will
+Syntax: cast <classname> control object on <room> || <target>
+
+This power can be used in two different ways. If cast on a room, the
+psionic character draws forth matter from the Material Plane, which
+coalesces into debris that protects the caster. Once per round, a piece of
+debris will strike a random attacker, causing damage but destroying the
+debris in the process.
+
+If cast on a target, this power functions like animate object. Some
+non-magical items in the target's inventory will be animated and fall under
+the caster's command. To command the objects, simply use <command objects
+to [command]>. Forcing an object to do something will affect your alignment
+when appropriate. 
+
+Enchanted objects cannot be animated. Objects will take damage in combat
+and may be destroyed.  The objects will remain animated until the power
+ends or you <dismiss objects>.
+
+There is a level effect that limits how large or how many objects you can
+animate.
+
+
+Spell: cloak of shadows
+Class: warlock L4, monk L11
+Saving throw: n/a
+Syntax: cast <classname> cloak of shadows on <vision|divination>
+
+This invocation allows the warlock to draw a curtain of shadow energy
+around him, concealing him from normal and magical detection attempts. It
+can be used in two ways, though only one at a time. If cast on vision, it
+will generate a more powerful magical concealment than standard
+invisibility - it does not require the same direct concentration to
+maintain, and so it does not fail if combat is initiated. If cast on
+divination, it will potentially deflect magical divination attempts to
+locate or watch the caster from a distance. If invisible, the caster can
+simply forgo his concentration to <step> from the shadows, or with either
+type of casting, it can simply be dispelled. Both effects can only be
+centred upon the caster.
+
+
+Spell: call armor
+Class: psywarrior L1
+Sphere: combat
+Saving throw: n/a
+Syntax: cast <classname> call armor on <light|medium|heavy>
+
+This power allows the psywarrior to create a suit of armor using only her
+mental prowess. The armor is crafted from energy and may take the form of
+either light, medium, or heavy armor. The type is chosen by the psywarrior
+at the time of manifesting. If no choice is made, the armor will
+automatically take the form of medium armor. In addition to any other IDs
+the armor may have, the ID <energy armor> will always work.
+
+
+Spell: correspond
+Class: psion L4
+Saving throw: n/a
+Syntax: cast <classname> correspond to <target>
+
+This will allow the caster to establish a mental link with the target,
+allowing conversations through telepathy for a short time. Unlike other
+telepathy spells, the participants need not share a language for this one
+to function.
+
+
+Spell: cometfall
+Class: cleric L7
+Sphere: combat
+Domain: creation
+Saving throw: reflex
+Syntax: cast <classname> cometfall
+
+By chanting this spell, the priest calls into being a horde of comets,
+blanketing a small area.  Those within the area risk being knocked to the
+ground and seared by the molten rock.
+
+
+Spell: confusion
+Class: cleric L7
+Sphere: enchantment_charm
+Domain: trickery
+Saving throw: will
+Syntax: cast <classname> confusion on <target>
+
+This spell will attempt to confuse the target and make them do random
+things.  They might babble incoherently, attack the closest thing to them,
+or simply wander away.  When used on a player, it simply causes them to
+stand and stare blankly.
+
+
+Spell: call lightning
+Class: cleric L3, druid L3
+Sphere: weather
+Saving throw: n/a
+Syntax: cast <classname> call lightning on <target>
+
+This is a destructive spell that could hurt an opponent very badly!  The
+higher level the caster is the more devastating this spell will become. 
+The spell can now be used anywhere, regardless of weather or if the caster
+is indoors.
+
+
+Spell: create food
+Class: cleric L3, paladin L2
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> create food
+
+This spell creates a pile of edible food. You can eat some if you wish. The
+higher level the caster, the more food will be created.
+
+
+Spell: commune
+Class: innate L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> commune on <target>
+
+This spell, innate to all elves, allows them to communicate mentally with
+one another.  However, it requires complete and total concentration and the
+simplest act, even moving, breaks the connection.  The elves communicating
+in this way must remain in the same room, or the connection will end.  It
+will also render the caster completely vulnerable to physical attacks while
+active and engaging in combat will also break the connection.
+
+
+Spell: crushing hand
+Class: cleric L8
+Sphere: combat
+Domain: strength
+Saving throw: n/a
+Syntax: cast <classname> crushing hand
+
+This spell will call forth a crushing hand to help defend the caster as
+well as lend its strength to the battles the caster may face.  While the
+hand is under the caster's control, he may <command hand to [action]> or
+<dismiss> the crushing hand if it is no longer needed.
+
+
+Spell: color spray
+Class: mage/sorc L1
+Sphere: illusion
+Saving throw: reflex
+Syntax: cast <classname> color spray
+
+Color spray, when cast, will cause a blinding light of mixed colors to
+flash from the caster.  All creatures not in the caster's party can be
+blinded temporarily by this, or even knocked unconscious.
+
+
+Spell: divine favor
+Class: paladin L3
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> divine favor
+
+Calling upon the strength of their patron, a holy knight can gain a bonus
+to attack and damage rolls.  This spell does not stack with fighter feats
+for bonus attack and damage rolls.
+
+
+Spell: dispel good
+Class: cleric L6
+Sphere: combat
+Saving throw: fort
+Syntax: cast <classname> dispel good on <target>
+
+Dispel Good can only be cast by users of evil alignment and it only effects
+targets of good alignment.  When cast at a target of the correct alignment,
+it will disrupt the harmonics of their soul and wrack their body with pain,
+doing a significant amount of damage.
+
+
+Spell: dancing lights
+Class: bard L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> dancing lights
+
+This will create a small gathering of swirling lights, which will
+illuminate your way.
+
+Components, bard: trill x1 (or nil w. eschew materials)
+
+Spell: detect magic
+Class: cleric L1, druid L1, warlock L1, mage/sorc L1, bard L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> detect magic
+
+Will allow the caster to view an aura of magic around objects or creatures
+they observe. The more intense the aura the more magic is indicated.
+Particularly powerful magic may skew the view of other magics. For example
+an especially magical creature might skew the view of the magic sword its
+wielding.
+
+
+Spell: darkvision
+Class: ranger L3, mage/sorc L2, monk L3
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> darkvision
+
+This spell will enhance the vision of the caster, allowing them better
+sight in areas of extreme light or darkness.
+
+Non-specialized mages cannot cast this spell.
+
+
+Spell: death watch
+Class: cleric L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> death watch
+
+With this prayer, the priest creates a magical bond with his party mates. 
+The priest is able to perceive the life force of his companions and will
+gain a warning when one is in need of healing.
+
+
+Spell: dimensional lock
+Class: mage L9
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> dimensional lock
+
+By means of this spell, the wizard blocks all teleportation attempts both
+into and out of the area, including but not limited to the teleportation
+wizard spells, the cleric's Word of Power spell, psionic attempts to fold
+space, and object-generated effects such as riftgates. It will also foil
+specialized magical attempts to summon the ward's caster out of the
+protected area. The target of this spell is the room that the spell is cast
+within.
+
+Non-specialized mages cannot cast this spell. This spell can only be cast
+while at peace.
+
+Components, mage: sack of salt x1 (or nil w. eschew materials)
+
+Spell: detect chaos
+Class: cleric L1, paladin L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> detect chaos on <target> || <room>
+
+Detect chaos will detect the presence of chaos in players or monsters.
+
+
+Spell: deny the reaper
+Class: mage L7
+Sphere: necromancy
+Saving throw: n/a
+Syntax: cast <classname> deny the reaper on <target> (dead player's name)
+
+This spell will send out necromantic energies to snatch a dead person away
+from the afterlife.  The deceased will be returned to the site of death and
+revived.  A successfully revived person will be barely alive and need
+significant healing, due to the strain of being dragged away from death's
+embrace, and will still be weakened by the touch of death despite their
+restoration.
+
+See also: help pkilling, help rules
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: drop of blood x1, diamond dust x1
+
+Spell: dimension door
+Class: psywarrior L4, psion L4, bard L4
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> dimension door to <location>
+
+Through this spell the caster opens a 'door' in the fabric of reality,
+attuned only to themselves.  They can use this to step through to a
+location of their choice, only one that they have previously visited and
+found to resonate with their soul.  A great deal of concentration is
+required to enact such a spell, so the spell can be easily disrupted by
+others.  Teleport warding effects that are of greater strength than the
+caster, will thwart the spell entirely.
+
+
+Spell: dispel evil
+Class: cleric L6
+Sphere: combat
+Saving throw: fort
+Syntax: cast <classname> dispel evil on <target>
+
+Dispel Evil can only be cast by users of good alignment and it only effects
+targets of evil alignment.  When cast at a target of the correct alignment,
+it will disrupt the harmonics of their soul and wrack their body with pain,
+doing a significant amount of damage.
+
+
+Spell: displacement
+Class: cleric L3, bard L3
+Sphere: conjuration_summoning
+Domain: illusion
+Saving throw: n/a
+Syntax: cast <classname> displacement
+
+Using the power of illusion, the caster calls forth a distortion of her
+form, making her harder to target with melee attacks.
+
+
+Spell: darkbolt
+Class: cleric L5
+Sphere: combat
+Domain: darkness
+Saving throw: reflex
+Syntax: cast <classname> darkbolt on <target>
+
+This spell will hurl a bolt of pure evil at the target.  If the target is
+able to move in time, then they will only suffer some of the damage.  This
+spell may also hit some of those who are standing near the target.
+
+
+Spell: divine shield
+Class: cleric L2, paladin L2
+Sphere: conjuration_summoning
+Domain: protection
+Saving throw: n/a
+Syntax: cast <classname> divine shield
+
+Calling out for protection against the forces that the caster must battle,
+this prayer creates a divine shield that will offer protection to the
+priest, helping him to defend himself.
+
+*NOTE*
+Each shield will have a few keywords to it, but all will have the name of
+the shield and 'shield' for purpose of wielding, unwielding, and showing it
+off.
+
+
+Spell: detect poison
+Class: cleric L1, paladin L1, druid L1, ranger L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> detect poison on <target>
+
+Will detect if any poisons are present on an object or a creature and if
+so, which poisons.
+
+
+Spell: domination
+Class: mage/sorc L5
+Sphere: enchantment_charm
+Saving throw: will
+Syntax: cast <classname> domination on <target>
+
+By casting domination  successfully, you will gain control over a chosen
+target.  You can order the victim to do whatever is within his/her
+capability.  For example, if the caster uses <cast domination on
+targetname>, targetname is the victim of the spell.  Next, the mage can use
+<make targetname do kill kobold> or <make targetname emote kisses your
+feet>.  The spell can be ended with <free targetname>.
+
+**** NOTE ****
+Roleplay appropriately when using this spell.  Do NOT use it for any form
+of OOC harrassment.  OOC lines can be used to communicate if necessary
+during the spell, as the victim will not be able to speak of their own
+accord ICly.
+
+
+Spell: deathward
+Class: paladin L4, druid L5
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> deathward
+
+Those most blessed of the gods can call upon their favor to ward away the
+very hand of death itself.  This spell protects against death spells, as
+well as many spell-like effects.
+
+
+Spell: dispel magic
+Class: cleric L3, paladin L3, druid L4, mage/sorc L3, bard L3
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> dispel magic (on <target>)
+
+Dispel Magic, when cast, will destroy any spell enchantments, any magical
+summonings, and anything conjured.  The chances of each dispelling depends
+on both the dispeller's casting level and the casting level of the wizard
+or priest that created whatever is being dispelled, whether it be an
+enchantment, summoning, or conjuration.
+
+
+Spell: divine weapon
+Class: cleric L2, paladin L1, druid L2
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> divine weapon
+
+It is not uncommon for a priest or knight to be drawn into combat to
+protect her faith or deity.  For that reason the gods have blessed their
+servants with a prayer that grants them a divine weapon.  Each faith has a
+different weapon, some say magical copies of the favored weapons on their
+patron gods.  With this spell, a divine spellcaster will create a magical
+weapon in their hand.
+
+*NOTE*
+Each weapon will have a few keywords to it, but all will have the name of
+the weapon and 'weapon' for purpose of wielding, unwielding, and showing it
+off.
+
+
+Spell: disintegrate
+Class: cleric L8, mage/sorc L6
+Sphere: invocation_evocation
+Domain: destruction
+Saving throw: fort
+Syntax: cast <classname> disintegrate on <target>
+
+This spell sends a powerful line of destructive energy at the target.  If
+the target resists, then they are able to avoid most of the damage, but if
+the spell hits successfully, then the target suffers great damage and the
+objects in his or her inventory may also be damaged.
+
+Components, mage/sorc: ruby dust x1, powdered amber x2
+
+Spell: dimension slide
+Class: psywarrior L3
+Saving throw: n/a
+Syntax: cast <classname> dimension slide on <direction>
+
+Manifesting this power allows the psionic character to teleport a short
+distance away. The power can be used in combat and will ignore mundane
+impediments, such as caltrops or closed doors, but will be barred by
+magically sealed doors.
+
+Components, psywarrior: sunstone x1 (or nil w. eschew materials)
+
+Spell: dispel psionics
+Class: psion L3
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> dispel psionics [on <target>]
+
+Despite the name, dispel psionics will dispel effects created by both
+psionics and magic, whether it be divine or arcane in nature.  The chance
+to dispel a particular effect depends upon the ability of the psion versus
+the ability of the effect's caster.  A psion may manifest this item on a
+room or on a particular target.
+
+
+Spell: detect law
+Class: cleric L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> detect law on <target> || <room>
+
+Detect chaos will detect the presence of law in players or monsters.
+
+
+Spell: dispel chaos
+Class: cleric L6, paladin L4
+Sphere: combat
+Saving throw: fort
+Syntax: cast <classname> dispel chaos on <target>
+
+Dispel Chaos can only be cast by users of lawful alignment and it only
+effects targets of chaotic alignment.  When cast at a target of the correct
+alignment, it will disrupt the harmonics of their soul and wrack their body
+with pain, doing a significant amount of damage.
+
+
+Spell: dragon scales
+Class: mage/sorc L6
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> dragon scales on <target>
+
+When cast, the spell will enchant the skin of the target to become covered
+in draconic scales.  The scales will last for a certain duration depending
+on the caster's level, and will vanish if the person wearing them quits
+out.  The scales provide an innate armor bonus that is dependant upon
+level, but cannot exceed +4. Some of the innate magic resistance of the
+dragon scale will also cover the caster. This will only work on those
+wearing mage-like armor.
+
+Components, mage/sorc: dragon scale x1
+
+Spell: darkness
+Class: cleric L2, mage/sorc L2, monk L3, bard L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> darkness on <target>
+
+This will create a globe of darkness, which will overcome normal light
+sources. You can cast it on an object or player which it will follow,
+instead of the caster.
+
+
+Spell: daze
+Class: mage L1, bard L1
+Sphere: enchantment_charm
+Saving throw: n/a
+Syntax: cast <classname> daze on <target>
+
+This spell attempts to dazzle a creature into immobility. It will only
+effect creatures of 10 hitdice or lower, and will have a greater effect on
+weaker opponents.
+
+Non-specialized mages cannot cast this spell.
+
+NOTE: For the feat, please see <help daze *feats>
+
+
+Spell: devour magic
+Class: warlock L4
+Saving throw: n/a
+Syntax: cast <classname> devour magic [on <target>]
+
+This invocation bears greater potency than its lesser cousin, voracious
+dispelling. In a similar fashion, it will attempt to destroy any spell
+enchantments, magical summonings, and anything conjured.  The chances of
+each dispelling depends on both the dispeller's casting level and the power
+level of the spellcaster that created whatever is being dispelled, whether
+it be an enchantment, summoning, or conjuration. Unlike similar abilities,
+however, any spells that are successfully opposed are instead consumed by
+the invocation and used to heal the warlock's injuries.
+
+
+Spell: daylight
+Class: cleric L3, paladin L3, druid L3, bard L3
+Sphere: sun
+Saving throw: n/a
+Syntax: cast <classname> daylight
+
+Will add semi-permanent light to a room up to daylight levels. The duration
+is until the next reboot.
+
+
+Spell: detect scrying
+Class: mage/sorc L4, bard L4
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> detect scrying
+
+By means of this spell, the wizard immediately becomes aware of any attempt
+to observe him by means of clairvoyance, clairaudience, or magic mirror. 
+This also reveals the use of crystal balls or other magical scrying
+devices, provided the attempt is within the area of effect of the spell. 
+Since the spell is centered on the spellcaster, it moves with him, enabling
+him to 'sweep' areas for the duration of the spell.
+
+When a scrying attempt is detected, the scryer must immediately roll a
+saving throw.  If this is failed, the appearance and general location of
+the scryer immediately become known to the wizard who cast this spell. The
+general location is the room and area where the scryer is located at the
+time.
+
+This spell does not protect from scrying, however.  Despite the fact that
+you have detected the scrying, you cannot end the scrying without casting a
+spell or using an object that protects from scrying.
+
+Components, mage/sorc: tiny hearing trumpet x1, piece of mirror x1
+Components, bard: rhyme x1 (or nil w. eschew materials)
+
+Spell: dispel law
+Class: cleric L6
+Sphere: combat
+Saving throw: fort
+Syntax: cast <classname> dispel law on <target>
+
+Dispel Law can only be cast by users of chaotic alignment and it only
+effects targets of lawful alignment.  When cast at a target of the correct
+alignment, it will disrupt the harmonics of their soul and wrack their body
+with pain, doing a significant amount of damage.
+
+
+Spell: detect aura
+Class: psywarrior L1, psion L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> detect aura
+
+This power allows a psion to see the mystical auras surrounding some
+objects in the world, whether they be divine, arcane, or psionic in nature.
+The psion attunes himself to the world through this power, seeing the auras
+as a glow that strengthens or lessens based upon the power of the item.
+
+
+Spell: entropic warding
+Class: warlock L1
+Saving throw: n/a
+Syntax: cast <classname> entropic warding
+
+The caster invokes chaotic energies into a field around their person, which
+makes it harder to discern their exact location. This may cause physical
+blows to miss them entirely. The shield has the added effect of preventing
+any trail being left in their wake, either by footfall or by scent.
+
+
+Spell: entangle
+Class: cleric L1, druid L1, ranger L1
+Sphere: conjuration_summoning
+Domain: plant
+Saving throw: n/a
+Syntax: cast <classname> entangle
+
+This spell causes the foliage and insects to come alive in the area around
+the caster.  They will attempt to impede the movement of all creatures in
+the area.  Those creatures that pass a strength check will have their
+movement effected less than those who do not.  This spell can only be used
+outside.
+
+
+Spell: energy bolt
+Class: psion L3
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> energy bolt on <target>
+
+By manifesting this power, the psion calls on a reserve of energy that can
+materialize in a number of different ways to assault the target.
+
+Components, psion: mottled jasper x1 (or nil w. eschew materials)
+
+Spell: eldritch glaive
+Class: warlock L3
+Saving throw: n/a
+Syntax: cast <classname> eldritch glaive
+
+A variant on the core spell-like ability of the warlock, this invocation
+allows the caster to shape their eldritch blast into a single glaive, which
+can be used as a melee weapon. Both hands must be empty in order for this
+invocation to work; similarly, if a different shaped blast is invoked, the
+glaive will disappear. Releasing grip upon the weapon will end the
+invocation. As with the eldritch blast, the glaive can be imbued with
+various essences.
+See also: <help blasttype>.
+Please note, this blast shape is not coded yet and cannot be used.
+
+
+Spell: escape detection
+Class: psywarrior L3
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> escape detection [on <target>]
+
+The target of this power can be a room or a person. If cast on a person,
+the power's effect moves with them, sweeping the areas they pass though. 
+If manifested without a target, the effect is centered on the room and
+remains there.
+
+By means of this power, the psionic character blocks all scrying attempts
+on him/her by means of scrying spells and abilities like magic mirror and
+remote viewing, or scrying objects like a crystal ball.  The power protects
+against scrying attempts based on the level of the person attempting the
+scrying as opposed to the level of the manifester with an intelligence
+adjustment. If the level of the person scrying is high enough, the scryer
+'burns through' the spell and the scry is successful.  A successful 'burn
+through' does not end this power, and it does not alert the protected
+person that it has been thwarted. If the protection is successful, magical
+feedback interferes with the scrying magic and dispels it.
+
+A scry detection power, such as 'detect remote viewing' or certain magical
+items will detect a successful scrying attempt and thus can be used in
+addition to this power to see if the scry protection has been thwarted.
+This power can be manifested only while at peace.
+
+Components, psywarrior: tourmaline x2 (or nil w. eschew materials)
+
+Spell: expose weakness
+Class: psywarrior L3
+Saving throw: n/a
+Syntax: cast <classname> expose weakness on <target>
+
+This power allows the psionic character to rend the target's armor, making
+it less effective. This power works on the same timer as the Sunder feat.
+
+
+Spell: energy current
+Class: psion L5
+Sphere: invocation_evocation
+Discipline: kineticist
+Saving throw: reflex
+Syntax: cast <classname> energy current as <type>
+
+Upon manifesting this power, the kineticist generates a current of energy
+that lashes out at those around him. Feats such as perfect caster and body
+cognition can help ensure the psion strikes only foes. The psion must
+choose one of the following energy types when manifesting the power: fire,
+electricity, cold, acid, sonic, or random. If random is chosen, the energy
+type may change each round. This power functions like an AOE storm, so it
+does not stack with similar spells or powers.
+
+
+Spell: energy retort
+Class: psion L3
+Sphere: combat
+Saving throw: n/a
+Syntax: cast <classname> energy retort
+
+This power will generate psychic energy around the psion, enveloping him in
+a crackling field that can harm attackers.  Once each round, the psion
+automatically lashes out at one of his foes, striking him with energy.  The
+duration of this power grows with the psion.
+
+Components, psion: yellow calcite x1 (or nil w. eschew materials)
+
+Spell: eagles splendor
+Class: cleric L2, paladin L2, bard L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> eagles splendor on <target>
+
+This spell allows the caster to infuse their target with the presence of an
+eagle, enhancing their force of personality.  This spell doesn't stack with
+similarly powerful spells of enhancement.
+
+Components, bard: conceit x1 (or nil w. eschew materials)
+
+Spell: elemental swarm
+Class: druid L9
+Sphere: elemental
+Saving throw: n/a
+Syntax: cast <classname> elemental swarm on <target>
+
+This spell will unleash the fury of the elemental planes on the caster's
+foes.  A portal will open to a random elemental plane and an elder
+elemental will come forth to aid the caster.  The elemental will fight
+until it is slain or until the caster's enemies are killed.  If the
+elemental is slain, another portal will open to a different elemental
+plane.  This will continue until the caster is dead, until his or her foes
+are all dead, or until an elemental has been called forth from each of the
+planes of earth, air, fire, and water.
+
+
+Spell: earth reaver
+Class: cleric L5
+Sphere: elemental earth
+Domain: earth
+Saving throw: reflex
+Syntax: cast <classname> earth reaver on <target>
+
+This spell will cause the ground around the target to erupt and throw dirt
+and rocks at the target.
+
+
+Spell: eldritch burst
+Class: warlock L4
+Saving throw: reflex
+Syntax: cast <classname> eldritch burst
+
+This is the pinnacle of the core spell-like ability of the warlock - the
+ability to invoke pure planar energy and hurl it at a foe. Unlike its
+primary form, the invocation emits in a burst from the caster, striking any
+foe within reach. As this is not a ray, no touch attack is required, but
+foes can attempt a reflex save to avoid part of the damage. As with the
+eldritch blast, it can be imbued with various essences.
+See also: <help blasttype>.
+
+
+Spell: empower weapon
+Class: psywarrior L5
+Saving throw: n/a
+Syntax: cast <classname> empower weapon on <weapon> as <power name> |
+<arguments to the power>
+
+NOTE: This power may only be cast into a weapon and will not function
+without that weapon in your inventory. Also, the weapon can store only
+helpful powers, not those used for attacks. If you find that a particular
+power cannot be used when you think it should be, please bug report it.
+
+This power allows the psionic character to hold a power in reserve to be
+called upon at a later time by typing <release>.  If the power reserved
+normally requires a target, that target will automatically be the
+manifester.  If you need to add arguments to the reserved power, you must
+add them at the time of manifesting empower weapon.
+
+example of usage:  manifest empower weapon on sword as dimension door | home
+
+NOTE: You do need the | symbol if the power requires arguments such as a
+location.
+
+
+Components, psywarrior: rhodochrosite x1, rose quartz x1
+
+Spell: eldritch blast
+Class: warlock L1
+Saving throw: n/a
+Syntax: cast <classname> eldritch blast on <target>
+
+This is the core spell-like ability of the warlock - the ability to invoke
+pure planar energy and hurl it at a foe. As it is cast as a ray, it
+requires a successful ranged touch attack to hit, and is subject to the
+usual restrictions of spells and spell-like abilities (eg/ magic
+resistance). While initially unremarkable, an accomplished warlock can
+learn to reshape such a blast, or to imbue it with various essences.
+See also: <help blasttype>.
+
+
+Spell: eldritch chain
+Class: warlock L2
+Saving throw: n/a
+Syntax: cast <classname> eldritch chain on <target>
+
+This is an extension of the core spell-like ability of the warlock - the
+ability to invoke pure planar energy and hurl it at a foe. Unlike its
+primary form, the invocation will leap to secondary targets if they are
+present, more so as the warlock gains in strength. As with the eldritch
+blast, it can be imbued with various essences.
+See also: <help blasttype>.
+
+
+Spell: energy emanation
+Class: psywarrior L2
+Sphere: combat
+Saving throw: n/a
+Syntax: cast <classname> energy emanation [on cold, electricity, fire, or
+sonic]
+
+This power surrounds the psionic character in a glowing halo of energy that
+lashes out at all those nearby. The amount of damage grows with the
+manifester, and she can learn to control it better through feats like
+Perfect Caster. Upon manifesting the power, the psionic character chooses
+the energy type - cold, electricity, fire, or sonic. If no type is
+designated, one will be chosen randomly.
+
+
+Spell: exigency
+Class: psion L6
+Sphere: invocation_evocation
+Saving throw: n/a
+Syntax: cast <classname> exigency on <enclave>
+
+Using this power, the psion can prepare a portion of her mind to execute a
+quick exit at a later time. The power can be manifested only when the psion
+is at peace, and she must specify an enclave when manifesting. Available
+enclaves are: Tabor, Shadow, and Seneca. After manifesting the power, the
+psion can call upon its energy at any time by typing <now>.
+
+Components, psion: rhodochrosite x1, rose quartz x1
+
+Spell: enthrall
+Class: warlock L2
+Saving throw: will
+Syntax: cast <classname> enthrall on <target>
+
+By means of this invocation, the warlock will attempt to assert a degree of
+mental control over the target. If successful, the target will follow the
+caster around and try to protect them from harm. If the warlock harms the
+enthralled creature, their control will be lost. Only one creature may be
+controlled in this way at a time, and it will not work on other players,
+although it may confuse them briefly.
+
+OOC
+Please exercise caution and good role-playing skills when using this
+invocation.  Just because you have a monster charmed, does not mean people
+will react well to it in crowded places.
+
+
+Spell: earthquake
+Class: cleric L8, druid L8
+Sphere: combat
+Domain: cavern
+Saving throw: reflex
+Syntax: cast <classname> earthquake
+
+By unleashing this spell, the caster calls forth a mighty earthquake to
+trip and damage his foes.  The spell will last several rounds depending
+upon the level of the priest, and the priest must remain present for the
+spell to continue.  All those attacking the caster are subject to the
+effects of the earthquake, though they do receive saving throws.
+
+
+Spell: evade burst
+Class: psywarrior L3, psion L7
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> evade burst
+
+Using this power, the psionic character gains the ability to avoid damage
+from certain spells and powers as if he had the evasion feat. For more
+specific information, please see <help evasion>. This power does not stack
+with the evasion feat.
+
+
+Spell: energy cone
+Class: psion L3
+Sphere: invocation_evocation
+Discipline: kineticist
+Saving throw: reflex
+Syntax: cast <classname> energy cone on <target> as <type>
+
+Similar to energy bolt, this cone is a specialized version manifested by
+kineticists.  Unlike energy bolt, this cone strikes nearby targets as well,
+giving the kineticist additional power in battles against multiple enemies.
+When manifesting the power, please choose one of the following types: fire,
+electricity, cold, acid, sonic, or random.
+
+Components, psion: mottled jasper x1 (or nil w. eschew materials)
+
+Spell: eldritch claws
+Class: warlock L1
+Saving throw: n/a
+Syntax: cast <classname> eldritch claws [on one hand]
+
+A variant on the core spell-like ability of the warlock, this invocation
+allows the caster to shape their eldritch blast into as many claws as they
+have free hands, all of which can be used as melee weapons. If the warlock
+has no free hands, the invocation will fail entirely; similarly, if a
+different shaped eldritch ability is invoked, the claw/s will disappear.
+Releasing grip upon a claw will cause it to disappear. As with eldritch
+blast, the claw/s can be imbued with various essences; however as the
+invocation is essentially a single shaping of the warlock's eldritch
+ability, so only one essence may be harnessed at a time even between two
+claws.
+See also: <help blasttype>.
+
+
+Spell: fear
+Class: cleric L5, mage/sorc L4, psion L6, bard L3
+Sphere: enchantment_charm
+Domain: tyranny
+Saving throw: will
+Syntax: cast <classname> fear
+
+Fear sends a wave of horrid thoughts and images out toward the foes around
+the caster, possibly terrifying them.  It can make the creature briefly
+flee in fright, or it may make him drop his weapons and cower before the
+caster.
+
+Components, mage/sorc: white feather x1 (or nil w. eschew materials)
+Components, bard: dirge x2 (or nil w. eschew materials)
+
+Spell: form of doom
+Class: psywarrior L6
+Saving throw: will
+Syntax: cast <classname> form of doom
+
+The manifester calls on the stuff of nightmares, disguising himself in a
+terrifying visage of sleek, lashing tentacles. Your horrific appearance is
+enough to shake the confidence of those who oppose you, while the form
+bolsters you, granting you some extra strength and protection from both
+physical attacks and fire-based assaults. This power does not stack with
+other damage resistance spells and powers (e.g. iron body, oak body,
+stoneskin, resist energy).
+
+Components, psywarrior: larvikite x3 (or nil w. eschew materials)
+
+Spell: flare
+Class: druid L1, bard L1
+Sphere: enchantment_charm
+Saving throw: fort
+Syntax: cast <classname> flare on <target>
+
+This minor spell creates an abrupt flash of light, which if cast
+immediately in front of a creature, can dazzle them and cause difficulties
+with their vision.
+
+
+Spell: fireball
+Class: mage/sorc L3, monk L7
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> fireball on <target>
+
+By casting this spell, a mage can aim and release a massive ball of fire at
+a target and those around him.  The fireball spell will wreak havoc on the
+caster's target and those who oppose him.  Damage done to those hit by the
+spell is 1d6 per level of the caster, subject to a maximum, halved if they
+manage to evade the brunt of the spell. A versatile arcanist can manipulate
+the base element of this spell.
+
+Components, mage/sorc: sulfur x1, bat guano x1 (or nil w. eschew materials)
+
+Spell: forgotten melody
+Class: cleric L7, bard L5
+Sphere: enchantment_charm
+Domain: knowledge
+Saving throw: will
+Syntax: cast <classname> forgotten melody on <target> in <language>
+
+This spell has the caster singing the beginning of a catchy tune.  The tune
+gets locked in the head of the target listeners.  This prevents them from
+doing anything involving concentration due to their infatuation with the
+song.  The caster does not have to continue singing, as the spell's effects
+are that the targets become lost in trying to figure out the tune.
+
+
+Spell: fog cloud
+Class: druid L2, mage/sorc L2
+Sphere: conjuration
+Saving throw: n/a
+Syntax: cast <classname> fog cloud
+
+When fog cloud is cast, a bank of dense fog moves into the area, making it
+impossible for anyone, including the caster, to see more than a few inches
+from his or her face.  The cloud will linger in the area for a few minutes
+and then it will disipate on its own.
+
+
+Spell: fire shield
+Class: cleric L3, mage/sorc L4
+Sphere: invocation_evocation
+Domain: fire
+Saving throw: fort
+Syntax: cast <classname> fire shield
+
+This spell will surround the caster's body in a roaring shield of flames. 
+It grants the caster a slight bonus to their armor class, and any opponent
+striking the caster must make a saving throw or take damage from the
+blistering heat.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: phosphorus x1 (or nil w. eschew materials)
+
+Spell: fly
+Class: mage/sorc L2, monk L3
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> fly on <target>
+
+See new spell: levitate.
+
+
+Spell: frost breath
+Class: cleric L5
+Sphere: weather
+Domain: cold
+Saving throw: reflex
+Syntax: cast <classname> frost breath on <target>
+
+This spell sends a wave of cold shards out in a cone shapped pattern from
+the caster's cupped hands.  It will hit any enemies who are not able to get
+out of the way.  The extreme cold can sometimes damage enemies who remain
+in the area of cold even after the initial hit.
+
+
+Spell: fortune fate
+Class: cleric L8
+Sphere: healing
+Domain: fate
+Saving throw: n/a
+Syntax: cast <classname> fortune fate on <target>
+
+This spell will cause the fates to smile on the target.  When cast, it will
+activate a healing spell that will remain in reserve up until the target
+falls below 25% of their maximum health.  When that point is reached, a
+random healing spell, ranging from cure light wounds all the way up to heal
+is cast on the target.
+
+Tymorans believe that it is Lady Luck that smiles on them with this prayer,
+giving them a healing boost when they need it most.  Those who follow the
+Maid of Misfortune see it differently, that misfortune falls upon the
+attacker, by healing the target.  Those who follow the Lord of the Dead
+view this spell as protecting one from dying before their time.
+
+
+Spell: flame strike
+Class: cleric L5, druid L4
+Sphere: combat
+Saving throw: reflex
+Syntax: cast <classname> flame strike on <target>
+
+This spell will call down a pillar of flame to engulf your foes.  It can be
+used in two ways - when used before combat begins, it will engulf a single
+foe; when cast during combat, it is particularly devastating, as it will
+severely burn up to five enemies.  Beware, the caster should advise his
+allies to not stand too close to the target of the spell!
+
+
+Spell: faerie fire
+Class: cleric L2, druid L1
+Sphere: combat
+Domain: moon
+Saving throw: n/a
+Syntax: cast <classname> faerie fire on <target>
+
+This spell will outline the target in harmless violet flames.  It makes the
+target easier to hit with melee combat, and also makes it impossible for
+the target to hide by magical or other means until the spell expires or is
+dispelled.
+
+
+Spell: false vision
+Class: bard L5
+Sphere: illusion
+Saving throw: n/a
+Syntax: cast <classname> false vision (on target)
+
+This illusion is designed to foil the attempts of scrying upon the caster. 
+While active, anyone scrying out the caster will have to contest their
+strength.  Should they succeed, the scrying will continue as normal.  If
+they fail, they will instead be met with a vision designed to touch at
+their innermost fears, to disrupt their scrying attempt and encourage them
+not to try again.
+
+Components, bard: chord x1 (or nil w. eschew materials)
+
+Spell: fire storm
+Class: cleric L8, monk L17
+Sphere: elemental fire
+Saving throw: reflex
+Syntax: cast <classname> fire storm
+
+When the fire storm spell is cast, the whole area is shot through with
+sheets of roaring flame.  Any target in the area of effect takes damage
+every round while the spell is in effect, but does not damage the caster. 
+This spell does not work in conjunction with the monsoon priest spell.
+
+
+Spell: frightful blast
+Class: warlock L1
+Saving throw: will
+Syntax: <blasttype frightful>
+
+An eldritch blast with this essence applied will cause the target/s to
+become shaken for 1min. This will inflict a penalty to their attack rolls,
+saving throws, and skill checks. Subsequent eldritch blasts will not stack
+this effect, but will refresh its duration.
+See also: <help blasttype>.
+
+
+Spell: flameburst
+Class: cleric L7
+Sphere: elemental fire
+Domain: fire
+Saving throw: fort
+Syntax: cast <classname> flameburst on <target>
+
+This spell will send a small ball of fire towards the target's chest.  If
+the spell is successful, the ball will bury itself inside of the target's
+flesh and begin to grow.  Over the next several moments, the fire will
+consume the target's lungs and heart, and render them unable to move.  If
+the spell is not dispelled before it has time to complete, the target's
+chest will explode dealing great damage to him and anything near him.
+
+
+Spell: flaming sphere
+Class: druid L2
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> flaming sphere on <target>
+
+When casting this spell, the druid creates a burning globe on the ground in
+front of her.  The flames do not harm the environment, but the sphere
+explodes when it makes contact with the target of the druid's wrath.  Those
+standing nearby may be harmed as well.  The druid will make an effort to
+aim at only attackers, but this is not always possible.
+
+
+Spell: fell flight
+Class: warlock L2
+Saving throw: n/a
+Syntax: cast <classname> fell flight
+
+This spell causes the warlock to sprout a set of wings, their nature
+dependent upon the origins of their pact. As the wings are only shaped from
+energy, they are not powerful enough to bear the caster aloft in true
+flights of any length. However, they allow the warlock to drift in short
+bursts to conserve energy when travelling, and may also be used to propel
+the warlock with unexpected speed in combat, to land an extra attack
+against a foe. This invocation does not work together with other
+flight-based spells, nor similar spell buffs such as haste, rage or
+berserker.
+
+
+Spell: foxs cunning
+Class: bard L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> foxs cunning on <target>
+
+This spell allows the caster to infuse their target with the slyness of a
+fox, broadening their wit and cunning.  This spell doesn't stack with
+similarly powerful spells of enhancement.
+
+Components, bard: conceit x1 (or nil w. eschew materials)
+
+Spell: fire seeds
+Class: druid L6
+Sphere: fire
+Saving throw: reflex
+Syntax: cast <classname> fire seeds on <target>
+
+Upon casting this spell, a druid scoops up seeds from the surrounding
+wilderness and enchants them before hurling them at his foes.  The seeds
+explode upon impact, burning his foes.  The druid will make an attempt to
+damage only foes, but that is not always possible, and targets have a
+chance to avoid the brunt of the spell for half damage.  This spell can be
+cast only in the wilderness.
+
+NOTE: If you receive a message that you cannot cast the spell in a certain
+room because of the terrain and you think you received the message in
+error, please <bug here> and let us know so we can see if the terrain needs
+to be adjusted.
+
+
+Spell: frost orb
+Class: mage/sorc L3
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> frost orb on <target>
+
+This spell allows a mage to tap into the Para-Elemental Plane of Ice and
+borrow some of its energy to create an orb of frost and ice.  Once the
+freezing orb is launched into the air, the first thing it strikes will
+cause it to burst open, releasing the chilling attack on the mage's foes. 
+Though care should be taken as it is possible to accidently catch the mages
+allies in the blast.
+
+Components, mage/sorc: beeswax x1, crystal x1 (or nil w. eschew materials)
+
+Spell: forbiddance
+Class: cleric L8
+Sphere: abjuration
+Domain: tyranny
+Saving throw: n/a
+Syntax: cast <classname> forbiddance
+
+This spell creates an oppressive aura of protection throughout the area,
+forbidding anyone from teleporting into or out of it.  The magic will last
+for a short time, until the caster leaves the area, or until it is
+dispelled.
+
+
+Spell: faithful mount
+Class: cleric L3
+Sphere: conjuration_summoning
+Domain: travel
+Saving throw: n/a
+Syntax: cast <classname> faithful mount
+
+By means of this spell, the caster calls upon their god to send forth a
+horse to serve as their faithful mount and to help defend them.
+
+This spell will not work if you are already mounted.
+
+
+Spell: frozen breath
+Class: cleric L5
+Sphere: combat
+Saving throw: reflex
+Syntax: cast <classname> frozen breath on <target>
+
+This spell will call forth a breath of ice to chill your foes.  It can be
+used in two ways - when used before combat begins, it will engulf a single
+foe; when cast during combat, it is particularly devastating, as it will
+cause harm to up to five enemies. Beware, the caster should advise his
+allies to not stand too close to the target of the spell!
+
+
+Spell: finger of death
+Class: mage/sorc L7
+Sphere: necromancy
+Saving throw: fort
+Syntax: cast <classname> finger of death on <target>
+
+Finger of death pulls the darkness in close around the caster as the caster
+attempts to free the soul of the target from its mortal home, killing the
+target.
+
+This spell can only be cast while at peace.
+
+
+Spell: flee the scene
+Class: warlock L2
+Saving throw: n/a
+Syntax: cast <classname> flee the scene on <direction>
+
+This spell allows the caster to craft an illusion about themselves, before
+slipping out of it a short distance away. The illusion remains behind for a
+round, hopefully fooling those who might try to come after. The invocation
+can be used in combat and will ignore mundane impediments, such as caltrops
+or closed doors, but will be barred by magically sealed doors. Given the
+very careful and draining spellcraft this invocation requires, it will take
+a few moments before the warlock can cast it again after the first.
+
+
+Spell: fold space
+Class: psion L8
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> fold space to <location>
+
+This power will move the psion from his current location to one he has
+previously memorized.  The psion merely concentrates, setting his sights on
+the place he would like to be, and his mind manipulates time and space to
+place him there.  An example of the power's usage is <remember here as
+cave>.  Then later on, the psion would type, <cast psion fold space to
+cave>.  Again, you may also <unremember cave> to forget that particular
+location.
+This spell must be cast while at peace.
+See also: remember, unremember, recall
+
+
+Spell: glamer
+Class: warlock L2
+Saving throw: n/a
+Syntax: cast <classname> glamer
+
+This invocation creates an illusion to alter the warlock's features. It is
+a drastic enough change that they become unrecognizable even to those they
+are familiar with. It does not allow for such drastic changes as body size
+or overall shape; the caster would still be quite recognizable as a
+creature of their race.
+
+OOC: This spell does not alter details on your scoresheet (eyes, hair) but
+the caster may describe their new form and features differently to these if
+they so choose. They must still maintain their overall body shape (ie.
+race, general height and weight).
+
+You can only have one altered form with this spell - repeat uses do not
+grant additional different shapeshifts, but instead return you to the same
+secondary form. Adjective, description, speech, messages etc will be
+remembered across castings, so they will only need to be set once in your
+alternative form. Players will be able to recognise your 'other self' as a
+unique entity, separate from your usual self.
+
+
+Feat requirements: warlock (blooded)
+
+Spell: glacial blast
+Class: warlock L1
+Saving throw: fort
+Syntax: <blasttype glacial>
+
+An eldritch blast with this essence applied will cause the target/s to
+become chilled for 10min, which will inflict a penalty to their dexterity.
+Subsequent eldritch blasts will not stack this effect, but will refresh its
+duration. This essence will also change the base type of the blast to cold.
+See also: <help blasttype>.
+
+
+Spell: ghostform
+Class: cleric L8
+Sphere: conjuration_summoning
+Domain: repose
+Saving throw: n/a
+Syntax: cast <classname> ghostform
+
+Drawing forth the power of his deity, the caster is imbued with a spectral
+presence, causing him to be harder to see and therefore more difficult to
+hit.  This spell will last for a time depending upon the caster's level.
+
+
+Spell: good hope
+Class: cleric L3
+Sphere: enchantment_charm
+Domain: charm
+Saving throw: n/a
+Syntax: cast <classname> good hope on <target>
+
+Invoking the blessings of good hope, this spell will grant the target a
+heightened sense in battle and a blessing on resisting some attacks (saving
+throws). It does not stack with similar morale-boosting spells, such as
+heroism.
+
+
+Spell: greater stomp
+Class: psywarrior L5
+Sphere: combat
+Saving throw: reflex
+Syntax: cast <classname> greater stomp
+
+The psionic character releases a torrent of psychic energy as she stomps
+upon the earth, causing tremors to ripple throughout the area. She uses her
+energy to feed the power, tripping and damaging her foes for several
+rounds, provided she stays in the area. All those attacking the character
+are subject to the effects of the stomp, though they do receive saving
+throws.
+
+
+Spell: genesis
+Class: psion L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> genesis
+
+Manifesting the unusual power genesis allows the psion to create a small
+demiplane for a time.  This plane exists only for the caster and those
+invited in, or those who can find the original entry point.  Because of the
+lesser nature of the power, the demiplane will not last forever, though it
+can be held for longer as the psion gains in strength.
+
+Components, psion: malachite x1 (or nil w. eschew materials)
+
+Spell: ghost step
+Class: cleric L2, ranger L1, monk L3
+Sphere: alteration
+Domain: animal
+Saving throw: n/a
+Syntax: cast <classname> ghost step
+
+This spell allows you to become one with nature, as a ghost of the forest,
+leaving no traces of where you have walked.
+
+
+Spell: glyph of warding
+Class: cleric L4
+Sphere: conjuration_summoning
+Domain: creation
+Saving throw: n/a
+Syntax: cast <classname> glyph of warding
+
+By casting this spell, the priest uses his powers of generation to create a
+mystical glyph that will protect a small circle around the area in which he
+stands.  The glyph will alert the caster should any creature enter the area
+protected by the glyph, and it will deliver a bit of a shock to the one who
+does.  Any creature already within the protected area may leave without
+disturbing the glyph.  If a creature was within the glyph when it was
+created, he or she may enter again without triggering the protective
+response.
+
+Typically, priests have been known to use this spell to protect areas with
+treasure or to help ensure privacy.  Because the glyph generates energy
+that protects a circle, it will guard all exits in a room.  However - like
+a circle - when it has been breached once, the energy will dissipate, and
+the spell will end.  Additionally, thieves have a chance to search out and
+disable glyphs, though it does take active concentration on their part.  A
+thief must make the search in the room preceding the room the glyph is
+thought to be in.
+
+A priest may concentrate on only one glyph at a time, but he does not have
+to remain in the room for the glyph to remain.
+
+
+Spell: gaseous form
+Class: monk L9
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> gaseous form
+
+This spell allows the caster to take on a translucent, almost gaseous form.
+While active it allows the caster to have a higher chance of avoiding
+physical attacks as well as providing some protection from non physical
+attacks.
+
+
+Spell: gust of wind
+Class: mage/sorc L4, monk L13
+Sphere: alteration
+Saving throw: reflex
+Syntax: cast <classname> gust of wind on <target>
+
+Waving a pair of specially prepared feathers in the air, the caster is able
+to generate a brief but intense gust of wind.  Using his left hand, the
+caster directs the damaging winds into their target.  The power of the gust
+of wind is dependant on the level of the caster.
+
+Components, mage/sorc: wing feather x2 (or nil w. eschew materials)
+
+Spell: guidance
+Class: druid L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> guidance on <target>
+
+This spell will offer guidance to the target, giving him a slightly better
+chance to hit in combat as well as allowing him to do a small amount more
+damage.
+
+
+Spell: gale fist
+Class: monk L11
+Sphere: way of the elements
+Discipline: way of the elements
+Saving throw: will
+Syntax: cast <classname> gale fist on <target>
+
+This spell creates an enormous fist of tangible air above the target. The
+fist will rapidly smash the target after a short delay, sometimes more than
+once, on the first attempt the target rolls a will saving throw, if
+successful the target will take only half damage. If the target fails the
+saving throw, however, they will be momentarily stunned. The higher the
+level of the caster the longer the period of time. Each additionl strike by
+the fist will allow for a save to half damage, but the stun effect will not
+apply beyond the first hit. 
+NOTE: Each hit of the fist does 1d6 damage per caster level. The
+probability of the fist hitting more than one time is partly based on level
+and partly random.
+
+
+Spell: garble
+Class: mage/sorc L3, bard L2
+Sphere: alteration
+Saving throw: will
+Syntax: cast <classname> garble on <target>
+
+This will remove from the target the ability to understand, both read and
+write any language. This should not change the ability to teach the
+language.
+
+Components, mage/sorc: clay model ziggurat x1 (or nil w. eschew materials)
+
+Spell: glitterdust
+Class: bard L3
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> glitterdust
+
+This spell casts glittering dust through the air, revealing all invisible
+and hiding beings in the room where the caster has cast his spell, and
+preventing them from hiding until the dust fades.
+
+Components, bard: octave x1
+
+Spell: gods favor
+Class: cleric L8
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> gods favor
+
+Gods favor allows those that are in high favor of their diety to call upon
+the protection of their god/goddess in times of trouble.  Once this spell
+has been cast, it can be triggered with the command <now> to drag the
+caster in safety back to their home temple.
+
+
+Spell: greater shout
+Class: mage/sorc L8, bard L6
+Sphere: enchantment_charm
+Saving throw: fort
+Syntax: cast <classname> greater shout on <target>
+
+Like shout, greater shout allows for the mage to magically enchant and
+enhance his voice, to deliver a devastating sonic attack against one
+target, but with more power added to his voice through the use of the
+enchantments of this spell.  The amplified voice can knock some targets off
+balance for a moment, forcing them to spend some time for the ringing in
+their ears to pass.
+
+
+Spell: gate
+Class: mage L9
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> gate on <summoning> 
+	cast <classname> gate on <travel | location>
+
+The spell of gate is only available to the most skilled of conjurers, and
+holds twofold uses to its casting. The first is the use of the conjured
+portal as a means of transit, both for the caster and his allies, to a
+specified location previously memorized. The second is the use of the
+portal to draw forth a powerful planar creature under the control of the
+caster, to act as a servant and/or a protector. This is a greater summons,
+and cannot be used simultaneously with other greater summons.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: crushed black pearl x1
+
+Spell: heal mount
+Class: paladin L3
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> heal mount on <target>
+
+This spell will allow the caster to cure the target of all (hp) damage from
+wounds and disease, but only works on riding mounts.
+
+
+Spell: heal
+Class: cleric L6, druid L7
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> heal on <target>
+
+This spell will allow the caster to cure the target of a massive amount
+damage from wounds and disease. It does have limits - it cannot restore
+lost limbs, eyes, and other organs.
+
+
+Spell: heroism
+Class: mage L3, bard L4
+Sphere: enchantment_charm
+Saving throw: n/a
+Syntax: cast <classname> heroism (on <target>)
+
+This spell allows the caster to draw upon their personal presence and
+charm, granting them or an ally a bonus to morale on attacks, saves and
+core skills. It does not stack with other morale-boosting spells, such as
+good hope.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: vermilion x2 (or nil w. eschew materials)
+Components, bard: ballad x1 (or nil w. eschew materials)
+
+Spell: heat metal
+Class: druid L2
+Sphere: invocation_evocation
+Saving throw: n/a
+Syntax: cast <classname> heat metal on <target>
+
+Upon casting this spell, the caster sends forth a smoldering wave, heating
+any metal worn by the target.  For each item that fails its saving throw,
+the target takes damage based on the weight of the object.
+
+
+Spell: heroes feast
+Class: cleric L6, bard L6
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> heroes feast
+
+This spell will allow the caster to create a huge table, filled with
+delectable treats and succulent dishes.  The feast created by this prayer
+will alleviate hunger and thirst, and tastes far better than the what is
+provided with the create food prayer.  The feast will not last forever, so
+take heed.  Also, the gods frown on those who try to steal leftovers and
+save them for later.
+
+Components, bard: ode x1 (or nil w. eschew materials)
+
+Spell: hold animal
+Class: druid L2, ranger L2
+Sphere: enchantment_charm
+Saving throw: fort
+Syntax: cast <classname> hold animal on <target>
+
+This will magically hold most types of animals.  It will hold for longer,
+as your levels increase.  They will be able to hear, but not look or fight.
+
+
+Spell: holy word
+Class: cleric L7
+Sphere: enchantment_charm
+Domain: good
+Saving throw: reflex
+Syntax: cast <classname> holy word
+
+This spell channels holy magic directly to the caster and releases it at a
+target in the form of a silent explosion.  Those of evil hearts have the
+additional chance to be blinded and/or stunned, while those of neutral bent
+may be stunned briefly.
+
+
+Spell: hold monster
+Class: cleric L4
+Sphere: enchantment_charm
+Saving throw: fort
+Syntax: cast <classname> hold monster on <target>
+
+This will magically hold most types of monsters.  It will hold for longer,
+as your levels increase.  They will be able to hear, but not look or fight.
+
+
+Spell: hellball
+Class: innate L1
+Sphere: invocation_evocation
+Saving throw: n/a
+Syntax: cast <classname> hellball on <target>
+
+The ultimate skill of the most trained evokers, this spell unleashes a
+hellish blast of energy in all directions from a single point directed by
+the caster.  A simultaneous blast of sonic, acid, fire and electricity
+unleashes massive damage upon its primary target and may also harm those
+standing nearby.
+
+Non-specialized mages cannot cast this spell.
+
+
+Spell: hold person
+Class: cleric L2, mage/sorc L3, monk L5, bard L2
+Sphere: enchantment_charm
+Saving throw: will
+Syntax: cast <classname> hold person on <target>
+
+This spell will hold its target for rounds that reflect the level of the
+caster.
+
+Components, mage/sorc: piece of iron x1 (or nil w. eschew materials)
+
+Spell: hypercognition
+Class: psion L2
+Sphere: conjuration_summoning
+Discipline: seer
+Saving throw: n/a
+Syntax: cast <classname> hypercognition
+
+Drawing upon the might of the inner eye, a seer can focus himself and gain
+an insight into battles that lie ahead.  This insight translates itself
+into better protection for the seer.  The protection granted the seer from
+this power can be used in conjunction with inertial armor.
+
+
+Spell: healing circle
+Class: bard L6
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> healing circle
+
+This spell causes healing energy to flare outwards from the caster,
+touching all friendly targets and renewing their vitality.
+
+
+Spell: hail of crystals
+Class: psion L5
+Sphere: invocation_evocation
+Discipline: shaper
+Saving throw: fort
+Syntax: cast <classname> hail of crystals
+
+This power will cause the shaper to fill the air with razor-sharp crystals,
+which churn and damage most things in the area.  Due to the shaper's
+natural control over crytals, this power will not damage the shaper, his
+party members, or any beings following him.  The power becomes longer
+lasting as the shaper grows stronger.
+
+Components, psion: tourmaline x1 (or nil w. eschew materials)
+
+Spell: hideous laughter
+Class: mage/sorc L2
+Sphere: enchantment_charm
+Saving throw: will
+Syntax: cast <classname> hideous laughter on <target>
+
+Hideous Laughter, when cast, will force the target to laugh at anything
+that comes to mind.  The victim will fall to the ground cracking up and
+then, eventually, will barely stand up again.  The victim will still see
+humor in many things and will still be slightly weakened due to the
+laughing, until the spell finally wears off.
+
+Components, mage/sorc: feather x1, minute tarts x5 (or nil w. eschew
+materials)
+
+Spell: hypothermia
+Class: cleric L7
+Sphere: combat
+Domain: cold
+Saving throw: reflex
+Syntax: cast <classname> hypothermia on <target>
+
+This spell creates a freezing ray of bitter cold.  The ray will seek to
+drain the heat from the target as the cold moves through his body.  Because
+it is a ray, there is a chance the target can dodge some of the bitter
+cold.  However, if hit with the full force of the spell, the target will
+also begin to grow chilled, eventually becoming frozen and blinded for a
+time.
+
+
+Spell: haste
+Class: mage L3, bard L3
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> haste
+
+This spell considerably speeds up the caster, and those allies in his or
+her immediate vicinity. It grants all affected targets an extra attack if
+they are striking in melee, as well as a small bonus to AC, reflex saves
+and athletics. This spell does not work in conjunction with similar magical
+effects, such as rage, berserker and fell flight.
+
+Non-specialized mages cannot cast this spell.
+
+
+Spell: handfire
+Class: cleric L5
+Sphere: elemental fire
+Domain: fire
+Saving throw: reflex
+Syntax: cast <classname> handfire on <target>
+
+Calling on the endless inferno of the plane of elemental fire, the priest
+is able to wrap his hand with crimson flames.  The priest then sends forth
+the flames to strike his target, possibly burning those in the way as well.
+
+
+Spell: holy orb
+Class: cleric L5
+Sphere: combat
+Domain: good
+Saving throw: reflex
+Syntax: cast <classname> holy orb
+
+The orb is a spell normally prepared by a priest who expects to encounter
+enemies whose alignment opposes her own.  When cast, the spell streaks from
+the caster's hand to the desired point of effect, where a sphere forms. 
+The sphere drains the essence of life from the targets in the area of
+effect.  The sphere does damage based on the alignment of the caster with
+respect to the target.
+
+NOTE: This spell will damage all attackers regardless of alignment, but the
+damage will very if the attackers are players based on each individual's
+alignment.  The damage done to mobs is consistent no matter the mob's
+alignment.
+
+
+Spell: hungry darkness
+Class: warlock L2
+Saving throw: reflex
+Syntax: cast <classname> hungry darkness
+
+This invocation calls a supernatural darkness down within the area,
+blurring the line between the prime material plane and the planes beyond.
+What lies beyond will ignore the warlock, but will reach out, biting and
+clawing at anything close enough...
+
+
+Spell: hellfire shield
+Class: warlock L3
+Saving throw: n/a
+Syntax: cast <classname> hellfire shield
+
+This spell surrounds the warlock with a searing barrier of hellfire, which
+will move with the caster and harm any foes that get too close.  The
+strength of the flames depends on the level of the caster.
+
+Only a hellfire warlock may harness this invocation.
+
+
+Spell: infernal rain
+Class: warlock L4
+Saving throw: reflex
+Syntax: cast <classname> infernal rain
+
+This invocation unleashes a storm of hellfire, raining down the wrath of
+infernal energies upon the warlock's foes.  The invocation will last
+several rounds depending upon the level of the warlock, and the warlock
+must remain present for the storm to continue.  All those attacking the
+warlock are subject to the effects of the infernal rain, though they do
+receive saving throws. Only one area spell or invocation may be maintained
+by a caster at a time!
+
+Only a hellfire warlock may harness this invocation.
+
+
+Spell: insight
+Class: cleric L3
+Sphere: divination
+Domain: mentalism
+Saving throw: n/a
+Syntax: cast <classname> insight on <target>
+
+This spell grants the target a second's insight into the future, allowing
+her to both avoid attacks better, and to hit her targets better.  The spell
+is more effective when used by a priest that is solely dedicated to her
+faith.
+
+
+Spell: inner eye
+Class: cleric L8
+Sphere: divination
+Domain: mentalism
+Saving throw: n/a
+Syntax: cast <classname> inner eye on <target>
+
+Upon casting this spell, the priest focuses his inner eye and commands it
+to watch a particular place for him.  Without an argument, the eye will
+watch the room the priest is currently in.  When targeted upon a person
+known to the priest, the eye will instead focus on that person.
+
+
+Spell: iron body
+Class: mage/sorc L9, psion L8
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> iron body
+
+By using this power, the caster lends some of his psychic energy or arcane
+spellcraft to protect himself. It causes the caster to gain a strong
+resistance to physical attacks, as well as immunity to most standard
+poisons. It does not work together with stoneskin.
+
+Components, mage/sorc: diamond dust x1
+Components, psion: rutilated quartz x1
+
+Spell: inertial barrier
+Class: psywarrior L4, psion L4
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> inertial barrier
+
+Using this power, the psionic character bolsters his physical defenses,
+gaining some resistance to physical attacks.  The spell does not stack with
+the damage resistance and improved damage resistance feats.
+
+Components, psywarrior: rhodonite x1 (or nil w. eschew materials)
+Components, psion: rhodonite x1 (or nil w. eschew materials)
+
+Spell: ice storm
+Class: mage/sorc L4
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> ice storm
+
+When the ice storm spell is cast, the mage summons storm clouds above that
+rain hail and ice down upon anything in the area.  The spell will not
+damage the caster and lasts for a number of rounds equal to the caster's
+level. A versatile arcanist can manipulate the base element of this spell.
+
+Components, mage/sorc: water x3, pinch of special dust x1 (or nil w. eschew
+materials)
+
+Spell: ice shield
+Class: cleric L3
+Sphere: combat
+Domain: cold
+Saving throw: fort
+Syntax: cast <classname> ice shield
+
+This spell will protect the caster in a field of bitter cold actic air.  It
+gives a slight bonus to the caster's armor, additionally, any enemies
+attacking the caster must make a saving throw or suffer damage from the
+bitter cold.
+
+
+Spell: ignore the pyre
+Class: warlock L2
+Saving throw: n/a
+Syntax: cast <classname> ignore the pyre on <element>
+
+This invocation bestows the warlock with an innate affinity for the element
+of choice, which results in less damage taken from any attacks of that
+type. Elements that can be chosen are acid, cold, electricity, fire, or
+sonic.
+
+
+Spell: id insinuation
+Class: psion L2
+Sphere: invocation_evocation
+Saving throw: will
+Syntax: cast <classname> id insinuation on <target>
+
+Id Insinuation allows the psion to befuddle the target's mind, making him
+react in unpredictable ways.  The target's confused state may make him
+babble incoherently, run away, or attack a nearby target - even one of his
+own allies.  Quite powerful in nature, this power can be very helpful in
+battle.  NOTE:  This power does not work on players.  It will work only on
+mobs or NPCs.
+
+
+Spell: incite bravery
+Class: psywarrior L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> incite bravery
+
+Upon manifesting this power, the psionic character projects courageous
+impulses into his allies, bolstering their confidence and improving their
+martial prowess. This power does not stack with the bard's rally ability.
+
+
+Spell: inertial armor
+Class: psywarrior L1, psion L1
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> inertial armor
+
+When a psion manifests inertial armor, his psionic energy streams through a
+gem, where it coalesces and forms a shield about the psion.  This shield of
+protection offers an AC bonus that grows with the psion as his mental
+powers grow stronger.
+
+Components, psion: aventurine x1 (or nil w. eschew materials)
+
+Spell: insect plague
+Class: cleric L5, druid L5
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> insect plague
+
+This spell of a conjuration/summoning nature calls forth all the stinging,
+flying, crawling, creeping and biting insects within a one mile radius to
+swarm together within the immediate surroundings of the caster. The swarm
+will then annoy and harm everything in the area except the one who summoned
+it. If cast within the presence of other beings, the caster may find that
+the swarm annoys its victims so much that they attack the caster out of
+anger and fear. At anytime the caster may send the swarm away by: <disperse
+swarm>.
+
+
+Spell: identify
+Class: mage/sorc L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> identify on <object>
+
+This is the spell for you to identify the enchantment of items (usually
+equipment, though it may show attributes of other objects also).  The item
+must be in your inventory or the room where you are.  NOTE: Anyone in the
+same room with you will also know the enchantment of that item.
+
+Components, mage/sorc: owlfeather x1, pearl x1
+
+Spell: incendiary cloud
+Class: mage/sorc L8
+Sphere: invocation_evocation
+Saving throw: varied
+Syntax: cast <classname> incendiary cloud
+
+Upon casting this spell, the mage conjures a heaving mass of smoke and
+flames that blankets the area, scorching those who dare attack the caster. 
+Like most fires, this one requires a brief time to build to a raging
+inferno before it fizzles out again, leaving devastation in its wake.  If
+the caster leaves the area, the cloud will dissipate. A versatile arcanist
+can manipulate the base element of this spell.
+
+Components, mage/sorc: flint x1, dung scrapings x1 (or nil w. eschew
+materials)
+
+Spell: invisibility
+Class: mage/sorc L2, bard L2
+Sphere: illusion
+Saving throw: n/a
+Syntax: cast <classname> invisibility (on <target>)
+
+This spell generally will let the caster turn himself or another creature
+or player invisible until one of the three conditions are met.  The
+invisible target has chosen to <appear> to all by typing that, the target
+started a fight or was attacked, and the final way the spell would wear off
+is from time.  The spell will last generally a long time if left to wear
+off however.  Maintaining this spell can become wearying to the caster over
+time.
+
+Components, mage/sorc: gum arabic x1, eyelash x1 (or nil w. eschew
+materials)
+
+Spell: kiss of torment
+Class: cleric L5
+Sphere: necromancy
+Domain: suffering
+Saving throw: fort
+Syntax: cast <classname> kiss of torment on <target>
+
+A simple touch from this spell will deal extreme torment to the victim,
+leaving them in agony and distress.
+
+
+Spell: know alignment
+Class: cleric L2
+Sphere: divination
+Saving throw: will
+Syntax: cast <classname> know alignment on <target>
+
+Allows the caster to learn the target's alignment. This can be foiled by
+certain illusion magics.
+
+
+Spell: listening shadow
+Class: cleric L8, bard L6
+Sphere: divination
+Domain: darkness
+Saving throw: n/a
+Syntax: cast <classname> listening shadow on <target>
+
+This will move your shadow to listen to the room you're in or to follow the
+player indicated. You receive everything heard by the shadow.
+
+Components, bard: epithet x1, rhetoric x2
+
+Spell: liveoak
+Class: innate L1
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> liveoak
+
+Upon casting this spell, the druid calls upon her connection with nature to
+bring forth the magic inherent in an acorn.  The druid tosses the acorn to
+the ground, where it sprouts into a mighty treant to protect her.
+
+To command the treant, simply: command treant to <action>
+
+
+Spell: limb attack
+Class: cleric L2
+Sphere: combat
+Saving throw: n/a
+Syntax: cast <classname> limb attack on <target>
+
+This spell will attack some random limb of the target.  You will try to
+tear that limb off, so your strength is very important here as is your
+casting level for extra damage.
+
+
+Spell: lions charge
+Class: psywarrior L2
+Saving throw: n/a
+Syntax: cast <classname> lions charge on <target>
+
+When manifesting this power, the psionic character charges toward her foe
+and attempts to knock him down. The damage done will depend on any weapon
+the psionic character has wielded.
+
+
+Spell: levitate
+Class: mage/sorc L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> levitate on <target>
+
+This spell will give the target the ability to levitate. The target will
+find traveling over long distances to be very easy when under the influence
+of this spell, and will use very little stamina to travel.
+
+Please note: This spell will remove your previously set enter and exit
+messages.  If you had these set previously, you may need to reset them
+after using the levitate spell.
+
+
+Spell: lightning orb
+Class: mage/sorc L3
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> lightning orb on <target>
+
+This spell allows a mage to tap into the Para-Elemental Plane of Lightning
+and borrow some of its energy to create an orb of pure lightning.  Once the
+orb is launched into the air, the first thing it strikes will cause it to
+burst open, releasing the shocking attack on the mage's foes.  Though care
+should be taken as it is possible to accidently catch the mages allies in
+the blast.
+
+Components, mage/sorc: beeswax x1, magnets x1 (or nil w. eschew materials)
+
+Spell: lightning bolt
+Class: mage/sorc L3
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> lightning bolt on <target>
+
+This spell, when cast, will allow you to hurl a lightning bolt at your
+target.  The blazing electricity will inflict 1d6 points of damage per
+level of the caster, subject to a maximum, reduced if they make their save.
+A versatile arcanist can manipulate the base element of this spell.
+
+Components, mage/sorc: firefly x1 (or nil w. eschew materials)
+
+Spell: lightning touch
+Class: cleric L2
+Sphere: weather
+Domain: storms
+Saving throw: n/a
+Syntax: cast <classname> lightning touch on <target>
+
+Wrapping their hand with crackling bolts of lightning, with this spell the
+caster tries to deliever a shocking attack onto a foe.  If the caster fails
+to touch the target, the lighting dispurses into a flashy, but harmless
+effect.
+
+
+Spell: lower resistance
+Class: mage/sorc L5
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> lower resistance on <target>
+
+This will temporarily pull from the target some quantity of magic
+resistance.
+
+Components, mage/sorc: iron rod x1 (or nil w. eschew materials)
+
+Spell: light
+Class: cleric L1, paladin L1, mage/sorc L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> light on <target>
+
+This will create a small ball of light, which will light your way. You can
+cast it on an object or player which it will follow, instead of the caster.
+
+
+Spell: leaps and bounds
+Class: warlock L1
+Saving throw: n/a
+Syntax: cast <classname> leaps and bounds
+
+This invocation grants the caster a startling degree of agility and
+stamina. It grants a bonus to both the athletics and endurance skills for
+its duration.
+
+
+Spell: legend lore
+Class: bard L1
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> legend lore on <object>
+
+This spell grants the caster a second's insight into the nature of an item,
+revealing both magical attributes and its history.  The caster will also
+reveals the item's true nature to those standing nearby.  Whether the truth
+of the item can be revealed is dependant upon the caster's strength, and
+the obscurity of the item.
+
+Components, bard: epithet x1
+
+Spell: magic mirror
+Class: mage/sorc L7
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> magic mirror on <object> (a scrying mirror)
+
+By means of this spell, the wizard changes a normal mirror into a scrying
+device similar to a crystal ball. The details of the use of such a scrying
+device can be accessed by typing <help mirror> after a successful cast on a
+mirror.  You will be able to scry a player character or a location with the
+scrying device made by this spell.
+
+The mirror used must be of finely wrought and highly polished silver of a
+minimum cost of 1,000 gp.  These mirrors are generally found only in
+wizard's laboratories as they are both large and fragile, making them
+impossible to carry around.
+
+You will not be able to scry a character that you have not recognized
+previously with the 'recognize' command.  Your chance of success in using
+the mirror on a character is less if you recognize someone as something
+other than their true name, but its better than nothing.  You may not scry
+locations at all unless they are in memory via the remember command.
+
+There is also a chance that the target of the spell may notice that they
+are being scryed.  This depends on their class, and is adjusted
+significantly by intelligence.  This operates independantly of any scry
+detection magic or devices.  This spell can only be cast while at peace.
+
+Components, mage/sorc: eye of roc x1, zinc x1, nitric acid x1, copper x1
+
+Spell: mages sword
+Class: mage L7
+Sphere: invocation_evocation
+Saving throw: n/a
+Syntax: cast <classname> mages sword
+
+This spell will create a floating and controllable sword for you that you
+can use to attack your enemies.  The sword will automatically follow and
+protect you.  Should you lose it, though, simply go into the room with it
+and <command sword to follow>. This is a greater summons, and cannot be
+used simultaneously with other greater summons.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: mini platinum sword x1
+
+Spell: mindnet
+Class: cleric L9, psion L8
+Sphere: divination
+Discipline: telepath
+Saving throw: n/a
+Syntax: cast <classname> mindnet to <target>
+
+This power is otherwise known as mass telepathy. It will allow the psion to
+open a telepathy spell with more than one target at the same time.  Each
+target will be able to 'hear' the thoughts of the other targets in the
+mindnet.  The mindnet takes the game mechanic form of a line in the name
+that the caster has themselves recognized as.
+
+The actual name of the line is not considered to be IC information, but
+rather a mechanical method by which to facilitate the spell. The caster
+must cast the spell multiple times to add more targets to the spell, and
+each time they cast the spell on a new target, that target is added to the
+existing mind link.  It is possible for a person to be in two or more
+mindnets at the same time, but it is not possible for one caster to have
+two seperate mindnet spells under their control at the same time. The
+caster may remove a person from the mindnet at any time by using <mindnet
+remove target>.
+
+
+Spell: microcosm
+Class: psion L9
+Sphere: conjuration_summoning
+Saving throw: will
+Syntax: cast <classname> microcosm on <target>
+
+When a psion manifests microcosm, he affects the target's mind to make him
+feel as though he is happily in a world of his own, effectively rendering
+the target utterly helpless.  The success of the power depends upon the
+might of the psion against the target's hardiness.
+
+
+Spell: magic missile
+Class: mage/sorc L1
+Sphere: invocation_evocation
+Saving throw: n/a
+Syntax: cast <classname> magic missile on <target>
+
+Magic missile will shoot darts of magical energy from your hand and they
+will fly towards your target with the unfailing ability to hit it.  The
+damage it causes increases by level.
+
+
+Spell: mind blank
+Class: psywarrior L6, psion L7
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> mind blank
+
+This power shields the psionic character's mind. The mental fortress
+provides the same benefits as the Escape Detection power as well as
+offering additional protection against mind-affecting spells and powers.
+
+Components, psywarrior: beryl x1, tektite x1
+Components, psion: beryl x1, tektite x1
+
+Spell: minor prescience
+Class: psion L1
+Sphere: combat
+Saving throw: n/a
+Syntax: cast <classname> minor prescience
+
+This power will allow the psion foreknowledge, granting him additional
+prowess in battle.  The power gives the psion a minor bonus to hit and
+damage his opponents for a time.
+
+Components, psion: leopard agate x1 (or nil w. eschew materials)
+
+Spell: mind over energy
+Class: psywarrior L6, psion L6
+Saving throw: n/a
+Syntax: cast <classname> mind over energy on <type>
+
+When manifesting this power, the psionic character strengthens her mental
+defenses against certain types of energy. The manifester must choose either
+fiendish (protecting her from fire, electricity, and sonic attacks) or
+celestial (protecting her from cold, acid, and sonic attacks) when
+manifesting the power.
+
+
+Spell: moonbeam
+Class: cleric L5
+Sphere: combat
+Domain: moon
+Saving throw: reflex
+Syntax: cast <classname> moonbeam on <target>
+
+This spell begins by the caster fanning out her hands while chanting the
+spell.  Bolts of moonlight will fly out and do damage to the target and
+possibly those near him.
+
+
+Spell: matter agitation
+Class: psion L1
+Sphere: alteration
+Saving throw: fort
+Syntax: cast <classname> matter agitation on <target>
+
+This power allows the psion to alter the structure of matter, exciting
+atoms to the point that they generate intense heat, scorching the target.
+The power does damage over time, growing in intensity before the matter
+settles once again.
+
+
+Spell: mark of justice
+Class: cleric L5, paladin L4
+Sphere: divination
+Domain: vigilance
+Saving throw: fort
+Syntax: cast <classname> mark of justice on <target>
+
+This spell allows the caster to attempt to plant a mark of justice on the
+target.  This mark is mostly inconspicuous, being more an outpouring of the
+caster's energy than a physical mark.  It will allow the caster to <observe
+mark> once while the spell is in effect, giving the caster a means to scry
+the target.  It is often used in investigations of suspicious persons, and
+as such, it has been developed to be somewhat quietly cast.
+
+
+Spell: mass heal
+Class: cleric L9
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> mass heal on <target>
+
+This is a stronger version of the priest spell, heal.  When cast without a
+target or on the caster or any party member, it will heal the caster and
+any party members of the caster who are present in the area.  When cast on
+a hostile, it will hit all hostiles in the immediate area, healing those
+that are living, and hurting those that are undead.  When cast on a neutral
+creature that is neither in the caster's party or hostile to the caster, it
+will hit all creatures in the area, healing those that are living and
+hurting those that are undead.
+
+
+Spell: mind fog
+Class: mage L6
+Sphere: enchantment_charm
+Saving throw: will
+Syntax: cast <classname> mind fog on <target>
+
+Known only to some of the most powerful enchanters of the realm, this spell
+does no visible damage to the victim.  Instead, it serves to cloud the mind
+of the target, leaving them unable to think clearly, which incapacitates
+the use of spells or powers.  This power is rightly feared by spellcasters
+all over the realms.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: sapphire dust x1, diamond dust x2
+
+Spell: mindlink
+Class: psion L1
+Discipline: telepath
+Saving throw: n/a
+Syntax: cast <classname> mindlink to <target>
+
+This power will allow the psion to establish a mental link with the target,
+permitting telepathic conversations for a short time. To ensure
+comprehension, the two parties should share a common language.
+
+
+Spell: minor creation
+Class: cleric L1
+Sphere: conjuration_summoning
+Domain: creation
+Saving throw: n/a
+Syntax: cast <classname> minor creation on <object>
+
+This spell will allow the cleric to gather minute particles from the air
+and form them into particular objects.  It will create a minor object from
+the list below for the cleric to use.  Items created in this manner are
+fleeting, however, and will disappear when the person carrying them logs
+out.
+
+bandage                  climbing tools           dark lantern             
+dark oil                 fishing pole             flint                    
+lantern                  large sack               mace                     
+oil                      paper                    pouch                    
+robe                     rope                     scalemail                
+shield                   small sack               soap                     
+torch                    writing quill            
+
+
+
+Spell: misdirection
+Class: mage L2, bard L2
+Sphere: illusion
+Saving throw: n/a
+Syntax: cast <classname> misdirection on <alignment>
+
+This spell allows a skilled illusionist to weave an aura of misdirection
+around them, preventing the use of alignment discerning spells and
+abilities upon them. They can appear to be any alignment of their choosing.
+There are, naturally, ways to bypass this spell's protection, but it offers
+a degree of deception unavailable to most wizards.
+
+The choices for alignment are lawful good, neutral good, chaotic good,
+lawful neutral, true neutral, chaotic neutral, lawful evil, neutral evil,
+or chaotic evil.
+
+Non-specialized mages cannot cast this spell.
+
+
+Spell: meteor swarm
+Class: mage/sorc L9
+Sphere: invocation_evocation
+Saving throw: n/a
+Syntax: cast <classname> meteor swarm on <target>
+
+When the meteor swarm spell is cast, the target creature is assaulted by a
+swarm of flaming meteors, doing considerable damage.  Any other beings in
+the path may be engulfed in the explosion and also have a chance to receive
+some damage.
+
+
+Spell: mind veil
+Class: warlock L3
+Saving throw: n/a
+Syntax: cast <classname> mind veil
+
+This invocation conjures a shroud of magical energy about the caster, which
+will oppose all devices and spells that detect, influence or read emotions
+or thoughts. Mind-effecting spells will not work against the warlock, and
+basic divination attempts such as alignment will reveal nothing of note.
+Greater divinations, such as scrying, will be opposed with by caster's own
+magical strength. This invocation does not work in conjunction with other
+alignment-altering effects, nor with other scry protection magics.
+
+
+Spell: maw of stone
+Class: cleric L5
+Sphere: elemental earth
+Domain: cavern
+Saving throw: reflex
+Syntax: cast <classname> maw of stone on <target>
+
+This spell conjures stone from the earth to surround the target, causing
+damage to all those attacking the caster initially.  Afterwards, it
+continues to gnaw on the target for a limited time.
+
+
+Spell: meld into nature
+Class: cleric L4, druid L3, ranger L4
+Sphere: illusion
+Domain: plant
+Saving throw: n/a
+Syntax: cast <classname> meld into nature
+
+This spell will allow you to hide yourself in the land around you
+magically. It will not function within urban areas.
+
+
+Spell: mire the mind
+Class: warlock L3
+Saving throw: will
+Syntax: cast <classname> mire the mind
+
+The caster creates a chilling aura around themselves, which insinuates
+itself into the minds of nearby foes, should they not have the willpower to
+resist. It will apply itself as a fog upon their thoughts, slowing their
+combat reactions considerably. Creatures with only a single attack will not
+be able to be slowed further.
+
+
+Spell: mending
+Class: druid L1, bard L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> mending on <object>
+	cast <classname> mending on <object> at <player>
+
+This spell will attempt to repair the item in question.  If a player target
+is not specified, it will default to items carried in the caster's
+inventory.  Unlike normal repairs, the reliability of the spell is based
+upon the caster's power.  The spell cannot be cast in combat.
+
+Components, bard: couplet x2
+
+Spell: magic fang
+Class: ranger L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> magic fang
+
+This spell lets the caster siphon some of his own will into his creatures,
+giving them minor bonuses in combat.  It does not stack with similar spells
+or abilities, such as the hardenedminions feat.
+
+
+Spell: magic vestments
+Class: cleric L4
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> magic vestments
+
+Calling for a blessing from their deity, the cleric can recieve magical
+vestments that will protect them for a time.  The spell will not work if
+the priest is wearing any form of armor on their torso, including leather,
+chain, and armour types.  The magical vestments will grow in strength as
+the priest's power grows, as will the duration.  The vestments are meant
+only for the cleric, and can not be given to another.  To do so usually
+brings about the wrath of their god upon the priest.
+
+
+Spell: mystic bolt
+Class: cleric L5
+Sphere: combat
+Domain: magic
+Saving throw: reflex
+Syntax: cast <classname> mystic bolt on <target>
+
+This spell sends a mystical bolt of energy to ravage the target.  Those
+standing nearby may be hit as well.
+
+
+Spell: meld into stone
+Class: cleric L2
+Sphere: alteration
+Domain: cavern
+Saving throw: n/a
+Syntax: cast <classname> meld into stone
+
+This spell allows the caster to meld with nearby stone, rendering him
+invisible to most viewers.  The spell likewise confers the ability to move
+while invisible, so long as the caster does not pass out of the appropriate
+terrain.  To end the spell, the caster can type <appear>, engage in combat,
+or leave the rocky terrain.  In addition, the spell may wear off over time.
+
+
+Spell: mind thrust
+Class: psion L1
+Sphere: invocation_evocation
+Saving throw: n/a
+Syntax: cast <classname> mind thrust on <target>
+
+Mind thrust will cause the psion to manifest random psychic energy,
+directing it at a target.  The target feels confused and in pain, much like
+an excrutiating migraine.  The damage caused grows with the psion's power.
+
+
+Spell: monsoon
+Class: cleric L8, monk L17
+Sphere: elemental water
+Saving throw: reflex
+Syntax: cast <classname> monsoon
+
+When the monsoon spell is cast, the surrounding area is engulfed in a
+raging storm of water.  Any target in the area of effect takes damage every
+round while the spell is in effect, but does not damage the caster.  This
+spell does not work in conjunction with the fire storm spell.
+
+
+Spell: mylight
+Class: psywarrior L1, psion L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> mylight on <target>
+
+When the psionic character manifests this power, the target receives a
+sight bonus to help him see. Races with aversion to light will be able to
+see in brighter surroundings, while those who need light to see will be
+able to peer through the darkness.
+
+
+Spell: nimbus of light
+Class: cleric L3
+Sphere: divination
+Domain: sun
+Saving throw: n/a
+Syntax: cast <classname> nimbus of light
+
+This spell will surround the caster in a protective nimbus of light.  The
+light will make the caster more difficult to hit, and at the same time
+improve the caster's vision.
+
+
+Spell: orders oath
+Class: cleric L2, paladin L2
+Sphere: combat
+Domain: vigilance
+Saving throw: will
+Syntax: cast <classname> orders oath on <target>
+
+This spell magically enhances the power of the caster's voice.  The spell
+takes the form of a single spoken word, 'halt'.  The target need not
+understand the language of the spell for the magic to work.
+
+
+Spell: oak body
+Class: psywarrior L5, psion L7
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> oak body
+
+By using this power, the psionic character lends some of his psychic energy
+to protect himself. It causes the manifester to gain some resistance to
+physical attacks, as well as immunity to most standard poisons. The oaken
+nature of the power leaves the manifester vulnerable to fire attacks. The
+oaken body brings a minor bonus to strength at the cost of dexterity. This
+power does not work together with Stoneskin or Iron Body.
+
+Components, psywarrior: sapphire x2
+Components, psion: sapphire x2
+
+Spell: owls wisdom
+Class: cleric L2, paladin L2, druid L2, ranger L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> owls wisdom on <target>
+
+This spell allows the caster to infuse their target with the wisdom of an
+owl, granting them improved insight.  This spell doesn't stack with
+similarly powerful spells of enhancement.
+
+
+Spell: oppression
+Class: cleric L2
+Sphere: alteration
+Domain: tyranny
+Saving throw: will
+Syntax: cast <classname> oppression
+
+This spell will surround the caster with a dark aura of oppression.  Any
+creature caught in the aura that is not in the caster's party must make a
+saving throw or cower in fear from the caster.  Targets that are so
+effected will have their ability to hit and do damage in combat reduced
+until either the aura expires or they leave the presence of the caster.
+
+
+Spell: powerword stun
+Class: mage/sorc L8
+Sphere: enchantment_charm
+Saving throw: will
+Syntax: cast <classname> powerword stun on <target>
+
+When the powerword stun spell is uttered, any creature of the caster's
+choice is stunned, reeling and unable to think coherently or to act for a
+duration dependent on the creature's current hit points.
+
+
+Spell: power leech
+Class: psion L4
+Sphere: necromancy
+Saving throw: n/a
+Syntax: cast <classname> power leech on <target>
+
+This power, when manifested, will cause the psion to gather his energy,
+focusing on the target.  The psion will then reach out, attempting to touch
+the target.  Should he succeed, he will empathically deliver damage to the
+target, while healing his own wounds for the same amount.  Note: The psion
+cannot gain extra hit points through this power.  He simply heals what he
+has already lost.
+
+
+Spell: prying eyes
+Class: mage L9
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> prying eyes on <target>
+
+The pinnacle of ability for a skilled diviner, this spell allows the caster
+to watch and listen in upon a distant person without the need for
+components or a mirror. Or, they may focus upon their surroundings and then
+depart, keeping watch over it in their absence. Many such magi couple this
+with their clairvoyance skills to gain both close and long-range sight of
+the target, as this spell does not show anything beyond the scope of its
+immediate target. The caster will need to rest after attempting this kind
+of spell, before re-attempting it again.
+
+Non-specialized mages cannot cast this spell. This spell can only be cast
+while at peace.
+
+
+Spell: phantom steed
+Class: cleric L3, bard L3
+Sphere: conjuration_summoning
+Domain: repose
+Saving throw: n/a
+Syntax: cast <classname> phantom steed
+
+By means of this spell, the caster calls upon his god to send forth a
+ghostly horse to serve as his faithful mount and to help defend them.
+
+This spell will not work if you are already mounted.
+
+
+Spell: pass portal
+Class: cleric L6
+Sphere: alteration
+Domain: travel
+Saving throw: n/a
+Syntax: cast <classname> pass portal on <direction>
+
+A priest with the travel domain may use this spell to bypass many doors and
+barriers found blocking her path.  Some rooms may be enchanted to prevent
+such magic, but most are not.  If the priest is visible when casting this
+spell, her movements are accompanied by a bright light.
+
+
+Spell: psionic teleport
+Class: psion L5
+Sphere: alteration
+Discipline: nomad
+Saving throw: n/a
+Syntax: cast <classname> psionic teleport to <location>
+
+This power will move the nomad from his current location to one he has
+previously memorized.  The nomad merely concentrates, setting his sights on
+the place he would like to be, and his mind manipulates time and space to
+place him there.  An example of the power's usage is <remember here as
+cave>.  Then later on, the nomad would type, <cast psion psionic teleport
+to cave>.  Again, you may also <unremember cave> to forget that particular
+location. Note: The teleport power is not guaranteed, and the nomad may end
+up in a place he did not intend.
+
+See also:  remember, unremember, recall
+
+
+
+Spell: primal fear
+Class: psywarrior L1
+Sphere: enchantment_charm
+Saving throw: will
+Syntax: cast <classname> primal fear on <target>
+
+This power allows the psionic character to project an aura of fear toward a
+target, potentially sending him fleeing or causing him to cower in terror.
+
+Components, psywarrior: gray agate x1 (or nil w. eschew materials)
+
+Spell: powerword kill
+Class: mage L9
+Sphere: enchantment_charm
+Saving throw: n/a
+Syntax: cast <classname> powerword kill on <target>
+
+When the powerword kill spell is uttered, any creature of the mage's choice
+will drop dead if it has fewer current hit points then the mage's power.
+The target may still be weakened even if this is not the case, but
+creatures immune to death magic will be completely unaffected.
+
+Non-specialized mages cannot cast this spell.
+
+
+Spell: prescience
+Class: psion L7
+Sphere: combat
+Saving throw: n/a
+Syntax: cast <classname> prescience
+
+This power will allow the psion foreknowledge, granting him additional
+prowess in battle.  The power gives the psion a bonus to hit and damage his
+opponents for a time, as well as a chance for an extra attack. This power
+grants +1/per 5 levels. It grants +4 minimum and +8 maximum. This bonus
+applies to both attack and damage rolls.
+
+Components, psion: blue tigers eye x1
+
+Spell: prevenom
+Class: psywarrior L1
+Sphere: combat
+Saving throw: n/a
+Syntax: cast <classname> prevenom on <weapon>
+
+Upon using this power, the psionic character manifests a powerful poison to
+coat his weapon. A target struck by the poisoned weapon will suffer the
+same fate as any individual struck by the physical poisons found in the
+world.
+
+NOTE: When using this power, you must specify a weapon as the target. The
+first such weapon in your inventory will be chosen, and items in containers
+will be ignored.
+
+
+Spell: power resistance
+Class: psywarrior L5, psion L5
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> power resistance on <target>
+
+Using this power will allow a psion to temporarily raise the power
+resistance of the target.  After a time, the power will reverse, restoring
+the creature to its original resistance.
+
+Components, psywarrior: jade x1 (or nil w. eschew materials)
+Components, psion: jade x1 (or nil w. eschew materials)
+
+Spell: produce flame
+Class: druid L1
+Sphere: alteration
+Saving throw: reflex
+Syntax: cast <classname> produce flame on <target>
+
+The druid opens his hand, palm up, and a flame as bright as a torch appears
+there.  The flame will not harm the druid or his equipment, but when the
+druid hurls the flame at an enemy, it explodes, fanning out to damage those
+around him.  Although the druid will try to control the spell so as not to
+damage allies, this may not always be possible.
+
+
+Spell: phase door
+Class: psion L7
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> phase door on <direction>
+
+Manifesting this power allows a psion to teleport a short distance away.
+The power can be used in combat and will ignore mundane impediments, such
+as caltrops or closed doors, but will be barred by magically sealed doors.
+During the short time the psion is away from this plane, he regains a small
+amount of health and power points. Because it requires so much
+concentration, the psion must rest a short time before manifesting this
+power again. Should the psion be visible when this spell is manifested, a
+shimmering prismatic light accompanies his movements.
+
+Components, psion: peridot x1 (or nil w. eschew materials)
+
+Spell: planar beacon
+Class: mage L6
+Sphere: conjuration_summoning
+Saving throw: will
+Syntax: cast <classname> planar beacon on <target>
+
+This spell pinpoints a foe, regardless of what plane they are on, making
+them glow like a beacon within the weave. They can then attempt to draw
+this beacon to their current location. However, a foe with the strength of
+mind to resist may cause the spell to backfire, instead sending the caster
+to his or her target. Once this spell is used, the caster must rest for a
+short while before attempting its use again.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: sand x1, pinch of special dust x1 (or nil w. eschew
+materials)
+
+Spell: project image
+Class: mage L7, bard L6
+Sphere: illusion
+Saving throw: n/a
+Syntax: cast <classname> project image on <target>
+
+This spell will conjure an illusionary image of the caster, which will seek
+out the specified target and convey the caster's thoughts by way of its own
+speech.  Likewise, it will convey the words of the target back to the
+caster.  To speak to the target, the caster should use the <tell> and
+<reply> commands as per telepathy effects.  Any attack upon the image will
+cause it to dissipate.  You can be rid of the image with <dismiss image>.
+
+Non-specialized mages cannot cast this spell.
+
+
+Spell: prismatic spray
+Class: mage/sorc L7
+Sphere: invocation_evocation
+Saving throw: varied
+Syntax: cast <classname> prismatic spray on <target>
+
+When the prismatic spray spell is cast, the wizard causes several
+shimmering rays of light to flash from his/her hand.  Each ray has a
+different purpose and power.  The creature struck will be touched by one or
+more rays and will be subject to a number of different attacks from the
+spell.
+
+
+Spell: psionic identify
+Class: psywarrior L2, psion L2
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> psionic identify on <object>
+
+This power allows a psion to attune his mind, focusing on the moment of an
+item's creation.  The psion then reveals what he has found, marking the
+enchantment of the item as well as the name, should the item have a
+specific one.  The psion does not know how an item is created using these
+means; he simply knows what the lasting effect is.  The item must be in the
+psion's hands or on the floor for the spell to work.
+
+NOTE: Anyone in the same room with you will also know the enchantment of
+that item.
+
+Components, psywarrior: adamite x1, wemic tears x1
+Components, psion: adamite x1, wemic tears x1
+
+Spell: prevent stealing
+Class: cleric L4, paladin L3
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> prevent stealing
+
+This spell prevents stealing in the room where the caster has cast the
+spell for an amount of time dependent on the level of the caster.
+
+
+Spell: planar portal
+Class: psion L9
+Sphere: alteration
+Discipline: nomad
+Saving throw: n/a
+Syntax: cast <classname> planar portal to <location>
+
+This potent power enables a nomad to open up a portal, allowing beings to
+pass from the place he currently stands to one he has locked firmly in his
+memory.  By using this power, the nomad commands a temporary connection
+between the two locations.  The power is taxing, however, so the portal
+will not remain open very long.  An example of the power's usage is
+<remember here as cave>.  Then later on, the nomad would type, <manifest
+planar portal to cave>.  Again, you may also <unremember cave> to forget
+that particular location.
+
+See also: remember, unremember, recall
+
+Components, psion: blue amethyst x1, moonstone x1, obsidian x1
+
+Spell: quench
+Class: druid L3
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> quench on <target>
+
+This spell creates a large sphere of water that smashes into targets in the
+area.  The force of the impact accounts for half of the destruction in the
+target area, water damage accounts for the other half.  
+
+
+Spell: resonating word
+Class: mage L7, bard L5
+Sphere: alteration
+Saving throw: fort
+Syntax: cast <classname> resonating word on <target>
+
+The caster uses a word of power to cause potentially lethal vibrations in
+the chosen target. Its effects are only subtle to begin with, but quickly
+become destructive. Those with a greater degree of fortitude may be able to
+withstand the worst of its effects.
+
+Non-specialized mages cannot cast this spell.
+
+
+Spell: rejuvenation
+Class: cleric L3
+Sphere: healing
+Domain: renewal
+Saving throw: n/a
+Syntax: cast <classname> rejuvenation
+
+This spell will grant the caster the power of renewal, giving him a small
+amount of healing each round for a long period of time.
+
+
+Spell: resilience
+Class: cleric L5
+Sphere: combat
+Domain: strength
+Saving throw: n/a
+Syntax: cast <classname> resilience
+
+This spell infuses the caster with the resilience of his deity, granting
+him some protection in battle for the duration of the spell.
+
+
+Spell: rusting grasp
+Class: druid L4
+Sphere: invocation_evocation
+Saving throw: fort
+Syntax: cast <classname> rusting grasp on <target>
+
+The caster of this spell invokes the power of nature to rust metal and
+cause some damage to the target.  If the target resists, then he is able to
+avoid most of the damage, but if the spell hits successfully, then the
+target suffers some damage and any metal objects in his inventory may also
+be damaged.
+
+
+Spell: resurrection
+Class: cleric L9
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> resurrection on <target> (dead player's name)
+
+Praying to their diety for a miracle, a priest can attempt to resurrect a
+slain ally back to life.  The resurrection, if successful, will restore the
+corpse back to life and full of health.  The spell is somewhat draining on
+the priest, for channeling large ammounts of divine power can be
+exhausting.  The target will suffer significantly less (lower exp. loss)
+from the death due to the intervention of the priest.
+
+See also:  help pkilling, help rules
+
+
+Spell: regeneration
+Class: cleric L7, druid L9, bard L5
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> regeneration on <target>
+
+This spell will cause the target to continuously regenerate a small amount
+of health over a long period of time.  It cannot be used on the same target
+more than once, and does not work in conjunction with the feat of the same
+name.
+
+Components, bard: sonnet x1 (or nil w. eschew materials)
+
+Spell: rage
+Class: cleric L7
+Sphere: combat
+Domain: animal
+Saving throw: n/a
+Syntax: cast <classname> rage
+
+This spell will enrage the caster, making him stronger and more deadly in
+combat for the duration.  The strength of the caster's deity and a blessed
+speed result in blind fighting and reckless fearlessness. This spell does
+not work in conjunction with similar magical effects, such as rally,
+berserker, haste, transformation, dance of a thousand cuts, or fell flight.
+
+Note: Being enraged means that you are maddened uncontrollably.  This is
+*not* a state in which you can calmly participate in a normal conversation,
+undertake delicate tasks, solve problems, or pretty much do anything other
+than shout obscenities and kill things. This spell does not work in
+conjunction with similar magical effects, such as rally, rage, haste and
+fell flight.
+
+Please bear in mind that when you use the spell you are also expected to
+roleplay it.
+
+
+Spell: righteous might
+Class: cleric L2
+Sphere: alteration
+Domain: strength
+Saving throw: n/a
+Syntax: cast <classname> righteous might
+
+By calling upon his deity's aid, the caster imbues himself with divine
+might.  The caster will find it both easier to hit and to harm those he
+fights.  The spell does not stack with other bless-type spells.
+
+
+Spell: rope trick
+Class: mage/sorc L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> rope trick
+
+When rope trick is cast, a rope will leap up and stiffen, leading to a
+magic room in a pocket of another dimension.  Any may climb the rope and
+enter the room.  The rope may be pulled into the room making the room
+inaccessible.  And the room will exist for quite a long time, varying with
+the caster's spell-casting level.  To cast this spell, the caster must drop
+a rope before them which will not be consumed by the casting.
+
+Components, mage/sorc: parchment x1, corn extract x1 (or nil w. eschew
+materials)
+
+Spell: recall death
+Class: psion L8
+Sphere: alteration
+Saving throw: will
+Syntax: cast <classname> recall death on <target>
+
+This spell parts the fabric of time, revealing wounds your foe has received
+in the past (or is yet to receive) that are potentially fatal. That target
+takes considerable damage as the past (or future) impinges briefly on the
+present.
+
+
+Spell: remote view trap
+Class: psion L6
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> remote view trap
+
+When manifesting this power, the psion attunes his mind to the detection of
+magical and psionic abilities that attempt to scry him in some form.  The
+power remains strong in the psion's mind, allowing him to move and retain
+concentration on the power.
+
+Should someone attempt to scry a psion while he has this power manifested,
+a battle of wills and strength ensues.  The psion's latent psychic energy
+will lash out at the one scrying him, causing damage.  The struggle then
+continues, and if the psion wins, he immediately knows the description and
+general location of the scryer.
+
+Should the psion's will prove more powerful than the scryer's, this power
+will likewise prevent the viewer from observing the psion.
+
+Components, psion: tektite x1, tourmaline x1
+
+Spell: reddopsi
+Class: psion L7
+Sphere: abjuration
+Discipline: kineticist
+Saving throw: n/a
+Syntax: cast <classname> reddopsi
+
+Talented kineticists can manipulate the area around them, turning aside
+spells. While they cannot stop area of effect spells are those that produce
+splash damage, they can prevent spells and powers that directly target them
+from landing. This spell does not stack with the 'reflection' or 'spell
+reflection' feats.
+
+Components, psion: moonstone x1, opal x1 (or nil w. eschew materials)
+
+Spell: remove blindness
+Class: cleric L3, paladin L3, druid L3
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> remove blindness on <target>
+
+When you cast this spell you can bring more light into the eyes of the
+target. You can't cure diseases, but will surely help the target to see
+more after they have been hit by magical darkness or some foul creature.
+
+
+Spell: remote viewing
+Class: psion L5
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> remote viewing on <object> (a crystal ball or
+equivalent)
+
+By means of this power, the psion changes a normal crystal ball or mirror
+into a scrying device. The details of the use of such a scrying device can
+be accessed by typing <help crystal ball> after a successful cast on a
+crystal ball.  You will be able to scry a player character or a location
+with the scrying device made by this power.
+
+The crystal ball or mirror used must be of finely polished crystal of a
+minimum cost of 1,000 gp - such ones are generally found only in psion
+enclaves as they are both large and fragile, making them impossible to
+carry around.
+
+You will not be able to scry a character that you have not recognized
+previously with the 'recognize' command.  Your chance of success in using
+the crystal ball on a character is less if you recognize someone as
+something other than their true name, but its better than nothing.  You may
+not scry locations at all unless they are in memory via the remember
+command.
+
+There is also a chance that the target of the power may notice that they
+are being scryed.  This depends on their class, and is adjusted
+significantly by intelligence, and operates independantly of any scry
+detection magic or devices.
+
+Components, psion: banded amethyst x1, blue lace agate x1, sodalite x1, red
+jasper x1
+
+Spell: reflection
+Class: druid L7
+Sphere: divination
+Domain: nature
+Saving throw: n/a
+Syntax: cast <classname> reflection
+
+This spell will allow the druid to look through any sufficiently still body
+of water and view people at a distance.
+
+
+Spell: raise dead
+Class: cleric L5, druid L4
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> raise dead on <target> (dead player's name)
+
+This spell will revive a dead player when cast upon their corpse.  The
+deceased will be returned to the site of death and revived.  Note it is
+similar to being revived in a church as the person will be barely alive and
+need significant healing.  The target will suffer somewhat less from the
+death (lower exp. loss) due to the intervention of the priest.
+
+See also: help pkilling, help rules
+
+
+
+Spell: resist energy
+Class: paladin L2, druid L2, ranger L1, mage/sorc L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> resist energy on <element>
+
+This spell bestows the caster with a small amount of damage resistance
+against a selected element, increasing with the caster's level. Elements
+that can be chosen are acid, cold, electricity, fire, or sonic.
+
+
+Spell: remove paralysis
+Class: cleric L3, paladin L2
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> remove paralysis on <target>
+
+This spell will remove any paralysis from its target. Negates hold spells,
+and paralysis spells.
+
+
+Spell: reaving dispel
+Class: psywarrior L6, psion L8
+Saving throw: n/a
+Syntax: cast <classname> reaving dispel on <target>
+
+This power will create a mark on the target that will attempt to dispel one
+magical effect per round for the duration, causing damage with each
+succcessful dispel. The duration and power are both based on the psionic
+character's level.
+
+
+Spell: resistance
+Class: druid L1, bard L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> resistance
+
+By this spell, the caster imbues themselves with a small amount of
+resistance to magic.  The spell does not stack with the resistance feat.
+
+
+Spell: stormrage
+Class: cleric L8
+Sphere: weather
+Domain: storms
+Saving throw: reflex
+Syntax: cast <classname> stormrage
+
+In using this spell, the caster calls upon the might of the weather,
+creating a powerful storm in an area.  The storm takes several rounds to
+develop and a few more to recede.  With it comes stinging winds, hail, and
+blasts of lightning.  Because the spell requires air to create its storm,
+it cannot be cast underwater.
+
+
+Spell: sending
+Class: psion L2
+Sphere: divination
+Discipline: telepath
+Saving throw: n/a
+Syntax: cast <classname> sending to <target>
+
+This power allows a brief message to be sent to the target.  The target
+cannot respond, and the telepath's message must be shorter than 200
+characters.  If the message is too long, the power fails.  Likewise, if the
+target is ignoring the psion or incapacitated in some way, the power will
+fail.
+
+
+Spell: spike growth
+Class: druid L3
+Sphere: combat
+Saving throw: n/a
+Syntax: cast <classname> spike growth
+
+This spell causes roots or other vegetation in the area to become hard and
+razor sharp.  Anyone moving in the area, such as the movement in combat or
+passing through the room, will suffer piercing damage to his or her feet. 
+The spell may only be used in areas where some vegetation may be found.
+
+
+Spell: slay living
+Class: cleric L5
+Sphere: necromancy
+Saving throw: fort
+Syntax: cast <classname> slay living on <target>
+
+This spell is necromantic in nature and allows the caster to call forth
+beings from the land of the dead to take the caster's target back with them
+to their homeland. If the beings are successful, this transition will
+result in the target's instant death.  This spell can only be cast while at
+peace.
+
+
+Spell: secure shelter
+Class: bard L4
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> secure shelter
+
+When this spell is cast, it conjures a small pocket dimension under the
+guise of a little house, secure and impervious to outside forces.  It
+offers temporary safety from the outside world.  To cast, a narrative
+reciting details of the cottage you are trying to summon, is required.
+
+Components, bard: narrative x1 (or nil w. eschew materials)
+
+Spell: spider climb
+Class: druid L2, mage/sorc L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> spider climb
+
+A caster willing to swallow both a drop of bitumen and a live spider, can
+use this to draw upon the nature of the arachnid itself, becoming able to
+climb even the most sheer of surfaces.
+
+Components, mage/sorc: spider x1, bitumen x1 (or nil w. eschew materials)
+
+Spell: shadow nova
+Class: mage/sorc L9
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> shadow nova
+
+This spell will send a burst of pure darkness out in a circle from the
+caster.  Any enemies caught in the area will suffer damage from the shadowy
+energy.  Those creatures who fail their save will find that the darkness
+also steals away their vision temporarily.
+
+Components, mage/sorc: smoky quartz x1 (or nil w. eschew materials)
+
+Feat requirements: shadow_adept (gift of the shadows), mage/sorc (gift of
+the shadows), sorcerer (gift of the shadows)
+
+Spell: sleet storm
+Class: druid L3
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> sleet storm
+
+The spell sleet storm only works outdoors.  When it is cast, the skies will
+open up and begin pouring freezing rain on the area.  Within a few moments,
+howling winds will turn the sleet into tiny stinging missiles.  Movement
+through the area is difficult and sometimes visibility is obstructed to the
+point of virtual blindness.
+
+
+Spell: sleep
+Class: mage/sorc L1, psion L1, bard L1
+Sphere: enchantment_charm
+Saving throw: will
+Syntax: cast <classname> sleep on <target>
+
+Upon casting the sleep spell, 2d4 HD of monsters will fall asleep.  Attacks
+on the sleepers will awaken them; normal noise won't, however.  Monsters
+with 4 HD + 3hp will not be affected.
+
+Components, bard: lullaby x1 (or nil w. eschew materials)
+
+Spell: stoneskin
+Class: druid L5, mage/sorc L4, monk L11
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> stoneskin on <target>
+
+This spell causes the target to take less damage from to a certain number
+of attacks, based on the level of the caster. It does not work together
+with iron body.
+
+Components, mage/sorc: granite dust x1 (or nil w. eschew materials)
+
+Spell: snare
+Class: druid L3, ranger L2
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> snare
+
+In casting this spell, the ranger sets a snare in the location, which will
+harm the first bypasser to trigger it. Anyone already present when the
+spell is cast will be aware of the snare, and may come and go without
+disturbing it. Additionally, thieves have a chance to actively search for
+the snare and can remove it, but they must do so in the room before the
+trapped location or they will trigger it.
+
+The caster's attunement to the wilds will alert them when their snare is
+tripped.  They may only rig one snare at a time, but do not need to remain
+with it for it to function.  Snares can only be set in natural
+surroundings.
+
+
+Spell: shout
+Class: mage/sorc L4, bard L4
+Sphere: enchantment_charm
+Saving throw: fort
+Syntax: cast <classname> shout on <target>
+
+This spell allows for the mage to magically enchant and enhance her voice,
+to deliver a strong sonic attack against one target.  The amplified voice
+can knock some targets off balance for a moment, forcing them to spend some
+time for the ringing in their ears to pass.
+
+
+Spell: slip the bonds
+Class: psywarrior L4, psion L4
+Saving throw: n/a
+Syntax: cast <classname> slip the bonds
+
+This power will allow the manifester to ready a portion of her mind to
+prepare for attacks that would otherwise stun her. When an ability or spell
+paralyzes or trips her, she can choose to type <freeme> to free herself
+from the effect. If she chooses not to release her reserved power, that
+portion of her mind will remain prepared for such attacks. This power can
+be manifested only while at peace.
+
+Components, psywarrior: green fluorite x2 (or nil w. eschew materials)
+Components, psion: green fluorite x2 (or nil w. eschew materials)
+
+Spell: shadow double
+Class: mage/sorc L7
+Sphere: illusion
+Saving throw: n/a
+Syntax: cast <classname> shadow double
+
+This spell will conjure a ghostly double of the caster, drawn from his or
+her own shadow. The shadow will automatically follow and protect you.
+Should you lose it, though, simply go into the room with it and <command
+shadow to follow>. This is a greater summons, and cannot be used
+simultaneously with other greater summons.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage/sorc: onyx dust x1
+
+Feat requirements: shadow_adept (gift of the shadows), mage/sorc (gift of
+the shadows), sorcerer (gift of the shadows)
+
+Spell: sunburst
+Class: cleric L8, druid L8, mage/sorc L9
+Sphere: invocation_evocation
+Domain: sun
+Saving throw: reflex
+Syntax: cast <classname> sunburst
+
+This spell will send the light of the sun radiating out in a circle from
+the caster.  Any enemies caught in the area will suffer damage from the
+pure light of the sun.  Undead creatures suffer more damage than normal
+ones, and those creatures who fail their save are blinded by the light.
+
+Components, mage: sunstone x1 (or nil w. eschew materials)
+
+Spell: sound burst
+Class: cleric L2, bard L2
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> sound burst on <target>
+
+This spell enhances a simple click of the fingers, reaching the target with
+an ear-shattering pitch that can cause serious damage.  It may also harm
+those standing nearest the target in question, though a quick opponent may
+manage to avoid the worst of this damage.
+
+
+Spell: stone body
+Class: cleric L8
+Sphere: combat
+Domain: earth
+Saving throw: n/a
+Syntax: cast <classname> stone body
+
+This spell will cover the caster's skin in a layer of granite, reducing the
+damage he takes with each hit.  The higher the level the caster, the more
+damage will be resisted.  The spell also renders the caster immune to
+poison.
+
+
+Spell: stormwinds
+Class: cleric L5
+Sphere: elemental air
+Domain: storms
+Saving throw: reflex
+Syntax: cast <classname> stormwinds on <target>
+
+This spell causes a great sphere of swirling winds to appear around the
+target. Lightning bolts come forth from the mass of air to strike them.
+
+
+Spell: silver sight
+Class: cleric L8
+Sphere: divination
+Domain: moon
+Saving throw: n/a
+Syntax: cast <classname> silver sight on <target>
+
+This spell will invoke the power of the moon to grant the caster
+far-reaching sight, allowing her to watch what goes on in the target room.
+
+
+Spell: sylvan vigor
+Class: druid L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> sylvan vigor
+
+This spell bestows a small blessing upon the caster, increasing her health.
+
+
+Spell: shadow travel
+Class: innate L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> shadow travel to <location>
+
+Through this spell the caster attunes themselves with a nearby shadow and
+steps into it, allowing near instantaneous travel to another destination of
+their choice. A great deal of concentration is required to enact such a
+spell, so the spell can be easily disrupted by others. Teleport warding
+effects that are of greater strength than the caster, will thwart the spell
+entirely.
+
+
+Spell: spectral steed
+Class: cleric L3
+Sphere: conjuration_summoning
+Domain: repose
+Saving throw: n/a
+Syntax: cast <classname> spectral steed
+
+By means of this spell, the caster calls upon his god to send forth a
+ghostly horse to serve as his faithful mount and to help defend them.
+
+This spell will not work if you are already mounted.
+
+
+Spell: stomp
+Class: psywarrior L1
+Sphere: combat
+Saving throw: reflex
+Syntax: cast <classname> stomp
+
+Upon manifesting this power, the psionic character releases a stream of
+psychic energy to empower a stomp, creating a ripple in the earth. The
+resulting quake may stun or damage all those in the area, save the caster.
+
+
+Spell: see the unseen
+Class: warlock L1
+Saving throw: n/a
+Syntax: cast <classname> see the unseen
+
+This invocation allows a warlock to magically augment their vision,
+allowing vastly improved sight in areas of extreme light or darkness, as
+well as the ability to perceive hidden items and beings.
+
+
+Spell: snakebite
+Class: cleric L4, ranger L3
+Sphere: combat
+Domain: animal
+Saving throw: fort
+Syntax: cast <classname> snakebite on <target>
+
+This spell allows the ranger to draw forth the remaining living energy in
+an otherwise dead stick, converting it into life.  It will become a serpent
+that strikes the target, with a chance to poison with its bite.
+
+
+Spell: succor
+Class: cleric L9
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> succor to <location>
+
+The succor spell will transport the priest to a location that he or she has
+remembered from the 'remembered location' list. To remember a new location,
+use 'remember here as <location>', to see a list of all remembered
+locations, use 'recall locations'.
+This spell must be cast while at peace.
+See also: remember, unremember, recall
+
+
+Spell: sunbeam
+Class: druid L7
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> sunbeam <target>
+
+This spell will create a beam of pure light aimed at the target.  A target
+who fails to avoid the sunbeam will take damage from the pure sunlight and
+may be momentarily blinded.  Undead hit by the spell will suffer additional
+damage.
+
+
+Spell: spell turning
+Class: mage L7
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> spell turning
+
+The most skilled of abjurationists can use such a spell to raise a
+protective ward around themselves. While it holds, it will have a chance to
+reflect any spells which are directly aimed at the caster, regardless of
+whether they are hostile or friendly. The ward will not reflect splash
+damage or AOE, but only direct-targetted spells. This spell does not stack
+with the 'reflection' or 'spell reflection' feats.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: glass rod x1, small silver mirror x1 (or nil w. eschew
+materials)
+
+Spell: screen
+Class: cleric L6, mage/sorc L8
+Sphere: illusion
+Domain: illusion
+Saving throw: n/a
+Syntax: cast <classname> screen
+
+Upon casting this spell, the user creates a screen of illusion centered
+upon himself that makes scrying attempts difficult.  This spell has a
+chance to both detect and block scrying attempts, with the chance for
+success determined by the level of the priest against the level of the
+scryer.  The spell is centered upon the caster and will move with him,
+allowing him to sweep areas for the duration of the spell.
+
+When a scrying attempt is detected, the scryer must immediately roll a
+saving throw.  If this is failed, the appearance and general location of
+the scryer immediately become known to the one who cast this spell.  The
+general location is the room and area where the scryer is located at the
+time.
+
+This spell can only be cast while at peace.
+
+
+Spell: sanctify
+Class: cleric L4, paladin L4
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> sanctify
+
+Calling on the power of his or her god, the caster creates a protected
+place for him or herself to retreat to in times of need.  The sanctified
+ground is accessed through an iron gate that is created when the spell is
+cast.
+
+
+Spell: shocking grasp
+Class: mage L1
+Sphere: invocation_evocation
+Saving throw: n/a
+Syntax: cast <classname> shocking grasp on <target>
+
+This spell allows the mage to generate a small electrical charge in their
+fingertips. They may then attempt to touch a foe, discharging it into them
+in a powerful shock. A caster will find it far easier to contact a foe who
+is carrying or wearing metal items, which will conduct the charge. While
+this spell can, at first, be considerably more painful than other spells of
+its sphere, a mage can only withhold so much charge in his fingertips, so
+it will not take a great deal of study before the spell reaches its highest
+potential.
+
+Non-specialized mages cannot cast this spell.
+
+
+Spell: spiderwalk
+Class: warlock L1
+Saving throw: n/a
+Syntax: cast <classname> spiderwalk
+
+A warlock uses this basic invocation to capture the nature of a spider,
+including their ability to climb sheer surfaces, and their immunity to
+webs.
+
+
+Spell: spectral touch
+Class: cleric L5
+Sphere: combat
+Domain: repose
+Saving throw: fort
+Syntax: cast <classname> spectral touch on <target>
+
+This spell causes the caster's hand to glow with a blue light, infusing it
+with the energy of the grave.  The energy in the casters hand blasts forth
+to strike the target, draining him of life and energy.  The beam may also
+hit nearby targets.
+
+
+Spell: shadow stride
+Class: innate L1, monk L7
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> shadow stride on <direction>
+
+This spell allows the caster to step into the nearest shadow, using it to
+travel a short distance away. It can be used in combat and will ignore
+mundane impediments, such as caltrops or closed doors, but will be barred
+by magically sealed doors.
+
+
+Spell: shadow sight
+Class: monk L9
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> shadow sight
+
+This spell allows the caster to see into the shadows to know what may be
+hidden there, including creatures and objects that are normally or
+magically hidden. It functions much like the mage spell, detect
+invisibility.
+
+
+Spell: searing light
+Class: cleric L5
+Sphere: sun
+Domain: sun
+Saving throw: reflex
+Syntax: cast <classname> searing light on <target>
+
+By using this spell you will accumulate sunlight in an open palm and then
+release it at the target.  It will do slightly more damage to the undead. 
+In addition, nearby targets may be struck as well.
+
+
+Spell: spellstaff
+Class: druid L6
+Sphere: invocation_evocation
+Saving throw: n/a
+Syntax: cast <classname> spellstaff on <spell name> | <arguments to the
+spell>
+
+NOTE: You must carry a staff with you when casting this spell.
+
+This spell allows the druid to hold a spell in reserve to be called upon at
+a later time by typing <now>.  If the spell normally requires a target,
+that target will automatically be the druid.  If you need to add arguments
+to the reserved spell, you must add them at the time of casting spellstaff.
+
+example of usage:  cast spellstaff on word of recall | <remembered location>
+Note: You do need the | symbol if the spell requires arguments, such as a
+location.
+
+
+
+Spell: seeking sword
+Class: cleric L3, paladin L4
+Sphere: combat
+Domain: war
+Saving throw: n/a
+Syntax: cast <classname> seeking sword
+
+This spell will create a floating and controllable sword for you that you
+can use to attack your enemies.  The sword will automatically follow and
+protect you.  Should you lose it, though, simply go into the room with it
+and <command sword to follow>.
+
+
+Spell: shield
+Class: mage L1
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> shield
+
+This spell calls a protective shield into existance before the caster. It
+negates magic missiles, and provides a small bonus to armor class for its
+duration. Use of a physical shield will interfere with the spell and cause
+it to fade.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: clear crystal x1 (or nil w. eschew materials)
+
+Spell: skate
+Class: psywarrior L1, psion L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> skate
+
+This power gives the psionic character the ability to skate smoothly over
+the ground, exerting little energy. The caster will find traveling over
+long distances to be very easy when under the influence of this spell, and
+will use very little stamina to travel.
+
+Please note: This spell will remove your previously set enter and exit
+messages.  If you had these set previously, you may need to reset them
+after using the skate power.
+
+
+Spell: summon swarm
+Class: druid L2, mage/sorc L1, bard L1
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> summon swarm
+
+This spell will call a swarm of insects to the caster's defense. They can
+be difficult to control, and if many foes are attacking the caster they
+will simply leap for the closest target, biting and pinching without
+hesitation.
+
+Non-specialized mages cannot cast this spell.
+
+
+Spell: sols searing orb
+Class: cleric L7
+Sphere: sun
+Saving throw: n/a
+Syntax: cast <classname> sols searing orb
+
+This spell turns a gem of value into a searing orb of light and magical
+fire. When the gem is turned into the orb, the caster must <throw orb at
+target> or throw orb <direction> before it explodes.
+
+
+Spell: shatter
+Class: cleric L2, monk L7
+Sphere: combat
+Domain: destruction
+Saving throw: fort
+Syntax: cast <classname> shatter on <target>
+
+This spell sends a piercing vibration of sonic damage straight towards the
+target of the spell.  If the target is not able to escape the blast, they
+will take a significant deal of damage.
+
+
+Spell: speak with dead
+Class: cleric L9, psion L7
+Sphere: divination
+Discipline: telepath
+Saving throw: n/a
+Syntax: cast <classname> speak with dead to <target>
+
+This will allow the caster to attempt to establish a mental connection with
+a deceased individual.
+
+
+Spell: summon companion
+Class: mage/sorc L1, bard L1
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> summon companion
+
+This spell allows a wizard to call for a creature as a permanent companion.
+Upon casting, the wizard must select what sort of creature s/he wishes to
+call forth, which is dependant upon the power of the caster.   This spell
+can only be cast once per day, though the creature can be called back and
+correspondingly dismissed at any time.  Creature commands are as follows:
+
+<call companion> will call it, at any time, if you have completed a
+summoning ritual.
+<dismiss companion> will send it away again, to await your next calling.
+<release companion> will permanently send the creature away.
+<help companion> will give you more available creature commands, when it is
+present.
+
+Components, mage/sorc: incense stick x1, charcoal x1, ivory portal x1
+
+Spell: sustenance
+Class: psywarrior L2, psion L2
+Sphere: conjuration_summoning
+Saving throw: n/a
+Syntax: cast <classname> sustenance
+
+By focusing his energies on the blue-green gem apatite, a psion can relieve
+himself of both hunger and thirst.  This power can be especially useful to
+adventurers who oftentimes find themselves well away from the nearest
+restaurant.
+
+Components, psywarrior: apatite x1 (or nil w. eschew materials)
+Components, psion: apatite x1 (or nil w. eschew materials)
+
+Spell: scorcher
+Class: mage/sorc L2
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> scorcher on <target>
+
+When a mage casts this ferocious spell, fire blazes out of the caster's
+hand towards a target, burning through all in the way.  The mage will make
+an effort to aim at only attackers, but this is not always possible. While
+the spell will reliably hit the primary target, a quick opponent may avoid
+being caught by the worst of the flame's edges. A versatile arcanist can
+manipulate the base element of this spell.
+
+
+Spell: treeshape
+Class: ranger L3
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> treeshape
+
+A ranger in harmony with the wild can cause their own body to take on the
+shape of a tree, growing leaves and a skin of bark that protects them from
+harm.  This spell does not work while wearing armor.
+
+
+Spell: thunder wave
+Class: monk L5
+Sphere: way of the elements
+Discipline: way of the elements
+Saving throw: fort
+Syntax: cast <classname> thunder wave
+
+This spell creates a wave of thunderous force, all creatures around the
+caster must make a fortitude save or be damaged and knocked to the ground.
+Furthemore, all inanimate objects not attached and on the ground may be
+knocked away.
+
+NOTE: The damage of this spell is 1d6 per caster level.
+
+
+Spell: telepathy
+Class: cleric L7, psion L4
+Sphere: divination
+Discipline: telepath
+Saving throw: n/a
+Syntax: cast <classname> telepathy to <target>
+
+This will allow the caster to establish a mental link with the target,
+allowing conversations through telepathy for a short time.
+
+
+Spell: true metabolism
+Class: psion L8
+Sphere: healing
+Saving throw: n/a
+Syntax: cast <classname> true metabolism
+
+This power will allow the psion to focus his energy on making minor bodily
+adjustments, in effect healing himself a little over time.  The duration is
+based on the psion's level, and the amount healed will also vary with
+power.
+
+Components, psion: garnet x1 (or nil w. eschew materials)
+
+Spell: tidal surge
+Class: cleric L8
+Sphere: elemental water
+Domain: water
+Saving throw: reflex
+Syntax: cast <classname> tidal surge on <target>
+
+This spell will draw all of the water in the atmosphere for miles and miles
+around to a place above and behind the caster.  The water is condensed into
+the form of a massive wave that is directed at the target.  The wave may
+knock the target down as well as force him to drop his weapons.  The force
+of the water may also keep him from moving until he regains his senses. 
+Because of the size of the wave, nearby targets may be hit as well.
+
+
+Spell: touchsight
+Class: psywarrior L3, psion L3
+Sphere: divination
+Saving throw: n/a
+Syntax: cast <classname> touchsight
+
+Manifesting this power will allow the psionic character to focus his eyes
+on things oft unseen.  This power will grant the psion better vision in the
+dark, as well as allow him to see invisible creatures.
+
+Components, psywarrior: flowstone x1, unakite x1
+Components, psion: flowstone x1, unakite x1
+
+Spell: teleport
+Class: mage/sorc L5
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> teleport to <location>
+
+The teleport spell will move the caster from his current location to a
+specified 'remembered location'.  The remember command is used to retain a
+location in the caster's memory, <remember here as cave> for example.  Then
+the caster can type <cast classname teleport to cave> and the the spell
+will move the caster to the location specified.  Be warned, however.  This
+powerful spell of teleport is not always without error.  The caster may end
+up far from where he/she intended to teleport to. You may also <unremember
+location> which will remove a specific location from memory.
+This spell can only be cast while at peace.
+See also: remember, unremember, recall
+
+
+Spell: transformation
+Class: mage/sorc L6
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> transformation
+
+An experienced mage can use this spell to reshape their own body into a
+powerful fighting machine. It adds extensive physical prowess to the
+caster, as well as a degree of resilience, but comes at a price - while
+active, the mage will be unable to concentrate enough to use offensive
+spells. This spell does not work alongside similarly powerful melee spells,
+such as rage, dance of a thousand cuts, or cunning insight.
+
+Components, mage/sorc: fur x1, dung scrapings x1
+
+Spell: true seeing
+Class: cleric L2, druid L7
+Sphere: divination
+Domain: magic
+Saving throw: n/a
+Syntax: cast <classname> true seeing
+
+This spell will allow the caster to see through all magical and non magical
+attempts at invisibility.
+
+
+Spell: treestride
+Class: druid L5, ranger L4
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> treestride
+
+By means of this spell, a ranger attunes themselves so closely with a tree
+that they are able to step into it, using its connection with nature to
+travel to the World Tree - the heart of the wilderness.
+
+Any distractions will cause the spell to fail, as it requires deep
+concentration from the caster.  This spell can only be cast while at peace.
+
+
+Spell: the dead walk
+Class: warlock L2
+Saving throw: n/a
+Syntax: cast <classname> the dead walk (on <target>)
+
+This invocation draws upon the power of the Plane of Shadows, infusing the
+recently dead with negative energy to reanimate their bodies as undead. You
+can raise a total number of hit dice worth of zombies and skeletons up to
+your casting level.  They will follow you and defend you from your enemies.
+Unlike most common summoning spells, these monsters will not go away unless
+the caster quits.  They are undead, so they can be turned, and so forth,
+but they cannot be dispelled.
+
+
+Spell: tongues
+Class: mage/sorc L3, psion L2, bard L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> tongues on <target>
+
+This will give the target the ability to understand, both read and write
+any language. This should not change the ability to teach the language.
+
+Components, mage/sorc: clay model ziggurat x1 (or nil w. eschew materials)
+Components, bard: dialogue x1 (or nil w. eschew materials)
+
+Spell: time hop
+Class: psion L3
+Saving throw: will
+Syntax: cast <classname> time hop on <target>
+
+The target of this power hops forward in time, disappearing in a flash of
+silver energy. When the duration expires, the target reappears, feeling as
+if no time has passed at all. Victims with a strong enough will are able to
+resist the power's strength and either avoid it altogether or end the power
+early.
+
+Components, psion: amethyst x1 (or nil w. eschew materials)
+
+Spell: timeless body
+Class: psion L9
+Sphere: combat
+Saving throw: n/a
+Syntax: cast <classname> timeless body
+
+This power will enable a psion to take on a ghostly state, making him
+difficult to hit in combat.  The power has an equal chance each round to
+make the psion untouchable or not.  The psion's body fades, becoming
+partially on this plane and partially on the Astral Plane.
+
+
+Spell: tornado blast
+Class: psion L9
+Sphere: invocation_evocation
+Discipline: kineticist
+Saving throw: reflex
+Syntax: cast <classname> tornado blast on <target>
+
+This power enables a kineticist to draw upon his knowledge of energy to
+create a whirling vortex in the area.  The vortex is directed at the
+target, who suffers a chance to be knocked down and lose anything he might
+be holding.  Others in the area may also be tossed about by the winds,
+suffering serious harm.
+
+Components, psion: smoky quartz x1, blue calcite x1 (or nil w. eschew
+materials)
+
+Spell: telepathic bond
+Class: mage L5
+Sphere: greater divination
+Saving throw: n/a
+Syntax: cast <classname> telepathic bond to <target>
+
+This spell allows the caster to reach out and touch the mind of a known
+person, allowing conversations without speech and potentially over vast
+distances.
+
+Non-specialized mages cannot cast this spell.
+
+
+Spell: thicken skin
+Class: psywarrior L2, psion L2
+Sphere: conjuration_summoning
+Discipline: egoist
+Saving throw: n/a
+Syntax: cast <classname> thicken skin
+
+An egoist who chooses can focus his power to thicken his skin, granting him
+extra protection in combat.  This power works much like inertial armor, but
+unlike other armor abilities, it can be used with inertial armor to grant
+an additional bonus.
+
+
+Spell: timestop
+Class: mage L9, bard L6
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> timestop
+
+This spell allows the transmuter to alter their immediate surroundings into
+a state of such forced suspension that it would seem that time had stopped
+for all but the caster.  This allows them to act normally while their
+opponents can only watch, and will drop them out of direct combat. Foes
+will force their way out of the spell after a brief interval, while the
+very strongest of opponents may manage to resist the effect entirely.
+
+Non-specialized mages cannot cast this spell.
+
+Components, mage: quicksilver x3
+
+Feat requirements: bard (timeweaver)
+
+Spell: tremor
+Class: cleric L5
+Sphere: combat
+Domain: destruction
+Saving throw: reflex
+Syntax: cast <classname> tremor
+
+This spell causes a great quake to shake the ground, doing some damage to
+the caster's enemies, and having a chance to knock them down to the ground.
+
+
+Spell: truevenom
+Class: psywarrior L4
+Sphere: combat
+Saving throw: n/a
+Syntax: cast <classname> truevenom on <weapon>
+
+Upon using this power, the psionic character manifests a powerful poison to
+coat his weapon. A target struck by the poisoned weapon will suffer the
+same fate as any individual struck by the physical poisons found in the
+world. This power allows the psionic character to manifest more powerful
+poisons than those conjured by Prevenom. Once the poison has been applied,
+a corrosive layer of ectoplasm remains, inflicting extra damage on the
+psionic character's enemies for a short time.
+
+NOTE: When using this power, you must specify a weapon as the target. The
+first such weapon in your inventory will be chosen, and items in containers
+will be ignored.
+
+
+Spell: thorn spray
+Class: cleric L7
+Sphere: plant
+Domain: plant
+Saving throw: n/a
+Syntax: cast <classname> thorn spray on <target>
+
+This spell will cause a number of sharp thorns to fly from the caster's
+hand toward the target.
+
+
+Spell: unravel psionics
+Class: psion L9
+Sphere: abjuration
+Saving throw: n/a
+Syntax: cast <classname> unravel psionics [on <target>] or cast <classname>
+unravel psionics on break curse
+
+Unravel psionics is the most potent disruptive power in the psion's
+arsenal. It can be used to destroy enchantments, summonings, and
+conjurations. Like its arcane counterpart, the chances of each dispelling
+depends on both the dispeller's casting level and the power level of the
+spellcaster that created whatever is being dispelled. If this power targets
+a particular item, it will attempt to remove any curses on the item,
+similar to the break curse spell.
+
+
+Spell: ultrablast
+Class: psion L7
+Sphere: invocation_evocation
+Saving throw: will
+Syntax: cast <classname> ultrablast on <target>
+
+A psion begins manifesting this spell by creating a psychic 'grumbling'
+that toys with the minds of those nearby.  The psion allows his brain to
+emit an earsplitting shriek that resounds in the minds of the one targetted
+and those around him.
+
+
+Spell: unholy orb
+Class: cleric L5
+Sphere: combat
+Domain: evil
+Saving throw: reflex
+Syntax: cast <classname> unholy orb
+
+The orb is a spell normally prepared by a priest who expects to encounter
+enemies whose alignment opposes her own.  When cast, the spell streaks from
+the caster's hand to the desired point of effect, where a sphere forms. 
+The sphere drains the essence of life from the targets in the area of
+effect.  The sphere does damage based on the alignment of the caster with
+respect to the target.
+
+NOTE: This spell will damage all attackers regardless of alignment, but the
+damage will very if the attackers are players based on each individual's
+alignment.  The damage done to mobs is consistent no matter the mob's
+alignment.
+
+
+Spell: umbral sight
+Class: mage/sorc L2
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> umbral sight
+
+This spell will imbue the caster's vision with the stuff of darkness,
+allowing them to see easily even in deep shadow. It will similarly protect
+their vision from extremes of light.
+
+
+Feat requirements: shadow_adept (gift of the shadows), mage/sorc (gift of
+the shadows), sorcerer (gift of the shadows)
+
+Spell: utterdark blast
+Class: warlock L4
+Saving throw: n/a
+Syntax: <blasttype utterdark>
+
+An eldritch blast with this essence applied will be empowered for greater
+damage to its target/s.
+See also: <help blasttype>.
+
+
+Spell: water breathing
+Class: mage/sorc L4
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> vacuum breathing on <target>
+
+This spell allows the target to survive in a vacuum for a limited period of
+time.
+
+Components, mage/sorc: bell jar x1 (or nil w. eschew materials)
+
+Spell: vampiric touch
+Class: mage/sorc L3
+Sphere: necromancy
+Saving throw: n/a
+Syntax: cast <classname> vampiric touch on <target>
+
+This spell, when cast, will allow the mage to drain a certain amount of hit
+points from an opponent and add them to his own, if he makes a successful
+touch attack against the victim.  The spell will only heal the caster up to
+his maximum hit points.  Using negative energy, this spell is ineffective
+against the undead.
+
+
+Spell: voice of madness
+Class: warlock L1
+Saving throw: will
+Syntax: cast <classname> voice of madness on <target>
+
+This invocation will call upon beings beyond, unfathomable and terrifying,
+to whisper in the ears of the target. A weak-willed target will become
+overwhelmed by the maddening voices, and may babble incoherently, attack
+the closest thing to them, or simply wander away.  When used on a player,
+it simply causes them to stand and stare blankly.
+
+
+Spell: viper form
+Class: innate L1
+Sphere: transmutation
+Saving throw: n/a
+Syntax: cast <classname> viper form
+
+This spell allows the yuan-ti to embrace its reptilian heritage, taking on
+the form of a large viper.
+
+
+Spell: vigor
+Class: psywarrior L1, psion L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> vigor
+
+This power allows the psion to call upon psychic energies to strengthen his
+body, granting him added health.  As with other psionic powers, this one
+will grow in strength as the psion does.
+
+Components, psywarrior: carnelian x1, bloodstone x1 (or nil w. eschew
+materials)
+Components, psion: carnelian x1, bloodstone x1 (or nil w. eschew materials)
+
+Spell: virtue
+Class: paladin L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> virtue
+
+This spell bestows a small blessing upon the caster, increasing their
+resilience.
+
+
+Spell: vitriolic blast
+Class: warlock L3
+Saving throw: n/a
+Syntax: <blasttype vitriolic>
+
+An eldritch blast with this essence applied will bypass all magic
+resistance and AC of the target, unerringly finding its mark. It will cause
+acidic residue to burn the target/s for further damage over several rounds.
+Subsequent eldritch blasts will not stack this effect, but will refresh its
+duration. This essence will also change the base type of the blast to acid.
+See also: <help blasttype>.
+
+
+Spell: walk unseen
+Class: warlock L2
+Saving throw: n/a
+Syntax: cast <classname> walk unseen
+
+This invocation places illusory spellcraft around the warlock, deceiving
+the eyes of those around so as to effectively disappear from view. While
+minor, a small degree of concentration is required to maintain the effect,
+so it can become wearying over time. Becoming engaged in combat is
+sufficiently distracting to lose control of the concealment; also, falling
+unconscious will cause the invocation to fail. Of course, the warlock can
+simply forgo the concentration to <appear> at any time.
+
+
+Spell: whispering wind
+Class: cleric L1, bard L1
+Sphere: divination
+Domain: air
+Saving throw: n/a
+Syntax: cast <classname> whispering wind on <target> with the message
+<message>
+
+This spell will allow the caster to attempt to send a brief message on the
+winds from them to their target.  The caster has no way of knowing if the
+target has heard their message.
+
+Components, bard: soliloquy x1 (or nil w. eschew materials)
+
+Spell: word of recall
+Class: druid L8
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> word of recall to <location>
+
+The word of recall spell will allow a druid to travel to a location that he
+or she has previously  remembered from the 'remembered location' list.  To
+remember a new location use 'remember here as <location>', to see a list of
+all remembered locations, use 'recall locations'.
+This spell must be cast while at peace.
+See also: remember, unremember, recall
+
+
+Spell: windstorm
+Class: cleric L8
+Sphere: elemental air
+Domain: air
+Saving throw: reflex
+Syntax: cast <classname> windstorm
+
+This spell calls on the power of the plane of air to unleash a terrible
+gale of wind that sends debris whipping around the caster's enemies.  It
+has a chance to blind them with sand, and even knock them from their feet.
+
+
+Spell: wieldskill
+Class: cleric L5
+Sphere: enchantment_charm
+Domain: knowledge
+Saving throw: n/a
+Syntax: cast <classname> wieldskill
+
+This gives the caster proficiency with any kind of weapon, provided they
+are able to wield it.
+
+
+Spell: warlocks call
+Class: warlock L2
+Saving throw: n/a
+Syntax: cast <classname> warlocks call to <target>
+
+This invocation allows a brief message to be sent to the target (less than
+200 characters). . Doing so opens the warlock up to a response from the
+target - either a message of a similarly short nature, or a harmful retort
+of mental energy. If either message is too long, or either party takes more
+than a minute to respond, the invocation will dissipate harmlessly. If the
+target is ignoring the warlock or incapacitated in some way, the invocation
+will fail.
+
+
+Spell: wall of stone
+Class: druid L6, mage/sorc L5, monk L9
+Sphere: earth
+Saving throw: n/a
+Syntax: cast <classname> wall of stone on <exit>
+
+This command will cause a wall of rubble to appear on an exit, preventing
+travel in that direction until all of the rubble has been cleared away. 
+The more powerful the caster, the larger the rubble wall that must be
+removed.
+
+Components, mage/sorc: granite dust x1 (or nil w. eschew materials)
+
+Spell: wave of pain
+Class: cleric L7
+Sphere: necromancy
+Domain: suffering
+Saving throw: will
+Syntax: cast <classname> wave of pain
+
+Through this spell, the caster sends out a great wave of pain that can
+harm, kill, and/or paralyze all in its path.
+
+
+Spell: wall of fire
+Class: mage/sorc L4, monk L13
+Sphere: invocation_evocation
+Saving throw: n/a
+Syntax: cast <classname> wall of fire [on <exit>]
+
+The spell, wall of fire, is an impressive spell for the magi indeed.  The
+wizard can cast the wall around himself, protectively, or in front of an
+exit, so all who pass through that exit will be scorched by the flames.  To
+cast the wall around him/herself, the mage simply types <cast classname
+wall of fire>.  Otherwise, the mage might type <cast classname wall of fire
+on north> to damage those passing through the exit.  Be warned however, the
+mage who casts this spell must keep concentration on the wall to maintain
+its existence.  The mage may type <remove wall> to quench the flames. A
+versatile arcanist can manipulate the base element of this spell.
+
+Components, mage/sorc: phosphorus x1 (or nil w. eschew materials)
+
+Spell: water breathing
+Class: psywarrior L1, cleric L3, druid L3, mage/sorc L3, psion L1
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> water breathing on <target>
+
+This spell allows the target to breathe water for a limited period of time.
+
+Components, mage/sorc: piece of reed x1 (or nil w. eschew materials)
+
+Spell: weapon of energy
+Class: psywarrior L1, psion L1
+Sphere: combat
+Saving throw: n/a
+Syntax: cast <classname> weapon of energy on <sword|staff|battleaxe>
+
+This power allows the psion to create a weapon made purely of energy and
+his psychic power.  The weapon may take one of three forms - sword, staff,
+or axe - chosen by the psion at the time of manifesting.  The weapon must
+be wielded as a normal weapon. If no choice is made, the weapon will
+automatically take the form of a sword.
+
+
+Spell: web
+Class: mage/sorc L2
+Sphere: invocation_evocation
+Saving throw: reflex
+Syntax: cast <classname> web on <target>
+
+When a victim is unfortunate enough to be victim of a web spell, he/she
+might as well get a new hobby.  If the web is successful, the victim will
+be trapped within a massive web for quite some time.  The time it takes for
+the victim to escape varies with strength.
+
+Components, mage/sorc: spider web x1 (or nil w. eschew materials)
+
+Spell: wall of thorns
+Class: druid L5
+Sphere: invocation_evocation
+Saving throw: n/a
+Syntax: cast <classname> wall of thorns [on <exit>] | cast <classname> wall
+of thorns
+
+The spell wall of thorns will create a massive wall of tangled thorn bushes
+that will damage anyone going through an exit, or optionally, damage anyone
+who attacks the caster.  If no arguments are given to the spell, the wall
+of thorns will surround the caster and damage anyone who attacks him or
+her.  The caster may type <remove wall> to end the wall of thorns spell
+early.
+
+
+Spell: witchwood step
+Class: warlock L2
+Saving throw: n/a
+Syntax: cast <classname> witchwood step
+
+This invocation attunes the warlock to an element of flowing energy,
+commonly that of air, water, or the chaotic fluctuations of the feywild.
+Such energies will lie dormant in the caster's veins, triggering at the
+next time the caster is stunned or tripped to grant them freedom from the
+effect. The power of this invocation is such that the caster will need to
+wait a brief period once activated before it can be cast again. It can only
+be cast while at peace.
+
+
+Spell: walk the planes
+Class: warlock L4
+Saving throw: n/a
+Syntax: cast <classname> walk the planes on <location>
+
+This powerful invocation allows the warlock to travel along the edge of the
+plane with which they bear affinity, using it as 'shortcut' of sorts to a
+known destination upon the prime. Such travel will heal some of the
+caster's injuries along the way, given their natural bond with that
+particular plane. Any party-mates who are with the caster at the time are
+considered to be willing subjects of the spell, and will travel alongside
+the caster to his or her destination, if they are not pre-occupied with
+combat.
+
+
+Spell: word of power
+Class: cleric L6
+Sphere: alteration
+Saving throw: n/a
+Syntax: cast <classname> word of power [to <destination>]
+
+Word of power will teleport you to a church of your choice.  For now, you
+can reach the following churches:
+Shadow
+Tharis
+Azha
+Tabor
+Muul'daan
+Antioch
+Tonovi
+Torm
+Juran
+Kinaro
+Verbobone (Deku)
+Graez (Sangri)
+Asgard (Laerad)
+Seneca (Attaya)
+Eldebaro (East Oasis)
+You can also go to the temple of your deity by using <Temple> or <temple>
+as the location.  Areas or items that block teleportation magic will block
+this spell as well.
+
+This spell must be cast while at peace.
+
+
